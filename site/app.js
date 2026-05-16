@@ -24,6 +24,12 @@ const formatPercent = (value) => {
   return `${sign}${formatNumber(number, 2)}%`;
 };
 
+const changeClass = (value) => {
+  const number = Number(value);
+  if (!Number.isFinite(number) || number === 0) return "";
+  return number > 0 ? "change-positive" : "change-negative";
+};
+
 const formatDate = (iso) => {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return "--";
@@ -81,6 +87,106 @@ const renderHistory = (history) => {
   }
 };
 
+const scanSymbols = (scan) => {
+  const matches = Array.isArray(scan.matches) ? scan.matches : [];
+  if (matches.length) {
+    return matches
+      .map((item) => item.futuresSymbol || item.symbol)
+      .filter(Boolean);
+  }
+  return Array.isArray(scan.symbols) ? scan.symbols.filter(Boolean) : [];
+};
+
+const buildPairStats = (history) => {
+  const stats = new Map();
+
+  history.forEach((scan) => {
+    const matches = Array.isArray(scan.matches) ? scan.matches : [];
+    if (matches.length) {
+      matches.forEach((item) => {
+        const symbol = item.futuresSymbol || item.symbol;
+        if (!symbol) return;
+        const current = stats.get(symbol) || { symbol, count: 0 };
+        stats.set(symbol, {
+          ...current,
+          symbol,
+          name: item.name || current.name || "",
+          count: current.count + 1,
+          lastSeen: scan.generatedAt,
+          top10HoldersPercent: item.top10HoldersPercent || current.top10HoldersPercent,
+          price: item.price || current.price,
+          percentChange5m: item.percentChange5m || current.percentChange5m,
+          alphaVolume5m: item.alphaVolume5m || current.alphaVolume5m,
+          quoteVolumeSum: item.quoteVolumeSum || current.quoteVolumeSum,
+        });
+      });
+      return;
+    }
+
+    scanSymbols(scan).forEach((symbol) => {
+      const current = stats.get(symbol) || { symbol, count: 0 };
+      stats.set(symbol, {
+        ...current,
+        count: current.count + 1,
+        lastSeen: scan.generatedAt,
+      });
+    });
+  });
+
+  return [...stats.values()].sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return Number(new Date(b.lastSeen)) - Number(new Date(a.lastSeen));
+  });
+};
+
+const renderPairMonitorCounts = (history) => {
+  const list = document.getElementById("pairMonitorList");
+  const hint = document.getElementById("pairMonitorHint");
+  list.replaceChildren();
+
+  const stats = buildPairStats(history);
+  hint.textContent = stats.length ? `累计 ${stats.length} 个交易对` : "暂无记录";
+
+  if (!stats.length) {
+    const empty = el("div", "pair-monitor-empty", "暂无交易对");
+    list.appendChild(empty);
+    return;
+  }
+
+  const maxCount = Math.max(1, ...stats.map((item) => item.count));
+  stats.slice(0, 12).forEach((item, index) => {
+    const row = el("article", "pair-monitor-item");
+    const rank = el("span", "pair-rank", String(index + 1).padStart(2, "0"));
+    const identity = el("div", "pair-identity");
+    identity.appendChild(el("strong", "", item.symbol));
+    identity.appendChild(el("span", "", item.name || formatDate(item.lastSeen)));
+
+    const count = el("div", "pair-count");
+    count.appendChild(el("strong", "", `${item.count}`));
+    count.appendChild(el("span", "", "次"));
+
+    const meta = el("div", "pair-meta");
+    [
+      ["Alpha", formatPrice(item.price)],
+      ["5m", formatPercent(item.percentChange5m)],
+      ["链上量", formatNumber(item.alphaVolume5m)],
+      ["最近", formatDate(item.lastSeen)],
+    ].forEach(([label, value], metaIndex) => {
+      const node = el("span", metaIndex === 1 ? changeClass(item.percentChange5m) : "");
+      node.textContent = `${label} ${value}`;
+      meta.appendChild(node);
+    });
+
+    const meter = el("div", "pair-meter");
+    const fill = el("span");
+    fill.style.width = `${Math.max(8, (item.count / maxCount) * 100)}%`;
+    meter.appendChild(fill);
+
+    row.append(rank, identity, count, meta, meter);
+    list.appendChild(row);
+  });
+};
+
 const renderHistoryDetails = (history) => {
   const rows = document.getElementById("historyRows");
   const hint = document.getElementById("historyDetailHint");
@@ -125,6 +231,12 @@ const renderHistoryDetails = (history) => {
       const cell = document.createElement(index === 0 ? "th" : "td");
       cell.textContent = value;
       if (index === 1) cell.className = "history-symbols";
+      if (index === 4 && matches.length) {
+        cell.classList.add(...changeText.split(", ").map((_, i) => {
+          const item = matches[i];
+          return changeClass(item?.percentChange5m);
+        }).filter(Boolean).slice(0, 1));
+      }
       row.appendChild(cell);
     });
 
@@ -163,12 +275,13 @@ const renderResults = (matches) => {
     ].forEach(([label, value]) => {
       const box = el("div");
       box.appendChild(el("span", "", label));
-      box.appendChild(el("strong", "", value));
+      const strong = el("strong", label === "5m涨跌" ? changeClass(item.percentChange5m) : "", value);
+      box.appendChild(strong);
       grid.appendChild(box);
     });
 
     const strip = el("div", "volume-strip");
-    item.quoteVolumes1m.forEach((volume) => {
+    (item.quoteVolumes1m || []).forEach((volume) => {
       strip.appendChild(el("span", "", formatNumber(volume)));
     });
 
@@ -194,6 +307,7 @@ const refresh = async () => {
     const [latest, history] = await Promise.all([loadJson(latestUrl), loadJson(historyUrl)]);
     renderMetrics(latest);
     renderHistory(Array.isArray(history) ? history : []);
+    renderPairMonitorCounts(Array.isArray(history) ? history : []);
     renderHistoryDetails(Array.isArray(history) ? history : []);
     renderResults(Array.isArray(latest.matches) ? latest.matches : []);
     setStatus("已同步", "ok");
