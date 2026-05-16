@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Binance Alpha OI Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Binance Alpha</p>
+          <h1>合约异动监控</h1>
+        </div>
+        <div class="status-block" aria-live="polite">
+          <span id="syncDot" class="dot dot-waiting"></span>
+          <span id="syncStatus">同步中</span>
+        </div>
+      </header>
+
+      <section class="metrics" aria-label="Scan summary">
+        <div class="metric">
+          <span>当前命中</span>
+          <strong id="matchCount">--</strong>
+        </div>
+        <div class="metric">
+          <span>新推送</span>
+          <strong id="freshCount">--</strong>
+        </div>
+        <div class="metric">
+          <span>更新于</span>
+          <strong id="updatedAt">--</strong>
+        </div>
+        <div class="metric">
+          <span>阈值</span>
+          <strong id="threshold">--</strong>
+        </div>
+      </section>
+
+      <section class="history-panel" aria-label="Scan history">
+        <div class="section-title">
+          <h2>扫描走势</h2>
+          <span id="historyRange">--</span>
+        </div>
+        <div id="historyBars" class="history-bars"></div>
+
+        <div class="section-title history-detail-title">
+          <h2>历史扫描明细</h2>
+          <span id="historyDetailHint">--</span>
+        </div>
+        <div class="history-table-wrap">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>命中</th>
+                <th>推送</th>
+                <th>交易对</th>
+                <th>Top10</th>
+                <th>合约5m量</th>
+              </tr>
+            </thead>
+            <tbody id="historyRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="results-panel" aria-label="Scan results">
+        <div class="section-title">
+          <h2>最新结果</h2>
+          <span id="resultHint">--</span>
+        </div>
+        <div id="emptyState" class="empty-state" hidden>
+          <strong>本轮无命中</strong>
+          <span>监控仍在按 5 分钟周期同步。</span>
+        </div>
+        <div id="resultList" class="result-list"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
