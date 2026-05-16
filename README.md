@@ -82,6 +82,24 @@ WEB_SYNC_WEBHOOK_TOKEN=optional_bearer_token
 
 未配置 webhook 时，脚本只写本地 JSON 文件。你可以用 rsync、GitHub Pages、Nginx 静态目录或自己的后端读取这些 JSON 文件。
 
+### 自动提交网站数据到 GitHub
+
+如果这个仓库已经接入 Vercel，可以让本地脚本每轮扫描后自动提交 `site/data/*.json`，Vercel 会跟随 GitHub 提交自动部署：
+
+```bash
+GITHUB_SYNC_TOKEN=你的GitHubToken
+GITHUB_SYNC_REPOSITORY=zzwzzw-futurer/binance-alpha-oi
+GITHUB_SYNC_BRANCH=main
+GITHUB_SYNC_PATH_PREFIX=site/data
+```
+
+`GITHUB_SYNC_TOKEN` 建议使用 GitHub fine-grained personal access token，只授权当前仓库，并开启：
+
+- Repository permissions: `Contents` -> `Read and write`
+- Metadata: `Read-only`
+
+脚本会把 `latest.json` 和 `history.json` 放在同一个 commit 里提交。`--dry-run` 模式下只写本地 JSON，不会提交到 GitHub。
+
 ## 部署
 
 Vercel 部署配置在 `vercel.json`，输出目录指向 `site`。

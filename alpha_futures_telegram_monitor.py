@@ -41,6 +41,7 @@ TOKEN_DYNAMIC_URL = (
 )
 FUTURES_BASE_URL = "https://fapi.binance.com"
 TELEGRAM_BASE_URL = "https://api.telegram.org"
+GITHUB_API_BASE_URL = "https://api.github.com"
 
 ALPHA_HEADERS = {
     "Accept-Encoding": "identity",
@@ -57,7 +58,7 @@ FUTURES_HEADERS = {
 }
 
 
-def load_dotenv(path: Path) -> None:
+def load_dotenv(path: Path, override: bool = False) -> None:
     if not path.exists():
         return
     for raw_line in path.read_text(encoding="utf-8").splitlines():
@@ -67,7 +68,8 @@ def load_dotenv(path: Path) -> None:
         key, value = line.split("=", 1)
         key = key.strip()
         value = value.strip().strip("'").strip('"')
-        os.environ.setdefault(key, value)
+        if override or key not in os.environ:
+            os.environ[key] = value
 
 
 def env_str(name: str, default: str = "") -> str:
@@ -617,7 +619,9 @@ def build_history_item(payload: Dict[str, Any]) -> Dict[str, Any]:
                 "contractAddress": item["contractAddress"],
                 "futuresSymbol": item["futuresSymbol"],
                 "top10HoldersPercent": item["top10HoldersPercent"],
+                "price": item["price"],
                 "percentChange5m": item["percentChange5m"],
+                "alphaVolume5m": item["alphaVolume5m"],
                 "quoteVolumeMin": item["quoteVolumeMin"],
                 "quoteVolumeSum": item["quoteVolumeSum"],
                 "isFreshAlert": item["isFreshAlert"],
@@ -649,7 +653,200 @@ def post_webhook(url: str, payload: Dict[str, Any], token: str, timeout: int) ->
         response.read()
 
 
-def sync_web_payload(payload: Dict[str, Any], config: Dict[str, Any]) -> None:
+def github_headers(token: str) -> Dict[str, str]:
+    return {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        "User-Agent": "binance-alpha-oi-monitor/1.0",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+
+def github_request_json(
+    method: str,
+    url: str,
+    token: str,
+    body: Optional[Dict[str, Any]] = None,
+    timeout: int = 20,
+) -> Dict[str, Any]:
+    data = None
+    if body is not None:
+        data = json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    req = urllib.request.Request(
+        url=url,
+        data=data,
+        headers=github_headers(token),
+        method=method.upper(),
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            response_body = response.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        error_body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(
+            f"GitHub {method} {url} failed with HTTP {exc.code}: {error_body}"
+        ) from exc
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"GitHub {method} {url} failed: {exc}") from exc
+    if not response_body:
+        return {}
+    return json.loads(response_body)
+
+
+def normalize_repo_path(path: str) -> str:
+    cleaned = path.replace("\\", "/").strip("/")
+    parts = [part for part in cleaned.split("/") if part and part != "."]
+    return "/".join(parts)
+
+
+def default_github_path_prefix(output_dir: Path) -> str:
+    try:
+        relative = output_dir.resolve().relative_to(ROOT.resolve())
+    except ValueError:
+        return ""
+    return relative.as_posix()
+
+
+def github_commit_data_files(
+    files: List[Tuple[str, Path]],
+    config: Dict[str, Any],
+) -> Optional[str]:
+    if not config["github_sync_enabled"]:
+        return None
+
+    token = config["github_sync_token"]
+    repository = config["github_sync_repository"]
+    branch = config["github_sync_branch"]
+    if not token:
+        logging.debug("GITHUB_SYNC_TOKEN is not set; skipping GitHub sync")
+        return None
+    if not repository or repository.count("/") != 1:
+        raise RuntimeError("GITHUB_SYNC_REPOSITORY must be in owner/repo format")
+    if not branch:
+        raise RuntimeError("GITHUB_SYNC_BRANCH is required")
+
+    api_base = config["github_sync_api_base_url"].rstrip("/")
+    timeout = config["github_sync_timeout"]
+    branch_ref = urllib.parse.quote(f"heads/{branch}", safe="/")
+    repo_url = f"{api_base}/repos/{repository}"
+
+    ref = github_request_json(
+        "GET",
+        f"{repo_url}/git/ref/{branch_ref}",
+        token,
+        timeout=timeout,
+    )
+    parent_sha = str(ref.get("object", {}).get("sha") or "")
+    if not parent_sha:
+        raise RuntimeError("Could not resolve GitHub branch head")
+
+    parent_commit = github_request_json(
+        "GET",
+        f"{repo_url}/git/commits/{parent_sha}",
+        token,
+        timeout=timeout,
+    )
+    base_tree_sha = str(parent_commit.get("tree", {}).get("sha") or "")
+    if not base_tree_sha:
+        raise RuntimeError("Could not resolve GitHub base tree")
+
+    tree = []
+    for repo_path, local_path in files:
+        content = local_path.read_text(encoding="utf-8")
+        blob = github_request_json(
+            "POST",
+            f"{repo_url}/git/blobs",
+            token,
+            {"content": content, "encoding": "utf-8"},
+            timeout=timeout,
+        )
+        blob_sha = str(blob.get("sha") or "")
+        if not blob_sha:
+            raise RuntimeError(f"Could not create GitHub blob for {repo_path}")
+        tree.append(
+            {
+                "path": repo_path,
+                "mode": "100644",
+                "type": "blob",
+                "sha": blob_sha,
+            }
+        )
+
+    new_tree = github_request_json(
+        "POST",
+        f"{repo_url}/git/trees",
+        token,
+        {"base_tree": base_tree_sha, "tree": tree},
+        timeout=timeout,
+    )
+    tree_sha = str(new_tree.get("sha") or "")
+    if not tree_sha:
+        raise RuntimeError("Could not create GitHub tree")
+
+    commit_body: Dict[str, Any] = {
+        "message": config["github_sync_commit_message"],
+        "tree": tree_sha,
+        "parents": [parent_sha],
+    }
+    committer_name = config["github_sync_committer_name"]
+    committer_email = config["github_sync_committer_email"]
+    if committer_name and committer_email:
+        commit_body["committer"] = {
+            "name": committer_name,
+            "email": committer_email,
+        }
+
+    commit = github_request_json(
+        "POST",
+        f"{repo_url}/git/commits",
+        token,
+        commit_body,
+        timeout=timeout,
+    )
+    commit_sha = str(commit.get("sha") or "")
+    if not commit_sha:
+        raise RuntimeError("Could not create GitHub commit")
+
+    github_request_json(
+        "PATCH",
+        f"{repo_url}/git/refs/{branch_ref}",
+        token,
+        {"sha": commit_sha, "force": False},
+        timeout=timeout,
+    )
+    return commit_sha
+
+
+def sync_github_data_files(
+    latest_path: Path,
+    history_path: Path,
+    config: Dict[str, Any],
+    dry_run: bool,
+) -> None:
+    if dry_run:
+        logging.info("Skipping GitHub sync during dry-run")
+        return
+    path_prefix = normalize_repo_path(config["github_sync_path_prefix"])
+    if not path_prefix:
+        path_prefix = default_github_path_prefix(config["web_output_dir"])
+    if not path_prefix:
+        raise RuntimeError("GITHUB_SYNC_PATH_PREFIX is required for GitHub sync")
+    files = [
+        (normalize_repo_path(f"{path_prefix}/latest.json"), latest_path),
+        (normalize_repo_path(f"{path_prefix}/history.json"), history_path),
+    ]
+    commit_sha = github_commit_data_files(files, config)
+    if commit_sha:
+        logging.info(
+            "Synced website data to GitHub %s@%s commit=%s",
+            config["github_sync_repository"],
+            config["github_sync_branch"],
+            commit_sha,
+        )
+
+
+def sync_web_payload(payload: Dict[str, Any], config: Dict[str, Any], dry_run: bool) -> None:
     if not config["web_sync_enabled"]:
         return
 
@@ -664,6 +861,11 @@ def sync_web_payload(payload: Dict[str, Any], config: Dict[str, Any]) -> None:
     atomic_write_json(history_path, history)
     logging.info("Wrote website sync data to %s", output_dir)
 
+    try:
+        sync_github_data_files(latest_path, history_path, config, dry_run)
+    except Exception as exc:  # noqa: BLE001 - GitHub sync should not block alerts
+        logging.warning("GitHub data sync failed: %s", exc)
+
     webhook_url = config["web_sync_webhook_url"]
     if webhook_url:
         post_webhook(
@@ -676,7 +878,7 @@ def sync_web_payload(payload: Dict[str, Any], config: Dict[str, Any]) -> None:
 
 
 def build_config() -> Dict[str, Any]:
-    load_dotenv(ROOT / ".env")
+    load_dotenv(ROOT / ".env", override=True)
     prefixes_raw = os.environ.get("FUTURES_SYMBOL_PREFIXES", ",1000,10000,1000000,1M")
     symbol_prefixes = [item.strip() for item in prefixes_raw.split(",")]
     if "" not in symbol_prefixes:
@@ -715,6 +917,25 @@ def build_config() -> Dict[str, Any]:
         "web_sync_webhook_url": env_str("WEB_SYNC_WEBHOOK_URL"),
         "web_sync_webhook_token": env_str("WEB_SYNC_WEBHOOK_TOKEN"),
         "web_sync_webhook_timeout": env_int("WEB_SYNC_WEBHOOK_TIMEOUT", 15),
+        "github_sync_enabled": env_bool("GITHUB_SYNC_ENABLED", True),
+        "github_sync_token": env_str("GITHUB_SYNC_TOKEN"),
+        "github_sync_repository": env_str(
+            "GITHUB_SYNC_REPOSITORY",
+            env_str("GITHUB_REPOSITORY"),
+        ),
+        "github_sync_branch": env_str("GITHUB_SYNC_BRANCH", "main"),
+        "github_sync_path_prefix": env_str("GITHUB_SYNC_PATH_PREFIX", "site/data"),
+        "github_sync_commit_message": env_str(
+            "GITHUB_SYNC_COMMIT_MESSAGE",
+            "Update public scan data",
+        ),
+        "github_sync_api_base_url": env_str(
+            "GITHUB_SYNC_API_BASE_URL",
+            GITHUB_API_BASE_URL,
+        ),
+        "github_sync_timeout": env_int("GITHUB_SYNC_TIMEOUT", 20),
+        "github_sync_committer_name": env_str("GITHUB_SYNC_COMMITTER_NAME"),
+        "github_sync_committer_email": env_str("GITHUB_SYNC_COMMITTER_EMAIL"),
     }
 
 
@@ -725,7 +946,7 @@ def run_once(config: Dict[str, Any], dry_run: bool) -> int:
     web_payload = build_web_payload(matches, fresh_matches, config)
 
     try:
-        sync_web_payload(web_payload, config)
+        sync_web_payload(web_payload, config, dry_run=dry_run)
     except Exception as exc:  # noqa: BLE001 - website sync should not block Telegram
         logging.warning("Website sync failed: %s", exc)
 
@@ -768,15 +989,15 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
 
 
 def main(argv: Iterable[str]) -> int:
-    load_dotenv(ROOT / ".env")
+    load_dotenv(ROOT / ".env", override=True)
     args = parse_args(argv)
     logging.basicConfig(
         level=getattr(logging, args.log_level.upper(), logging.INFO),
         format="%(asctime)s %(levelname)s %(message)s",
     )
-    config = build_config()
 
     while True:
+        config = build_config()
         started = time.monotonic()
         try:
             alerted = run_once(config, dry_run=args.dry_run)

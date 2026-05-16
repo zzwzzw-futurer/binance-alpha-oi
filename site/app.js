@@ -17,6 +17,13 @@ const formatPrice = (value) => {
   return formatNumber(number, 8);
 };
 
+const formatPercent = (value) => {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "--";
+  const sign = number > 0 ? "+" : "";
+  return `${sign}${formatNumber(number, 2)}%`;
+};
+
 const formatDate = (iso) => {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return "--";
@@ -96,18 +103,28 @@ const renderHistoryDetails = (history) => {
     const volumeText = matches.length
       ? matches.map((item) => formatNumber(item.quoteVolumeSum)).join(", ")
       : "--";
+    const priceText = matches.length
+      ? matches.map((item) => formatPrice(item.price)).join(", ")
+      : "--";
+    const changeText = matches.length
+      ? matches.map((item) => formatPercent(item.percentChange5m)).join(", ")
+      : "--";
+    const alphaVolumeText = matches.length
+      ? matches.map((item) => formatNumber(item.alphaVolume5m)).join(", ")
+      : "--";
 
     [
       formatDate(scan.generatedAt),
-      scan.matchCount ?? 0,
-      scan.freshAlertCount ?? 0,
       symbolText,
       top10Text,
+      priceText,
+      changeText,
+      alphaVolumeText,
       volumeText,
     ].forEach((value, index) => {
       const cell = document.createElement(index === 0 ? "th" : "td");
       cell.textContent = value;
-      if (index === 3) cell.className = "history-symbols";
+      if (index === 1) cell.className = "history-symbols";
       row.appendChild(cell);
     });
 
@@ -139,9 +156,9 @@ const renderResults = (matches) => {
     [
       ["合约", item.futuresSymbol],
       ["Top10", `${formatNumber(item.top10HoldersPercent, 2)}%`],
-      ["价格", formatPrice(item.price)],
-      ["5m涨跌", `${formatNumber(item.percentChange5m, 2)}%`],
-      ["链上5m量", formatNumber(item.alphaVolume5m)],
+      ["Alpha价格", formatPrice(item.price)],
+      ["5m涨跌", formatPercent(item.percentChange5m)],
+      ["5m链上量", formatNumber(item.alphaVolume5m)],
       ["合约5m量", formatNumber(item.quoteVolumeSum)],
     ].forEach(([label, value]) => {
       const box = el("div");
