@@ -2357,5 +2357,46 @@
     "symbols": [
       "AIAUSDT"
     ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-17T05:14:01.815786+00:00",
+    "generatedAtMs": 1778994841815,
+    "localTime": "2026-05-17 13:14:01 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "236398.43444226516",
+        "chainId": "56",
+        "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+        "futuresSymbol": "AIAUSDT",
+        "isFreshAlert": false,
+        "name": "DeAgentAI",
+        "percentChange5m": "-3.03",
+        "price": "0.08644446645677342",
+        "quoteVolumeMin": "344108.2001100",
+        "quoteVolumeSum": "3517073.3579800",
+        "symbol": "AIA",
+        "top10HoldersPercent": "92.55042458500168"
+      },
+      {
+        "alphaVolume5m": "16407.356140272048",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "-1.41",
+        "price": "4.780527301248935",
+        "quoteVolumeMin": "300421.2389000",
+        "quoteVolumeSum": "3521832.5012600",
+        "symbol": "LAB",
+        "top10HoldersPercent": "88.78886417144628"
+      }
+    ],
+    "symbols": [
+      "AIAUSDT",
+      "LABUSDT"
+    ]
   }
 ]
