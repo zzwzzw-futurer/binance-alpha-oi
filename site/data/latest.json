@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-17T11:14:10.570089+00:00",
-  "generatedAtMs": 1779016450570,
-  "localTime": "2026-05-17 19:14:10 CST",
+  "generatedAt": "2026-05-17T11:19:11.681332+00:00",
+  "generatedAtMs": 1779016751681,
+  "localTime": "2026-05-17 19:19:11 CST",
   "matches": [
     {
-      "alphaVolume5m": "14188.952775261248",
+      "alphaVolume5m": "157321.51467623934",
+      "chainId": "56",
+      "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+      "futuresSymbol": "AIAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIAUSDT",
+      "holders": "3055",
+      "isFreshAlert": false,
+      "key": "56|0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc|AIAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://deagent.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/DeAgentAI"
+        }
+      ],
+      "liquidity": "704093.9419865604",
+      "marketCap": "14639431.661665337",
+      "name": "DeAgentAI",
+      "percentChange5m": "-1.28",
+      "price": "0.07319715830852064",
+      "quoteVolumeMin": "450355.4826300",
+      "quoteVolumeSum": "4107923.2370600",
+      "quoteVolumes1m": [
+        "801524.4016400",
+        "883211.5663300",
+        "1250594.6287400",
+        "450355.4826300",
+        "722237.1577200"
+      ],
+      "symbol": "AIA",
+      "top10HoldersPercent": "91.27726394823783"
+    },
+    {
+      "alphaVolume5m": "18298.87250268897",
       "chainId": "56",
       "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
       "futuresSymbol": "BSBUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
-      "holders": "56039",
+      "holders": "56034",
       "isFreshAlert": false,
       "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
       "links": [
@@ -32,29 +68,30 @@
           "link": "https://twitter.com/BlockSt_HQ"
         }
       ],
-      "liquidity": "1994018.274142988",
-      "marketCap": "22074945.707330544",
+      "liquidity": "1991231.029552788",
+      "marketCap": "22328650.536447246",
       "name": "Block Street",
-      "percentChange5m": "-1.36",
-      "price": "0.5502338605363345",
-      "quoteVolumeMin": "327974.0504300",
-      "quoteVolumeSum": "2342513.7310400",
+      "percentChange5m": "1.19",
+      "price": "0.5565576354353703",
+      "quoteVolumeMin": "323011.5658300",
+      "quoteVolumeSum": "2268808.3240500",
       "quoteVolumes1m": [
-        "487101.8766300",
-        "448601.6043800",
-        "327974.0504300",
-        "416030.4737100",
-        "662805.7258900"
+        "323011.5658300",
+        "335997.6946500",
+        "460128.0733500",
+        "477690.1573800",
+        "671980.8328400"
       ],
       "symbol": "BSB",
-      "top10HoldersPercent": "96.58384605334996"
+      "top10HoldersPercent": "96.57528074045914"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "AIAUSDT",
       "BSBUSDT"
     ]
   },
