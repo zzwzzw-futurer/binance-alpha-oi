@@ -147,7 +147,13 @@ def request_json(
             with urllib.request.urlopen(req, timeout=timeout) as response:
                 data = response.read().decode("utf-8")
             return json.loads(data)
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as exc:
+        except (
+            urllib.error.URLError,
+            urllib.error.HTTPError,
+            TimeoutError,
+            OSError,
+            json.JSONDecodeError,
+        ) as exc:
             last_error = exc
             if attempt < retries:
                 sleep_for = 0.75 * (attempt + 1)
