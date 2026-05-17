@@ -1,29 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-05-16T12:57:01.250568+00:00",
-    "generatedAtMs": 1778936221250,
-    "localTime": "2026-05-16 20:57:01 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "chainId": "56",
-        "contractAddress": "0xda7ad9dea9397cffddae2f8a052b82f1484252b3",
-        "futuresSymbol": "RIVERUSDT",
-        "isFreshAlert": true,
-        "name": "River",
-        "percentChange5m": "-2.62",
-        "quoteVolumeMin": "414393.7850000",
-        "quoteVolumeSum": "3754898.6296000",
-        "symbol": "RIVER",
-        "top10HoldersPercent": "90.03117272820161"
-      }
-    ],
-    "symbols": [
-      "RIVERUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-05-16T13:02:00.059550+00:00",
     "generatedAtMs": 1778936520059,
@@ -3619,6 +3595,32 @@
     "symbols": [
       "BSBUSDT",
       "AIAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-05-17T12:44:22.075417+00:00",
+    "generatedAtMs": 1779021862075,
+    "localTime": "2026-05-17 20:44:22 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "12854.843400117601",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": false,
+        "name": "Block Street",
+        "percentChange5m": "1.38",
+        "price": "0.5829409088268677",
+        "quoteVolumeMin": "310078.4517300",
+        "quoteVolumeSum": "2493061.5260900",
+        "symbol": "BSB",
+        "top10HoldersPercent": "96.56966220721729"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT"
     ]
   }
 ]
