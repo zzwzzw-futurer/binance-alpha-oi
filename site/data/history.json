@@ -2800,5 +2800,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-05-17T07:14:15.209744+00:00",
+    "generatedAtMs": 1779002055209,
+    "localTime": "2026-05-17 15:14:15 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "135740.1162316212",
+        "chainId": "56",
+        "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+        "futuresSymbol": "AIAUSDT",
+        "isFreshAlert": false,
+        "name": "DeAgentAI",
+        "percentChange5m": "0.44",
+        "price": "0.08212918915228237",
+        "quoteVolumeMin": "314098.4606000",
+        "quoteVolumeSum": "3548284.7469500",
+        "symbol": "AIA",
+        "top10HoldersPercent": "92.31614823513685"
+      }
+    ],
+    "symbols": [
+      "AIAUSDT"
+    ]
   }
 ]
