@@ -1,5 +1,5 @@
 const githubDataBaseUrl =
-  "https://raw.githubusercontent.com/zzwzzw-futurer/binance-alpha-oi/main/site/data";
+  "https://raw.githubusercontent.com/zzwzzw-futurer/binance-alpha-oi/data-sync/site/data";
 const dataSources = [
   {
     name: "Vercel",
@@ -12,6 +12,7 @@ const dataSources = [
     historyUrl: `${githubDataBaseUrl}/history.json`,
   },
 ];
+const refreshIntervalMs = 60000;
 
 const formatNumber = (value, digits = 0) => {
   const number = Number(value);
@@ -369,4 +370,4 @@ const refresh = async () => {
 };
 
 refresh();
-setInterval(refresh, 60000);
+setInterval(refresh, refreshIntervalMs);

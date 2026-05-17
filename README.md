@@ -89,7 +89,7 @@ WEB_SYNC_WEBHOOK_TOKEN=optional_bearer_token
 ```bash
 GITHUB_SYNC_TOKEN=你的GitHubToken
 GITHUB_SYNC_REPOSITORY=zzwzzw-futurer/binance-alpha-oi
-GITHUB_SYNC_BRANCH=main
+GITHUB_SYNC_BRANCH=data-sync
 GITHUB_SYNC_PATH_PREFIX=site/data
 ```
 
