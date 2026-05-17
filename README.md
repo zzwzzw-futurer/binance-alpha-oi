@@ -100,6 +100,8 @@ GITHUB_SYNC_PATH_PREFIX=site/data
 
 脚本会把 `latest.json` 和 `history.json` 放在同一个 commit 里提交。`--dry-run` 模式下只写本地 JSON，不会提交到 GitHub。
 
+前端会优先选择时间戳最新的数据源：Vercel 静态 JSON 或 GitHub raw JSON。这样即使 Vercel 的部署队列有延迟，页面也能直接读取 GitHub 上刚提交的最新扫描结果。
+
 ## 部署
 
 Vercel 部署配置在 `vercel.json`，输出目录指向 `site`。

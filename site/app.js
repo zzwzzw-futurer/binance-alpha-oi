@@ -1,5 +1,17 @@
-const latestUrl = "data/latest.json";
-const historyUrl = "data/history.json";
+const githubDataBaseUrl =
+  "https://raw.githubusercontent.com/zzwzzw-futurer/binance-alpha-oi/main/site/data";
+const dataSources = [
+  {
+    name: "Vercel",
+    latestUrl: "data/latest.json",
+    historyUrl: "data/history.json",
+  },
+  {
+    name: "GitHub",
+    latestUrl: `${githubDataBaseUrl}/latest.json`,
+    historyUrl: `${githubDataBaseUrl}/history.json`,
+  },
+];
 
 const formatNumber = (value, digits = 0) => {
   const number = Number(value);
@@ -296,21 +308,60 @@ const renderResults = (matches) => {
   });
 };
 
-const loadJson = async (url) => {
-  const response = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
+const loadJson = async (url, timeoutMs = 6000) => {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  const separator = url.includes("?") ? "&" : "?";
+  const response = await fetch(`${url}${separator}t=${Date.now()}`, {
+    cache: "no-store",
+    signal: controller.signal,
+  });
+  clearTimeout(timeout);
   if (!response.ok) throw new Error(`${url} ${response.status}`);
   return response.json();
 };
 
+const loadSource = async (source) => {
+  const [latest, history] = await Promise.all([
+    loadJson(source.latestUrl),
+    loadJson(source.historyUrl),
+  ]);
+  return {
+    name: source.name,
+    latest,
+    history: Array.isArray(history) ? history : [],
+  };
+};
+
+const dataTime = (payload) => {
+  const ms = Number(payload?.generatedAtMs);
+  if (Number.isFinite(ms)) return ms;
+  const parsed = Number(new Date(payload?.generatedAt));
+  return Number.isFinite(parsed) ? parsed : 0;
+};
+
+const chooseFreshestSource = (loaded) => {
+  return loaded.sort((a, b) => dataTime(b.latest) - dataTime(a.latest))[0];
+};
+
 const refresh = async () => {
   try {
-    const [latest, history] = await Promise.all([loadJson(latestUrl), loadJson(historyUrl)]);
+    const settled = await Promise.allSettled(dataSources.map(loadSource));
+    const loaded = settled
+      .filter((item) => item.status === "fulfilled")
+      .map((item) => item.value);
+
+    if (!loaded.length) {
+      throw new Error("No data source available");
+    }
+
+    const { name, latest, history } = chooseFreshestSource(loaded);
     renderMetrics(latest);
-    renderHistory(Array.isArray(history) ? history : []);
-    renderPairMonitorCounts(Array.isArray(history) ? history : []);
-    renderHistoryDetails(Array.isArray(history) ? history : []);
+    renderHistory(history);
+    renderPairMonitorCounts(history);
+    renderHistoryDetails(history);
     renderResults(Array.isArray(latest.matches) ? latest.matches : []);
-    setStatus("已同步", "ok");
+    setStatus(name === "GitHub" ? "已同步 GitHub" : "已同步", "ok");
   } catch (error) {
     setStatus("同步失败", "error");
     console.error(error);

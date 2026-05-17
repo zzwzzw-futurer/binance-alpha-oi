@@ -669,29 +669,46 @@ def github_request_json(
     token: str,
     body: Optional[Dict[str, Any]] = None,
     timeout: int = 20,
+    retries: int = 2,
 ) -> Dict[str, Any]:
     data = None
     if body is not None:
         data = json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
-    req = urllib.request.Request(
-        url=url,
-        data=data,
-        headers=github_headers(token),
-        method=method.upper(),
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            response_body = response.read().decode("utf-8")
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(
-            f"GitHub {method} {url} failed with HTTP {exc.code}: {error_body}"
-        ) from exc
-    except urllib.error.URLError as exc:
-        raise RuntimeError(f"GitHub {method} {url} failed: {exc}") from exc
-    if not response_body:
-        return {}
-    return json.loads(response_body)
+    last_error: Optional[Exception] = None
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(
+            url=url,
+            data=data,
+            headers=github_headers(token),
+            method=method.upper(),
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                response_body = response.read().decode("utf-8")
+            if not response_body:
+                return {}
+            return json.loads(response_body)
+        except urllib.error.HTTPError as exc:
+            error_body = exc.read().decode("utf-8", errors="replace")
+            if exc.code < 500 or attempt >= retries:
+                raise RuntimeError(
+                    f"GitHub {method} {url} failed with HTTP {exc.code}: {error_body}"
+                ) from exc
+            last_error = exc
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            if attempt >= retries:
+                raise RuntimeError(f"GitHub {method} {url} failed: {exc}") from exc
+            last_error = exc
+        sleep_for = Decimal("0.8") * Decimal(attempt + 1)
+        logging.info(
+            "Retrying GitHub request %s %s after %ss: %s",
+            method,
+            url,
+            sleep_for,
+            last_error,
+        )
+        time.sleep(float(sleep_for))
+    raise RuntimeError(f"GitHub {method} {url} failed: {last_error}")
 
 
 def normalize_repo_path(path: str) -> str:
@@ -728,6 +745,7 @@ def github_commit_data_files(
 
     api_base = config["github_sync_api_base_url"].rstrip("/")
     timeout = config["github_sync_timeout"]
+    retries = config["github_sync_retries"]
     branch_ref = urllib.parse.quote(f"heads/{branch}", safe="/")
     repo_url = f"{api_base}/repos/{repository}"
 
@@ -736,6 +754,7 @@ def github_commit_data_files(
         f"{repo_url}/git/ref/{branch_ref}",
         token,
         timeout=timeout,
+        retries=retries,
     )
     parent_sha = str(ref.get("object", {}).get("sha") or "")
     if not parent_sha:
@@ -746,6 +765,7 @@ def github_commit_data_files(
         f"{repo_url}/git/commits/{parent_sha}",
         token,
         timeout=timeout,
+        retries=retries,
     )
     base_tree_sha = str(parent_commit.get("tree", {}).get("sha") or "")
     if not base_tree_sha:
@@ -760,6 +780,7 @@ def github_commit_data_files(
             token,
             {"content": content, "encoding": "utf-8"},
             timeout=timeout,
+            retries=retries,
         )
         blob_sha = str(blob.get("sha") or "")
         if not blob_sha:
@@ -779,6 +800,7 @@ def github_commit_data_files(
         token,
         {"base_tree": base_tree_sha, "tree": tree},
         timeout=timeout,
+        retries=retries,
     )
     tree_sha = str(new_tree.get("sha") or "")
     if not tree_sha:
@@ -803,6 +825,7 @@ def github_commit_data_files(
         token,
         commit_body,
         timeout=timeout,
+        retries=retries,
     )
     commit_sha = str(commit.get("sha") or "")
     if not commit_sha:
@@ -814,6 +837,7 @@ def github_commit_data_files(
         token,
         {"sha": commit_sha, "force": False},
         timeout=timeout,
+        retries=retries,
     )
     return commit_sha
 
@@ -934,6 +958,7 @@ def build_config() -> Dict[str, Any]:
             GITHUB_API_BASE_URL,
         ),
         "github_sync_timeout": env_int("GITHUB_SYNC_TIMEOUT", 20),
+        "github_sync_retries": env_int("GITHUB_SYNC_RETRIES", 2),
         "github_sync_committer_name": env_str("GITHUB_SYNC_COMMITTER_NAME"),
         "github_sync_committer_email": env_str("GITHUB_SYNC_COMMITTER_EMAIL"),
     }
