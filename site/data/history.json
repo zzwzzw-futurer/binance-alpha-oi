@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-05-18T07:00:53.536751+00:00",
-    "generatedAtMs": 1779087653536,
-    "localTime": "2026-05-18 15:00:53 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-05-18T07:05:48.159510+00:00",
     "generatedAtMs": 1779087948159,
@@ -4241,6 +4232,32 @@
     ],
     "symbols": [
       "BSBUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-19T21:45:25.787894+00:00",
+    "generatedAtMs": 1779227125787,
+    "localTime": "2026-05-20 05:45:25 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "11981.103529399692",
+        "chainId": "1",
+        "contractAddress": "0x28d38df637db75533bd3f71426f3410a82041544",
+        "futuresSymbol": "PROMPTUSDT",
+        "isFreshAlert": true,
+        "name": "Wayfinder",
+        "percentChange5m": "-10.58",
+        "price": "0.039562446338987825",
+        "quoteVolumeMin": "388769.3410700",
+        "quoteVolumeSum": "4186243.6393300",
+        "symbol": "PROMPT",
+        "top10HoldersPercent": "86.13021733600368"
+      }
+    ],
+    "symbols": [
+      "PROMPTUSDT"
     ]
   }
 ]
