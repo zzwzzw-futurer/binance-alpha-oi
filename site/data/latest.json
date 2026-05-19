@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-19T01:23:23.902187+00:00",
-  "generatedAtMs": 1779153803902,
-  "localTime": "2026-05-19 09:23:23 CST",
-  "matches": [],
+  "generatedAt": "2026-05-19T01:28:24.039834+00:00",
+  "generatedAtMs": 1779154104039,
+  "localTime": "2026-05-19 09:28:24 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "160645.8472444482",
+      "chainId": "56",
+      "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+      "futuresSymbol": "BILLUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BILLUSDT",
+      "holders": "36489",
+      "isFreshAlert": true,
+      "key": "56|0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5|BILLUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://billions.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/billions_ntwk"
+        }
+      ],
+      "liquidity": "2399415.6619814765",
+      "marketCap": "24009415.1220752",
+      "name": "Billions Network",
+      "percentChange5m": "-3.14",
+      "price": "0.14011044425913977",
+      "quoteVolumeMin": "400302.7883000",
+      "quoteVolumeSum": "4093961.7320200",
+      "quoteVolumes1m": [
+        "598798.1680300",
+        "573405.0484500",
+        "2029292.7700500",
+        "400302.7883000",
+        "492162.9571900"
+      ],
+      "symbol": "BILL",
+      "top10HoldersPercent": "93.94077186802248"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "BILLUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
