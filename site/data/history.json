@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-17T04:48:57.378480+00:00",
-    "generatedAtMs": 1778993337378,
-    "localTime": "2026-05-17 12:48:57 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "174667.31699407916",
-        "chainId": "56",
-        "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
-        "futuresSymbol": "AIAUSDT",
-        "isFreshAlert": false,
-        "name": "DeAgentAI",
-        "percentChange5m": "-0.16",
-        "price": "0.09443870249900553",
-        "quoteVolumeMin": "368654.6095500",
-        "quoteVolumeSum": "3165401.3653800",
-        "symbol": "AIA",
-        "top10HoldersPercent": "92.87566702165833"
-      }
-    ],
-    "symbols": [
-      "AIAUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-17T04:55:52.372840+00:00",
     "generatedAtMs": 1778993752372,
     "localTime": "2026-05-17 12:55:52 CST",
@@ -3932,5 +3906,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-19T03:23:36.758648+00:00",
+    "generatedAtMs": 1779161016758,
+    "localTime": "2026-05-19 11:23:36 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "173956.83301709348",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": true,
+        "name": "RaveDAO",
+        "percentChange5m": "-0.06",
+        "price": "0.626673900167491",
+        "quoteVolumeMin": "304586.7657000",
+        "quoteVolumeSum": "1924530.5427000",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "92.6650842006813"
+      }
+    ],
+    "symbols": [
+      "RAVEUSDT"
+    ]
   }
 ]
