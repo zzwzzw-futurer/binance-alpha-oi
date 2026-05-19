@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-19T16:19:53.837191+00:00",
-  "generatedAtMs": 1779207593837,
-  "localTime": "2026-05-20 00:19:53 CST",
+  "generatedAt": "2026-05-19T16:24:54.120066+00:00",
+  "generatedAtMs": 1779207894120,
+  "localTime": "2026-05-20 00:24:54 CST",
   "matches": [
     {
-      "alphaVolume5m": "60330.34310733051",
+      "alphaVolume5m": "84247.4740065",
+      "chainId": "56",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "56117",
+      "isFreshAlert": false,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://blockstreet.money/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BlockSt_HQ"
+        }
+      ],
+      "liquidity": "2253003.119970097",
+      "marketCap": "34774868.956807755",
+      "name": "Block Street",
+      "percentChange5m": "5.73",
+      "price": "0.866795037199",
+      "quoteVolumeMin": "744039.7614100",
+      "quoteVolumeSum": "11276045.7903700",
+      "quoteVolumes1m": [
+        "1343519.7628600",
+        "3885573.5683400",
+        "2095009.7640900",
+        "3207902.9336700",
+        "744039.7614100"
+      ],
+      "symbol": "BSB",
+      "top10HoldersPercent": "97.19020776193969"
+    },
+    {
+      "alphaVolume5m": "46913.621212700775",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19211",
+      "holders": "19214",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,19 +72,19 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "5097937.674835825",
-      "marketCap": "4276293196.4758534",
+      "liquidity": "5124538.191794727",
+      "marketCap": "4330174790.797643",
       "name": "LAB",
-      "percentChange5m": "4.23",
-      "price": "4.276293196495858",
-      "quoteVolumeMin": "991537.7909500",
-      "quoteVolumeSum": "8407258.3281100",
+      "percentChange5m": "2",
+      "price": "4.3301747908179",
+      "quoteVolumeMin": "430367.9896000",
+      "quoteVolumeSum": "3657474.4054700",
       "quoteVolumes1m": [
-        "991537.7909500",
-        "2204365.7236700",
-        "2436711.7786400",
-        "1647315.6824500",
-        "1127327.3524000"
+        "520125.6434000",
+        "1366393.0927500",
+        "804123.3129000",
+        "536464.3668200",
+        "430367.9896000"
       ],
       "symbol": "LAB",
       "top10HoldersPercent": "89.3809813743031"
@@ -57,8 +93,9 @@
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "BSBUSDT",
       "LABUSDT"
     ]
   },
