@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-05-20T03:17:07.285820+00:00",
-    "generatedAtMs": 1779247027285,
-    "localTime": "2026-05-20 11:17:07 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "25802.613901117915",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": true,
-        "name": "Block Street",
-        "percentChange5m": "4.57",
-        "price": "0.8194718607568087",
-        "quoteVolumeMin": "342039.3958100",
-        "quoteVolumeSum": "2100649.3637300",
-        "symbol": "BSB",
-        "top10HoldersPercent": "97.39029715879681"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-05-20T03:22:07.536138+00:00",
     "generatedAtMs": 1779247327536,
@@ -4048,5 +4022,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-05-21T03:19:36.885364+00:00",
+    "generatedAtMs": 1779333576885,
+    "localTime": "2026-05-21 11:19:36 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "43996.01791390056",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": false,
+        "name": "Block Street",
+        "percentChange5m": "-1.44",
+        "price": "1.0130985968306547",
+        "quoteVolumeMin": "319997.1268500",
+        "quoteVolumeSum": "2679846.3112400",
+        "symbol": "BSB",
+        "top10HoldersPercent": "97.78879500293662"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT"
+    ]
   }
 ]
