@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-05-20T08:12:36.542891+00:00",
-    "generatedAtMs": 1779264756542,
-    "localTime": "2026-05-20 16:12:36 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "41898.5187154646",
-        "chainId": "56",
-        "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
-        "futuresSymbol": "BLUAIUSDT",
-        "isFreshAlert": true,
-        "name": "Bluwhale",
-        "percentChange5m": "-0.2",
-        "price": "0.009531838716360687",
-        "quoteVolumeMin": "303969.4087710",
-        "quoteVolumeSum": "2414829.2589360",
-        "symbol": "BLUAI",
-        "top10HoldersPercent": "90.17420865837093"
-      }
-    ],
-    "symbols": [
-      "BLUAIUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-05-20T08:17:37.265107+00:00",
     "generatedAtMs": 1779265057265,
@@ -4218,5 +4192,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-21T08:15:07.524990+00:00",
+    "generatedAtMs": 1779351307524,
+    "localTime": "2026-05-21 16:15:07 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "40727.280522139685",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": true,
+        "name": "Block Street",
+        "percentChange5m": "1.25",
+        "price": "0.9445266726845557",
+        "quoteVolumeMin": "355383.9103900",
+        "quoteVolumeSum": "2320287.9682000",
+        "symbol": "BSB",
+        "top10HoldersPercent": "97.32421854703759"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT"
+    ]
   }
 ]
