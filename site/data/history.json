@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-21T02:04:27.331200+00:00",
-    "generatedAtMs": 1779329067331,
-    "localTime": "2026-05-21 10:04:27 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-21T02:09:28.264437+00:00",
     "generatedAtMs": 1779329368264,
     "localTime": "2026-05-21 10:09:28 CST",
@@ -3591,5 +3582,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-22T02:06:51.136319+00:00",
+    "generatedAtMs": 1779415611136,
+    "localTime": "2026-05-22 10:06:51 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "916548.19964736",
+        "chainId": "56",
+        "contractAddress": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
+        "futuresSymbol": "OPGUSDT",
+        "isFreshAlert": true,
+        "name": "OpenGradient",
+        "percentChange5m": "-2.17",
+        "price": "0.28623198101654296",
+        "quoteVolumeMin": "377676.3479000",
+        "quoteVolumeSum": "3615386.1475000",
+        "symbol": "OPG",
+        "top10HoldersPercent": "92.84655078727653"
+      }
+    ],
+    "symbols": [
+      "OPGUSDT"
+    ]
   }
 ]
