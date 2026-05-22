@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-21T20:56:19.229373+00:00",
-    "generatedAtMs": 1779396979229,
-    "localTime": "2026-05-22 04:56:19 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-21T21:01:19.838035+00:00",
     "generatedAtMs": 1779397279838,
     "localTime": "2026-05-22 05:01:19 CST",
@@ -4648,6 +4639,47 @@
     ],
     "symbols": [
       "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-22T20:58:44.780421+00:00",
+    "generatedAtMs": 1779483524780,
+    "localTime": "2026-05-23 04:58:44 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "231113.59959266597",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "3.7",
+        "price": "1.1334516785275945",
+        "quoteVolumeMin": "395681.9049000",
+        "quoteVolumeSum": "3020259.5049000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.432727273"
+      },
+      {
+        "alphaVolume5m": "86152.24137250335",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": true,
+        "name": "Block Street",
+        "percentChange5m": "-0.45",
+        "price": "0.9606521934430958",
+        "quoteVolumeMin": "311660.8264000",
+        "quoteVolumeSum": "2910145.9481200",
+        "symbol": "BSB",
+        "top10HoldersPercent": "95.74269953338735"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT",
+      "BSBUSDT"
     ]
   }
 ]
