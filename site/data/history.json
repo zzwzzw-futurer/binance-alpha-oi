@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-21T14:15:42.190178+00:00",
-    "generatedAtMs": 1779372942190,
-    "localTime": "2026-05-21 22:15:42 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "136193.32555802443",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "4.18",
-        "price": "1.278424277921617",
-        "quoteVolumeMin": "870065.9146000",
-        "quoteVolumeSum": "7852362.5876500",
-        "symbol": "BSB",
-        "top10HoldersPercent": "97.42185408184986"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-21T14:20:42.340987+00:00",
     "generatedAtMs": 1779373242340,
     "localTime": "2026-05-21 22:20:42 CST",
@@ -3687,6 +3661,47 @@
     ],
     "symbols": [
       "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-22T14:18:01.318140+00:00",
+    "generatedAtMs": 1779459481318,
+    "localTime": "2026-05-22 22:18:01 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "468125.3074307466",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "-0.4",
+        "price": "1.2063016620036175",
+        "quoteVolumeMin": "1152555.7390000",
+        "quoteVolumeSum": "8871237.7194000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.432727273"
+      },
+      {
+        "alphaVolume5m": "169353.12041589853",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": false,
+        "name": "Block Street",
+        "percentChange5m": "-5.31",
+        "price": "0.6327322717306478",
+        "quoteVolumeMin": "762445.7941400",
+        "quoteVolumeSum": "7466425.6502800",
+        "symbol": "BSB",
+        "top10HoldersPercent": "96.72597191052363"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT",
+      "BSBUSDT"
     ]
   }
 ]
