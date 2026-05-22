@@ -9,15 +9,91 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-22T07:22:21.604547+00:00",
-  "generatedAtMs": 1779434541604,
-  "localTime": "2026-05-22 15:22:21 CST",
-  "matches": [],
+  "generatedAt": "2026-05-22T07:27:21.565876+00:00",
+  "generatedAtMs": 1779434841565,
+  "localTime": "2026-05-22 15:27:21 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "963992.8628366377",
+      "chainId": "56",
+      "contractAddress": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
+      "futuresSymbol": "OPGUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/OPGUSDT",
+      "holders": "5684",
+      "isFreshAlert": true,
+      "key": "56|0x5feccd17c393caf1001d18164236a37e731fcb9d|OPGUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.opengradient.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/opengradient"
+        }
+      ],
+      "liquidity": "1561462.920741834",
+      "marketCap": "11879049.965903183",
+      "name": "OpenGradient",
+      "percentChange5m": "1",
+      "price": "0.2890784254864797",
+      "quoteVolumeMin": "510443.2420000",
+      "quoteVolumeSum": "3183097.6436000",
+      "quoteVolumes1m": [
+        "845573.2141000",
+        "592022.3818000",
+        "520306.3229000",
+        "510443.2420000",
+        "714752.4828000"
+      ],
+      "symbol": "OPG",
+      "top10HoldersPercent": "92.7313171861681"
+    },
+    {
+      "alphaVolume5m": "638963.7276006414",
+      "chainId": "56",
+      "contractAddress": "0x1f12b85aac097e43aa1555b2881e98a51090e9a6",
+      "futuresSymbol": "GENIUSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/GENIUSUSDT",
+      "holders": "17634",
+      "isFreshAlert": true,
+      "key": "56|0x1f12b85aac097e43aa1555b2881e98a51090e9a6|GENIUSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.tradegenius.com/home"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/GeniusTerminal"
+        }
+      ],
+      "liquidity": "2168006.2762878463",
+      "marketCap": "509501310.81872743",
+      "name": "Genius",
+      "percentChange5m": "2.45",
+      "price": "0.5340833939968952",
+      "quoteVolumeMin": "456951.5639000",
+      "quoteVolumeSum": "3422094.6899000",
+      "quoteVolumes1m": [
+        "477698.8072000",
+        "584341.2800000",
+        "456951.5639000",
+        "896618.9391000",
+        "1006484.0997000"
+      ],
+      "symbol": "GENIUS",
+      "top10HoldersPercent": "92.8808677000834"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 2,
+    "matchCount": 2,
+    "symbols": [
+      "OPGUSDT",
+      "GENIUSUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-21T07:25:03.649433+00:00",
-    "generatedAtMs": 1779348303649,
-    "localTime": "2026-05-21 15:25:03 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-21T07:30:04.557690+00:00",
     "generatedAtMs": 1779348604557,
     "localTime": "2026-05-21 15:30:04 CST",
@@ -3353,5 +3344,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-05-22T07:27:21.565876+00:00",
+    "generatedAtMs": 1779434841565,
+    "localTime": "2026-05-22 15:27:21 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "963992.8628366377",
+        "chainId": "56",
+        "contractAddress": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
+        "futuresSymbol": "OPGUSDT",
+        "isFreshAlert": true,
+        "name": "OpenGradient",
+        "percentChange5m": "1",
+        "price": "0.2890784254864797",
+        "quoteVolumeMin": "510443.2420000",
+        "quoteVolumeSum": "3183097.6436000",
+        "symbol": "OPG",
+        "top10HoldersPercent": "92.7313171861681"
+      },
+      {
+        "alphaVolume5m": "638963.7276006414",
+        "chainId": "56",
+        "contractAddress": "0x1f12b85aac097e43aa1555b2881e98a51090e9a6",
+        "futuresSymbol": "GENIUSUSDT",
+        "isFreshAlert": true,
+        "name": "Genius",
+        "percentChange5m": "2.45",
+        "price": "0.5340833939968952",
+        "quoteVolumeMin": "456951.5639000",
+        "quoteVolumeSum": "3422094.6899000",
+        "symbol": "GENIUS",
+        "top10HoldersPercent": "92.8808677000834"
+      }
+    ],
+    "symbols": [
+      "OPGUSDT",
+      "GENIUSUSDT"
+    ]
   }
 ]
