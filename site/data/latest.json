@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-22T08:52:29.263780+00:00",
-  "generatedAtMs": 1779439949263,
-  "localTime": "2026-05-22 16:52:29 CST",
+  "generatedAt": "2026-05-22T08:57:30.198446+00:00",
+  "generatedAtMs": 1779440250198,
+  "localTime": "2026-05-22 16:57:30 CST",
   "matches": [
     {
-      "alphaVolume5m": "33120.70948680522",
+      "alphaVolume5m": "50640.06945517625",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19144",
-      "isFreshAlert": true,
+      "holders": "19143",
+      "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
@@ -36,71 +36,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "5322205.030172469",
-      "marketCap": "4726315417.95609",
+      "liquidity": "5303928.122151564",
+      "marketCap": "4721048791.100164",
       "name": "LAB",
-      "percentChange5m": "-0.21",
-      "price": "4.7263154179782",
-      "quoteVolumeMin": "541502.6843700",
-      "quoteVolumeSum": "7427314.5273100",
+      "percentChange5m": "-0.92",
+      "price": "4.72104879112225",
+      "quoteVolumeMin": "368745.1438000",
+      "quoteVolumeSum": "5142957.6898800",
       "quoteVolumes1m": [
-        "1613642.1872000",
-        "1291400.6897000",
-        "2206368.8448400",
-        "541502.6843700",
-        "1774400.1212000"
+        "3285468.2171300",
+        "453756.7549800",
+        "368745.1438000",
+        "494347.3060500",
+        "540640.2679200"
       ],
       "symbol": "LAB",
       "top10HoldersPercent": "89.38629258345786"
-    },
-    {
-      "alphaVolume5m": "332079.587323606",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "141217",
-      "isFreshAlert": false,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "1751943.7832495058",
-      "marketCap": "905607037.4448694",
-      "name": "Audiera",
-      "percentChange5m": "5.25",
-      "price": "0.9148935445416554",
-      "quoteVolumeMin": "468730.6834000",
-      "quoteVolumeSum": "3769188.6909000",
-      "quoteVolumes1m": [
-        "1198046.5413000",
-        "997820.2218000",
-        "548383.7444000",
-        "556207.5000000",
-        "468730.6834000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.432727273"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "LABUSDT",
-      "BEATUSDT"
+      "LABUSDT"
     ]
   },
   "telegram": {
