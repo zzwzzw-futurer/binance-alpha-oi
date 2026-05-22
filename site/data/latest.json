@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-22T16:08:11.269003+00:00",
-  "generatedAtMs": 1779466091269,
-  "localTime": "2026-05-23 00:08:11 CST",
+  "generatedAt": "2026-05-22T16:13:11.835434+00:00",
+  "generatedAtMs": 1779466391835,
+  "localTime": "2026-05-23 00:13:11 CST",
   "matches": [
     {
-      "alphaVolume5m": "311265.69250390097",
+      "alphaVolume5m": "94888.26083752874",
+      "chainId": "56",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "56719",
+      "isFreshAlert": false,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://blockstreet.money/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BlockSt_HQ"
+        }
+      ],
+      "liquidity": "2087423.3013917315",
+      "marketCap": "21969323.04862873",
+      "name": "Block Street",
+      "percentChange5m": "2.77",
+      "price": "0.5355648661150139",
+      "quoteVolumeMin": "540330.4909100",
+      "quoteVolumeSum": "3962654.0747700",
+      "quoteVolumes1m": [
+        "540330.4909100",
+        "702417.9464300",
+        "1149654.9743100",
+        "717799.5325800",
+        "852451.1305400"
+      ],
+      "symbol": "BSB",
+      "top10HoldersPercent": "96.23273781752019"
+    },
+    {
+      "alphaVolume5m": "406535.1770210807",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "141284",
+      "holders": "141292",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,58 +72,22 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "1960772.8508944",
-      "marketCap": "1075266302.7687187",
+      "liquidity": "1910798.5617025269",
+      "marketCap": "1029837948.2679611",
       "name": "Audiera",
-      "percentChange5m": "0.7",
-      "price": "1.0862925732577047",
-      "quoteVolumeMin": "501565.5109000",
-      "quoteVolumeSum": "4321448.8798000",
+      "percentChange5m": "-4.2",
+      "price": "1.040398375715735",
+      "quoteVolumeMin": "412589.4002000",
+      "quoteVolumeSum": "6100942.8870000",
       "quoteVolumes1m": [
-        "883539.0546000",
-        "1422567.9989000",
-        "900102.1835000",
-        "613674.1319000",
-        "501565.5109000"
+        "412589.4002000",
+        "453156.2648000",
+        "768097.8831000",
+        "3052868.5165000",
+        "1414230.8224000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.432727273"
-    },
-    {
-      "alphaVolume5m": "329262.7735171614",
-      "chainId": "56",
-      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-      "futuresSymbol": "BSBUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
-      "holders": "56714",
-      "isFreshAlert": false,
-      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://blockstreet.money/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/BlockSt_HQ"
-        }
-      ],
-      "liquidity": "2073452.2651736874",
-      "marketCap": "21379921.571658604",
-      "name": "Block Street",
-      "percentChange5m": "-0.27",
-      "price": "0.521196525205074",
-      "quoteVolumeMin": "399980.2455000",
-      "quoteVolumeSum": "4451699.1129600",
-      "quoteVolumes1m": [
-        "1110812.8877000",
-        "1615453.6736900",
-        "845021.9677200",
-        "480430.3383500",
-        "399980.2455000"
-      ],
-      "symbol": "BSB",
-      "top10HoldersPercent": "98.5686295439827"
     }
   ],
   "status": "ok",
@@ -95,8 +95,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "BEATUSDT",
-      "BSBUSDT"
+      "BSBUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {
