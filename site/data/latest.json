@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-23T01:09:11.777420+00:00",
-  "generatedAtMs": 1779498551777,
-  "localTime": "2026-05-23 09:09:11 CST",
-  "matches": [],
+  "generatedAt": "2026-05-23T01:14:12.074496+00:00",
+  "generatedAtMs": 1779498852074,
+  "localTime": "2026-05-23 09:14:12 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "114780.49020997355",
+      "chainId": "56",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "56706",
+      "isFreshAlert": false,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://blockstreet.money/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BlockSt_HQ"
+        }
+      ],
+      "liquidity": "2592484.105988664",
+      "marketCap": "45912984.43577",
+      "name": "Block Street",
+      "percentChange5m": "1.87",
+      "price": "1.147860517557907",
+      "quoteVolumeMin": "585378.5161700",
+      "quoteVolumeSum": "5047326.0992100",
+      "quoteVolumes1m": [
+        "1222975.5115700",
+        "608398.1927300",
+        "672789.9042400",
+        "1957783.9745000",
+        "585378.5161700"
+      ],
+      "symbol": "BSB",
+      "top10HoldersPercent": "96.04965914217543"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "BSBUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
