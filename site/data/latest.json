@@ -9,15 +9,95 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-24T19:18:41.099674+00:00",
-  "generatedAtMs": 1779650321099,
-  "localTime": "2026-05-25 03:18:41 CST",
-  "matches": [],
+  "generatedAt": "2026-05-24T19:23:41.521664+00:00",
+  "generatedAtMs": 1779650621521,
+  "localTime": "2026-05-25 03:23:41 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "255242.71913850587",
+      "chainId": "56",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "56857",
+      "isFreshAlert": false,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://blockstreet.money/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BlockSt_HQ"
+        }
+      ],
+      "liquidity": "2574016.605894621",
+      "marketCap": "48493755.20184673",
+      "name": "Block Street",
+      "percentChange5m": "6.95",
+      "price": "0.949134441951589",
+      "quoteVolumeMin": "733939.1320900",
+      "quoteVolumeSum": "6938621.1228600",
+      "quoteVolumes1m": [
+        "761034.0149000",
+        "733939.1320900",
+        "1780403.3171800",
+        "1880310.1277200",
+        "1782934.5309700"
+      ],
+      "symbol": "BSB",
+      "top10HoldersPercent": "97.3478852473256"
+    },
+    {
+      "alphaVolume5m": "291030.79508655914",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "141499",
+      "isFreshAlert": true,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "2012300.4934558982",
+      "marketCap": "1127215562.9180052",
+      "name": "Audiera",
+      "percentChange5m": "-3.59",
+      "price": "1.1395982886651221",
+      "quoteVolumeMin": "326699.4489000",
+      "quoteVolumeSum": "3980358.8131000",
+      "quoteVolumes1m": [
+        "326699.4489000",
+        "413608.0367000",
+        "678647.4148000",
+        "474914.5820000",
+        "2086489.3307000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.432727273"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 2,
+    "symbols": [
+      "BSBUSDT",
+      "BEATUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
