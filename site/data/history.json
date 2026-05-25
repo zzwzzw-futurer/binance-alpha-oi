@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-05-24T07:22:26.462487+00:00",
-    "generatedAtMs": 1779607346462,
-    "localTime": "2026-05-24 15:22:26 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-05-24T07:27:26.790819+00:00",
     "generatedAtMs": 1779607646790,
@@ -3334,5 +3325,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-25T07:24:57.175331+00:00",
+    "generatedAtMs": 1779693897175,
+    "localTime": "2026-05-25 15:24:57 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "435417.1192305549",
+        "chainId": "56",
+        "contractAddress": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+        "futuresSymbol": "HANAUSDT",
+        "isFreshAlert": true,
+        "name": "Hana Network",
+        "percentChange5m": "-7.13",
+        "price": "0.03778498084435041",
+        "quoteVolumeMin": "371850.5770800",
+        "quoteVolumeSum": "3008708.1240700",
+        "symbol": "HANA",
+        "top10HoldersPercent": "87.20942734313958"
+      }
+    ],
+    "symbols": [
+      "HANAUSDT"
+    ]
   }
 ]
