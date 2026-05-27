@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-27T16:20:52.454829+00:00",
-  "generatedAtMs": 1779898852454,
-  "localTime": "2026-05-28 00:20:52 CST",
+  "generatedAt": "2026-05-27T16:25:53.257826+00:00",
+  "generatedAtMs": 1779899153257,
+  "localTime": "2026-05-28 00:25:53 CST",
   "matches": [
     {
-      "alphaVolume5m": "32873.23710473213",
+      "alphaVolume5m": "28532.628090773793",
       "chainId": "56",
       "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
       "futuresSymbol": "GUAUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/GUAUSDT",
-      "holders": "15167",
-      "isFreshAlert": true,
+      "holders": "15170",
+      "isFreshAlert": false,
       "key": "56|0xa5c8e1513b6a08334b479fe4d71f1253259469be|GUAUSDT",
       "links": [
         {
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/SUPERFORTUNE888"
         }
       ],
-      "liquidity": "2496803.9664907395",
-      "marketCap": "1219372842.9012012",
+      "liquidity": "2493703.179313284",
+      "marketCap": "1218053625.205883",
       "name": "SUPERFORTUNE",
-      "percentChange5m": "-0.37",
-      "price": "1.2193728438375673",
-      "quoteVolumeMin": "364908.0189000",
-      "quoteVolumeSum": "2679322.0576600",
+      "percentChange5m": "0.52",
+      "price": "1.2180536261412358",
+      "quoteVolumeMin": "503721.2693800",
+      "quoteVolumeSum": "4351290.2052800",
       "quoteVolumes1m": [
-        "769902.5013500",
-        "429021.7613000",
-        "614289.8407400",
-        "501199.9353700",
-        "364908.0189000"
+        "1045088.6447300",
+        "749342.5287300",
+        "617962.4024200",
+        "503721.2693800",
+        "1435175.3600200"
       ],
       "symbol": "GUA",
-      "top10HoldersPercent": "90.33630600759675"
+      "top10HoldersPercent": "90.3370141634364"
+    },
+    {
+      "alphaVolume5m": "219715.09628620007",
+      "chainId": "56",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "57468",
+      "isFreshAlert": true,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://blockstreet.money/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BlockSt_HQ"
+        }
+      ],
+      "liquidity": "2126836.4944108976",
+      "marketCap": "24698407.86858831",
+      "name": "Block Street",
+      "percentChange5m": "-1.59",
+      "price": "0.4663395551800786",
+      "quoteVolumeMin": "442263.4751500",
+      "quoteVolumeSum": "4107204.7118800",
+      "quoteVolumes1m": [
+        "1914912.2450100",
+        "680069.6523300",
+        "442263.4751500",
+        "532672.8169200",
+        "537286.5224700"
+      ],
+      "symbol": "BSB",
+      "top10HoldersPercent": "94.71762430602274"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 1,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "GUAUSDT"
+      "GUAUSDT",
+      "BSBUSDT"
     ]
   },
   "telegram": {
