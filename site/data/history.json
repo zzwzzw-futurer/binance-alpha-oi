@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-26T15:08:13.141496+00:00",
-    "generatedAtMs": 1779808093141,
-    "localTime": "2026-05-26 23:08:13 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "102239.86337824131",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "3.02",
-        "price": "0.5786035591114507",
-        "quoteVolumeMin": "490626.3435600",
-        "quoteVolumeSum": "3352719.0917700",
-        "symbol": "BSB",
-        "top10HoldersPercent": "94.10544530290409"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-26T15:13:13.305561+00:00",
     "generatedAtMs": 1779808393305,
     "localTime": "2026-05-26 23:13:13 CST",
@@ -3066,5 +3040,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-27T15:10:44.062533+00:00",
+    "generatedAtMs": 1779894644062,
+    "localTime": "2026-05-27 23:10:44 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "46771.83954733517",
+        "chainId": "56",
+        "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
+        "futuresSymbol": "GUAUSDT",
+        "isFreshAlert": true,
+        "name": "SUPERFORTUNE",
+        "percentChange5m": "-1.69",
+        "price": "1.2065479696551575",
+        "quoteVolumeMin": "418730.9256800",
+        "quoteVolumeSum": "3170505.5653400",
+        "symbol": "GUA",
+        "top10HoldersPercent": "90.32343223804558"
+      }
+    ],
+    "symbols": [
+      "GUAUSDT"
+    ]
   }
 ]

@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-27T15:05:43.331296+00:00",
-  "generatedAtMs": 1779894343331,
-  "localTime": "2026-05-27 23:05:43 CST",
-  "matches": [],
+  "generatedAt": "2026-05-27T15:10:44.062533+00:00",
+  "generatedAtMs": 1779894644062,
+  "localTime": "2026-05-27 23:10:44 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "46771.83954733517",
+      "chainId": "56",
+      "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
+      "futuresSymbol": "GUAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/GUAUSDT",
+      "holders": "15160",
+      "isFreshAlert": true,
+      "key": "56|0xa5c8e1513b6a08334b479fe4d71f1253259469be|GUAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.superfortune.xyz/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/SUPERFORTUNE888"
+        }
+      ],
+      "liquidity": "2498392.325349331",
+      "marketCap": "1206547968.7286398",
+      "name": "SUPERFORTUNE",
+      "percentChange5m": "-1.69",
+      "price": "1.2065479696551575",
+      "quoteVolumeMin": "418730.9256800",
+      "quoteVolumeSum": "3170505.5653400",
+      "quoteVolumes1m": [
+        "527459.0068000",
+        "418730.9256800",
+        "849625.2442900",
+        "631229.8275300",
+        "743460.5610400"
+      ],
+      "symbol": "GUA",
+      "top10HoldersPercent": "90.32343223804558"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "GUAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
