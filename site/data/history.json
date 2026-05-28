@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-27T06:39:47.513198+00:00",
-    "generatedAtMs": 1779863987513,
-    "localTime": "2026-05-27 14:39:47 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "59614.28638916699",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "0.8",
-        "price": "4.087804619219545",
-        "quoteVolumeMin": "536972.6134000",
-        "quoteVolumeSum": "4373628.9794800",
-        "symbol": "LAB",
-        "top10HoldersPercent": "89.49678115107454"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-27T06:44:49.519809+00:00",
     "generatedAtMs": 1779864289519,
     "localTime": "2026-05-27 14:44:49 CST",
@@ -3708,5 +3682,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-05-28T06:42:19.618625+00:00",
+    "generatedAtMs": 1779950539618,
+    "localTime": "2026-05-28 14:42:19 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "53596.05759664364",
+        "chainId": "56",
+        "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
+        "futuresSymbol": "GUAUSDT",
+        "isFreshAlert": false,
+        "name": "SUPERFORTUNE",
+        "percentChange5m": "-1.46",
+        "price": "0.5568646069953963",
+        "quoteVolumeMin": "343778.8798100",
+        "quoteVolumeSum": "2302230.4000400",
+        "symbol": "GUA",
+        "top10HoldersPercent": "90.62165596521035"
+      }
+    ],
+    "symbols": [
+      "GUAUSDT"
+    ]
   }
 ]
