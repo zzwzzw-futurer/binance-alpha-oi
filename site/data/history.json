@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-05-27T15:05:43.331296+00:00",
-    "generatedAtMs": 1779894343331,
-    "localTime": "2026-05-27 23:05:43 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-05-27T15:10:44.062533+00:00",
     "generatedAtMs": 1779894644062,
@@ -3810,5 +3801,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-28T15:08:08.917040+00:00",
+    "generatedAtMs": 1779980888917,
+    "localTime": "2026-05-28 23:08:08 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "39288.29278051503",
+        "chainId": "56",
+        "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
+        "futuresSymbol": "GUAUSDT",
+        "isFreshAlert": true,
+        "name": "SUPERFORTUNE",
+        "percentChange5m": "-0.24",
+        "price": "0.7245531798276866",
+        "quoteVolumeMin": "321509.9578200",
+        "quoteVolumeSum": "2318834.0231000",
+        "symbol": "GUA",
+        "top10HoldersPercent": "90.29935483349665"
+      }
+    ],
+    "symbols": [
+      "GUAUSDT"
+    ]
   }
 ]
