@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-27T08:50:04.123594+00:00",
-    "generatedAtMs": 1779871804123,
-    "localTime": "2026-05-27 16:50:04 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-27T08:55:04.959469+00:00",
     "generatedAtMs": 1779872104959,
     "localTime": "2026-05-27 16:55:04 CST",
@@ -3742,5 +3733,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-28T08:52:31.945048+00:00",
+    "generatedAtMs": 1779958351945,
+    "localTime": "2026-05-28 16:52:31 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "81070.19886382243",
+        "chainId": "56",
+        "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+        "futuresSymbol": "BILLUSDT",
+        "isFreshAlert": true,
+        "name": "Billions Network",
+        "percentChange5m": "-0.38",
+        "price": "0.08810211143867626",
+        "quoteVolumeMin": "327797.6278500",
+        "quoteVolumeSum": "2258988.2252800",
+        "symbol": "BILL",
+        "top10HoldersPercent": "93.54355410720363"
+      }
+    ],
+    "symbols": [
+      "BILLUSDT"
+    ]
   }
 ]
