@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-05-28T08:52:31.945048+00:00",
-    "generatedAtMs": 1779958351945,
-    "localTime": "2026-05-28 16:52:31 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "81070.19886382243",
-        "chainId": "56",
-        "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
-        "futuresSymbol": "BILLUSDT",
-        "isFreshAlert": true,
-        "name": "Billions Network",
-        "percentChange5m": "-0.38",
-        "price": "0.08810211143867626",
-        "quoteVolumeMin": "327797.6278500",
-        "quoteVolumeSum": "2258988.2252800",
-        "symbol": "BILL",
-        "top10HoldersPercent": "93.54355410720363"
-      }
-    ],
-    "symbols": [
-      "BILLUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-05-28T08:57:32.148292+00:00",
     "generatedAtMs": 1779958652148,
@@ -3061,6 +3035,32 @@
         "quoteVolumeSum": "2778348.8499000",
         "symbol": "LAB",
         "top10HoldersPercent": "89.70506349338464"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-05-29T08:54:58.704803+00:00",
+    "generatedAtMs": 1780044898704,
+    "localTime": "2026-05-29 16:54:58 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "35024.63253469975",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-4.27",
+        "price": "4.870631376442539",
+        "quoteVolumeMin": "415459.5558000",
+        "quoteVolumeSum": "3301381.2740600",
+        "symbol": "LAB",
+        "top10HoldersPercent": "89.71494011628465"
       }
     ],
     "symbols": [
