@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-30T18:38:11.482779+00:00",
-  "generatedAtMs": 1780166291482,
-  "localTime": "2026-05-31 02:38:11 CST",
-  "matches": [],
+  "generatedAt": "2026-05-30T18:43:12.437051+00:00",
+  "generatedAtMs": 1780166592437,
+  "localTime": "2026-05-31 02:43:12 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "729201.9738513156",
+      "chainId": "56",
+      "contractAddress": "0x539ae81a166e5e80aed211731563e549c411b140",
+      "futuresSymbol": "TAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAUSDT",
+      "holders": "3709",
+      "isFreshAlert": true,
+      "key": "56|0x539ae81a166e5e80aed211731563e549c411b140|TAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.trustalabs.ai/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/TrustalabsAnn"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/TrustaLabs"
+        }
+      ],
+      "liquidity": "321260.4652951839",
+      "marketCap": "88028142.67281656",
+      "name": "Trusta.AI",
+      "percentChange5m": "3.39",
+      "price": "0.09452493510709609",
+      "quoteVolumeMin": "355925.8950500",
+      "quoteVolumeSum": "2276781.7970700",
+      "quoteVolumes1m": [
+        "504163.0190900",
+        "424948.1732400",
+        "355925.8950500",
+        "425150.0427500",
+        "566594.6669400"
+      ],
+      "symbol": "TA",
+      "top10HoldersPercent": "91.86386538693432"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "TAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

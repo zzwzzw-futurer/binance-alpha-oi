@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-29T18:40:52.512432+00:00",
-    "generatedAtMs": 1780080052512,
-    "localTime": "2026-05-30 02:40:52 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-29T18:45:53.279337+00:00",
     "generatedAtMs": 1780080353279,
     "localTime": "2026-05-30 02:45:53 CST",
@@ -3525,5 +3516,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-30T18:43:12.437051+00:00",
+    "generatedAtMs": 1780166592437,
+    "localTime": "2026-05-31 02:43:12 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "729201.9738513156",
+        "chainId": "56",
+        "contractAddress": "0x539ae81a166e5e80aed211731563e549c411b140",
+        "futuresSymbol": "TAUSDT",
+        "isFreshAlert": true,
+        "name": "Trusta.AI",
+        "percentChange5m": "3.39",
+        "price": "0.09452493510709609",
+        "quoteVolumeMin": "355925.8950500",
+        "quoteVolumeSum": "2276781.7970700",
+        "symbol": "TA",
+        "top10HoldersPercent": "91.86386538693432"
+      }
+    ],
+    "symbols": [
+      "TAUSDT"
+    ]
   }
 ]
