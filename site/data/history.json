@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-05-30T05:46:56.694675+00:00",
-    "generatedAtMs": 1780120016694,
-    "localTime": "2026-05-30 13:46:56 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-05-30T05:51:57.189514+00:00",
     "generatedAtMs": 1780120317189,
     "localTime": "2026-05-30 13:51:57 CST",
@@ -3678,5 +3669,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-05-31T05:49:20.942005+00:00",
+    "generatedAtMs": 1780206560942,
+    "localTime": "2026-05-31 13:49:20 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "211634.51591119394",
+        "chainId": "56",
+        "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+        "futuresSymbol": "AIAUSDT",
+        "isFreshAlert": true,
+        "name": "DeAgentAI",
+        "percentChange5m": "0.29",
+        "price": "0.06722359596136236",
+        "quoteVolumeMin": "350800.8137600",
+        "quoteVolumeSum": "2835170.7558800",
+        "symbol": "AIA",
+        "top10HoldersPercent": "92.46371899599376"
+      }
+    ],
+    "symbols": [
+      "AIAUSDT"
+    ]
   }
 ]
