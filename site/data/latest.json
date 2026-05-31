@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-31T06:04:23.091027+00:00",
-  "generatedAtMs": 1780207463091,
-  "localTime": "2026-05-31 14:04:23 CST",
-  "matches": [],
+  "generatedAt": "2026-05-31T06:09:24.117363+00:00",
+  "generatedAtMs": 1780207764117,
+  "localTime": "2026-05-31 14:09:24 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "237793.9730331063",
+      "chainId": "56",
+      "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+      "futuresSymbol": "AIAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIAUSDT",
+      "holders": "3146",
+      "isFreshAlert": false,
+      "key": "56|0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc|AIAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://deagent.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/DeAgentAI"
+        }
+      ],
+      "liquidity": "695686.5190995368",
+      "marketCap": "14172811.13959051",
+      "name": "DeAgentAI",
+      "percentChange5m": "-2.91",
+      "price": "0.07086405569814032",
+      "quoteVolumeMin": "473463.0686600",
+      "quoteVolumeSum": "3424520.8325300",
+      "quoteVolumes1m": [
+        "614187.9220000",
+        "473463.0686600",
+        "589048.1248100",
+        "1150218.4448000",
+        "597603.2722600"
+      ],
+      "symbol": "AIA",
+      "top10HoldersPercent": "92.32212670905245"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "AIAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
