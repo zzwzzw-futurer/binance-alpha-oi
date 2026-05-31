@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-31T10:14:46.126185+00:00",
-  "generatedAtMs": 1780222486126,
-  "localTime": "2026-05-31 18:14:46 CST",
+  "generatedAt": "2026-05-31T10:19:46.175482+00:00",
+  "generatedAtMs": 1780222786175,
+  "localTime": "2026-05-31 18:19:46 CST",
   "matches": [
     {
-      "alphaVolume5m": "10439.247799382489",
+      "alphaVolume5m": "386695.35592971975",
+      "chainId": "56",
+      "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+      "futuresSymbol": "AIAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIAUSDT",
+      "holders": "3175",
+      "isFreshAlert": true,
+      "key": "56|0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc|AIAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://deagent.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/DeAgentAI"
+        }
+      ],
+      "liquidity": "759504.7960699303",
+      "marketCap": "16604520.852766473",
+      "name": "DeAgentAI",
+      "percentChange5m": "2.35",
+      "price": "0.08302260426405235",
+      "quoteVolumeMin": "754726.0903600",
+      "quoteVolumeSum": "4925689.4203000",
+      "quoteVolumes1m": [
+        "1187239.7652000",
+        "961030.8478600",
+        "1172639.9597300",
+        "754726.0903600",
+        "850052.7571500"
+      ],
+      "symbol": "AIA",
+      "top10HoldersPercent": "91.78325878604325"
+    },
+    {
+      "alphaVolume5m": "14029.598872454637",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19126",
+      "holders": "19131",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,19 +72,19 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "6689885.849352778",
-      "marketCap": "7884149488.208836",
+      "liquidity": "6691014.443457996",
+      "marketCap": "7725264228.820881",
       "name": "LAB",
-      "percentChange5m": "0.05",
-      "price": "7.884149488245718",
-      "quoteVolumeMin": "354716.3253000",
-      "quoteVolumeSum": "2357878.2523000",
+      "percentChange5m": "-2",
+      "price": "7.725264228857021",
+      "quoteVolumeMin": "303836.8254000",
+      "quoteVolumeSum": "2910999.9978000",
       "quoteVolumes1m": [
-        "449271.4593200",
-        "608729.9719000",
-        "578988.5753800",
-        "366171.9204000",
-        "354716.3253000"
+        "651096.4935600",
+        "523325.2525000",
+        "303836.8254000",
+        "893609.9454400",
+        "539131.4809000"
       ],
       "symbol": "LAB",
       "top10HoldersPercent": "89.83947382901519"
@@ -56,9 +92,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "AIAUSDT",
       "LABUSDT"
     ]
   },
