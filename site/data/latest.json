@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-05-31T10:29:47.086272+00:00",
-  "generatedAtMs": 1780223387086,
-  "localTime": "2026-05-31 18:29:47 CST",
+  "generatedAt": "2026-05-31T10:34:47.420415+00:00",
+  "generatedAtMs": 1780223687420,
+  "localTime": "2026-05-31 18:34:47 CST",
   "matches": [
     {
-      "alphaVolume5m": "16147.521114155048",
+      "alphaVolume5m": "30405.801748661823",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19133",
+      "holders": "19131",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "6571413.952422483",
-      "marketCap": "7609521134.524505",
+      "liquidity": "6420159.165283889",
+      "marketCap": "7283880304.882392",
       "name": "LAB",
-      "percentChange5m": "1.44",
-      "price": "7.609521134560103",
-      "quoteVolumeMin": "387840.9206000",
-      "quoteVolumeSum": "3315232.3071500",
+      "percentChange5m": "-3.68",
+      "price": "7.283880304916466",
+      "quoteVolumeMin": "430137.8097000",
+      "quoteVolumeSum": "9718772.1569300",
       "quoteVolumes1m": [
-        "663249.3817000",
-        "1251219.6946600",
-        "495664.8859200",
-        "517257.4242700",
-        "387840.9206000"
+        "430137.8097000",
+        "706848.2550600",
+        "3518453.3775300",
+        "3173494.2014400",
+        "1889838.5132000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "89.84114842541291"
+      "top10HoldersPercent": "89.84130910211852"
+    },
+    {
+      "alphaVolume5m": "205117.82718266928",
+      "chainId": "56",
+      "contractAddress": "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc",
+      "futuresSymbol": "AIAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIAUSDT",
+      "holders": "3180",
+      "isFreshAlert": false,
+      "key": "56|0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc|AIAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://deagent.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/DeAgentAI"
+        }
+      ],
+      "liquidity": "724881.5745079808",
+      "marketCap": "15288906.865049906",
+      "name": "DeAgentAI",
+      "percentChange5m": "-6.56",
+      "price": "0.07644453432545209",
+      "quoteVolumeMin": "383165.8503600",
+      "quoteVolumeSum": "3049662.8202900",
+      "quoteVolumes1m": [
+        "383165.8503600",
+        "418947.9515100",
+        "448230.7989000",
+        "1172665.7439500",
+        "626652.4755700"
+      ],
+      "symbol": "AIA",
+      "top10HoldersPercent": "91.76913027982064"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "AIAUSDT"
     ]
   },
   "telegram": {
