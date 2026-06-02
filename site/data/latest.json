@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-02T00:38:35.091835+00:00",
-  "generatedAtMs": 1780360715091,
-  "localTime": "2026-06-02 08:38:35 CST",
+  "generatedAt": "2026-06-02T00:43:35.157581+00:00",
+  "generatedAtMs": 1780361015157,
+  "localTime": "2026-06-02 08:43:35 CST",
   "matches": [
     {
-      "alphaVolume5m": "22945.96298950693",
+      "alphaVolume5m": "23214.432903846962",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19448",
+      "holders": "19446",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,67 +36,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "10344036.042833958",
-      "marketCap": "16329130942.79256",
+      "liquidity": "10383427.916244682",
+      "marketCap": "16735713257.466307",
       "name": "LAB",
-      "percentChange5m": "-0.22",
-      "price": "16.32913094286895",
-      "quoteVolumeMin": "340128.7630000",
-      "quoteVolumeSum": "2351335.9197100",
+      "percentChange5m": "2.6",
+      "price": "16.735713257544596",
+      "quoteVolumeMin": "357756.8910000",
+      "quoteVolumeSum": "2717231.1181900",
       "quoteVolumes1m": [
-        "340128.7630000",
-        "413299.4860400",
-        "578569.2126800",
-        "523088.6937900",
-        "496249.7642000"
+        "357756.8910000",
+        "437466.0754000",
+        "420794.1204400",
+        "665094.1443800",
+        "836119.8869700"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "89.93669142884"
-    },
-    {
-      "alphaVolume5m": "466850.375511474",
-      "chainId": "56",
-      "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
-      "futuresSymbol": "EDGEUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/EDGEUSDT",
-      "holders": "2060",
-      "isFreshAlert": false,
-      "key": "56|0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf|EDGEUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://pro.edgex.exchange/en-US/home"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/edgeX_exchange"
-        }
-      ],
-      "liquidity": "1324158.6782442494",
-      "marketCap": "3766415.2084149644",
-      "name": "edgeX",
-      "percentChange5m": "-0.27",
-      "price": "0.8140275936113178",
-      "quoteVolumeMin": "300698.8318000",
-      "quoteVolumeSum": "2510356.8967000",
-      "quoteVolumes1m": [
-        "949489.3636000",
-        "458444.4203000",
-        "412625.3427000",
-        "389098.9383000",
-        "300698.8318000"
-      ],
-      "symbol": "EDGE",
-      "top10HoldersPercent": "95.39131782146798"
+      "top10HoldersPercent": "89.93669627408062"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 2,
+    "matchCount": 1,
     "symbols": [
-      "LABUSDT",
-      "EDGEUSDT"
+      "LABUSDT"
     ]
   },
   "telegram": {
