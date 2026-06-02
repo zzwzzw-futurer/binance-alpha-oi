@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-02T16:10:13.142028+00:00",
-  "generatedAtMs": 1780416613142,
-  "localTime": "2026-06-03 00:10:13 CST",
+  "generatedAt": "2026-06-02T16:15:14.037790+00:00",
+  "generatedAtMs": 1780416914037,
+  "localTime": "2026-06-03 00:15:14 CST",
   "matches": [
     {
-      "alphaVolume5m": "120905.16169548419",
+      "alphaVolume5m": "40261.51639574365",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19638",
+      "holders": "19642",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,71 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "12080880.259527411",
-      "marketCap": "20744973702.596497",
+      "liquidity": "12234827.18079351",
+      "marketCap": "20820025606.451645",
       "name": "LAB",
-      "percentChange5m": "2.83",
-      "price": "20.744973702693542",
-      "quoteVolumeMin": "456320.8654000",
-      "quoteVolumeSum": "16298285.3546700",
+      "percentChange5m": "0.79",
+      "price": "20.82002560654904",
+      "quoteVolumeMin": "623264.1818000",
+      "quoteVolumeSum": "5050072.4016800",
       "quoteVolumes1m": [
-        "456320.8654000",
-        "5065131.9233700",
-        "1883085.9123900",
-        "6729314.2823700",
-        "2164432.3711400"
+        "1528757.6025000",
+        "1295901.2920000",
+        "707876.4422000",
+        "623264.1818000",
+        "894272.8831800"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.90533679002925"
+      "top10HoldersPercent": "87.90533966600833"
+    },
+    {
+      "alphaVolume5m": "1849827.7492216486",
+      "chainId": "56",
+      "contractAddress": "0x539ae81a166e5e80aed211731563e549c411b140",
+      "futuresSymbol": "TAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAUSDT",
+      "holders": "3842",
+      "isFreshAlert": true,
+      "key": "56|0x539ae81a166e5e80aed211731563e549c411b140|TAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.trustalabs.ai/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/TrustalabsAnn"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/TrustaLabs"
+        }
+      ],
+      "liquidity": "368383.0970402263",
+      "marketCap": "93117514.7319793",
+      "name": "Trusta.AI",
+      "percentChange5m": "-0.26",
+      "price": "0.09998966195730251",
+      "quoteVolumeMin": "377124.2852200",
+      "quoteVolumeSum": "2361744.9858400",
+      "quoteVolumes1m": [
+        "377124.2852200",
+        "514511.3754400",
+        "465871.3019100",
+        "505149.6663500",
+        "499088.3569200"
+      ],
+      "symbol": "TA",
+      "top10HoldersPercent": "92.82051469426597"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "TAUSDT"
     ]
   },
   "telegram": {
