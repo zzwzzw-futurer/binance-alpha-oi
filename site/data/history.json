@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-01T12:57:30.064230+00:00",
-    "generatedAtMs": 1780318650064,
-    "localTime": "2026-06-01 20:57:30 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "25418.49581235683",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "0.16",
-        "price": "14.89372264557014",
-        "quoteVolumeMin": "480788.4387000",
-        "quoteVolumeSum": "3115506.3019000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "89.94491034998191"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-01T13:02:30.245241+00:00",
     "generatedAtMs": 1780318950245,
     "localTime": "2026-06-01 21:02:30 CST",
@@ -7125,6 +7099,47 @@
     ],
     "symbols": [
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-02T13:09:54.084475+00:00",
+    "generatedAtMs": 1780405794084,
+    "localTime": "2026-06-02 21:09:54 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "126956.77973404092",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-2.91",
+        "price": "20.036900781345356",
+        "quoteVolumeMin": "743545.9923400",
+        "quoteVolumeSum": "8555470.5928500",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.90254056158614"
+      },
+      {
+        "alphaVolume5m": "346560.14688164584",
+        "chainId": "56",
+        "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+        "futuresSymbol": "BILLUSDT",
+        "isFreshAlert": true,
+        "name": "Billions Network",
+        "percentChange5m": "-6.23",
+        "price": "0.08330018324523303",
+        "quoteVolumeMin": "339055.8807700",
+        "quoteVolumeSum": "3849018.4390300",
+        "symbol": "BILL",
+        "top10HoldersPercent": "93.4483264021183"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "BILLUSDT"
     ]
   }
 ]

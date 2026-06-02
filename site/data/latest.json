@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-02T13:04:53.571062+00:00",
-  "generatedAtMs": 1780405493571,
-  "localTime": "2026-06-02 21:04:53 CST",
+  "generatedAt": "2026-06-02T13:09:54.084475+00:00",
+  "generatedAtMs": 1780405794084,
+  "localTime": "2026-06-02 21:09:54 CST",
   "matches": [
     {
-      "alphaVolume5m": "29957.596066958777",
+      "alphaVolume5m": "126956.77973404092",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "19617",
+      "holders": "19619",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "12225837.9210056",
-      "marketCap": "20597666349.87284",
+      "liquidity": "12092504.02779738",
+      "marketCap": "20036900781.251625",
       "name": "LAB",
-      "percentChange5m": "-1.03",
-      "price": "20.5976663499692",
-      "quoteVolumeMin": "741772.3392100",
-      "quoteVolumeSum": "9850348.3874300",
+      "percentChange5m": "-2.91",
+      "price": "20.036900781345356",
+      "quoteVolumeMin": "743545.9923400",
+      "quoteVolumeSum": "8555470.5928500",
       "quoteVolumes1m": [
-        "1588360.4528800",
-        "4408191.3893600",
-        "1962437.2906800",
-        "1149586.9153000",
-        "741772.3392100"
+        "2059960.9751800",
+        "2003771.2010800",
+        "1069403.7601000",
+        "743545.9923400",
+        "2678788.6641500"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.90253766210765"
+      "top10HoldersPercent": "87.90254056158614"
+    },
+    {
+      "alphaVolume5m": "346560.14688164584",
+      "chainId": "56",
+      "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+      "futuresSymbol": "BILLUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BILLUSDT",
+      "holders": "37010",
+      "isFreshAlert": true,
+      "key": "56|0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5|BILLUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://billions.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/billions_ntwk"
+        }
+      ],
+      "liquidity": "2135831.7677292246",
+      "marketCap": "13428585.893074283",
+      "name": "Billions Network",
+      "percentChange5m": "-6.23",
+      "price": "0.08330018324523303",
+      "quoteVolumeMin": "339055.8807700",
+      "quoteVolumeSum": "3849018.4390300",
+      "quoteVolumes1m": [
+        "910017.2982200",
+        "1309980.6847600",
+        "339055.8807700",
+        "402535.7303400",
+        "887428.8449400"
+      ],
+      "symbol": "BILL",
+      "top10HoldersPercent": "93.4483264021183"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "BILLUSDT"
     ]
   },
   "telegram": {
