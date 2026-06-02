@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-01T16:12:47.337059+00:00",
-    "generatedAtMs": 1780330367337,
-    "localTime": "2026-06-02 00:12:47 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "37290.072565078895",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "0.39",
-        "price": "15.65603757331469",
-        "quoteVolumeMin": "636674.7276500",
-        "quoteVolumeSum": "4150686.6987500",
-        "symbol": "LAB",
-        "top10HoldersPercent": "89.95340639703565"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-01T16:17:47.990052+00:00",
     "generatedAtMs": 1780330667990,
     "localTime": "2026-06-02 00:17:47 CST",
@@ -7097,6 +7071,47 @@
         "quoteVolumeSum": "2546136.9287600",
         "symbol": "TA",
         "top10HoldersPercent": "91.92333054567493"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "TAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-02T16:25:15.391382+00:00",
+    "generatedAtMs": 1780417515391,
+    "localTime": "2026-06-03 00:25:15 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "68422.37228562443",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-2.71",
+        "price": "20.217249341461084",
+        "quoteVolumeMin": "1332199.0491600",
+        "quoteVolumeSum": "11897518.0774200",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.90558572595258"
+      },
+      {
+        "alphaVolume5m": "3820672.702177575",
+        "chainId": "56",
+        "contractAddress": "0x539ae81a166e5e80aed211731563e549c411b140",
+        "futuresSymbol": "TAUSDT",
+        "isFreshAlert": false,
+        "name": "Trusta.AI",
+        "percentChange5m": "-2.76",
+        "price": "0.09728231790578783",
+        "quoteVolumeMin": "525501.2716400",
+        "quoteVolumeSum": "4923163.1720700",
+        "symbol": "TA",
+        "top10HoldersPercent": "91.08443779451984"
       }
     ],
     "symbols": [
