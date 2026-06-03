@@ -9,53 +9,57 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-03T14:47:36.493612+00:00",
-  "generatedAtMs": 1780498056493,
-  "localTime": "2026-06-03 22:47:36 CST",
+  "generatedAt": "2026-06-03T14:52:36.760486+00:00",
+  "generatedAtMs": 1780498356760,
+  "localTime": "2026-06-03 22:52:36 CST",
   "matches": [
     {
-      "alphaVolume5m": "564810.7049064351",
+      "alphaVolume5m": "31755.042984529453",
       "chainId": "56",
-      "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
-      "futuresSymbol": "EDGEUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/EDGEUSDT",
-      "holders": "2109",
-      "isFreshAlert": false,
-      "key": "56|0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf|EDGEUSDT",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "20324",
+      "isFreshAlert": true,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
           "label": "website",
-          "link": "https://pro.edgex.exchange/en-US/home"
+          "link": "https://lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
         },
         {
           "label": "x",
-          "link": "https://x.com/edgeX_exchange"
+          "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "1252787.621802631",
-      "marketCap": "3774595.1017119093",
-      "name": "edgeX",
-      "percentChange5m": "2.44",
-      "price": "0.6799502448128936",
-      "quoteVolumeMin": "380723.6556000",
-      "quoteVolumeSum": "3058879.7700000",
+      "liquidity": "10459231.292978408",
+      "marketCap": "16750948191.742317",
+      "name": "LAB",
+      "percentChange5m": "2.08",
+      "price": "16.7509481918207",
+      "quoteVolumeMin": "371216.5631000",
+      "quoteVolumeSum": "6682803.6902500",
       "quoteVolumes1m": [
-        "926307.8970000",
-        "568800.2339000",
-        "716633.3815000",
-        "466414.6020000",
-        "380723.6556000"
+        "371216.5631000",
+        "1964562.1107000",
+        "2009112.2351700",
+        "1509955.3883800",
+        "827957.3929000"
       ],
-      "symbol": "EDGE",
-      "top10HoldersPercent": "95.02611400984297"
+      "symbol": "LAB",
+      "top10HoldersPercent": "88.88369083233911"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
+    "freshAlertCount": 1,
     "matchCount": 1,
     "symbols": [
-      "EDGEUSDT"
+      "LABUSDT"
     ]
   },
   "telegram": {
