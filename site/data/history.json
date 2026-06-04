@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-03T14:07:32.280274+00:00",
-    "generatedAtMs": 1780495652280,
-    "localTime": "2026-06-03 22:07:32 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "49814.74217191761",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-2.87",
-        "price": "16.388598624325738",
-        "quoteVolumeMin": "1209368.5539500",
-        "quoteVolumeSum": "8913426.5176800",
-        "symbol": "LAB",
-        "top10HoldersPercent": "88.88341964403911"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-03T14:12:32.888637+00:00",
     "generatedAtMs": 1780495952888,
     "localTime": "2026-06-03 22:12:32 CST",
@@ -4610,6 +4584,32 @@
     ],
     "symbols": [
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-04T14:07:12.831616+00:00",
+    "generatedAtMs": 1780582032831,
+    "localTime": "2026-06-04 22:07:12 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "999187.4002470009",
+        "chainId": "56",
+        "contractAddress": "0x5506599c722389a60580b5213ea1da60d64754a1",
+        "futuresSymbol": "ZESTUSDT",
+        "isFreshAlert": true,
+        "name": "Zest Protocol",
+        "percentChange5m": "9.65",
+        "price": "0.23952002820335752",
+        "quoteVolumeMin": "338802.6575600",
+        "quoteVolumeSum": "2430565.6884700",
+        "symbol": "ZEST",
+        "top10HoldersPercent": "95.96540136261643"
+      }
+    ],
+    "symbols": [
+      "ZESTUSDT"
     ]
   }
 ]
