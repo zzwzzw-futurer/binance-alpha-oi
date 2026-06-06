@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-06T15:12:18.392224+00:00",
-  "generatedAtMs": 1780758738392,
-  "localTime": "2026-06-06 23:12:18 CST",
-  "matches": [],
+  "generatedAt": "2026-06-06T15:17:19.373747+00:00",
+  "generatedAtMs": 1780759039373,
+  "localTime": "2026-06-06 23:17:19 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "53163.02114265309",
+      "chainId": "56",
+      "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
+      "futuresSymbol": "BLUAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLUAIUSDT",
+      "holders": "41274",
+      "isFreshAlert": false,
+      "key": "56|0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad|BLUAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bluwhale.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/bluwhaleofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/bluwhaleai"
+        }
+      ],
+      "liquidity": "1017365.5061998118",
+      "marketCap": "150818487.23274425",
+      "name": "Bluwhale",
+      "percentChange5m": "-10.54",
+      "price": "0.015081849658543986",
+      "quoteVolumeMin": "367317.7224710",
+      "quoteVolumeSum": "2415202.6500370",
+      "quoteVolumes1m": [
+        "398830.2394560",
+        "493690.1048340",
+        "367317.7224710",
+        "634000.4540290",
+        "521364.1292470"
+      ],
+      "symbol": "BLUAI",
+      "top10HoldersPercent": "89.76638696652677"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "BLUAIUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
