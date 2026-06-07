@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-06T16:57:27.187547+00:00",
-    "generatedAtMs": 1780765047187,
-    "localTime": "2026-06-07 00:57:27 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-06T17:02:27.576097+00:00",
     "generatedAtMs": 1780765347576,
     "localTime": "2026-06-07 01:02:27 CST",
@@ -4077,6 +4068,47 @@
       "LABUSDT",
       "BEATUSDT",
       "BSBUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-07T16:59:47.603862+00:00",
+    "generatedAtMs": 1780851587603,
+    "localTime": "2026-06-08 00:59:47 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "30937.702373922817",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-1.25",
+        "price": "13.851378040170987",
+        "quoteVolumeMin": "387942.9914000",
+        "quoteVolumeSum": "3594199.3367000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "88.69726877847336"
+      },
+      {
+        "alphaVolume5m": "135062.56400639436",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "0.81",
+        "price": "3.049698826113462",
+        "quoteVolumeMin": "354127.8332000",
+        "quoteVolumeSum": "4412151.8264000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "BEATUSDT"
     ]
   }
 ]
