@@ -9,57 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-07T16:59:47.603862+00:00",
-  "generatedAtMs": 1780851587603,
-  "localTime": "2026-06-08 00:59:47 CST",
+  "generatedAt": "2026-06-07T17:04:48.283600+00:00",
+  "generatedAtMs": 1780851888283,
+  "localTime": "2026-06-08 01:04:48 CST",
   "matches": [
     {
-      "alphaVolume5m": "30937.702373922817",
+      "alphaVolume5m": "576443.0124605839",
       "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "20999",
-      "isFreshAlert": false,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+      "futuresSymbol": "BSBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
+      "holders": "58122",
+      "isFreshAlert": true,
+      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
       "links": [
         {
           "label": "website",
-          "link": "https://lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
+          "link": "https://blockstreet.money/"
         },
         {
           "label": "x",
-          "link": "https://twitter.com/LABtrade_"
+          "link": "https://twitter.com/BlockSt_HQ"
         }
       ],
-      "liquidity": "9342188.646434508",
-      "marketCap": "13851378040.106173",
-      "name": "LAB",
-      "percentChange5m": "-1.25",
-      "price": "13.851378040170987",
-      "quoteVolumeMin": "387942.9914000",
-      "quoteVolumeSum": "3594199.3367000",
+      "liquidity": "1918684.1841354673",
+      "marketCap": "17864190.197264537",
+      "name": "Block Street",
+      "percentChange5m": "-9.72",
+      "price": "0.3568855453030108",
+      "quoteVolumeMin": "707473.9547000",
+      "quoteVolumeSum": "8758123.4260400",
       "quoteVolumes1m": [
-        "812589.7118000",
-        "499481.2927000",
-        "1030543.7151000",
-        "863641.6257000",
-        "387942.9914000"
+        "809516.0624700",
+        "2000448.7648600",
+        "2336157.7851900",
+        "2904526.8588200",
+        "707473.9547000"
       ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "88.69726877847336"
+      "symbol": "BSB",
+      "top10HoldersPercent": "91.4794902267693"
     },
     {
-      "alphaVolume5m": "135062.56400639436",
+      "alphaVolume5m": "91407.29087213679",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142027",
+      "holders": "142035",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -76,19 +72,19 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "3603231.9795565065",
-      "marketCap": "3012025792.74482",
+      "liquidity": "3650547.187727797",
+      "marketCap": "3074138269.4856405",
       "name": "Audiera",
-      "percentChange5m": "0.81",
-      "price": "3.049698826113462",
-      "quoteVolumeMin": "354127.8332000",
-      "quoteVolumeSum": "4412151.8264000",
+      "percentChange5m": "1.99",
+      "price": "3.1125881771474915",
+      "quoteVolumeMin": "324722.5172000",
+      "quoteVolumeSum": "2961066.6362000",
       "quoteVolumes1m": [
-        "2268261.3200000",
-        "664146.4691000",
-        "354127.8332000",
-        "461043.1857000",
-        "664573.0184000"
+        "324722.5172000",
+        "748009.3407000",
+        "577402.5144000",
+        "587314.5355000",
+        "723617.7284000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
@@ -96,10 +92,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
+    "freshAlertCount": 1,
     "matchCount": 2,
     "symbols": [
-      "LABUSDT",
+      "BSBUSDT",
       "BEATUSDT"
     ]
   },
