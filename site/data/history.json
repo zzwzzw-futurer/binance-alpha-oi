@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-07T21:30:18.719475+00:00",
-    "generatedAtMs": 1780867818719,
-    "localTime": "2026-06-08 05:30:18 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "63373.16001100545",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "0.96",
-        "price": "3.370647498083301",
-        "quoteVolumeMin": "305524.8137000",
-        "quoteVolumeSum": "1956611.5355000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-07T21:35:19.377238+00:00",
     "generatedAtMs": 1780868119377,
@@ -5192,6 +5166,32 @@
         "price": "0.24373813794152555",
         "quoteVolumeMin": "578599.5934200",
         "quoteVolumeSum": "4292755.5764500",
+        "symbol": "H",
+        "top10HoldersPercent": "82.15946926124342"
+      }
+    ],
+    "symbols": [
+      "HUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-08T21:32:43.398464+00:00",
+    "generatedAtMs": 1780954363398,
+    "localTime": "2026-06-09 05:32:43 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "87814.21406877707",
+        "chainId": "56",
+        "contractAddress": "0x44f161ae29361e332dea039dfa2f404e0bc5b5cc",
+        "futuresSymbol": "HUSDT",
+        "isFreshAlert": false,
+        "name": "Humanity Protocol",
+        "percentChange5m": "0.38",
+        "price": "0.24455841054413363",
+        "quoteVolumeMin": "367857.0754200",
+        "quoteVolumeSum": "2114548.2358900",
         "symbol": "H",
         "top10HoldersPercent": "82.15946926124342"
       }
