@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-08T01:45:42.589158+00:00",
-  "generatedAtMs": 1780883142589,
-  "localTime": "2026-06-08 09:45:42 CST",
+  "generatedAt": "2026-06-08T01:50:42.668345+00:00",
+  "generatedAtMs": 1780883442668,
+  "localTime": "2026-06-08 09:50:42 CST",
   "matches": [
     {
-      "alphaVolume5m": "75266.86500003311",
+      "alphaVolume5m": "120105.49442067892",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142141",
-      "isFreshAlert": true,
+      "holders": "142146",
+      "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
         {
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "4217739.3868017",
-      "marketCap": "3806901390.301099",
+      "liquidity": "4220684.552791323",
+      "marketCap": "3810784962.570656",
       "name": "Audiera",
-      "percentChange5m": "0.35",
-      "price": "3.854516362076373",
-      "quoteVolumeMin": "434652.8909000",
-      "quoteVolumeSum": "2860638.0705000",
+      "percentChange5m": "-0.28",
+      "price": "3.8584485082818016",
+      "quoteVolumeMin": "361839.0454000",
+      "quoteVolumeSum": "3725127.6369000",
       "quoteVolumes1m": [
-        "692843.3801000",
-        "434652.8909000",
-        "442118.9997000",
-        "471358.0589000",
-        "819664.7409000"
+        "764727.7702000",
+        "361839.0454000",
+        "436770.2490000",
+        "1305762.6303000",
+        "856027.9420000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
+    },
+    {
+      "alphaVolume5m": "172885.97960384813",
+      "chainId": "56",
+      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+      "futuresSymbol": "BLESSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
+      "holders": "6120",
+      "isFreshAlert": true,
+      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bless.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/theblessnetwork"
+        }
+      ],
+      "liquidity": "751799.887607139",
+      "marketCap": "7538886.019006744",
+      "name": "Bless",
+      "percentChange5m": "-7.3",
+      "price": "0.009115889633078455",
+      "quoteVolumeMin": "355263.0372760",
+      "quoteVolumeSum": "2894766.8847000",
+      "quoteVolumes1m": [
+        "487278.6511070",
+        "508273.6191670",
+        "1137270.1151700",
+        "406681.4619800",
+        "355263.0372760"
+      ],
+      "symbol": "BLESS",
+      "top10HoldersPercent": "80.88585030017104"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 1,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BEATUSDT"
+      "BEATUSDT",
+      "BLESSUSDT"
     ]
   },
   "telegram": {
