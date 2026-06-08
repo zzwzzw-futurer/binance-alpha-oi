@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-07T09:39:07.911437+00:00",
-    "generatedAtMs": 1780825147911,
-    "localTime": "2026-06-07 17:39:07 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "215489.27237335758",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": false,
-        "name": "Bitway",
-        "percentChange5m": "2.28",
-        "price": "0.05327533153505868",
-        "quoteVolumeMin": "604371.9247800",
-        "quoteVolumeSum": "4290573.8297150",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.096077552512"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-07T09:44:08.217049+00:00",
     "generatedAtMs": 1780825448217,
     "localTime": "2026-06-07 17:44:08 CST",
@@ -4036,5 +4010,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-08T09:41:35.652306+00:00",
+    "generatedAtMs": 1780911695652,
+    "localTime": "2026-06-08 17:41:35 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "77609.25259953357",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "0.85",
+        "price": "4.2680658124265625",
+        "quoteVolumeMin": "355329.8052000",
+        "quoteVolumeSum": "2512011.5401000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT"
+    ]
   }
 ]
