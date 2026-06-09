@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-08T01:00:39.771224+00:00",
-    "generatedAtMs": 1780880439771,
-    "localTime": "2026-06-08 09:00:39 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-08T01:05:40.032751+00:00",
     "generatedAtMs": 1780880740032,
     "localTime": "2026-06-08 09:05:40 CST",
@@ -5687,6 +5678,32 @@
         "quoteVolumeSum": "3863532.2445700",
         "symbol": "H",
         "top10HoldersPercent": "82.41462974811421"
+      }
+    ],
+    "symbols": [
+      "HUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-09T01:03:03.207416+00:00",
+    "generatedAtMs": 1780966983207,
+    "localTime": "2026-06-09 09:03:03 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "977577.0761360204",
+        "chainId": "56",
+        "contractAddress": "0x44f161ae29361e332dea039dfa2f404e0bc5b5cc",
+        "futuresSymbol": "HUSDT",
+        "isFreshAlert": true,
+        "name": "Humanity Protocol",
+        "percentChange5m": "-5.88",
+        "price": "0.0666874210208265",
+        "quoteVolumeMin": "501104.1895100",
+        "quoteVolumeSum": "3961496.5228000",
+        "symbol": "H",
+        "top10HoldersPercent": "83.22285541495161"
       }
     ],
     "symbols": [
