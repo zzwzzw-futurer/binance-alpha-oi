@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-09T08:23:50.745681+00:00",
-  "generatedAtMs": 1780993430745,
-  "localTime": "2026-06-09 16:23:50 CST",
+  "generatedAt": "2026-06-09T08:28:51.156246+00:00",
+  "generatedAtMs": 1780993731156,
+  "localTime": "2026-06-09 16:28:51 CST",
   "matches": [
     {
-      "alphaVolume5m": "192702.49886158138",
+      "alphaVolume5m": "171649.25878070726",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142272",
+      "holders": "142268",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,30 +36,71 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "4445735.584830089",
-      "marketCap": "4061761643.6115994",
+      "liquidity": "4410646.725112323",
+      "marketCap": "4017610257.8267217",
       "name": "Audiera",
-      "percentChange5m": "8.76",
-      "price": "4.112564290223667",
-      "quoteVolumeMin": "373633.0232000",
-      "quoteVolumeSum": "5619939.1855000",
+      "percentChange5m": "-1.06",
+      "price": "4.067860679210854",
+      "quoteVolumeMin": "669322.0225000",
+      "quoteVolumeSum": "6170112.8964000",
       "quoteVolumes1m": [
-        "557743.3984000",
-        "373633.0232000",
-        "381359.9457000",
-        "527969.3382000",
-        "3779233.4800000"
+        "1779526.0325000",
+        "755931.9901000",
+        "1404739.7209000",
+        "1560593.1304000",
+        "669322.0225000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
+    },
+    {
+      "alphaVolume5m": "124.3086834268791",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "238038",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "350530.01869779744",
+      "marketCap": "2194561.026489495",
+      "name": "SLIMEX",
+      "percentChange5m": "0.01",
+      "price": "0.00126633642613358",
+      "quoteVolumeMin": "432743.6621500",
+      "quoteVolumeSum": "5308398.4443600",
+      "quoteVolumes1m": [
+        "524421.5492700",
+        "1572173.4772400",
+        "902372.9069300",
+        "1876686.8487700",
+        "432743.6621500"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.69293089966081"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BEATUSDT"
+      "BEATUSDT",
+      "SLXUSDT"
     ]
   },
   "telegram": {

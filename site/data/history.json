@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-08T08:26:23.568580+00:00",
-    "generatedAtMs": 1780907183568,
-    "localTime": "2026-06-08 16:26:23 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "112719.8737513092",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "-1.02",
-        "price": "4.204725469819791",
-        "quoteVolumeMin": "317383.3592000",
-        "quoteVolumeSum": "3256224.0275000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-08T08:31:24.532423+00:00",
     "generatedAtMs": 1780907484532,
     "localTime": "2026-06-08 16:31:24 CST",
@@ -5828,6 +5802,47 @@
     ],
     "symbols": [
       "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-09T08:28:51.156246+00:00",
+    "generatedAtMs": 1780993731156,
+    "localTime": "2026-06-09 16:28:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "171649.25878070726",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-1.06",
+        "price": "4.067860679210854",
+        "quoteVolumeMin": "669322.0225000",
+        "quoteVolumeSum": "6170112.8964000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      },
+      {
+        "alphaVolume5m": "124.3086834268791",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": true,
+        "name": "SLIMEX",
+        "percentChange5m": "0.01",
+        "price": "0.00126633642613358",
+        "quoteVolumeMin": "432743.6621500",
+        "quoteVolumeSum": "5308398.4443600",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.69293089966081"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT",
+      "SLXUSDT"
     ]
   }
 ]
