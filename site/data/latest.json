@@ -9,15 +9,136 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-09T07:33:44.039471+00:00",
-  "generatedAtMs": 1780990424039,
-  "localTime": "2026-06-09 15:33:44 CST",
-  "matches": [],
+  "generatedAt": "2026-06-09T07:38:44.681327+00:00",
+  "generatedAtMs": 1780990724681,
+  "localTime": "2026-06-09 15:38:44 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "120.93469238999218",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "238037",
+      "isFreshAlert": false,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "350468.2412997733",
+      "marketCap": "2194127.1857741233",
+      "name": "SLIMEX",
+      "percentChange5m": "0.01",
+      "price": "0.0012660860852707",
+      "quoteVolumeMin": "449520.0409500",
+      "quoteVolumeSum": "3518395.8471900",
+      "quoteVolumes1m": [
+        "808105.9383800",
+        "449520.0409500",
+        "555652.5239000",
+        "1028013.1395600",
+        "677104.2044000"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.69293089966081"
+    },
+    {
+      "alphaVolume5m": "181610.47015110598",
+      "chainId": "56",
+      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "27287",
+      "isFreshAlert": false,
+      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://solstice.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/solsticefi"
+        }
+      ],
+      "liquidity": "1229494.2672094658",
+      "marketCap": "3869521.7815189753",
+      "name": "Solstice",
+      "percentChange5m": "-3.06",
+      "price": "0.25622795436667767",
+      "quoteVolumeMin": "449520.0409500",
+      "quoteVolumeSum": "3518395.8471900",
+      "quoteVolumes1m": [
+        "808105.9383800",
+        "449520.0409500",
+        "555652.5239000",
+        "1028013.1395600",
+        "677104.2044000"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "81.74282295020488"
+    },
+    {
+      "alphaVolume5m": "81501.28515265367",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142272",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "3926553.396255351",
+      "marketCap": "3390196366.4637475",
+      "name": "Audiera",
+      "percentChange5m": "-2.58",
+      "price": "3.432599383445766",
+      "quoteVolumeMin": "322854.0114000",
+      "quoteVolumeSum": "2849908.2677000",
+      "quoteVolumes1m": [
+        "417994.3241000",
+        "1141634.1245000",
+        "549695.9010000",
+        "322854.0114000",
+        "417729.9067000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 3,
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT",
+      "BEATUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
