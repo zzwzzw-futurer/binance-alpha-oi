@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-08T01:50:42.668345+00:00",
-    "generatedAtMs": 1780883442668,
-    "localTime": "2026-06-08 09:50:42 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "120105.49442067892",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "-0.28",
-        "price": "3.8584485082818016",
-        "quoteVolumeMin": "361839.0454000",
-        "quoteVolumeSum": "3725127.6369000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      },
-      {
-        "alphaVolume5m": "172885.97960384813",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": true,
-        "name": "Bless",
-        "percentChange5m": "-7.3",
-        "price": "0.009115889633078455",
-        "quoteVolumeMin": "355263.0372760",
-        "quoteVolumeSum": "2894766.8847000",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "80.88585030017104"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT",
-      "BLESSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-08T01:55:42.630031+00:00",
     "generatedAtMs": 1780883742630,
@@ -5806,6 +5765,32 @@
         "quoteVolumeSum": "4120127.0402200",
         "symbol": "H",
         "top10HoldersPercent": "84.00571919157973"
+      }
+    ],
+    "symbols": [
+      "HUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-09T01:53:09.054866+00:00",
+    "generatedAtMs": 1780969989054,
+    "localTime": "2026-06-09 09:53:09 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "64845.24502879219",
+        "chainId": "56",
+        "contractAddress": "0x44f161ae29361e332dea039dfa2f404e0bc5b5cc",
+        "futuresSymbol": "HUSDT",
+        "isFreshAlert": false,
+        "name": "Humanity Protocol",
+        "percentChange5m": "13.83",
+        "price": "0.042314984882387205",
+        "quoteVolumeMin": "821125.6328800",
+        "quoteVolumeSum": "4913574.1064300",
+        "symbol": "H",
+        "top10HoldersPercent": "83.83733804559766"
       }
     ],
     "symbols": [
