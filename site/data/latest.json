@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-09T09:38:58.048364+00:00",
-  "generatedAtMs": 1780997938048,
-  "localTime": "2026-06-09 17:38:58 CST",
-  "matches": [],
+  "generatedAt": "2026-06-09T09:43:58.613386+00:00",
+  "generatedAtMs": 1780998238613,
+  "localTime": "2026-06-09 17:43:58 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "100.05729613478397",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "238032",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "348325.3704550314",
+      "marketCap": "2176606.793992216",
+      "name": "SLIMEX",
+      "percentChange5m": "-0.01",
+      "price": "0.00125597622273065",
+      "quoteVolumeMin": "311535.7586800",
+      "quoteVolumeSum": "3252022.2164600",
+      "quoteVolumes1m": [
+        "311535.7586800",
+        "879555.2868600",
+        "913455.5581300",
+        "656527.9573700",
+        "490947.6554200"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.69293089966081"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "SLXUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
