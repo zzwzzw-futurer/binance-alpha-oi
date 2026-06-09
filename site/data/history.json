@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-08T19:42:32.476734+00:00",
-    "generatedAtMs": 1780947752476,
-    "localTime": "2026-06-09 03:42:32 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "1554676.329209525",
-        "chainId": "56",
-        "contractAddress": "0x44f161ae29361e332dea039dfa2f404e0bc5b5cc",
-        "futuresSymbol": "HUSDT",
-        "isFreshAlert": false,
-        "name": "Humanity Protocol",
-        "percentChange5m": "-0.7",
-        "price": "0.3183876909701405",
-        "quoteVolumeMin": "597876.8749500",
-        "quoteVolumeSum": "4353516.2633400",
-        "symbol": "H",
-        "top10HoldersPercent": "81.50740041315163"
-      }
-    ],
-    "symbols": [
-      "HUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-08T19:47:33.941260+00:00",
     "generatedAtMs": 1780948053941,
@@ -5222,6 +5196,32 @@
         "price": "0.39878971676170366",
         "quoteVolumeMin": "395321.1503700",
         "quoteVolumeSum": "4498973.5731800",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.12146446113336"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-09T19:45:06.534587+00:00",
+    "generatedAtMs": 1781034306534,
+    "localTime": "2026-06-10 03:45:06 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "6971.643365773321",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-0.51",
+        "price": "0.3961056774034861",
+        "quoteVolumeMin": "312546.5366100",
+        "quoteVolumeSum": "1698263.8425500",
         "symbol": "VELVET",
         "top10HoldersPercent": "89.12146446113336"
       }
