@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-08T07:41:17.839810+00:00",
-    "generatedAtMs": 1780904477839,
-    "localTime": "2026-06-08 15:41:17 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "98887.51013065601",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "0.7",
-        "price": "4.126561908483384",
-        "quoteVolumeMin": "340298.5123000",
-        "quoteVolumeSum": "2639573.1388000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-08T07:46:18.298683+00:00",
     "generatedAtMs": 1780904778298,
     "localTime": "2026-06-08 15:46:18 CST",
@@ -5707,6 +5681,62 @@
         "price": "3.432599383445766",
         "quoteVolumeMin": "322854.0114000",
         "quoteVolumeSum": "2849908.2677000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT",
+      "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-09T07:43:45.184605+00:00",
+    "generatedAtMs": 1780991025184,
+    "localTime": "2026-06-09 15:43:45 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "106.64977091949662",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "SLIMEX",
+        "percentChange5m": "0.01",
+        "price": "0.001265890518776316",
+        "quoteVolumeMin": "409097.7302000",
+        "quoteVolumeSum": "2770772.1549700",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.69293089966081"
+      },
+      {
+        "alphaVolume5m": "136811.7950080593",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "Solstice",
+        "percentChange5m": "2.01",
+        "price": "0.2615204130562572",
+        "quoteVolumeMin": "409097.7302000",
+        "quoteVolumeSum": "2770772.1549700",
+        "symbol": "SLX",
+        "top10HoldersPercent": "81.5605198808907"
+      },
+      {
+        "alphaVolume5m": "115131.754107034",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "1.17",
+        "price": "3.4800667905080074",
+        "quoteVolumeMin": "371346.9850000",
+        "quoteVolumeSum": "3441465.1809000",
         "symbol": "BEAT",
         "top10HoldersPercent": "84.072727273"
       }
