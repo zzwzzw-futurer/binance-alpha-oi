@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-10T23:32:12.103672+00:00",
-  "generatedAtMs": 1781134332103,
-  "localTime": "2026-06-11 07:32:12 CST",
+  "generatedAt": "2026-06-10T23:37:12.934056+00:00",
+  "generatedAtMs": 1781134632934,
+  "localTime": "2026-06-11 07:37:12 CST",
   "matches": [
     {
-      "alphaVolume5m": "46661.15866424574",
+      "alphaVolume5m": "50052.41968501613",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14022",
+      "holders": "14024",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,67 +36,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3991826.748463126",
-      "marketCap": "911634673.9643313",
+      "liquidity": "4007289.428712978",
+      "marketCap": "914650232.6815383",
       "name": "Velvet",
-      "percentChange5m": "1.16",
-      "price": "0.9116346848915137",
-      "quoteVolumeMin": "513528.5840800",
-      "quoteVolumeSum": "4007497.9043800",
+      "percentChange5m": "0.56",
+      "price": "0.9146502436448662",
+      "quoteVolumeMin": "563575.5888300",
+      "quoteVolumeSum": "6532002.2941100",
       "quoteVolumes1m": [
-        "886712.3521000",
-        "513528.5840800",
-        "567952.4781600",
-        "700053.6189700",
-        "1339250.8710700"
+        "563575.5888300",
+        "575506.2369300",
+        "2974004.9938500",
+        "1084516.6297500",
+        "1334398.8447500"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "89.12048633473"
-    },
-    {
-      "alphaVolume5m": "251959.68414295395",
-      "chainId": "56",
-      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-      "futuresSymbol": "BTWUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "8626",
-      "isFreshAlert": true,
-      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://bitway.com"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/bitwayofficial"
-        }
-      ],
-      "liquidity": "1350987.3671786517",
-      "marketCap": "719342335.59179",
-      "name": "Bitway",
-      "percentChange5m": "17.44",
-      "price": "0.07193423509028778",
-      "quoteVolumeMin": "406716.6891440",
-      "quoteVolumeSum": "3525438.2686320",
-      "quoteVolumes1m": [
-        "808373.9839710",
-        "727121.6032860",
-        "406716.6891440",
-        "1119876.6945680",
-        "463349.2976630"
-      ],
-      "symbol": "BTW",
-      "top10HoldersPercent": "99.13575025547945"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "VELVETUSDT",
-      "BTWUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
