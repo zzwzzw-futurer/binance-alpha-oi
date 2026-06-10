@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-09T23:30:33.190797+00:00",
-    "generatedAtMs": 1781047833190,
-    "localTime": "2026-06-10 07:30:33 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-09T23:35:34.440674+00:00",
     "generatedAtMs": 1781048134440,
     "localTime": "2026-06-10 07:35:34 CST",
@@ -5790,6 +5781,47 @@
     ],
     "symbols": [
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-10T23:32:12.103672+00:00",
+    "generatedAtMs": 1781134332103,
+    "localTime": "2026-06-11 07:32:12 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "46661.15866424574",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "1.16",
+        "price": "0.9116346848915137",
+        "quoteVolumeMin": "513528.5840800",
+        "quoteVolumeSum": "4007497.9043800",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.12048633473"
+      },
+      {
+        "alphaVolume5m": "251959.68414295395",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": true,
+        "name": "Bitway",
+        "percentChange5m": "17.44",
+        "price": "0.07193423509028778",
+        "quoteVolumeMin": "406716.6891440",
+        "quoteVolumeSum": "3525438.2686320",
+        "symbol": "BTW",
+        "top10HoldersPercent": "99.13575025547945"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "BTWUSDT"
     ]
   }
 ]
