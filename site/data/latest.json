@@ -9,12 +9,52 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-10T22:27:57.041149+00:00",
-  "generatedAtMs": 1781130477041,
-  "localTime": "2026-06-11 06:27:57 CST",
+  "generatedAt": "2026-06-10T22:32:07.199053+00:00",
+  "generatedAtMs": 1781130727199,
+  "localTime": "2026-06-11 06:32:07 CST",
   "matches": [
     {
-      "alphaVolume5m": "33908.02882339019",
+      "alphaVolume5m": "3665956.8611385757",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142510",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "6046368.148683992",
+      "marketCap": "6280625748.239439",
+      "name": "Audiera",
+      "percentChange5m": "1.75",
+      "price": "6.359180926604546",
+      "quoteVolumeMin": "1790371.1318000",
+      "quoteVolumeSum": "13185766.7722000",
+      "quoteVolumes1m": [
+        "3932859.6640000",
+        "2021369.8680000",
+        "2285434.1434000",
+        "1790371.1318000",
+        "3155731.9650000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
+    },
+    {
+      "alphaVolume5m": "50912.951708273664",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
@@ -36,62 +76,22 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3429066.6207192834",
-      "marketCap": "773388580.5441289",
+      "liquidity": "3430700.5860535796",
+      "marketCap": "773768203.0083274",
       "name": "Velvet",
-      "percentChange5m": "-2.53",
-      "price": "0.7733885898142436",
-      "quoteVolumeMin": "846615.6962000",
-      "quoteVolumeSum": "5374710.2298900",
+      "percentChange5m": "-0.45",
+      "price": "0.7737682122829924",
+      "quoteVolumeMin": "567212.4453100",
+      "quoteVolumeSum": "3588432.9533300",
       "quoteVolumes1m": [
-        "846615.6962000",
-        "901993.3127600",
-        "1491900.3239900",
-        "1037668.5518000",
-        "1096532.3451400"
+        "567212.4453100",
+        "846733.9451600",
+        "854378.6898100",
+        "744898.8012000",
+        "575209.0718500"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "89.12052121756061"
-    },
-    {
-      "alphaVolume5m": "4081751.6428797264",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142507",
-      "isFreshAlert": false,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "6292172.56520799",
-      "marketCap": "6688194643.843278",
-      "name": "Audiera",
-      "percentChange5m": "-13.7",
-      "price": "6.771847506511452",
-      "quoteVolumeMin": "366330.7126000",
-      "quoteVolumeSum": "22492943.4288000",
-      "quoteVolumes1m": [
-        "366330.7126000",
-        "966088.9805000",
-        "8460855.5117000",
-        "7622817.3973000",
-        "5076850.8267000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
@@ -99,8 +99,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "VELVETUSDT",
-      "BEATUSDT"
+      "BEATUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
