@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-10T03:25:58.211300+00:00",
-    "generatedAtMs": 1781061958211,
-    "localTime": "2026-06-10 11:25:58 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "197599.91705132817",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": true,
-        "name": "Bitway",
-        "percentChange5m": "-6.63",
-        "price": "0.09040665814313069",
-        "quoteVolumeMin": "604548.2281770",
-        "quoteVolumeSum": "4178459.4368620",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.00782082212164"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-10T03:30:58.448231+00:00",
     "generatedAtMs": 1781062258448,
@@ -6269,6 +6243,47 @@
         "price": "0.8260442702708652",
         "quoteVolumeMin": "494281.9348900",
         "quoteVolumeSum": "3737246.5356000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.13654860656898"
+      }
+    ],
+    "symbols": [
+      "AIOUSDT",
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-11T03:27:35.253617+00:00",
+    "generatedAtMs": 1781148455253,
+    "localTime": "2026-06-11 11:27:35 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "308619.47858495207",
+        "chainId": "56",
+        "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
+        "futuresSymbol": "AIOUSDT",
+        "isFreshAlert": false,
+        "name": "OLAXBT",
+        "percentChange5m": "4.35",
+        "price": "0.19853750084871338",
+        "quoteVolumeMin": "436821.8090000",
+        "quoteVolumeSum": "2967104.4748100",
+        "symbol": "AIO",
+        "top10HoldersPercent": "93.35443922538653"
+      },
+      {
+        "alphaVolume5m": "29320.79293708279",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "3.79",
+        "price": "0.8566438217105568",
+        "quoteVolumeMin": "344283.2220900",
+        "quoteVolumeSum": "2847762.0618700",
         "symbol": "VELVET",
         "top10HoldersPercent": "89.13654860656898"
       }
