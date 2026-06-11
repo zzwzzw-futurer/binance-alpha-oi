@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T19:44:12.888519+00:00",
-  "generatedAtMs": 1781207052888,
-  "localTime": "2026-06-12 03:44:12 CST",
+  "generatedAt": "2026-06-11T19:49:13.546469+00:00",
+  "generatedAtMs": 1781207353546,
+  "localTime": "2026-06-12 03:49:13 CST",
   "matches": [
     {
-      "alphaVolume5m": "48539.006259059635",
+      "alphaVolume5m": "53335.66342100566",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14353",
+      "holders": "14359",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,71 +36,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "5641254.822556593",
-      "marketCap": "1301012194.5816314",
+      "liquidity": "5636304.491953659",
+      "marketCap": "1299495325.3898456",
       "name": "Velvet",
-      "percentChange5m": "-0.84",
-      "price": "1.3010122101760333",
-      "quoteVolumeMin": "522964.3315100",
-      "quoteVolumeSum": "3735414.4439000",
+      "percentChange5m": "-0.12",
+      "price": "1.299495340966066",
+      "quoteVolumeMin": "484319.0334400",
+      "quoteVolumeSum": "4244481.5712800",
       "quoteVolumes1m": [
-        "1221822.8821500",
-        "669721.6424900",
-        "522964.3315100",
-        "676622.1908400",
-        "644283.3969100"
+        "484319.0334400",
+        "1001632.2707300",
+        "683432.6980900",
+        "1360484.8607900",
+        "714612.7082300"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.72874607230668"
-    },
-    {
-      "alphaVolume5m": "245772.14791537946",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142806",
-      "isFreshAlert": false,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "5302214.231460213",
-      "marketCap": "9425244656.402355",
-      "name": "Audiera",
-      "percentChange5m": "-0.75",
-      "price": "9.543131281843461",
-      "quoteVolumeMin": "363591.8313000",
-      "quoteVolumeSum": "3217963.0289000",
-      "quoteVolumes1m": [
-        "363591.8313000",
-        "489661.3512000",
-        "636782.6503000",
-        "1014581.4252000",
-        "713345.7709000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 2,
+    "matchCount": 1,
     "symbols": [
-      "VELVETUSDT",
-      "BEATUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
