@@ -9,18 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T12:58:37.072039+00:00",
-  "generatedAtMs": 1781182717072,
-  "localTime": "2026-06-11 20:58:37 CST",
+  "generatedAt": "2026-06-11T13:03:37.143949+00:00",
+  "generatedAtMs": 1781183017143,
+  "localTime": "2026-06-11 21:03:37 CST",
   "matches": [
     {
-      "alphaVolume5m": "645256.9822777666",
+      "alphaVolume5m": "55801.34200198888",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21061",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "7210659.083777602",
+      "marketCap": "9540002714.651209",
+      "name": "LAB",
+      "percentChange5m": "10.89",
+      "price": "9.54000271469585",
+      "quoteVolumeMin": "804963.4835700",
+      "quoteVolumeSum": "11826889.9552300",
+      "quoteVolumes1m": [
+        "804963.4835700",
+        "4741559.2547000",
+        "2433512.8097200",
+        "1564422.2210000",
+        "2282432.1862400"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "88.57561162572233"
+    },
+    {
+      "alphaVolume5m": "638955.9447805196",
       "chainId": "56",
       "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
       "futuresSymbol": "SPACEUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/SPACEUSDT",
-      "holders": "4548",
-      "isFreshAlert": true,
+      "holders": "4549",
+      "isFreshAlert": false,
       "key": "56|0x87acfa3fd7a6e0d48677d070644d76905c2bdc00|SPACEUSDT",
       "links": [
         {
@@ -32,30 +72,30 @@
           "link": "https://twitter.com/spacecoin"
         }
       ],
-      "liquidity": "1432648.8333678085",
-      "marketCap": "2077866.2219620314",
+      "liquidity": "1390863.9858146156",
+      "marketCap": "1936239.5131112172",
       "name": "Spacecoin",
-      "percentChange5m": "-0.39",
-      "price": "0.007672888695472256",
-      "quoteVolumeMin": "423178.8457400",
-      "quoteVolumeSum": "4166888.4416190",
+      "percentChange5m": "-6.72",
+      "price": "0.007150880051559065",
+      "quoteVolumeMin": "372401.1593970",
+      "quoteVolumeSum": "3116497.9221120",
       "quoteVolumes1m": [
-        "1199741.5538000",
-        "900286.9774650",
-        "1174548.7549600",
-        "469132.3096540",
-        "423178.8457400"
+        "372401.1593970",
+        "590706.6874280",
+        "488233.2105580",
+        "477861.1942090",
+        "1187295.6705200"
       ],
       "symbol": "SPACE",
-      "top10HoldersPercent": "84.0797615161992"
+      "top10HoldersPercent": "85.55498196800846"
     },
     {
-      "alphaVolume5m": "13725.176138183253",
+      "alphaVolume5m": "6690.516171950039",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14197",
+      "holders": "14199",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -72,19 +112,19 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3570715.2824979266",
-      "marketCap": "800908624.6334838",
+      "liquidity": "3555628.2272002664",
+      "marketCap": "797228486.8232414",
       "name": "Velvet",
-      "percentChange5m": "-1.57",
-      "price": "0.8009086342334637",
-      "quoteVolumeMin": "322196.4805700",
-      "quoteVolumeSum": "2825070.2165500",
+      "percentChange5m": "-0.44",
+      "price": "0.7972284963791099",
+      "quoteVolumeMin": "359316.6287400",
+      "quoteVolumeSum": "2243278.5861300",
       "quoteVolumes1m": [
-        "444220.0352900",
-        "322196.4805700",
-        "694431.9339100",
-        "898268.2502500",
-        "465953.5165300"
+        "457229.7784700",
+        "368565.4440400",
+        "488387.8980000",
+        "359316.6287400",
+        "569778.8368800"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.87978849895141"
@@ -92,9 +132,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 3,
     "symbols": [
+      "LABUSDT",
       "SPACEUSDT",
       "VELVETUSDT"
     ]
