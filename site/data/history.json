@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-10T14:02:04.833703+00:00",
-    "generatedAtMs": 1781100124833,
-    "localTime": "2026-06-10 22:02:04 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "13243.189647620131",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": true,
-        "name": "Velvet",
-        "percentChange5m": "-5.09",
-        "price": "0.35751626910335693",
-        "quoteVolumeMin": "498801.3725300",
-        "quoteVolumeSum": "3453442.8504200",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.12316112177746"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-10T14:07:05.113924+00:00",
     "generatedAtMs": 1781100425113,
@@ -8230,6 +8204,47 @@
       }
     ],
     "symbols": [
+      "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-11T14:03:42.783139+00:00",
+    "generatedAtMs": 1781186622783,
+    "localTime": "2026-06-11 22:03:42 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "63048.29016823163",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "7.98",
+        "price": "0.87685205791948",
+        "quoteVolumeMin": "526332.1099800",
+        "quoteVolumeSum": "10808858.7449500",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "88.87978849895141"
+      },
+      {
+        "alphaVolume5m": "224148.94070156183",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-2.59",
+        "price": "9.017082272677364",
+        "quoteVolumeMin": "309528.8577000",
+        "quoteVolumeSum": "2525145.8664000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
       "BEATUSDT"
     ]
   }
