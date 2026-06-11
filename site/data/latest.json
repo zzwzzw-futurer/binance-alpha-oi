@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T05:32:48.818205+00:00",
-  "generatedAtMs": 1781155968818,
-  "localTime": "2026-06-11 13:32:48 CST",
+  "generatedAt": "2026-06-11T05:37:49.286744+00:00",
+  "generatedAtMs": 1781156269286,
+  "localTime": "2026-06-11 13:37:49 CST",
   "matches": [
     {
-      "alphaVolume5m": "482335.98194034846",
+      "alphaVolume5m": "456711.8205148919",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142624",
+      "holders": "142617",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,30 +36,30 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "5036841.47088418",
-      "marketCap": "8451861252.165379",
+      "liquidity": "5000074.903760718",
+      "marketCap": "8311247522.602956",
       "name": "Audiera",
-      "percentChange5m": "2.77",
-      "price": "8.5575732456506",
-      "quoteVolumeMin": "909442.0404000",
-      "quoteVolumeSum": "7960438.9489000",
+      "percentChange5m": "-1.6",
+      "price": "8.415200784227826",
+      "quoteVolumeMin": "822135.8464000",
+      "quoteVolumeSum": "8211744.4961000",
       "quoteVolumes1m": [
-        "1232556.2110000",
-        "2337422.4889000",
-        "2320743.8730000",
-        "1160274.3356000",
-        "909442.0404000"
+        "1133523.4448000",
+        "3018783.4880000",
+        "1120463.6136000",
+        "2116838.1033000",
+        "822135.8464000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
     },
     {
-      "alphaVolume5m": "16107.66492858661",
+      "alphaVolume5m": "18795.720517387",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14104",
+      "holders": "14109",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -76,31 +76,72 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3877574.6698243674",
-      "marketCap": "881041621.7370424",
+      "liquidity": "4007361.337115252",
+      "marketCap": "911778881.3864114",
       "name": "Velvet",
-      "percentChange5m": "-3.66",
-      "price": "0.8810416322975255",
-      "quoteVolumeMin": "463433.4121400",
-      "quoteVolumeSum": "4097981.6664700",
+      "percentChange5m": "3.96",
+      "price": "0.9117788923153223",
+      "quoteVolumeMin": "390577.5651300",
+      "quoteVolumeSum": "3352318.4001300",
       "quoteVolumes1m": [
-        "1341879.2650200",
-        "769525.5009400",
-        "599889.2141000",
-        "923254.2742700",
-        "463433.4121400"
+        "731425.8518900",
+        "516793.5663900",
+        "390577.5651300",
+        "1133216.2955400",
+        "580305.1211800"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "89.14934593225765"
+    },
+    {
+      "alphaVolume5m": "17663.587520849356",
+      "chainId": "56",
+      "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
+      "futuresSymbol": "AIOUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIOUSDT",
+      "holders": "59242",
+      "isFreshAlert": true,
+      "key": "56|0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4|AIOUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://olaxbt.xyz/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/olaxbt_community"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/olaxbt"
+        }
+      ],
+      "liquidity": "2845234.898281496",
+      "marketCap": "177277708.27187648",
+      "name": "OLAXBT",
+      "percentChange5m": "1.28",
+      "price": "0.17727770827187647",
+      "quoteVolumeMin": "302902.3363200",
+      "quoteVolumeSum": "1709473.6159600",
+      "quoteVolumes1m": [
+        "367069.4986700",
+        "311545.4183200",
+        "385706.8736700",
+        "342249.4889800",
+        "302902.3363200"
+      ],
+      "symbol": "AIO",
+      "top10HoldersPercent": "93.3543562557625"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 2,
+    "freshAlertCount": 1,
+    "matchCount": 3,
     "symbols": [
       "BEATUSDT",
-      "VELVETUSDT"
+      "VELVETUSDT",
+      "AIOUSDT"
     ]
   },
   "telegram": {
