@@ -9,12 +9,48 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T12:53:36.576385+00:00",
-  "generatedAtMs": 1781182416576,
-  "localTime": "2026-06-11 20:53:36 CST",
+  "generatedAt": "2026-06-11T12:58:37.072039+00:00",
+  "generatedAtMs": 1781182717072,
+  "localTime": "2026-06-11 20:58:37 CST",
   "matches": [
     {
-      "alphaVolume5m": "12730.600493512376",
+      "alphaVolume5m": "645256.9822777666",
+      "chainId": "56",
+      "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
+      "futuresSymbol": "SPACEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SPACEUSDT",
+      "holders": "4548",
+      "isFreshAlert": true,
+      "key": "56|0x87acfa3fd7a6e0d48677d070644d76905c2bdc00|SPACEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://spacecoin.org/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/spacecoin"
+        }
+      ],
+      "liquidity": "1432648.8333678085",
+      "marketCap": "2077866.2219620314",
+      "name": "Spacecoin",
+      "percentChange5m": "-0.39",
+      "price": "0.007672888695472256",
+      "quoteVolumeMin": "423178.8457400",
+      "quoteVolumeSum": "4166888.4416190",
+      "quoteVolumes1m": [
+        "1199741.5538000",
+        "900286.9774650",
+        "1174548.7549600",
+        "469132.3096540",
+        "423178.8457400"
+      ],
+      "symbol": "SPACE",
+      "top10HoldersPercent": "84.0797615161992"
+    },
+    {
+      "alphaVolume5m": "13725.176138183253",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
@@ -36,19 +72,19 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3628456.5404639705",
-      "marketCap": "814967709.2471792",
+      "liquidity": "3570715.2824979266",
+      "marketCap": "800908624.6334838",
       "name": "Velvet",
-      "percentChange5m": "1.06",
-      "price": "0.8149677190156764",
-      "quoteVolumeMin": "326798.1901200",
-      "quoteVolumeSum": "3376952.0231100",
+      "percentChange5m": "-1.57",
+      "price": "0.8009086342334637",
+      "quoteVolumeMin": "322196.4805700",
+      "quoteVolumeSum": "2825070.2165500",
       "quoteVolumes1m": [
-        "641862.8505200",
-        "326798.1901200",
-        "1366553.2633500",
-        "581865.9524800",
-        "459871.7666400"
+        "444220.0352900",
+        "322196.4805700",
+        "694431.9339100",
+        "898268.2502500",
+        "465953.5165300"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.87978849895141"
@@ -56,9 +92,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "SPACEUSDT",
       "VELVETUSDT"
     ]
   },

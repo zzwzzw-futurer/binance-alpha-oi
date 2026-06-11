@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-10T12:56:58.634923+00:00",
-    "generatedAtMs": 1781096218634,
-    "localTime": "2026-06-10 20:56:58 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-10T13:01:59.033532+00:00",
     "generatedAtMs": 1781096519033,
@@ -7993,6 +7984,47 @@
       }
     ],
     "symbols": [
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-11T12:58:37.072039+00:00",
+    "generatedAtMs": 1781182717072,
+    "localTime": "2026-06-11 20:58:37 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "645256.9822777666",
+        "chainId": "56",
+        "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
+        "futuresSymbol": "SPACEUSDT",
+        "isFreshAlert": true,
+        "name": "Spacecoin",
+        "percentChange5m": "-0.39",
+        "price": "0.007672888695472256",
+        "quoteVolumeMin": "423178.8457400",
+        "quoteVolumeSum": "4166888.4416190",
+        "symbol": "SPACE",
+        "top10HoldersPercent": "84.0797615161992"
+      },
+      {
+        "alphaVolume5m": "13725.176138183253",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-1.57",
+        "price": "0.8009086342334637",
+        "quoteVolumeMin": "322196.4805700",
+        "quoteVolumeSum": "2825070.2165500",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "88.87978849895141"
+      }
+    ],
+    "symbols": [
+      "SPACEUSDT",
       "VELVETUSDT"
     ]
   }
