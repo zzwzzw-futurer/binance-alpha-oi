@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T22:04:28.976973+00:00",
-  "generatedAtMs": 1781215468976,
-  "localTime": "2026-06-12 06:04:28 CST",
+  "generatedAt": "2026-06-11T22:09:29.604472+00:00",
+  "generatedAtMs": 1781215769604,
+  "localTime": "2026-06-12 06:09:29 CST",
   "matches": [
     {
-      "alphaVolume5m": "52056.37801021582",
+      "alphaVolume5m": "287955.0263062345",
+      "chainId": "56",
+      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+      "futuresSymbol": "ESPORTSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
+      "holders": "85889",
+      "isFreshAlert": true,
+      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.yooldo.gg/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Yooldo_Games"
+        }
+      ],
+      "liquidity": "3021792.0111459014",
+      "marketCap": "199294290.02397037",
+      "name": "Yooldo",
+      "percentChange5m": "5.73",
+      "price": "0.22143810043781045",
+      "quoteVolumeMin": "530862.2488600",
+      "quoteVolumeSum": "3875950.6291600",
+      "quoteVolumes1m": [
+        "975116.1128000",
+        "873492.9291800",
+        "912812.2968100",
+        "583667.0415100",
+        "530862.2488600"
+      ],
+      "symbol": "ESPORTS",
+      "top10HoldersPercent": "84.56592306060033"
+    },
+    {
+      "alphaVolume5m": "87817.8687450664",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14409",
+      "holders": "14415",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,19 +72,19 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "5962946.204649118",
-      "marketCap": "1384077640.5258484",
+      "liquidity": "6284699.321813358",
+      "marketCap": "1466499632.038847",
       "name": "Velvet",
-      "percentChange5m": "0.04",
-      "price": "1.3840776571159028",
-      "quoteVolumeMin": "629188.0117200",
-      "quoteVolumeSum": "4160071.3413800",
+      "percentChange5m": "5.6",
+      "price": "1.466499649616841",
+      "quoteVolumeMin": "356575.9500400",
+      "quoteVolumeSum": "7032050.3254200",
       "quoteVolumes1m": [
-        "909168.0633500",
-        "981105.4963100",
-        "999932.3707900",
-        "640677.3992100",
-        "629188.0117200"
+        "356575.9500400",
+        "2334298.9787100",
+        "961095.0559300",
+        "1729803.0804500",
+        "1650277.2602900"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.72874607230668"
@@ -56,9 +92,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "ESPORTSUSDT",
       "VELVETUSDT"
     ]
   },
