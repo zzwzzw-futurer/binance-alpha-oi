@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T10:38:22.922544+00:00",
-  "generatedAtMs": 1781174302922,
-  "localTime": "2026-06-11 18:38:22 CST",
+  "generatedAt": "2026-06-11T10:43:23.490874+00:00",
+  "generatedAtMs": 1781174603490,
+  "localTime": "2026-06-11 18:43:23 CST",
   "matches": [
     {
-      "alphaVolume5m": "9589.577557892497",
+      "alphaVolume5m": "7338.91360954977",
       "chainId": "56",
       "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
       "futuresSymbol": "AIOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AIOUSDT",
-      "holders": "59315",
-      "isFreshAlert": true,
+      "holders": "59319",
+      "isFreshAlert": false,
       "key": "56|0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4|AIOUSDT",
       "links": [
         {
@@ -36,71 +36,30 @@
           "link": "https://x.com/olaxbt"
         }
       ],
-      "liquidity": "2864176.090055633",
-      "marketCap": "176167850.12942797",
+      "liquidity": "2848089.615127512",
+      "marketCap": "174689570.87866494",
       "name": "OLAXBT",
-      "percentChange5m": "-5.66",
-      "price": "0.17616785012942798",
-      "quoteVolumeMin": "585101.5329500",
-      "quoteVolumeSum": "3672837.4003900",
+      "percentChange5m": "-0.88",
+      "price": "0.17468957087866493",
+      "quoteVolumeMin": "404257.2037400",
+      "quoteVolumeSum": "3048373.3165400",
       "quoteVolumes1m": [
-        "824001.6881800",
-        "732644.9839300",
-        "881363.8285900",
-        "649725.3667400",
-        "585101.5329500"
+        "605859.0972500",
+        "404257.2037400",
+        "1120842.9308200",
+        "419856.6777800",
+        "497557.4069500"
       ],
       "symbol": "AIO",
-      "top10HoldersPercent": "93.27502456830467"
-    },
-    {
-      "alphaVolume5m": "182129.91057324846",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142665",
-      "isFreshAlert": true,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "4987089.4470974095",
-      "marketCap": "8203508790.329801",
-      "name": "Audiera",
-      "percentChange5m": "0.42",
-      "price": "8.306114505441027",
-      "quoteVolumeMin": "308353.5604000",
-      "quoteVolumeSum": "2549801.7283000",
-      "quoteVolumes1m": [
-        "901835.0726000",
-        "452632.8976000",
-        "308353.5604000",
-        "526264.8752000",
-        "360715.3225000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.072727273"
+      "top10HoldersPercent": "93.27534898057797"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 2,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "AIOUSDT",
-      "BEATUSDT"
+      "AIOUSDT"
     ]
   },
   "telegram": {
