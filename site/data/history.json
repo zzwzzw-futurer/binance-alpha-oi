@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-10T17:07:24.434098+00:00",
-    "generatedAtMs": 1781111244434,
-    "localTime": "2026-06-11 01:07:24 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "742920.1802927012",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "0.8",
-        "price": "5.929477015467314",
-        "quoteVolumeMin": "371480.3454000",
-        "quoteVolumeSum": "3328107.7763000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-10T17:12:25.089985+00:00",
     "generatedAtMs": 1781111545089,
     "localTime": "2026-06-11 01:12:25 CST",
@@ -8724,6 +8698,47 @@
       }
     ],
     "symbols": [
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-11T17:09:00.348421+00:00",
+    "generatedAtMs": 1781197740348,
+    "localTime": "2026-06-12 01:09:00 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "520682.87549914105",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-1.51",
+        "price": "9.24822010030618",
+        "quoteVolumeMin": "729790.9443000",
+        "quoteVolumeSum": "7032869.6611000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      },
+      {
+        "alphaVolume5m": "23956.849027566834",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.89",
+        "price": "9.034026376105682",
+        "quoteVolumeMin": "418526.5357000",
+        "quoteVolumeSum": "2683885.0085000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "88.5734863835728"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT",
       "LABUSDT"
     ]
   }
