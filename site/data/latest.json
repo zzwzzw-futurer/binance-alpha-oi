@@ -9,57 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T03:07:33.927331+00:00",
-  "generatedAtMs": 1781147253927,
-  "localTime": "2026-06-11 11:07:33 CST",
+  "generatedAt": "2026-06-11T03:12:34.115698+00:00",
+  "generatedAtMs": 1781147554115,
+  "localTime": "2026-06-11 11:12:34 CST",
   "matches": [
     {
-      "alphaVolume5m": "27451.162908459584",
-      "chainId": "56",
-      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-      "futuresSymbol": "VELVETUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14077",
-      "isFreshAlert": false,
-      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://velvet.capital"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/velvetcapital/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/velvet_capital"
-        }
-      ],
-      "liquidity": "3449770.7069177646",
-      "marketCap": "778315298.3985679",
-      "name": "Velvet",
-      "percentChange5m": "1.56",
-      "price": "0.778315307727736",
-      "quoteVolumeMin": "522366.1629500",
-      "quoteVolumeSum": "4418754.3175800",
-      "quoteVolumes1m": [
-        "677033.5345500",
-        "1272330.2664100",
-        "1253581.2645300",
-        "693443.0891400",
-        "522366.1629500"
-      ],
-      "symbol": "VELVET",
-      "top10HoldersPercent": "89.13654860656898"
-    },
-    {
-      "alphaVolume5m": "525502.8610016962",
+      "alphaVolume5m": "558003.752093237",
       "chainId": "56",
       "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
       "futuresSymbol": "AIOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AIOUSDT",
-      "holders": "59202",
+      "holders": "59204",
       "isFreshAlert": false,
       "key": "56|0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4|AIOUSDT",
       "links": [
@@ -76,31 +36,71 @@
           "link": "https://x.com/olaxbt"
         }
       ],
-      "liquidity": "3184348.320413041",
-      "marketCap": "205402460.1169926",
+      "liquidity": "3209684.6232526",
+      "marketCap": "207520559.26432726",
       "name": "OLAXBT",
-      "percentChange5m": "-6.85",
-      "price": "0.20540246011699262",
-      "quoteVolumeMin": "428571.4684800",
-      "quoteVolumeSum": "3401229.6269900",
+      "percentChange5m": "0.89",
+      "price": "0.20752055926432725",
+      "quoteVolumeMin": "699022.9297700",
+      "quoteVolumeSum": "4839140.8719800",
       "quoteVolumes1m": [
-        "428571.4684800",
-        "450003.1157900",
-        "752185.8298600",
-        "956790.0543900",
-        "813679.1584700"
+        "908528.9448200",
+        "1315196.1140700",
+        "1051655.8490100",
+        "699022.9297700",
+        "864737.0343100"
       ],
       "symbol": "AIO",
-      "top10HoldersPercent": "93.35211813984758"
+      "top10HoldersPercent": "93.35055011232502"
+    },
+    {
+      "alphaVolume5m": "24177.489726637723",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "14081",
+      "isFreshAlert": true,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "3548901.300559158",
+      "marketCap": "801265201.5743246",
+      "name": "Velvet",
+      "percentChange5m": "3.25",
+      "price": "0.8012652111785786",
+      "quoteVolumeMin": "430198.4576500",
+      "quoteVolumeSum": "4236300.2364200",
+      "quoteVolumes1m": [
+        "430198.4576500",
+        "583314.0503300",
+        "1031492.8297900",
+        "875720.4472800",
+        "1315574.4513700"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.13654860656898"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
+    "freshAlertCount": 1,
     "matchCount": 2,
     "symbols": [
-      "VELVETUSDT",
-      "AIOUSDT"
+      "AIOUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
