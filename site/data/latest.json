@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T03:47:37.113512+00:00",
-  "generatedAtMs": 1781149657113,
-  "localTime": "2026-06-11 11:47:37 CST",
+  "generatedAt": "2026-06-11T03:52:37.880585+00:00",
+  "generatedAtMs": 1781149957880,
+  "localTime": "2026-06-11 11:52:37 CST",
   "matches": [
     {
-      "alphaVolume5m": "21478.345760953718",
+      "alphaVolume5m": "17800.0737075532",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14083",
+      "holders": "14087",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,71 +36,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3496633.9486346873",
-      "marketCap": "787971265.860746",
+      "liquidity": "3626906.75371433",
+      "marketCap": "819852395.9236135",
       "name": "Velvet",
-      "percentChange5m": "-3.89",
-      "price": "0.7879712753056541",
-      "quoteVolumeMin": "306699.1993700",
-      "quoteVolumeSum": "3715561.1349300",
+      "percentChange5m": "4.02",
+      "price": "0.8198524057506604",
+      "quoteVolumeMin": "417345.0882000",
+      "quoteVolumeSum": "3271121.5436200",
       "quoteVolumes1m": [
-        "306699.1993700",
-        "476144.2122100",
-        "1172824.8093900",
-        "597215.6920400",
-        "1162677.2219200"
+        "725735.5322700",
+        "486211.6005200",
+        "417345.0882000",
+        "924383.5256900",
+        "717445.7969400"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "89.13654860656898"
-    },
-    {
-      "alphaVolume5m": "12286.684468888641",
-      "chainId": "56",
-      "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
-      "futuresSymbol": "AIOUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/AIOUSDT",
-      "holders": "59212",
-      "isFreshAlert": true,
-      "key": "56|0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4|AIOUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://olaxbt.xyz/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/olaxbt_community"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/olaxbt"
-        }
-      ],
-      "liquidity": "3000539.5140850116",
-      "marketCap": "190127845.40574062",
-      "name": "OLAXBT",
-      "percentChange5m": "0.42",
-      "price": "0.19012784540574063",
-      "quoteVolumeMin": "301070.4234600",
-      "quoteVolumeSum": "2466739.1578500",
-      "quoteVolumes1m": [
-        "301070.4234600",
-        "755365.6957700",
-        "394956.7490000",
-        "440947.8008800",
-        "574398.4887400"
-      ],
-      "symbol": "AIO",
-      "top10HoldersPercent": "93.35378886275917"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "VELVETUSDT",
-      "AIOUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
