@@ -9,18 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T16:28:56.616818+00:00",
-  "generatedAtMs": 1781195336616,
-  "localTime": "2026-06-12 00:28:56 CST",
+  "generatedAt": "2026-06-11T16:33:57.117898+00:00",
+  "generatedAtMs": 1781195637117,
+  "localTime": "2026-06-12 00:33:57 CST",
   "matches": [
     {
-      "alphaVolume5m": "219187.79940061583",
+      "alphaVolume5m": "70386.10918632601",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "14240",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "3946469.791716573",
+      "marketCap": "890288897.9090729",
+      "name": "Velvet",
+      "percentChange5m": "-0.29",
+      "price": "0.8902889085803971",
+      "quoteVolumeMin": "812324.3589700",
+      "quoteVolumeSum": "7518770.0131300",
+      "quoteVolumes1m": [
+        "1049044.2613500",
+        "1817254.0294000",
+        "1358555.5408900",
+        "812324.3589700",
+        "2481591.8225200"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "88.87976458979217"
+    },
+    {
+      "alphaVolume5m": "157227.17709429984",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142789",
-      "isFreshAlert": false,
+      "holders": "142784",
+      "isFreshAlert": true,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
         {
@@ -36,62 +76,22 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "5288470.140654026",
-      "marketCap": "9378861028.342834",
+      "liquidity": "5280170.29775387",
+      "marketCap": "9345789615.314663",
       "name": "Audiera",
-      "percentChange5m": "-1.54",
-      "price": "9.496167508696255",
-      "quoteVolumeMin": "533739.1220000",
-      "quoteVolumeSum": "5245927.5752000",
+      "percentChange5m": "-0.36",
+      "price": "9.462682453643648",
+      "quoteVolumeMin": "430929.0046000",
+      "quoteVolumeSum": "2491899.9218000",
       "quoteVolumes1m": [
-        "1197176.1418000",
-        "1971738.9698000",
-        "722313.6136000",
-        "533739.1220000",
-        "820959.7280000"
+        "474664.3973000",
+        "516827.1421000",
+        "430929.0046000",
+        "583178.4268000",
+        "486300.9510000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
-    },
-    {
-      "alphaVolume5m": "18120.87771975611",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21089",
-      "isFreshAlert": true,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "7291885.786002519",
-      "marketCap": "9677296397.757557",
-      "name": "LAB",
-      "percentChange5m": "0.89",
-      "price": "9.67729639780284",
-      "quoteVolumeMin": "312056.4550000",
-      "quoteVolumeSum": "2111716.3348800",
-      "quoteVolumes1m": [
-        "376443.2985400",
-        "312056.4550000",
-        "469813.3983400",
-        "374855.4790800",
-        "578547.7039200"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "88.57348248198804"
     }
   ],
   "status": "ok",
@@ -99,8 +99,8 @@
     "freshAlertCount": 1,
     "matchCount": 2,
     "symbols": [
-      "BEATUSDT",
-      "LABUSDT"
+      "VELVETUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {
