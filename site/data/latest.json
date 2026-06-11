@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T11:13:27.131799+00:00",
-  "generatedAtMs": 1781176407131,
-  "localTime": "2026-06-11 19:13:27 CST",
-  "matches": [],
+  "generatedAt": "2026-06-11T11:18:27.869956+00:00",
+  "generatedAtMs": 1781176707869,
+  "localTime": "2026-06-11 19:18:27 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "9935.709202764088",
+      "chainId": "56",
+      "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
+      "futuresSymbol": "AIOUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AIOUSDT",
+      "holders": "59324",
+      "isFreshAlert": false,
+      "key": "56|0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4|AIOUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://olaxbt.xyz/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/olaxbt_community"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/olaxbt"
+        }
+      ],
+      "liquidity": "2756657.725924837",
+      "marketCap": "167414956.19718224",
+      "name": "OLAXBT",
+      "percentChange5m": "0.53",
+      "price": "0.16741495619718222",
+      "quoteVolumeMin": "334625.0591100",
+      "quoteVolumeSum": "2037753.0053700",
+      "quoteVolumes1m": [
+        "576291.9283700",
+        "351429.1467400",
+        "414820.7428500",
+        "334625.0591100",
+        "360586.1283000"
+      ],
+      "symbol": "AIO",
+      "top10HoldersPercent": "93.2815708956227"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "AIOUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
