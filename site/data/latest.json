@@ -9,15 +9,140 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T16:53:59.720866+00:00",
-  "generatedAtMs": 1781196839720,
-  "localTime": "2026-06-12 00:53:59 CST",
-  "matches": [],
+  "generatedAt": "2026-06-11T16:58:59.954084+00:00",
+  "generatedAtMs": 1781197139954,
+  "localTime": "2026-06-12 00:58:59 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "39282.815313218736",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21088",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "7061581.867005654",
+      "marketCap": "8791576016.95264",
+      "name": "LAB",
+      "percentChange5m": "-6.65",
+      "price": "8.79157601699378",
+      "quoteVolumeMin": "584570.2803500",
+      "quoteVolumeSum": "7916419.1070500",
+      "quoteVolumes1m": [
+        "3274782.8997000",
+        "584570.2803500",
+        "982097.3320800",
+        "1749670.5053300",
+        "1325298.0895900"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "88.5734863835728"
+    },
+    {
+      "alphaVolume5m": "382246.50104771706",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142800",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "5300888.495221027",
+      "marketCap": "9430047856.437126",
+      "name": "Audiera",
+      "percentChange5m": "0.74",
+      "price": "9.54799455809525",
+      "quoteVolumeMin": "435467.2103000",
+      "quoteVolumeSum": "7827469.7415000",
+      "quoteVolumes1m": [
+        "435467.2103000",
+        "3189158.2349000",
+        "1192166.4765000",
+        "2166043.1427000",
+        "844634.6771000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
+    },
+    {
+      "alphaVolume5m": "8369.609892240192",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "14242",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "3960804.840543493",
+      "marketCap": "893627193.7922236",
+      "name": "Velvet",
+      "percentChange5m": "0.69",
+      "price": "0.8936272045035618",
+      "quoteVolumeMin": "372313.4490200",
+      "quoteVolumeSum": "2232942.4638400",
+      "quoteVolumes1m": [
+        "528089.3350300",
+        "425400.6387800",
+        "503084.8773000",
+        "404054.1637100",
+        "372313.4490200"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "88.87969988637393"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 3,
+    "symbols": [
+      "LABUSDT",
+      "BEATUSDT",
+      "VELVETUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
