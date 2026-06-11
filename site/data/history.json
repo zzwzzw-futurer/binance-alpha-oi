@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-10T03:05:56.272203+00:00",
-    "generatedAtMs": 1781060756272,
-    "localTime": "2026-06-10 11:05:56 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "238268.0125117513",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": false,
-        "name": "Bitway",
-        "percentChange5m": "2.63",
-        "price": "0.08922844185722698",
-        "quoteVolumeMin": "677493.5443090",
-        "quoteVolumeSum": "5022320.6138160",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.00437831706252"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-10T03:10:56.520182+00:00",
     "generatedAtMs": 1781061056520,
     "localTime": "2026-06-10 11:10:56 CST",
@@ -6211,6 +6185,47 @@
         "quoteVolumeSum": "3427853.8442300",
         "symbol": "AIO",
         "top10HoldersPercent": "93.3512459861513"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "AIOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-11T03:07:33.927331+00:00",
+    "generatedAtMs": 1781147253927,
+    "localTime": "2026-06-11 11:07:33 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "27451.162908459584",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "1.56",
+        "price": "0.778315307727736",
+        "quoteVolumeMin": "522366.1629500",
+        "quoteVolumeSum": "4418754.3175800",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.13654860656898"
+      },
+      {
+        "alphaVolume5m": "525502.8610016962",
+        "chainId": "56",
+        "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
+        "futuresSymbol": "AIOUSDT",
+        "isFreshAlert": false,
+        "name": "OLAXBT",
+        "percentChange5m": "-6.85",
+        "price": "0.20540246011699262",
+        "quoteVolumeMin": "428571.4684800",
+        "quoteVolumeSum": "3401229.6269900",
+        "symbol": "AIO",
+        "top10HoldersPercent": "93.35211813984758"
       }
     ],
     "symbols": [
