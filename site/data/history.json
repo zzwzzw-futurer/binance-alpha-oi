@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-10T12:16:54.369067+00:00",
-    "generatedAtMs": 1781093814369,
-    "localTime": "2026-06-10 20:16:54 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-10T12:21:54.589021+00:00",
     "generatedAtMs": 1781094114589,
     "localTime": "2026-06-10 20:21:54 CST",
@@ -7843,6 +7834,47 @@
     ],
     "symbols": [
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-11T12:18:33.707974+00:00",
+    "generatedAtMs": 1781180313707,
+    "localTime": "2026-06-11 20:18:33 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "24499.173075956183",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-4",
+        "price": "0.7733461440675415",
+        "quoteVolumeMin": "338256.7380400",
+        "quoteVolumeSum": "3054789.2151500",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "88.87580988974804"
+      },
+      {
+        "alphaVolume5m": "149396.08906846645",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "-0.48",
+        "price": "8.770802285559585",
+        "quoteVolumeMin": "324823.7441000",
+        "quoteVolumeSum": "2052464.0290000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "BEATUSDT"
     ]
   }
 ]
