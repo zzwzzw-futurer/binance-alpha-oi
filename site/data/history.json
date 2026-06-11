@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-10T14:17:06.340620+00:00",
-    "generatedAtMs": 1781101026340,
-    "localTime": "2026-06-10 22:17:06 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "12247.16318699919",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "1.88",
-        "price": "0.3985890774052061",
-        "quoteVolumeMin": "378871.1265200",
-        "quoteVolumeSum": "2963386.4757500",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.12316000754215"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-10T14:22:06.847521+00:00",
     "generatedAtMs": 1781101326847,
     "localTime": "2026-06-10 22:22:06 CST",
@@ -8269,6 +8243,47 @@
         "price": "9.296057991691871",
         "quoteVolumeMin": "445109.3486000",
         "quoteVolumeSum": "2840668.9938000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-11T14:18:43.597386+00:00",
+    "generatedAtMs": 1781187523597,
+    "localTime": "2026-06-11 22:18:43 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "24258.41468393213",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "2.73",
+        "price": "0.8650610665213397",
+        "quoteVolumeMin": "607014.1017000",
+        "quoteVolumeSum": "4001959.6559700",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "88.87978849895141"
+      },
+      {
+        "alphaVolume5m": "126239.82570574428",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-0.87",
+        "price": "9.215524467270257",
+        "quoteVolumeMin": "303970.4304000",
+        "quoteVolumeSum": "2498619.9607000",
         "symbol": "BEAT",
         "top10HoldersPercent": "84.072727273"
       }
