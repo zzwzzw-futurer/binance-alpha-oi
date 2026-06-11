@@ -9,12 +9,48 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-11T23:09:35.493138+00:00",
-  "generatedAtMs": 1781219375493,
-  "localTime": "2026-06-12 07:09:35 CST",
+  "generatedAt": "2026-06-11T23:14:35.802617+00:00",
+  "generatedAtMs": 1781219675802,
+  "localTime": "2026-06-12 07:14:35 CST",
   "matches": [
     {
-      "alphaVolume5m": "71962.23904302715",
+      "alphaVolume5m": "301629.62384825357",
+      "chainId": "56",
+      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+      "futuresSymbol": "ESPORTSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
+      "holders": "85975",
+      "isFreshAlert": false,
+      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.yooldo.gg/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Yooldo_Games"
+        }
+      ],
+      "liquidity": "2968815.2081680833",
+      "marketCap": "193594034.49576584",
+      "name": "Yooldo",
+      "percentChange5m": "5.57",
+      "price": "0.21510448317248934",
+      "quoteVolumeMin": "431726.7618900",
+      "quoteVolumeSum": "3298976.9084900",
+      "quoteVolumes1m": [
+        "810859.2040200",
+        "855189.8576200",
+        "683089.7892500",
+        "518111.2957100",
+        "431726.7618900"
+      ],
+      "symbol": "ESPORTS",
+      "top10HoldersPercent": "84.43777793011516"
+    },
+    {
+      "alphaVolume5m": "37889.56808820195",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
@@ -36,67 +72,31 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "6693890.906024875",
-      "marketCap": "1568051387.5253918",
+      "liquidity": "6658380.465501764",
+      "marketCap": "1553267642.1002433",
       "name": "Velvet",
-      "percentChange5m": "-2.04",
-      "price": "1.568051406320622",
-      "quoteVolumeMin": "694723.0451800",
-      "quoteVolumeSum": "7212767.9686500",
+      "percentChange5m": "-0.49",
+      "price": "1.55326766071827",
+      "quoteVolumeMin": "314130.2178500",
+      "quoteVolumeSum": "4232382.3632500",
       "quoteVolumes1m": [
-        "1869143.2235200",
-        "1737968.6898400",
-        "694723.0451800",
-        "1792434.9613100",
-        "1118498.0488000"
+        "907952.6435200",
+        "1353961.9676700",
+        "1047126.0813500",
+        "609211.4528600",
+        "314130.2178500"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.72874607230668"
-    },
-    {
-      "alphaVolume5m": "512506.8339134632",
-      "chainId": "56",
-      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
-      "futuresSymbol": "ESPORTSUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
-      "holders": "85948",
-      "isFreshAlert": true,
-      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://www.yooldo.gg/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Yooldo_Games"
-        }
-      ],
-      "liquidity": "2866862.7437668312",
-      "marketCap": "183516024.74240273",
-      "name": "Yooldo",
-      "percentChange5m": "-18.49",
-      "price": "0.20390669453684884",
-      "quoteVolumeMin": "688511.3648700",
-      "quoteVolumeSum": "8060822.9191400",
-      "quoteVolumes1m": [
-        "688511.3648700",
-        "1783259.6675700",
-        "3114176.2533600",
-        "1198463.0989500",
-        "1276412.5343900"
-      ],
-      "symbol": "ESPORTS",
-      "top10HoldersPercent": "84.43803892535496"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "VELVETUSDT",
-      "ESPORTSUSDT"
+      "ESPORTSUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
