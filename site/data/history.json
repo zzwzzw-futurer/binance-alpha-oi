@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-11T05:17:47.171808+00:00",
-    "generatedAtMs": 1781155067171,
-    "localTime": "2026-06-11 13:17:47 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-11T05:22:47.554104+00:00",
     "generatedAtMs": 1781155367554,
@@ -9135,6 +9126,62 @@
     ],
     "symbols": [
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-12T05:20:12.860379+00:00",
+    "generatedAtMs": 1781241612860,
+    "localTime": "2026-06-12 13:20:12 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "91726.65888422224",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-0.32",
+        "price": "1.4494531773866972",
+        "quoteVolumeMin": "891713.5054700",
+        "quoteVolumeSum": "8695810.9692800",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "88.89716155641511"
+      },
+      {
+        "alphaVolume5m": "529737.7103390336",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": true,
+        "name": "Yooldo",
+        "percentChange5m": "-8.59",
+        "price": "0.15048422647908014",
+        "quoteVolumeMin": "447425.1576600",
+        "quoteVolumeSum": "3870590.1279200",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "86.47920843061809"
+      },
+      {
+        "alphaVolume5m": "126989.56953880006",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-1.7",
+        "price": "7.5218786440029275",
+        "quoteVolumeMin": "333692.8989000",
+        "quoteVolumeSum": "2363821.5482000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "ESPORTSUSDT",
+      "BEATUSDT"
     ]
   }
 ]
