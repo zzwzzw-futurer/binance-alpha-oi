@@ -9,18 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-12T09:50:39.700157+00:00",
-  "generatedAtMs": 1781257839700,
-  "localTime": "2026-06-12 17:50:39 CST",
+  "generatedAt": "2026-06-12T09:55:40.381470+00:00",
+  "generatedAtMs": 1781258140381,
+  "localTime": "2026-06-12 17:55:40 CST",
   "matches": [
     {
-      "alphaVolume5m": "34295.36834307759",
+      "alphaVolume5m": "271962.8697311296",
+      "chainId": "56",
+      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+      "futuresSymbol": "ESPORTSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
+      "holders": "85929",
+      "isFreshAlert": false,
+      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.yooldo.gg/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Yooldo_Games"
+        }
+      ],
+      "liquidity": "3309686.308204958",
+      "marketCap": "217576634.9986594",
+      "name": "Yooldo",
+      "percentChange5m": "8.94",
+      "price": "0.24175181711440286",
+      "quoteVolumeMin": "519705.8344100",
+      "quoteVolumeSum": "7416133.3750900",
+      "quoteVolumes1m": [
+        "1015750.7911800",
+        "2839479.1612900",
+        "2435046.1383900",
+        "606151.4498200",
+        "519705.8344100"
+      ],
+      "symbol": "ESPORTS",
+      "top10HoldersPercent": "87.80555321444837"
+    },
+    {
+      "alphaVolume5m": "34207.01639906572",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14569",
-      "isFreshAlert": false,
+      "holders": "14566",
+      "isFreshAlert": true,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
         {
@@ -36,71 +72,31 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "7541974.459648339",
-      "marketCap": "1762322856.8885124",
+      "liquidity": "7581334.794480695",
+      "marketCap": "1775030028.5414293",
       "name": "Velvet",
-      "percentChange5m": "0.17",
-      "price": "1.7623228780123503",
-      "quoteVolumeMin": "500710.8005600",
-      "quoteVolumeSum": "4761624.4868600",
+      "percentChange5m": "0.7",
+      "price": "1.7750300498175802",
+      "quoteVolumeMin": "493736.1877200",
+      "quoteVolumeSum": "4931177.5848200",
       "quoteVolumes1m": [
-        "2011433.6910000",
-        "696543.0231700",
-        "546370.0992600",
-        "1006566.8728700",
-        "500710.8005600"
+        "617118.8274400",
+        "493736.1877200",
+        "1860637.7651400",
+        "1081662.1701000",
+        "878022.6344200"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.90438246594283"
-    },
-    {
-      "alphaVolume5m": "731483.1055462033",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142797",
-      "isFreshAlert": false,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "4989267.0931815645",
-      "marketCap": "8204232329.559294",
-      "name": "Audiera",
-      "percentChange5m": "0.57",
-      "price": "8.306847094366443",
-      "quoteVolumeMin": "362475.8987000",
-      "quoteVolumeSum": "2978931.4096000",
-      "quoteVolumes1m": [
-        "803612.7060000",
-        "435501.7462000",
-        "886035.6988000",
-        "362475.8987000",
-        "491305.3599000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
+    "freshAlertCount": 1,
     "matchCount": 2,
     "symbols": [
-      "VELVETUSDT",
-      "BEATUSDT"
+      "ESPORTSUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
