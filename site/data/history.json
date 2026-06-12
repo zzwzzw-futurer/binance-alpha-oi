@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-11T19:19:11.206709+00:00",
-    "generatedAtMs": 1781205551206,
-    "localTime": "2026-06-12 03:19:11 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "128936.83835355956",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-0.78",
-        "price": "1.290653449621141",
-        "quoteVolumeMin": "960861.5862200",
-        "quoteVolumeSum": "6793593.2929400",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "88.72969263893205"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-11T19:24:11.541362+00:00",
     "generatedAtMs": 1781205851541,
@@ -9380,6 +9354,32 @@
     "symbols": [
       "VELVETUSDT",
       "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-12T19:21:30.302173+00:00",
+    "generatedAtMs": 1781292090302,
+    "localTime": "2026-06-13 03:21:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "63363.56694978263",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "-2.83",
+        "price": "0.46668081789511373",
+        "quoteVolumeMin": "595196.9362900",
+        "quoteVolumeSum": "4327180.9855700",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.63210348203151"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT"
     ]
   }
 ]
