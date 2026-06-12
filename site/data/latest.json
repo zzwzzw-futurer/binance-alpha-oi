@@ -9,57 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-12T06:15:18.128835+00:00",
-  "generatedAtMs": 1781244918128,
-  "localTime": "2026-06-12 14:15:18 CST",
+  "generatedAt": "2026-06-12T06:20:19.165090+00:00",
+  "generatedAtMs": 1781245219165,
+  "localTime": "2026-06-12 14:20:19 CST",
   "matches": [
     {
-      "alphaVolume5m": "435039.1695237382",
-      "chainId": "56",
-      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-      "futuresSymbol": "BEATUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142787",
-      "isFreshAlert": false,
-      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://audiera.fi/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/Audiera_web3"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/Audiera_web3"
-        }
-      ],
-      "liquidity": "4650252.867800986",
-      "marketCap": "6954265404.719471",
-      "name": "Audiera",
-      "percentChange5m": "1.6",
-      "price": "7.041246158097297",
-      "quoteVolumeMin": "521789.7269000",
-      "quoteVolumeSum": "4145460.2602000",
-      "quoteVolumes1m": [
-        "521789.7269000",
-        "712382.0522000",
-        "1478202.2803000",
-        "729358.4848000",
-        "703727.7160000"
-      ],
-      "symbol": "BEAT",
-      "top10HoldersPercent": "84.072727273"
-    },
-    {
-      "alphaVolume5m": "29677.53283485173",
+      "alphaVolume5m": "25365.427747172627",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "14523",
+      "holders": "14528",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -76,22 +36,62 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "6369476.356030114",
-      "marketCap": "1476876369.221548",
+      "liquidity": "6559099.717979049",
+      "marketCap": "1523352892.4201427",
       "name": "Velvet",
-      "percentChange5m": "-0.97",
-      "price": "1.4768763869239214",
-      "quoteVolumeMin": "508325.0506700",
-      "quoteVolumeSum": "3453198.9140100",
+      "percentChange5m": "3.21",
+      "price": "1.5233529106796004",
+      "quoteVolumeMin": "582034.7767100",
+      "quoteVolumeSum": "3745861.6573300",
       "quoteVolumes1m": [
-        "577241.4238200",
-        "776707.5645000",
-        "902768.3496200",
-        "688156.5254000",
-        "508325.0506700"
+        "1212025.2648200",
+        "743337.5367600",
+        "612584.1120800",
+        "582034.7767100",
+        "595879.9669600"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "88.90150471336162"
+    },
+    {
+      "alphaVolume5m": "428007.5422325809",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142781",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "4665568.533015406",
+      "marketCap": "7011512373.31791",
+      "name": "Audiera",
+      "percentChange5m": "0.78",
+      "price": "7.099209145450774",
+      "quoteVolumeMin": "501367.9885000",
+      "quoteVolumeSum": "4126295.8396000",
+      "quoteVolumes1m": [
+        "909485.5793000",
+        "676578.7140000",
+        "1225608.9597000",
+        "813254.5981000",
+        "501367.9885000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
@@ -99,8 +99,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "BEATUSDT",
-      "VELVETUSDT"
+      "VELVETUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {
