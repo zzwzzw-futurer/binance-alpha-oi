@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T20:56:39.473401+00:00",
-    "generatedAtMs": 1781297799473,
-    "localTime": "2026-06-13 04:56:39 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "27394.566557865786",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "1.95",
-        "price": "0.39557787295523245",
-        "quoteVolumeMin": "332975.5448600",
-        "quoteVolumeSum": "2415884.6515700",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.75176905768684"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-12T21:01:39.752804+00:00",
     "generatedAtMs": 1781298099752,
     "localTime": "2026-06-13 05:01:39 CST",
@@ -5644,6 +5618,47 @@
         "price": "0.5931763592960579",
         "quoteVolumeMin": "360399.0427000",
         "quoteVolumeSum": "3451351.0174000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT",
+      "COAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T20:59:10.429527+00:00",
+    "generatedAtMs": 1781384350429,
+    "localTime": "2026-06-14 04:59:10 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "12253.719750191856",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "0.82",
+        "price": "0.1553381048671428",
+        "quoteVolumeMin": "445154.5641500",
+        "quoteVolumeSum": "3343652.7499400",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "89.72230364183812"
+      },
+      {
+        "alphaVolume5m": "755193.818213607",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "2.91",
+        "price": "0.6109395691605622",
+        "quoteVolumeMin": "419851.1613000",
+        "quoteVolumeSum": "2696158.2312000",
         "symbol": "COAI",
         "top10HoldersPercent": "93.1269653"
       }
