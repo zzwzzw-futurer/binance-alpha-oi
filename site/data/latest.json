@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-13T16:43:43.203148+00:00",
-  "generatedAtMs": 1781369023203,
-  "localTime": "2026-06-14 00:43:43 CST",
+  "generatedAt": "2026-06-13T16:48:43.423979+00:00",
+  "generatedAtMs": 1781369323423,
+  "localTime": "2026-06-14 00:48:43 CST",
   "matches": [
     {
-      "alphaVolume5m": "1010890.7559361692",
+      "alphaVolume5m": "633942.4724316776",
       "chainId": "56",
       "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
       "futuresSymbol": "COAIUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/COAIUSDT",
-      "holders": "44531",
+      "holders": "44533",
       "isFreshAlert": false,
       "key": "56|0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5|COAIUSDT",
       "links": [
@@ -32,30 +32,71 @@
           "link": "https://twitter.com/ChainOpera_AI"
         }
       ],
-      "liquidity": "2540429.5396913714",
-      "marketCap": "555772901.9891196",
+      "liquidity": "2583927.4511932684",
+      "marketCap": "588095112.425967",
       "name": "ChainOpera AI",
-      "percentChange5m": "-4.1",
-      "price": "0.5557729025194469",
-      "quoteVolumeMin": "491352.1694000",
-      "quoteVolumeSum": "4432427.8138000",
+      "percentChange5m": "5.42",
+      "price": "0.5880951129871367",
+      "quoteVolumeMin": "625971.9870000",
+      "quoteVolumeSum": "3770634.5343000",
       "quoteVolumes1m": [
-        "1087298.6425000",
-        "1215617.3917000",
-        "1146540.0723000",
-        "491352.1694000",
-        "491619.5379000"
+        "958694.0142000",
+        "625971.9870000",
+        "761897.5803000",
+        "682983.5418000",
+        "741087.4110000"
       ],
       "symbol": "COAI",
       "top10HoldersPercent": "93.1269653"
+    },
+    {
+      "alphaVolume5m": "154840.65064323472",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142960",
+      "isFreshAlert": true,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "4699203.228179505",
+      "marketCap": "7078144225.279637",
+      "name": "Audiera",
+      "percentChange5m": "1.05",
+      "price": "7.166674397972487",
+      "quoteVolumeMin": "418510.2815000",
+      "quoteVolumeSum": "2957664.4588000",
+      "quoteVolumes1m": [
+        "770322.0346000",
+        "582647.2548000",
+        "455184.2267000",
+        "731000.6612000",
+        "418510.2815000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "COAIUSDT"
+      "COAIUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {

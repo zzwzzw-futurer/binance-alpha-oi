@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T16:46:18.564219+00:00",
-    "generatedAtMs": 1781282778564,
-    "localTime": "2026-06-13 00:46:18 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "86646.62556769697",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-0.81",
-        "price": "1.0603948044872697",
-        "quoteVolumeMin": "867000.3856600",
-        "quoteVolumeSum": "6105724.3982000",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.9398949813964"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-12T16:51:19.332051+00:00",
     "generatedAtMs": 1781283079332,
     "localTime": "2026-06-13 00:51:19 CST",
@@ -6174,6 +6148,47 @@
     ],
     "symbols": [
       "COAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-13T16:48:43.423979+00:00",
+    "generatedAtMs": 1781369323423,
+    "localTime": "2026-06-14 00:48:43 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "633942.4724316776",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "5.42",
+        "price": "0.5880951129871367",
+        "quoteVolumeMin": "625971.9870000",
+        "quoteVolumeSum": "3770634.5343000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      },
+      {
+        "alphaVolume5m": "154840.65064323472",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "1.05",
+        "price": "7.166674397972487",
+        "quoteVolumeMin": "418510.2815000",
+        "quoteVolumeSum": "2957664.4588000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "COAIUSDT",
+      "BEATUSDT"
     ]
   }
 ]
