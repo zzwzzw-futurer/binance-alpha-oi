@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T05:45:14.723979+00:00",
-    "generatedAtMs": 1781243114723,
-    "localTime": "2026-06-12 13:45:14 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "315012.23113782203",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "-1.66",
-        "price": "7.078474660441726",
-        "quoteVolumeMin": "542247.1294000",
-        "quoteVolumeSum": "4774840.2224000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      },
-      {
-        "alphaVolume5m": "41253.41999068791",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-0.46",
-        "price": "1.4314331810140157",
-        "quoteVolumeMin": "541069.8789500",
-        "quoteVolumeSum": "4367568.7668600",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "88.89716155641511"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT",
-      "VELVETUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-12T05:50:15.190949+00:00",
     "generatedAtMs": 1781243415190,
@@ -8425,5 +8384,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-13T05:47:38.177061+00:00",
+    "generatedAtMs": 1781329658177,
+    "localTime": "2026-06-13 13:47:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "137711.1222259165",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": true,
+        "name": "Yooldo",
+        "percentChange5m": "-8.41",
+        "price": "0.1735614551123527",
+        "quoteVolumeMin": "447891.5548200",
+        "quoteVolumeSum": "3779293.1122500",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "88.85503317668447"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT"
+    ]
   }
 ]
