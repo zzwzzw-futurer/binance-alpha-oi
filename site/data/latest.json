@@ -9,15 +9,95 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-13T18:03:51.204262+00:00",
-  "generatedAtMs": 1781373831204,
-  "localTime": "2026-06-14 02:03:51 CST",
-  "matches": [],
+  "generatedAt": "2026-06-13T18:08:51.430505+00:00",
+  "generatedAtMs": 1781374131430,
+  "localTime": "2026-06-14 02:08:51 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "707771.2783828673",
+      "chainId": "56",
+      "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+      "futuresSymbol": "COAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/COAIUSDT",
+      "holders": "44556",
+      "isFreshAlert": true,
+      "key": "56|0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5|COAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://chainopera.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/ChainOpera_AI"
+        }
+      ],
+      "liquidity": "2605703.930324124",
+      "marketCap": "603993068.325064",
+      "name": "ChainOpera AI",
+      "percentChange5m": "-4.71",
+      "price": "0.6039930689014037",
+      "quoteVolumeMin": "409329.9041000",
+      "quoteVolumeSum": "4522294.1288000",
+      "quoteVolumes1m": [
+        "409329.9041000",
+        "1886270.0560000",
+        "613532.1198000",
+        "635997.7284000",
+        "977164.3205000"
+      ],
+      "symbol": "COAI",
+      "top10HoldersPercent": "93.1269653"
+    },
+    {
+      "alphaVolume5m": "21477.393467034646",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "14972",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "2437578.9815146546",
+      "marketCap": "507765256.93091094",
+      "name": "Velvet",
+      "percentChange5m": "-2.44",
+      "price": "0.5077652630172788",
+      "quoteVolumeMin": "325313.4315000",
+      "quoteVolumeSum": "2731479.5178700",
+      "quoteVolumes1m": [
+        "956296.4466400",
+        "576009.7199400",
+        "470279.6442500",
+        "325313.4315000",
+        "403580.2755400"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.58438770209563"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 2,
+    "symbols": [
+      "COAIUSDT",
+      "VELVETUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
