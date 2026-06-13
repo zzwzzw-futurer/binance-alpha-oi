@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-13T12:03:15.320810+00:00",
-  "generatedAtMs": 1781352195320,
-  "localTime": "2026-06-13 20:03:15 CST",
+  "generatedAt": "2026-06-13T12:08:15.501210+00:00",
+  "generatedAtMs": 1781352495501,
+  "localTime": "2026-06-13 20:08:15 CST",
   "matches": [
     {
-      "alphaVolume5m": "124216.05024590225",
+      "alphaVolume5m": "107125.78514233456",
       "chainId": "56",
       "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
       "futuresSymbol": "ESPORTSUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
-      "holders": "86029",
+      "holders": "86034",
       "isFreshAlert": false,
       "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
       "links": [
@@ -32,30 +32,71 @@
           "link": "https://twitter.com/Yooldo_Games"
         }
       ],
-      "liquidity": "2911983.7379485",
-      "marketCap": "178993567.2556479",
+      "liquidity": "2935096.178089599",
+      "marketCap": "181238479.45444423",
       "name": "Yooldo",
-      "percentChange5m": "2.31",
-      "price": "0.19888174176472845",
-      "quoteVolumeMin": "424575.4028500",
-      "quoteVolumeSum": "3452626.5496400",
+      "percentChange5m": "1.25",
+      "price": "0.20137608865691492",
+      "quoteVolumeMin": "547602.9437100",
+      "quoteVolumeSum": "4586003.9312200",
       "quoteVolumes1m": [
-        "634620.6213700",
-        "424575.4028500",
-        "900455.1143700",
-        "623542.8897700",
-        "869432.5212800"
+        "558653.9110300",
+        "547602.9437100",
+        "2234403.8860800",
+        "694462.4693900",
+        "550880.7210100"
       ],
       "symbol": "ESPORTS",
-      "top10HoldersPercent": "89.39698932531472"
+      "top10HoldersPercent": "89.4043706954157"
+    },
+    {
+      "alphaVolume5m": "191719.9025147498",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "142940",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "5030353.378938049",
+      "marketCap": "8291156154.567303",
+      "name": "Audiera",
+      "percentChange5m": "-1.12",
+      "price": "8.394858122600914",
+      "quoteVolumeMin": "320312.8541000",
+      "quoteVolumeSum": "2551361.9138000",
+      "quoteVolumes1m": [
+        "320312.8541000",
+        "384311.6050000",
+        "374238.7499000",
+        "595254.9968000",
+        "877243.7080000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.072727273"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "ESPORTSUSDT"
+      "ESPORTSUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {
