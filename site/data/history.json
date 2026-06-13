@@ -1,62 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T15:51:15.400917+00:00",
-    "generatedAtMs": 1781279475400,
-    "localTime": "2026-06-12 23:51:15 CST",
-    "matchCount": 3,
-    "matches": [
-      {
-        "alphaVolume5m": "111914.91190289405",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-4.49",
-        "price": "0.8892243274613532",
-        "quoteVolumeMin": "782491.5694200",
-        "quoteVolumeSum": "5893550.1670600",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "88.79057862159408"
-      },
-      {
-        "alphaVolume5m": "633685.6112766521",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "-0.31",
-        "price": "10.257606765624267",
-        "quoteVolumeMin": "761282.5623000",
-        "quoteVolumeSum": "5374796.9933000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      },
-      {
-        "alphaVolume5m": "104616.06275959952",
-        "chainId": "56",
-        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
-        "futuresSymbol": "ESPORTSUSDT",
-        "isFreshAlert": false,
-        "name": "Yooldo",
-        "percentChange5m": "-2.01",
-        "price": "0.24711953931942318",
-        "quoteVolumeMin": "303256.4555300",
-        "quoteVolumeSum": "2331954.0813800",
-        "symbol": "ESPORTS",
-        "top10HoldersPercent": "88.2244252061316"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT",
-      "BEATUSDT",
-      "ESPORTSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-12T15:56:15.414003+00:00",
     "generatedAtMs": 1781279775414,
     "localTime": "2026-06-12 23:56:15 CST",
@@ -6297,5 +6241,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T15:53:37.126447+00:00",
+    "generatedAtMs": 1781366017126,
+    "localTime": "2026-06-13 23:53:37 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "494838.1079765416",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "2.04",
+        "price": "0.60646740046684",
+        "quoteVolumeMin": "305572.1705000",
+        "quoteVolumeSum": "2698343.6723000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      }
+    ],
+    "symbols": [
+      "COAIUSDT"
+    ]
   }
 ]

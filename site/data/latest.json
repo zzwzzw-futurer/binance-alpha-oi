@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-13T15:48:36.740832+00:00",
-  "generatedAtMs": 1781365716740,
-  "localTime": "2026-06-13 23:48:36 CST",
-  "matches": [],
+  "generatedAt": "2026-06-13T15:53:37.126447+00:00",
+  "generatedAtMs": 1781366017126,
+  "localTime": "2026-06-13 23:53:37 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "494838.1079765416",
+      "chainId": "56",
+      "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+      "futuresSymbol": "COAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/COAIUSDT",
+      "holders": "44466",
+      "isFreshAlert": false,
+      "key": "56|0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5|COAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://chainopera.ai/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/ChainOpera_AI"
+        }
+      ],
+      "liquidity": "2607324.0663530785",
+      "marketCap": "606467399.8881392",
+      "name": "ChainOpera AI",
+      "percentChange5m": "2.04",
+      "price": "0.60646740046684",
+      "quoteVolumeMin": "305572.1705000",
+      "quoteVolumeSum": "2698343.6723000",
+      "quoteVolumes1m": [
+        "615320.9635000",
+        "774398.3986000",
+        "305572.1705000",
+        "672058.2972000",
+        "330993.8425000"
+      ],
+      "symbol": "COAI",
+      "top10HoldersPercent": "93.1269653"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "COAIUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
