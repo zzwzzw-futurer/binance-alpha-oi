@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-12T22:41:51.578268+00:00",
-    "generatedAtMs": 1781304111578,
-    "localTime": "2026-06-13 06:41:51 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "63486.57325315295",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": true,
-        "name": "Velvet",
-        "percentChange5m": "2.25",
-        "price": "0.411942665641723",
-        "quoteVolumeMin": "582986.7658100",
-        "quoteVolumeSum": "3661163.8662600",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.73351840192524"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-12T22:46:52.053214+00:00",
     "generatedAtMs": 1781304412053,
@@ -5495,6 +5469,32 @@
         "price": "0.43584706465110457",
         "quoteVolumeMin": "380271.6687000",
         "quoteVolumeSum": "3534454.3504000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      }
+    ],
+    "symbols": [
+      "COAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T22:44:21.598659+00:00",
+    "generatedAtMs": 1781390661598,
+    "localTime": "2026-06-14 06:44:21 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "915849.7608152744",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "-1.58",
+        "price": "0.42851434210448136",
+        "quoteVolumeMin": "326027.5997000",
+        "quoteVolumeSum": "2474731.3541000",
         "symbol": "COAI",
         "top10HoldersPercent": "93.1269653"
       }
