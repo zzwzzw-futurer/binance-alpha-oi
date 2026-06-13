@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T20:16:36.053408+00:00",
-    "generatedAtMs": 1781295396053,
-    "localTime": "2026-06-13 04:16:36 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "26845.406937857053",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-0.56",
-        "price": "0.4480273752617802",
-        "quoteVolumeMin": "309752.8640900",
-        "quoteVolumeSum": "2782246.7878400",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.6137634693015"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-12T20:21:36.826997+00:00",
     "generatedAtMs": 1781295696826,
     "localTime": "2026-06-13 04:21:36 CST",
@@ -5699,5 +5673,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T20:19:06.729001+00:00",
+    "generatedAtMs": 1781381946729,
+    "localTime": "2026-06-14 04:19:06 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "49366.358765719466",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "-4.2",
+        "price": "0.14766322039834176",
+        "quoteVolumeMin": "319543.0677600",
+        "quoteVolumeSum": "3140830.0291800",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "89.70269549183325"
+      },
+      {
+        "alphaVolume5m": "24776.08299817047",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-1.47",
+        "price": "0.48001297601945075",
+        "quoteVolumeMin": "305107.6212700",
+        "quoteVolumeSum": "2391374.8555700",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.5843133243866"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT",
+      "VELVETUSDT"
+    ]
   }
 ]
