@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T16:06:15.744520+00:00",
-    "generatedAtMs": 1781280375744,
-    "localTime": "2026-06-13 00:06:15 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "116254.50146875775",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "2.71",
-        "price": "0.9691103439836228",
-        "quoteVolumeMin": "967396.0641500",
-        "quoteVolumeSum": "9272821.8146400",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "88.79057862159408"
-      },
-      {
-        "alphaVolume5m": "332253.204227552",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "0.37",
-        "price": "10.281032320792432",
-        "quoteVolumeMin": "312743.5849000",
-        "quoteVolumeSum": "2230807.9714000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.072727273"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT",
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 2,
     "generatedAt": "2026-06-12T16:11:16.075814+00:00",
     "generatedAtMs": 1781280676075,
@@ -6230,6 +6189,32 @@
         "price": "0.6138180869370361",
         "quoteVolumeMin": "363482.2981000",
         "quoteVolumeSum": "2716849.5013000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      }
+    ],
+    "symbols": [
+      "COAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T16:08:38.713722+00:00",
+    "generatedAtMs": 1781366918713,
+    "localTime": "2026-06-14 00:08:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "647455.6116015243",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "-0.04",
+        "price": "0.6136493566792115",
+        "quoteVolumeMin": "500419.5560000",
+        "quoteVolumeSum": "6263339.9892000",
         "symbol": "COAI",
         "top10HoldersPercent": "93.1269653"
       }
