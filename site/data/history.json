@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-12T22:36:50.580272+00:00",
-    "generatedAtMs": 1781303810580,
-    "localTime": "2026-06-13 06:36:50 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-12T22:41:51.578268+00:00",
     "generatedAtMs": 1781304111578,
@@ -5478,6 +5469,32 @@
         "price": "0.41397450816275677",
         "quoteVolumeMin": "423603.8024000",
         "quoteVolumeSum": "3581575.5818000",
+        "symbol": "COAI",
+        "top10HoldersPercent": "93.1269653"
+      }
+    ],
+    "symbols": [
+      "COAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-13T22:39:21.560219+00:00",
+    "generatedAtMs": 1781390361560,
+    "localTime": "2026-06-14 06:39:21 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "1037264.5015516237",
+        "chainId": "56",
+        "contractAddress": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5",
+        "futuresSymbol": "COAIUSDT",
+        "isFreshAlert": false,
+        "name": "ChainOpera AI",
+        "percentChange5m": "4.86",
+        "price": "0.43584706465110457",
+        "quoteVolumeMin": "380271.6687000",
+        "quoteVolumeSum": "3534454.3504000",
         "symbol": "COAI",
         "top10HoldersPercent": "93.1269653"
       }
