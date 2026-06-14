@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-13T18:28:57.237290+00:00",
-    "generatedAtMs": 1781375337237,
-    "localTime": "2026-06-14 02:28:57 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "63565.44406731602",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-3.64",
-        "price": "0.5274487608062327",
-        "quoteVolumeMin": "692813.2063900",
-        "quoteVolumeSum": "6189397.7749300",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.58438770209563"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-13T18:33:54.144985+00:00",
     "generatedAtMs": 1781375634144,
     "localTime": "2026-06-14 02:33:54 CST",
@@ -4521,5 +4495,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-14T18:31:26.722487+00:00",
+    "generatedAtMs": 1781461886722,
+    "localTime": "2026-06-15 02:31:26 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "177295.1776101945",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": true,
+        "name": "Yooldo",
+        "percentChange5m": "6.57",
+        "price": "0.04730869999706484",
+        "quoteVolumeMin": "382071.4623600",
+        "quoteVolumeSum": "3895815.3618700",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "88.57267056898937"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT"
+    ]
   }
 ]
