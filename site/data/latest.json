@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-16T06:45:00.155605+00:00",
-  "generatedAtMs": 1781592300155,
-  "localTime": "2026-06-16 14:45:00 CST",
+  "generatedAt": "2026-06-16T06:50:00.647985+00:00",
+  "generatedAtMs": 1781592600647,
+  "localTime": "2026-06-16 14:50:00 CST",
   "matches": [
     {
-      "alphaVolume5m": "194098.50355666535",
+      "alphaVolume5m": "251646.01999544998",
       "chainId": "56",
       "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
       "futuresSymbol": "BSBUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
-      "holders": "58277",
-      "isFreshAlert": true,
+      "holders": "58270",
+      "isFreshAlert": false,
       "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
       "links": [
         {
@@ -32,71 +32,30 @@
           "link": "https://twitter.com/BlockSt_HQ"
         }
       ],
-      "liquidity": "2178412.2677909033",
-      "marketCap": "24934344.021317605",
+      "liquidity": "2160632.5982995993",
+      "marketCap": "23795296.25219781",
       "name": "Block Street",
-      "percentChange5m": "-0.68",
-      "price": "0.4862688659476127",
-      "quoteVolumeMin": "418577.8546100",
-      "quoteVolumeSum": "2602319.5380000",
+      "percentChange5m": "-4.27",
+      "price": "0.46405330584956184",
+      "quoteVolumeMin": "469172.6078200",
+      "quoteVolumeSum": "3065397.4621700",
       "quoteVolumes1m": [
-        "486420.4124700",
-        "418577.8546100",
-        "494092.2736900",
-        "725447.8782300",
-        "477781.1190000"
+        "787284.4367600",
+        "478023.1857000",
+        "734569.2553100",
+        "596347.9765800",
+        "469172.6078200"
       ],
       "symbol": "BSB",
-      "top10HoldersPercent": "92.46144344384216"
-    },
-    {
-      "alphaVolume5m": "34774.36173583876",
-      "chainId": "56",
-      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-      "futuresSymbol": "VELVETUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15088",
-      "isFreshAlert": false,
-      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://velvet.capital"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/velvetcapital/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/velvet_capital"
-        }
-      ],
-      "liquidity": "2102802.881942292",
-      "marketCap": "431102356.6263397",
-      "name": "Velvet",
-      "percentChange5m": "-5.04",
-      "price": "0.43110236179378164",
-      "quoteVolumeMin": "330923.3677800",
-      "quoteVolumeSum": "2960732.4543600",
-      "quoteVolumes1m": [
-        "423726.7866200",
-        "330923.3677800",
-        "644300.2179000",
-        "955734.5061200",
-        "606047.5759400"
-      ],
-      "symbol": "VELVET",
-      "top10HoldersPercent": "89.31033678658228"
+      "top10HoldersPercent": "92.41939888625211"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "BSBUSDT",
-      "VELVETUSDT"
+      "BSBUSDT"
     ]
   },
   "telegram": {
