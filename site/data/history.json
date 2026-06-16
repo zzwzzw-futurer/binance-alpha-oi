@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-15T13:23:28.083704+00:00",
-    "generatedAtMs": 1781529808083,
-    "localTime": "2026-06-15 21:23:28 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "255702.67930737935",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "0.52",
-        "price": "0.3509727121091407",
-        "quoteVolumeMin": "366029.9884100",
-        "quoteVolumeSum": "2337116.9351400",
-        "symbol": "BSB",
-        "top10HoldersPercent": "92.34430472702246"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-15T13:28:29.319805+00:00",
     "generatedAtMs": 1781530109319,
     "localTime": "2026-06-15 21:28:29 CST",
@@ -3593,6 +3567,47 @@
     ],
     "symbols": [
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-16T13:25:45.696263+00:00",
+    "generatedAtMs": 1781616345696,
+    "localTime": "2026-06-16 21:25:45 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "14983.44435441673",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.01",
+        "price": "12.915416980555294",
+        "quoteVolumeMin": "413482.0197000",
+        "quoteVolumeSum": "2658840.0461000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.57742339730063"
+      },
+      {
+        "alphaVolume5m": "79384.0676161611",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": false,
+        "name": "Block Street",
+        "percentChange5m": "0.03",
+        "price": "0.5258799769429583",
+        "quoteVolumeMin": "331353.4644000",
+        "quoteVolumeSum": "3016439.7905100",
+        "symbol": "BSB",
+        "top10HoldersPercent": "92.32038195571315"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "BSBUSDT"
     ]
   }
 ]
