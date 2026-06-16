@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-16T05:14:53.528271+00:00",
-  "generatedAtMs": 1781586893528,
-  "localTime": "2026-06-16 13:14:53 CST",
-  "matches": [],
+  "generatedAt": "2026-06-16T05:19:53.653197+00:00",
+  "generatedAtMs": 1781587193653,
+  "localTime": "2026-06-16 13:19:53 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "387990.4238346197",
+      "chainId": "56",
+      "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
+      "futuresSymbol": "SPACEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SPACEUSDT",
+      "holders": "4775",
+      "isFreshAlert": true,
+      "key": "56|0x87acfa3fd7a6e0d48677d070644d76905c2bdc00|SPACEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://spacecoin.org/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/spacecoin"
+        }
+      ],
+      "liquidity": "1471253.1281920816",
+      "marketCap": "1960728.758659667",
+      "name": "Spacecoin",
+      "percentChange5m": "-1.18",
+      "price": "0.008095515463007094",
+      "quoteVolumeMin": "392943.5515550",
+      "quoteVolumeSum": "2312426.3019060",
+      "quoteVolumes1m": [
+        "444584.7969180",
+        "424031.7648860",
+        "546958.4676050",
+        "503907.7209420",
+        "392943.5515550"
+      ],
+      "symbol": "SPACE",
+      "top10HoldersPercent": "84.83745919420988"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "SPACEUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

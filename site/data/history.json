@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-15T05:17:34.858784+00:00",
-    "generatedAtMs": 1781500654858,
-    "localTime": "2026-06-15 13:17:34 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-15T05:22:35.631581+00:00",
     "generatedAtMs": 1781500955631,
     "localTime": "2026-06-15 13:22:35 CST",
@@ -2911,5 +2902,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-16T05:19:53.653197+00:00",
+    "generatedAtMs": 1781587193653,
+    "localTime": "2026-06-16 13:19:53 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "387990.4238346197",
+        "chainId": "56",
+        "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
+        "futuresSymbol": "SPACEUSDT",
+        "isFreshAlert": true,
+        "name": "Spacecoin",
+        "percentChange5m": "-1.18",
+        "price": "0.008095515463007094",
+        "quoteVolumeMin": "392943.5515550",
+        "quoteVolumeSum": "2312426.3019060",
+        "symbol": "SPACE",
+        "top10HoldersPercent": "84.83745919420988"
+      }
+    ],
+    "symbols": [
+      "SPACEUSDT"
+    ]
   }
 ]
