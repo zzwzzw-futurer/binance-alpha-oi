@@ -37,6 +37,14 @@ const formatPercent = (value) => {
   return `${sign}${formatNumber(number, 2)}%`;
 };
 
+const formatDuration = (seconds) => {
+  const value = Number(seconds);
+  if (!Number.isFinite(value) || value <= 0) return "--";
+  if (value < 60) return `${Math.round(value)}s`;
+  if (value < 3600) return `${Math.round(value / 60)}m`;
+  return `${formatNumber(value / 3600, 1)}h`;
+};
+
 const changeClass = (value) => {
   const number = Number(value);
   if (!Number.isFinite(number) || number === 0) return "";
@@ -71,11 +79,21 @@ const el = (tag, className, text) => {
 const renderMetrics = (latest) => {
   const filters = latest.filters || {};
   const summary = latest.summary || {};
+  const telegram = latest.telegram || {};
+  const minutes = filters.futuresMinutes ?? "--";
+  const minVolume = formatNumber(filters.futuresMinuteQuoteVolume);
+  const top10 = formatNumber(filters.top10Threshold, 0);
+
   document.getElementById("matchCount").textContent = summary.matchCount ?? "--";
   document.getElementById("freshCount").textContent = summary.freshAlertCount ?? "--";
   document.getElementById("updatedAt").textContent = formatDate(latest.generatedAt);
   document.getElementById("threshold").textContent =
-    `${formatNumber(filters.futuresMinuteQuoteVolume)} / min`;
+    `${minVolume} / min`;
+  document.getElementById("cooldown").textContent = formatDuration(telegram.alertCooldownSeconds);
+  document.getElementById("localTime").textContent = latest.localTime || formatDate(latest.generatedAt);
+  document.getElementById("chipTop10").textContent = `Top10 > ${top10}%`;
+  document.getElementById("chipFutures").textContent = `${filters.futuresQuoteAsset || "USDT"} 永续`;
+  document.getElementById("chipVolume").textContent = `${minutes} x ${minVolume}`;
 };
 
 const renderHistory = (history) => {
@@ -362,6 +380,7 @@ const refresh = async () => {
     renderPairMonitorCounts(history);
     renderHistoryDetails(history);
     renderResults(Array.isArray(latest.matches) ? latest.matches : []);
+    document.getElementById("dataSource").textContent = name;
     setStatus(name === "GitHub" ? "已同步 GitHub" : "已同步", "ok");
   } catch (error) {
     setStatus("同步失败", "error");

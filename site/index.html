@@ -8,19 +8,34 @@
   </head>
   <body>
     <main class="shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">Binance Alpha</p>
-          <h1>合约异动监控</h1>
+      <header class="command-panel">
+        <div class="command-copy">
+          <p class="eyebrow">Binance Alpha / Futures Flow</p>
+          <h1>Alpha 合约异动监控</h1>
+          <div class="signal-chips" aria-label="Active filters">
+            <span id="chipTop10">Top10 --</span>
+            <span id="chipFutures">Futures --</span>
+            <span id="chipVolume">Volume --</span>
+          </div>
         </div>
-        <div class="status-block" aria-live="polite">
-          <span id="syncDot" class="dot dot-waiting"></span>
-          <span id="syncStatus">同步中</span>
-        </div>
+
+        <aside class="system-card" aria-live="polite">
+          <div class="system-row">
+            <span class="system-label">DATA LINK</span>
+            <span class="status-block">
+              <span id="syncDot" class="dot dot-waiting"></span>
+              <span id="syncStatus">同步中</span>
+            </span>
+          </div>
+          <div class="system-readout">
+            <span>来源 <strong id="dataSource">--</strong></span>
+            <span>本地时间 <strong id="localTime">--</strong></span>
+          </div>
+        </aside>
       </header>
 
       <section class="metrics" aria-label="Scan summary">
-        <div class="metric">
+        <div class="metric metric-primary">
           <span>当前命中</span>
           <strong id="matchCount">--</strong>
         </div>
@@ -35,6 +50,10 @@
         <div class="metric">
           <span>阈值</span>
           <strong id="threshold">--</strong>
+        </div>
+        <div class="metric">
+          <span>推送冷却</span>
+          <strong id="cooldown">--</strong>
         </div>
       </section>
 
