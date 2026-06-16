@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-15T13:13:27.510106+00:00",
-    "generatedAtMs": 1781529207510,
-    "localTime": "2026-06-15 21:13:27 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "201401.64780396852",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "4.86",
-        "price": "0.3563737780819797",
-        "quoteVolumeMin": "375694.9782000",
-        "quoteVolumeSum": "2615805.6317700",
-        "symbol": "BSB",
-        "top10HoldersPercent": "92.52393759295478"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-15T13:18:27.796412+00:00",
     "generatedAtMs": 1781529507796,
     "localTime": "2026-06-15 21:18:27 CST",
@@ -3571,6 +3545,47 @@
         "price": "2.6574638479934594",
         "quoteVolumeMin": "449201.8148000",
         "quoteVolumeSum": "3522530.4546000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.072727273"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-16T13:15:44.756751+00:00",
+    "generatedAtMs": 1781615744756,
+    "localTime": "2026-06-16 21:15:44 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "23517.639299777227",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.12",
+        "price": "13.052999857048308",
+        "quoteVolumeMin": "598133.3215000",
+        "quoteVolumeSum": "4503634.3075700",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.57742339730063"
+      },
+      {
+        "alphaVolume5m": "377378.57175901224",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-0.83",
+        "price": "2.639487200707242",
+        "quoteVolumeMin": "445128.9958000",
+        "quoteVolumeSum": "3730513.9424000",
         "symbol": "BEAT",
         "top10HoldersPercent": "84.072727273"
       }
