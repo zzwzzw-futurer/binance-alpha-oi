@@ -9,17 +9,57 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-16T13:00:43.486319+00:00",
-  "generatedAtMs": 1781614843486,
-  "localTime": "2026-06-16 21:00:43 CST",
+  "generatedAt": "2026-06-16T13:05:43.767150+00:00",
+  "generatedAtMs": 1781615143767,
+  "localTime": "2026-06-16 21:05:43 CST",
   "matches": [
     {
-      "alphaVolume5m": "421028.728007742",
+      "alphaVolume5m": "17591.64291288449",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21084",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "8867218.705136692",
+      "marketCap": "13284155691.892824",
+      "name": "LAB",
+      "percentChange5m": "0.46",
+      "price": "13.284155691954984",
+      "quoteVolumeMin": "392896.4784000",
+      "quoteVolumeSum": "2670937.9040900",
+      "quoteVolumes1m": [
+        "392896.4784000",
+        "536296.3356000",
+        "699875.9028300",
+        "558532.5834600",
+        "483336.6038000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.57742339730063"
+    },
+    {
+      "alphaVolume5m": "563706.575141559",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142838",
+      "holders": "142834",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,58 +76,22 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "3231728.8387578204",
-      "marketCap": "2585040631.426563",
+      "liquidity": "3238301.0109592746",
+      "marketCap": "2599603783.740632",
       "name": "Audiera",
-      "percentChange5m": "-1.67",
-      "price": "2.619417850408611",
-      "quoteVolumeMin": "447695.4614000",
-      "quoteVolumeSum": "3551396.1546000",
+      "percentChange5m": "0.56",
+      "price": "2.6341746711200296",
+      "quoteVolumeMin": "358345.0828000",
+      "quoteVolumeSum": "3245279.0445000",
       "quoteVolumes1m": [
-        "862757.0418000",
-        "1042028.8204000",
-        "631181.0313000",
-        "567733.7997000",
-        "447695.4614000"
+        "451795.4084000",
+        "1490775.9028000",
+        "527913.7479000",
+        "416448.9026000",
+        "358345.0828000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
-    },
-    {
-      "alphaVolume5m": "162181.15804752463",
-      "chainId": "56",
-      "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-      "futuresSymbol": "BSBUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BSBUSDT",
-      "holders": "58296",
-      "isFreshAlert": false,
-      "key": "56|0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc|BSBUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://blockstreet.money/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/BlockSt_HQ"
-        }
-      ],
-      "liquidity": "2140188.016593671",
-      "marketCap": "25755591.98839133",
-      "name": "Block Street",
-      "percentChange5m": "-3.09",
-      "price": "0.5022807493975321",
-      "quoteVolumeMin": "345462.6332800",
-      "quoteVolumeSum": "2545505.0693800",
-      "quoteVolumes1m": [
-        "699267.1084100",
-        "494435.9524900",
-        "386347.4576300",
-        "619991.9175700",
-        "345462.6332800"
-      ],
-      "symbol": "BSB",
-      "top10HoldersPercent": "92.27887363716475"
     }
   ],
   "status": "ok",
@@ -95,8 +99,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "BEATUSDT",
-      "BSBUSDT"
+      "LABUSDT",
+      "BEATUSDT"
     ]
   },
   "telegram": {
