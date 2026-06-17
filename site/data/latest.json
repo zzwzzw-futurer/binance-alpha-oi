@@ -9,54 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-17T02:12:05.008726+00:00",
-  "generatedAtMs": 1781662325008,
-  "localTime": "2026-06-17 10:12:05 CST",
+  "generatedAt": "2026-06-17T02:17:05.835788+00:00",
+  "generatedAtMs": 1781662625835,
+  "localTime": "2026-06-17 10:17:05 CST",
   "matches": [
     {
-      "alphaVolume5m": "6876.010150936937",
-      "chainId": "56",
-      "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-      "futuresSymbol": "BRUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
-      "holders": "80554",
-      "isFreshAlert": true,
-      "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://www.bedrockdao.com/"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/Bedrock_DeFi"
-        }
-      ],
-      "liquidity": "1047157.4873740292",
-      "marketCap": "185654550.07791755",
-      "name": "Bedrock",
-      "percentChange5m": "-1.93",
-      "price": "0.1856545504273971",
-      "quoteVolumeMin": "539518.9007100",
-      "quoteVolumeSum": "3294330.7647400",
-      "quoteVolumes1m": [
-        "539518.9007100",
-        "738629.5927800",
-        "861759.6091800",
-        "591073.9612600",
-        "563348.7008100"
-      ],
-      "symbol": "BR",
-      "top10HoldersPercent": "86.67417844835514"
-    },
-    {
-      "alphaVolume5m": "401890.28881128883",
+      "alphaVolume5m": "644865.3746188324",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "142911",
-      "isFreshAlert": true,
+      "holders": "142926",
+      "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
         {
@@ -72,19 +36,19 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "3263464.3085160623",
-      "marketCap": "2656445899.173539",
+      "liquidity": "3366271.6921146745",
+      "marketCap": "2898684551.966212",
       "name": "Audiera",
-      "percentChange5m": "6.6",
-      "price": "2.691772702659587",
-      "quoteVolumeMin": "328426.7686000",
-      "quoteVolumeSum": "3285699.7812000",
+      "percentChange5m": "9.57",
+      "price": "2.937232771437653",
+      "quoteVolumeMin": "310392.7041000",
+      "quoteVolumeSum": "5625002.9093000",
       "quoteVolumes1m": [
-        "328426.7686000",
-        "1221105.7863000",
-        "599591.2926000",
-        "460449.6872000",
-        "676126.2465000"
+        "1058803.3734000",
+        "347260.3201000",
+        "310392.7041000",
+        "1261807.7282000",
+        "2646738.7835000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "84.072727273"
@@ -92,10 +56,9 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 2,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "BRUSDT",
       "BEATUSDT"
     ]
   },
