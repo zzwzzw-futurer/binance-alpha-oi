@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-16T05:19:53.653197+00:00",
-    "generatedAtMs": 1781587193653,
-    "localTime": "2026-06-16 13:19:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "387990.4238346197",
-        "chainId": "56",
-        "contractAddress": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00",
-        "futuresSymbol": "SPACEUSDT",
-        "isFreshAlert": true,
-        "name": "Spacecoin",
-        "percentChange5m": "-1.18",
-        "price": "0.008095515463007094",
-        "quoteVolumeMin": "392943.5515550",
-        "quoteVolumeSum": "2312426.3019060",
-        "symbol": "SPACE",
-        "top10HoldersPercent": "84.83745919420988"
-      }
-    ],
-    "symbols": [
-      "SPACEUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-16T05:24:53.842651+00:00",
     "generatedAtMs": 1781587493842,
@@ -4260,5 +4234,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-17T05:22:24.465490+00:00",
+    "generatedAtMs": 1781673744465,
+    "localTime": "2026-06-17 13:22:24 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "357182.85003515653",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "-9.18",
+        "price": "2.322765773130795",
+        "quoteVolumeMin": "339553.0412000",
+        "quoteVolumeSum": "4143956.4566000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.11142513738619"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT"
+    ]
   }
 ]
