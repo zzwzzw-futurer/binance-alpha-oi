@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-17T08:47:43.881520+00:00",
-    "generatedAtMs": 1781686063881,
-    "localTime": "2026-06-17 16:47:43 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-17T08:52:44.013670+00:00",
     "generatedAtMs": 1781686364013,
     "localTime": "2026-06-17 16:52:44 CST",
@@ -4291,5 +4282,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-18T08:50:11.154646+00:00",
+    "generatedAtMs": 1781772611154,
+    "localTime": "2026-06-18 16:50:11 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "196522.3525934182",
+        "chainId": "1",
+        "contractAddress": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+        "futuresSymbol": "HUSDT",
+        "isFreshAlert": true,
+        "name": "Humanity",
+        "percentChange5m": "7.44",
+        "price": "0.24319521913527684",
+        "quoteVolumeMin": "470716.1340300",
+        "quoteVolumeSum": "4198825.8620800",
+        "symbol": "H",
+        "top10HoldersPercent": "89.50791709149"
+      },
+      {
+        "alphaVolume5m": "167102.0164512865",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "-3.89",
+        "price": "0.17564055645651477",
+        "quoteVolumeMin": "355597.9066400",
+        "quoteVolumeSum": "2903937.7199900",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "88.87938528835977"
+      }
+    ],
+    "symbols": [
+      "HUSDT",
+      "ESPORTSUSDT"
+    ]
   }
 ]
