@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-17T12:48:10.348410+00:00",
-    "generatedAtMs": 1781700490348,
-    "localTime": "2026-06-17 20:48:10 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "385707.0476689754",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "1.8",
-        "price": "0.5050192282500462",
-        "quoteVolumeMin": "491446.6544400",
-        "quoteVolumeSum": "3348016.0744400",
-        "symbol": "BSB",
-        "top10HoldersPercent": "93.48750397174899"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-17T12:53:11.197391+00:00",
     "generatedAtMs": 1781700791197,
     "localTime": "2026-06-17 20:53:11 CST",
@@ -4927,5 +4901,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-18T12:50:31.508129+00:00",
+    "generatedAtMs": 1781787031508,
+    "localTime": "2026-06-18 20:50:31 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "97369.82501232717",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "-0.92",
+        "price": "0.09011689391515243",
+        "quoteVolumeMin": "314416.6170400",
+        "quoteVolumeSum": "2887175.3230200",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "88.45239741809542"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT"
+    ]
   }
 ]
