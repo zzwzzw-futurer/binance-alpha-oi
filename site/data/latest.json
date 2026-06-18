@@ -9,18 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-18T08:20:07.432078+00:00",
-  "generatedAtMs": 1781770807432,
-  "localTime": "2026-06-18 16:20:07 CST",
+  "generatedAt": "2026-06-18T08:25:08.418472+00:00",
+  "generatedAtMs": 1781771108418,
+  "localTime": "2026-06-18 16:25:08 CST",
   "matches": [
     {
-      "alphaVolume5m": "16483.54354684138",
+      "alphaVolume5m": "70544.064433963",
+      "chainId": "56",
+      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+      "futuresSymbol": "ESPORTSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
+      "holders": "86258",
+      "isFreshAlert": true,
+      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.yooldo.gg/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Yooldo_Games"
+        }
+      ],
+      "liquidity": "2842189.8062467007",
+      "marketCap": "172272872.42631602",
+      "name": "Yooldo",
+      "percentChange5m": "-0.22",
+      "price": "0.19141430422631409",
+      "quoteVolumeMin": "458657.0190400",
+      "quoteVolumeSum": "3344974.4762600",
+      "quoteVolumes1m": [
+        "1250513.9502600",
+        "583253.8056800",
+        "531446.4348700",
+        "521103.2664100",
+        "458657.0190400"
+      ],
+      "symbol": "ESPORTS",
+      "top10HoldersPercent": "88.83561995246545"
+    },
+    {
+      "alphaVolume5m": "13971.641885452653",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21151",
-      "isFreshAlert": true,
+      "holders": "21152",
+      "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
@@ -36,29 +72,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "9719498.389647165",
-      "marketCap": "15553200210.836916",
+      "liquidity": "9812766.028722031",
+      "marketCap": "15166772220.78009",
       "name": "LAB",
-      "percentChange5m": "3.89",
-      "price": "15.553200210909694",
-      "quoteVolumeMin": "569440.0940000",
-      "quoteVolumeSum": "7023130.0261100",
+      "percentChange5m": "-1.94",
+      "price": "15.16677222085106",
+      "quoteVolumeMin": "360593.9430000",
+      "quoteVolumeSum": "4497876.6081900",
       "quoteVolumes1m": [
-        "1264740.0109000",
-        "569440.0940000",
-        "928582.2827000",
-        "2119784.0051700",
-        "2140583.6333400"
+        "850230.1980000",
+        "580672.5680000",
+        "1372344.5874000",
+        "1334035.3117900",
+        "360593.9430000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.5945729237342"
+      "top10HoldersPercent": "87.5953729237342"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 1,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "ESPORTSUSDT",
       "LABUSDT"
     ]
   },
