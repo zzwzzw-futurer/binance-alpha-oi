@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-17T17:23:38.441456+00:00",
-    "generatedAtMs": 1781717018441,
-    "localTime": "2026-06-18 01:23:38 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-17T17:28:38.496859+00:00",
     "generatedAtMs": 1781717318496,
     "localTime": "2026-06-18 01:28:38 CST",
@@ -5180,6 +5171,47 @@
       }
     ],
     "symbols": [
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-18T17:25:58.283713+00:00",
+    "generatedAtMs": 1781803558283,
+    "localTime": "2026-06-19 01:25:58 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "666364.3229452317",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": true,
+        "name": "Block Street",
+        "percentChange5m": "1.24",
+        "price": "0.503180401284089",
+        "quoteVolumeMin": "571998.6368000",
+        "quoteVolumeSum": "5247657.2463200",
+        "symbol": "BSB",
+        "top10HoldersPercent": "93.80735644576903"
+      },
+      {
+        "alphaVolume5m": "58739.986015038725",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-0.87",
+        "price": "0.5779921230948304",
+        "quoteVolumeMin": "426955.6709000",
+        "quoteVolumeSum": "3257900.8103000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.30941090062903"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT",
       "VELVETUSDT"
     ]
   }
