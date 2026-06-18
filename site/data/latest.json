@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-18T20:26:14.412483+00:00",
-  "generatedAtMs": 1781814374412,
-  "localTime": "2026-06-19 04:26:14 CST",
-  "matches": [],
+  "generatedAt": "2026-06-18T20:31:14.649276+00:00",
+  "generatedAtMs": 1781814674649,
+  "localTime": "2026-06-19 04:31:14 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "24039.14122590451",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15154",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "2304082.014352446",
+      "marketCap": "485974259.37224376",
+      "name": "Velvet",
+      "percentChange5m": "-1.19",
+      "price": "0.4859742651974121",
+      "quoteVolumeMin": "309613.3477400",
+      "quoteVolumeSum": "1828888.4619000",
+      "quoteVolumes1m": [
+        "309613.3477400",
+        "466124.8683200",
+        "385289.5611000",
+        "321663.1457400",
+        "346197.5390000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.30941090062903"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "VELVETUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
