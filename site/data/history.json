@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-18T18:56:05.476274+00:00",
-    "generatedAtMs": 1781808965476,
-    "localTime": "2026-06-19 02:56:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-18T19:01:05.467456+00:00",
     "generatedAtMs": 1781809265467,
     "localTime": "2026-06-19 03:01:05 CST",
@@ -3414,6 +3405,32 @@
     "symbols": [
       "BSBUSDT",
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-19T18:58:28.401690+00:00",
+    "generatedAtMs": 1781895508401,
+    "localTime": "2026-06-20 02:58:28 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "666198.9034682111",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": false,
+        "name": "Block Street",
+        "percentChange5m": "4.34",
+        "price": "0.44907189092513794",
+        "quoteVolumeMin": "641598.3484500",
+        "quoteVolumeSum": "5065780.5432700",
+        "symbol": "BSB",
+        "top10HoldersPercent": "92.81758330254894"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT"
     ]
   }
 ]
