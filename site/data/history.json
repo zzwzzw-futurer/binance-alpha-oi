@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-18T05:59:51.291145+00:00",
-    "generatedAtMs": 1781762391291,
-    "localTime": "2026-06-18 13:59:51 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "87909.01932452997",
-        "chainId": "56",
-        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
-        "futuresSymbol": "ESPORTSUSDT",
-        "isFreshAlert": false,
-        "name": "Yooldo",
-        "percentChange5m": "2.67",
-        "price": "0.17276240939119528",
-        "quoteVolumeMin": "424815.6550300",
-        "quoteVolumeSum": "3470058.7911000",
-        "symbol": "ESPORTS",
-        "top10HoldersPercent": "88.28752459691526"
-      }
-    ],
-    "symbols": [
-      "ESPORTSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-18T06:04:51.785744+00:00",
     "generatedAtMs": 1781762691785,
     "localTime": "2026-06-18 14:04:51 CST",
@@ -4676,5 +4650,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-19T06:02:10.726314+00:00",
+    "generatedAtMs": 1781848930726,
+    "localTime": "2026-06-19 14:02:10 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "17395.719023578466",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "0.19",
+        "price": "15.805261017401422",
+        "quoteVolumeMin": "364135.4261400",
+        "quoteVolumeSum": "3745606.6875100",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.63448834567161"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
   }
 ]
