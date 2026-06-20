@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-19T18:48:27.300411+00:00",
-    "generatedAtMs": 1781894907300,
-    "localTime": "2026-06-20 02:48:27 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "432788.8135228964",
-        "chainId": "56",
-        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
-        "futuresSymbol": "BSBUSDT",
-        "isFreshAlert": false,
-        "name": "Block Street",
-        "percentChange5m": "-3.49",
-        "price": "0.401295754690849",
-        "quoteVolumeMin": "839621.6120600",
-        "quoteVolumeSum": "5260610.9819600",
-        "symbol": "BSB",
-        "top10HoldersPercent": "92.86280403797358"
-      },
-      {
-        "alphaVolume5m": "10635.483338172295",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": true,
-        "name": "LAB",
-        "percentChange5m": "0.77",
-        "price": "13.36884467207108",
-        "quoteVolumeMin": "364170.8936000",
-        "quoteVolumeSum": "2706636.4122200",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.67492561919435"
-      }
-    ],
-    "symbols": [
-      "BSBUSDT",
-      "LABUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-19T18:53:27.493684+00:00",
     "generatedAtMs": 1781895207493,
@@ -3939,6 +3898,32 @@
         "quoteVolumeSum": "4475157.1409640",
         "symbol": "BTW",
         "top10HoldersPercent": "99.06918969091224"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-20T18:51:01.127900+00:00",
+    "generatedAtMs": 1781981461127,
+    "localTime": "2026-06-21 02:51:01 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "151912.52061789925",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "0.26",
+        "price": "0.18428896870300987",
+        "quoteVolumeMin": "405243.6671600",
+        "quoteVolumeSum": "2902137.7180290",
+        "symbol": "BTW",
+        "top10HoldersPercent": "99.07043033190996"
       }
     ],
     "symbols": [
