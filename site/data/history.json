@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-20T12:25:21.334571+00:00",
-    "generatedAtMs": 1781958321334,
-    "localTime": "2026-06-20 20:25:21 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "96566.80895324226",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": false,
-        "name": "Bitway",
-        "percentChange5m": "0.05",
-        "price": "0.14192393827614505",
-        "quoteVolumeMin": "344911.1487800",
-        "quoteVolumeSum": "1933619.9797100",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.03798316534859"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-20T12:30:21.572286+00:00",
     "generatedAtMs": 1781958621572,
     "localTime": "2026-06-20 20:30:21 CST",
@@ -4816,6 +4790,47 @@
     ],
     "symbols": [
       "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-21T12:27:51.663891+00:00",
+    "generatedAtMs": 1782044871663,
+    "localTime": "2026-06-21 20:27:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "163214.46843317535",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "7.04",
+        "price": "0.12382137791991656",
+        "quoteVolumeMin": "376629.2320300",
+        "quoteVolumeSum": "3738591.1529930",
+        "symbol": "BTW",
+        "top10HoldersPercent": "99.0894077832114"
+      },
+      {
+        "alphaVolume5m": "11043.332406507905",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "-0.83",
+        "price": "15.638079560574498",
+        "quoteVolumeMin": "330980.4620000",
+        "quoteVolumeSum": "2441068.5103500",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.76787957159682"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT",
+      "LABUSDT"
     ]
   }
 ]

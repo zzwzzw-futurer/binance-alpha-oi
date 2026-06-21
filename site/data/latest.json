@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-21T12:22:50.924766+00:00",
-  "generatedAtMs": 1782044570924,
-  "localTime": "2026-06-21 20:22:50 CST",
+  "generatedAt": "2026-06-21T12:27:51.663891+00:00",
+  "generatedAtMs": 1782044871663,
+  "localTime": "2026-06-21 20:27:51 CST",
   "matches": [
     {
-      "alphaVolume5m": "303604.4250279564",
+      "alphaVolume5m": "163214.46843317535",
       "chainId": "56",
       "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
       "futuresSymbol": "BTWUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "9939",
+      "holders": "9940",
       "isFreshAlert": false,
       "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
       "links": [
@@ -32,30 +32,71 @@
           "link": "https://twitter.com/bitwayofficial"
         }
       ],
-      "liquidity": "1448078.129009946",
-      "marketCap": "1159559323.8140666",
+      "liquidity": "1465709.5508531518",
+      "marketCap": "1238213752.8438616",
       "name": "Bitway",
-      "percentChange5m": "10.45",
-      "price": "0.11595593484952157",
-      "quoteVolumeMin": "526361.6164900",
-      "quoteVolumeSum": "8807050.0476490",
+      "percentChange5m": "7.04",
+      "price": "0.12382137791991656",
+      "quoteVolumeMin": "376629.2320300",
+      "quoteVolumeSum": "3738591.1529930",
       "quoteVolumes1m": [
-        "4680677.4085800",
-        "1308127.7130650",
-        "1188564.8393580",
-        "1103318.4701560",
-        "526361.6164900"
+        "510020.1267560",
+        "644162.3504400",
+        "735661.9596320",
+        "376629.2320300",
+        "1472117.4841350"
       ],
       "symbol": "BTW",
-      "top10HoldersPercent": "99.08886989521656"
+      "top10HoldersPercent": "99.0894077832114"
+    },
+    {
+      "alphaVolume5m": "11043.332406507905",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21151",
+      "isFreshAlert": true,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "10010844.727157185",
+      "marketCap": "15638079560.501324",
+      "name": "LAB",
+      "percentChange5m": "-0.83",
+      "price": "15.638079560574498",
+      "quoteVolumeMin": "330980.4620000",
+      "quoteVolumeSum": "2441068.5103500",
+      "quoteVolumes1m": [
+        "511006.3540900",
+        "462891.6007000",
+        "554173.4350000",
+        "330980.4620000",
+        "582016.6585600"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.76787957159682"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BTWUSDT"
+      "BTWUSDT",
+      "LABUSDT"
     ]
   },
   "telegram": {
