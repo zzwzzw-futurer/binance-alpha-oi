@@ -9,15 +9,95 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-21T16:38:16.632470+00:00",
-  "generatedAtMs": 1782059896632,
-  "localTime": "2026-06-22 00:38:16 CST",
-  "matches": [],
+  "generatedAt": "2026-06-21T16:43:16.494452+00:00",
+  "generatedAtMs": 1782060196494,
+  "localTime": "2026-06-22 00:43:16 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "164029.24946286567",
+      "chainId": "56",
+      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+      "futuresSymbol": "BTWUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
+      "holders": "12400",
+      "isFreshAlert": true,
+      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bitway.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/bitwayofficial"
+        }
+      ],
+      "liquidity": "1361115.742029486",
+      "marketCap": "776410595.4746926",
+      "name": "Bitway",
+      "percentChange5m": "-4.35",
+      "price": "0.07764106120005446",
+      "quoteVolumeMin": "339540.0696850",
+      "quoteVolumeSum": "2300470.3885340",
+      "quoteVolumes1m": [
+        "413981.5619320",
+        "339540.0696850",
+        "801097.6034470",
+        "377870.1638830",
+        "367980.9895870"
+      ],
+      "symbol": "BTW",
+      "top10HoldersPercent": "99.09255109808925"
+    },
+    {
+      "alphaVolume5m": "14267.072250647534",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21148",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "8847238.352553474",
+      "marketCap": "13180781860.762",
+      "name": "LAB",
+      "percentChange5m": "-0.73",
+      "price": "13.180781860823675",
+      "quoteVolumeMin": "319368.8543000",
+      "quoteVolumeSum": "2134205.9410000",
+      "quoteVolumes1m": [
+        "454522.7774000",
+        "553900.1375000",
+        "395018.3718000",
+        "319368.8543000",
+        "411395.8000000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.77645113422739"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 2,
+    "symbols": [
+      "BTWUSDT",
+      "LABUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
