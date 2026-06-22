@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-21T04:16:58.608256+00:00",
-    "generatedAtMs": 1782015418608,
-    "localTime": "2026-06-21 12:16:58 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "117894.05106107295",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": true,
-        "name": "Bitway",
-        "percentChange5m": "-2.34",
-        "price": "0.11012351086092431",
-        "quoteVolumeMin": "344159.6281440",
-        "quoteVolumeSum": "2294859.9720550",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.12503038771668"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-21T04:21:59.045491+00:00",
     "generatedAtMs": 1782015719045,
@@ -4039,6 +4013,32 @@
         "price": "14.671628415165872",
         "quoteVolumeMin": "473940.3720000",
         "quoteVolumeSum": "4224420.0905900",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.80585737988723"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-22T04:19:34.031650+00:00",
+    "generatedAtMs": 1782101974031,
+    "localTime": "2026-06-22 12:19:34 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "9735.731819736871",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-0.76",
+        "price": "14.64957602880265",
+        "quoteVolumeMin": "339361.7600000",
+        "quoteVolumeSum": "2579095.6462100",
         "symbol": "LAB",
         "top10HoldersPercent": "87.80585737988723"
       }
