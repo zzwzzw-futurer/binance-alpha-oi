@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-23T07:47:21.010917+00:00",
-    "generatedAtMs": 1782200841010,
-    "localTime": "2026-06-23 15:47:21 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-23T07:52:21.576993+00:00",
     "generatedAtMs": 1782201141576,
     "localTime": "2026-06-23 15:52:21 CST",
@@ -3138,6 +3129,32 @@
     "symbols": [
       "BEATUSDT",
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-24T07:49:43.358347+00:00",
+    "generatedAtMs": 1782287383358,
+    "localTime": "2026-06-24 15:49:43 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "535232.7485486639",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-2.99",
+        "price": "2.485512700258868",
+        "quoteVolumeMin": "798397.4884000",
+        "quoteVolumeSum": "5981151.2451000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.11142513738619"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT"
     ]
   }
 ]
