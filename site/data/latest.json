@@ -9,12 +9,52 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-24T07:39:42.417567+00:00",
-  "generatedAtMs": 1782286782417,
-  "localTime": "2026-06-24 15:39:42 CST",
+  "generatedAt": "2026-06-24T07:44:42.856192+00:00",
+  "generatedAtMs": 1782287082856,
+  "localTime": "2026-06-24 15:44:42 CST",
   "matches": [
     {
-      "alphaVolume5m": "42538.17260526192",
+      "alphaVolume5m": "455488.37966027594",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "143619",
+      "isFreshAlert": true,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "3235198.6338064168",
+      "marketCap": "2529878903.044459",
+      "name": "Audiera",
+      "percentChange5m": "-4.82",
+      "price": "2.5655323420987983",
+      "quoteVolumeMin": "422118.1835000",
+      "quoteVolumeSum": "4339587.7463000",
+      "quoteVolumes1m": [
+        "422118.1835000",
+        "956871.2531000",
+        "1191356.7387000",
+        "868872.2522000",
+        "900369.3188000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.11142513738619"
+    },
+    {
+      "alphaVolume5m": "11746.136525193844",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
@@ -36,108 +76,31 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "10163737.932096958",
-      "marketCap": "15880660727.201704",
+      "liquidity": "10163702.982977573",
+      "marketCap": "15973716030.879211",
       "name": "LAB",
-      "percentChange5m": "-2.7",
-      "price": "15.880660727276014",
-      "quoteVolumeMin": "631408.2438000",
-      "quoteVolumeSum": "4761149.0901000",
+      "percentChange5m": "0.58",
+      "price": "15.973716030953957",
+      "quoteVolumeMin": "375304.1446000",
+      "quoteVolumeSum": "2295872.1724000",
       "quoteVolumes1m": [
-        "631408.2438000",
-        "1366883.0512000",
-        "1291821.4666000",
-        "709120.0550000",
-        "761916.2735000"
+        "518205.4900000",
+        "375304.1446000",
+        "589680.0480000",
+        "400828.0860000",
+        "411854.4038000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.92045504419353"
-    },
-    {
-      "alphaVolume5m": "159.95571024979586",
-      "chainId": "56",
-      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
-      "futuresSymbol": "SLXUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
-      "holders": "238077",
-      "isFreshAlert": false,
-      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://slimex.io/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/slimexofficial"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/Slime_Miner"
-        }
-      ],
-      "liquidity": "332641.532124645",
-      "marketCap": "2051953.5576979253",
-      "name": "SLIMEX",
-      "percentChange5m": "0.03",
-      "price": "0.001184047061568335",
-      "quoteVolumeMin": "302756.7960400",
-      "quoteVolumeSum": "3652075.5154300",
-      "quoteVolumes1m": [
-        "409942.4338500",
-        "302756.7960400",
-        "1429942.3359100",
-        "1103976.5964700",
-        "405457.3531600"
-      ],
-      "symbol": "SLX",
-      "top10HoldersPercent": "92.39233977036082"
-    },
-    {
-      "alphaVolume5m": "58350.75047616403",
-      "chainId": "56",
-      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-      "futuresSymbol": "SLXUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
-      "holders": "27596",
-      "isFreshAlert": false,
-      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://solstice.finance/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/solsticefi"
-        }
-      ],
-      "liquidity": "1220283.7184159344",
-      "marketCap": "3666871.7211854435",
-      "name": "Solstice",
-      "percentChange5m": "-2.28",
-      "price": "0.2747096610927386",
-      "quoteVolumeMin": "302756.7960400",
-      "quoteVolumeSum": "3652075.5154300",
-      "quoteVolumes1m": [
-        "409942.4338500",
-        "302756.7960400",
-        "1429942.3359100",
-        "1103976.5964700",
-        "405457.3531600"
-      ],
-      "symbol": "SLX",
-      "top10HoldersPercent": "82.34814098542213"
+      "top10HoldersPercent": "87.92141504419352"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 3,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT",
-      "SLXUSDT",
-      "SLXUSDT"
+      "BEATUSDT",
+      "LABUSDT"
     ]
   },
   "telegram": {
