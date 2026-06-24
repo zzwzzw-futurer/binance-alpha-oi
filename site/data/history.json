@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-23T11:57:47.033630+00:00",
-    "generatedAtMs": 1782215867033,
-    "localTime": "2026-06-23 19:57:47 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-23T12:02:47.593118+00:00",
     "generatedAtMs": 1782216167593,
     "localTime": "2026-06-23 20:02:47 CST",
@@ -3497,6 +3488,32 @@
     "symbols": [
       "SLXUSDT",
       "SLXUSDT",
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-24T12:00:12.259817+00:00",
+    "generatedAtMs": 1782302412259,
+    "localTime": "2026-06-24 20:00:12 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "7957.317760115319",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-0.59",
+        "price": "16.889697118594814",
+        "quoteVolumeMin": "442669.5650000",
+        "quoteVolumeSum": "3048438.1642000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.9247105897026"
+      }
+    ],
+    "symbols": [
       "LABUSDT"
     ]
   }
