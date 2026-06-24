@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-24T07:59:44.858590+00:00",
-  "generatedAtMs": 1782287984858,
-  "localTime": "2026-06-24 15:59:44 CST",
-  "matches": [],
+  "generatedAt": "2026-06-24T08:04:45.427098+00:00",
+  "generatedAtMs": 1782288285427,
+  "localTime": "2026-06-24 16:04:45 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "372019.08635450766",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "143616",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "3151684.62514636",
+      "marketCap": "2348223362.4779677",
+      "name": "Audiera",
+      "percentChange5m": "-4.51",
+      "price": "2.3813167403623132",
+      "quoteVolumeMin": "335117.3537000",
+      "quoteVolumeSum": "3005837.9767000",
+      "quoteVolumes1m": [
+        "335117.3537000",
+        "477421.7542000",
+        "382567.2331000",
+        "993900.4613000",
+        "816831.1744000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "84.11142513738619"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "BEATUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
