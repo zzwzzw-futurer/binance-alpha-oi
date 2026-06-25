@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-24T14:05:21.311357+00:00",
-    "generatedAtMs": 1782309921311,
-    "localTime": "2026-06-24 22:05:21 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "44444.681658535665",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-1.64",
-        "price": "18.425734846243312",
-        "quoteVolumeMin": "714394.4015000",
-        "quoteVolumeSum": "5201246.8562000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.93405690417542"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-24T14:10:22.832045+00:00",
     "generatedAtMs": 1782310222832,
     "localTime": "2026-06-24 22:10:22 CST",
@@ -4731,6 +4705,47 @@
       "SLXUSDT",
       "SLXUSDT",
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-25T14:08:01.648717+00:00",
+    "generatedAtMs": 1782396481648,
+    "localTime": "2026-06-25 22:08:01 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "222.96686859505084",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "SLIMEX",
+        "percentChange5m": "-0.06",
+        "price": "0.001179628231928268",
+        "quoteVolumeMin": "331810.4324200",
+        "quoteVolumeSum": "2050541.9245600",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.39233977036082"
+      },
+      {
+        "alphaVolume5m": "31893.669018754408",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "Solstice",
+        "percentChange5m": "0.19",
+        "price": "0.3813426408152357",
+        "quoteVolumeMin": "331810.4324200",
+        "quoteVolumeSum": "2081608.2734700",
+        "symbol": "SLX",
+        "top10HoldersPercent": "87.26801228756766"
+      }
+    ],
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT"
     ]
   }
 ]
