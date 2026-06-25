@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-24T14:00:21.086274+00:00",
-    "generatedAtMs": 1782309621086,
-    "localTime": "2026-06-24 22:00:21 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "75396.03807147253",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": true,
-        "name": "LAB",
-        "percentChange5m": "-0.45",
-        "price": "18.802564218014364",
-        "quoteVolumeMin": "413508.9870000",
-        "quoteVolumeSum": "5230575.9431000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.93385582911385"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-24T14:05:21.311357+00:00",
     "generatedAtMs": 1782309921311,
@@ -4701,6 +4675,62 @@
       "LABUSDT",
       "SLXUSDT",
       "SLXUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-25T14:02:58.729265+00:00",
+    "generatedAtMs": 1782396178729,
+    "localTime": "2026-06-25 22:02:58 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "111.31892823985508",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "SLIMEX",
+        "percentChange5m": "0",
+        "price": "0.001180177898590206",
+        "quoteVolumeMin": "429297.8220300",
+        "quoteVolumeSum": "3661652.6177200",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.39233977036082"
+      },
+      {
+        "alphaVolume5m": "67333.07566881101",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "Solstice",
+        "percentChange5m": "1.76",
+        "price": "0.3805997412748943",
+        "quoteVolumeMin": "429297.8220300",
+        "quoteVolumeSum": "3661652.6177200",
+        "symbol": "SLX",
+        "top10HoldersPercent": "87.24534892378372"
+      },
+      {
+        "alphaVolume5m": "27024.93365556307",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.9",
+        "price": "17.690191868598767",
+        "quoteVolumeMin": "384914.9133000",
+        "quoteVolumeSum": "2936787.2058000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.90718837413024"
+      }
+    ],
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT",
+      "LABUSDT"
     ]
   }
 ]
