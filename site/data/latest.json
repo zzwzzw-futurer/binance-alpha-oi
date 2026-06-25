@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-25T00:41:31.949060+00:00",
-  "generatedAtMs": 1782348091949,
-  "localTime": "2026-06-25 08:41:31 CST",
+  "generatedAt": "2026-06-25T00:46:30.910021+00:00",
+  "generatedAtMs": 1782348390910,
+  "localTime": "2026-06-25 08:46:30 CST",
   "matches": [
     {
-      "alphaVolume5m": "18875.290539483914",
+      "alphaVolume5m": "11092.971340869935",
       "chainId": "56",
       "contractAddress": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
       "futuresSymbol": "MUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/MUSDT",
-      "holders": "7048",
-      "isFreshAlert": true,
+      "holders": "7059",
+      "isFreshAlert": false,
       "key": "56|0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa|MUSDT",
       "links": [
         {
@@ -36,108 +36,30 @@
           "link": "https://x.com/MemeCore_ORG"
         }
       ],
-      "liquidity": "27926.566335012318",
-      "marketCap": "158301050.85965934",
+      "liquidity": "45837.84268621935",
+      "marketCap": "135411832.33786058",
       "name": "MemeCore",
-      "percentChange5m": "14.3",
-      "price": "0.6913188557532661",
-      "quoteVolumeMin": "404107.9789000",
-      "quoteVolumeSum": "4175677.9507000",
+      "percentChange5m": "-11.29",
+      "price": "0.5913590116988838",
+      "quoteVolumeMin": "387566.7153000",
+      "quoteVolumeSum": "2903414.5031000",
       "quoteVolumes1m": [
-        "1863923.9616000",
-        "750440.8221000",
-        "524628.5723000",
-        "632576.6158000",
-        "404107.9789000"
+        "405664.3755000",
+        "854924.5534000",
+        "387566.7153000",
+        "817574.4078000",
+        "437684.4511000"
       ],
       "symbol": "M",
-      "top10HoldersPercent": "86.90832604120546"
-    },
-    {
-      "alphaVolume5m": "121.12013898338974",
-      "chainId": "56",
-      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
-      "futuresSymbol": "SLXUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
-      "holders": "238072",
-      "isFreshAlert": false,
-      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://slimex.io/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/slimexofficial"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/Slime_Miner"
-        }
-      ],
-      "liquidity": "331485.86327351665",
-      "marketCap": "2042947.315852832",
-      "name": "SLIMEX",
-      "percentChange5m": "-0.01",
-      "price": "0.001178850153406135",
-      "quoteVolumeMin": "307304.4409800",
-      "quoteVolumeSum": "2611402.2518600",
-      "quoteVolumes1m": [
-        "512538.8874600",
-        "307304.4409800",
-        "785793.4358700",
-        "625966.3777200",
-        "379799.1098300"
-      ],
-      "symbol": "SLX",
-      "top10HoldersPercent": "92.39233977036082"
-    },
-    {
-      "alphaVolume5m": "28835.6904414178",
-      "chainId": "56",
-      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-      "futuresSymbol": "SLXUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
-      "holders": "27623",
-      "isFreshAlert": false,
-      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://solstice.finance/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/solsticefi"
-        }
-      ],
-      "liquidity": "1252820.3836099324",
-      "marketCap": "4338182.159347072",
-      "name": "Solstice",
-      "percentChange5m": "2.79",
-      "price": "0.3285641487688101",
-      "quoteVolumeMin": "307304.4409800",
-      "quoteVolumeSum": "2611402.2518600",
-      "quoteVolumes1m": [
-        "512538.8874600",
-        "307304.4409800",
-        "785793.4358700",
-        "625966.3777200",
-        "379799.1098300"
-      ],
-      "symbol": "SLX",
-      "top10HoldersPercent": "83.80998874626681"
+      "top10HoldersPercent": "86.9073714012932"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 3,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "MUSDT",
-      "SLXUSDT",
-      "SLXUSDT"
+      "MUSDT"
     ]
   },
   "telegram": {
