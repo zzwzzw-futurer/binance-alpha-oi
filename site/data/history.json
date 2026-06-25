@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-24T01:59:06.918080+00:00",
-    "generatedAtMs": 1782266346918,
-    "localTime": "2026-06-24 09:59:06 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-24T02:04:07.597260+00:00",
     "generatedAtMs": 1782266647597,
     "localTime": "2026-06-24 10:04:07 CST",
@@ -4811,6 +4802,32 @@
         "quoteVolumeSum": "5938631.8376000",
         "symbol": "M",
         "top10HoldersPercent": "86.92768660626757"
+      }
+    ],
+    "symbols": [
+      "MUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-25T02:01:38.865737+00:00",
+    "generatedAtMs": 1782352898865,
+    "localTime": "2026-06-25 10:01:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "16603.36488748919",
+        "chainId": "56",
+        "contractAddress": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+        "futuresSymbol": "MUSDT",
+        "isFreshAlert": false,
+        "name": "MemeCore",
+        "percentChange5m": "6.75",
+        "price": "0.9259183689077951",
+        "quoteVolumeMin": "371328.6378000",
+        "quoteVolumeSum": "2417749.2918000",
+        "symbol": "M",
+        "top10HoldersPercent": "86.92688055920792"
       }
     ],
     "symbols": [
