@@ -9,15 +9,95 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-25T00:31:28.881860+00:00",
-  "generatedAtMs": 1782347488881,
-  "localTime": "2026-06-25 08:31:28 CST",
-  "matches": [],
+  "generatedAt": "2026-06-25T00:36:29.770037+00:00",
+  "generatedAtMs": 1782347789770,
+  "localTime": "2026-06-25 08:36:29 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "115.74757713989737",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "238072",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "331560.52612174395",
+      "marketCap": "2043554.5709186015",
+      "name": "SLIMEX",
+      "percentChange5m": "0.05",
+      "price": "0.001179200560253088",
+      "quoteVolumeMin": "383354.1023200",
+      "quoteVolumeSum": "3717633.4072800",
+      "quoteVolumes1m": [
+        "1208300.7188100",
+        "865232.2937000",
+        "552254.6809900",
+        "708491.6114600",
+        "383354.1023200"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.39233977036082"
+    },
+    {
+      "alphaVolume5m": "50179.44154495979",
+      "chainId": "56",
+      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "27621",
+      "isFreshAlert": true,
+      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://solstice.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/solsticefi"
+        }
+      ],
+      "liquidity": "1246187.277017825",
+      "marketCap": "4228272.147373273",
+      "name": "Solstice",
+      "percentChange5m": "1.33",
+      "price": "0.32023981193857054",
+      "quoteVolumeMin": "383354.1023200",
+      "quoteVolumeSum": "3717633.4072800",
+      "quoteVolumes1m": [
+        "1208300.7188100",
+        "865232.2937000",
+        "552254.6809900",
+        "708491.6114600",
+        "383354.1023200"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "83.81512939160032"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 2,
+    "matchCount": 2,
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
