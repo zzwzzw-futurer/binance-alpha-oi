@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-25T00:51:31.857829+00:00",
-  "generatedAtMs": 1782348691857,
-  "localTime": "2026-06-25 08:51:31 CST",
-  "matches": [],
+  "generatedAt": "2026-06-25T00:56:32.257547+00:00",
+  "generatedAtMs": 1782348992257,
+  "localTime": "2026-06-25 08:56:32 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "900.7038176739051",
+      "chainId": "1",
+      "contractAddress": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+      "futuresSymbol": "HUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/HUSDT",
+      "holders": "5208",
+      "isFreshAlert": true,
+      "key": "1|0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1|HUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.humanity.org/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Humanityprot"
+        }
+      ],
+      "liquidity": "410395.19524480164",
+      "marketCap": "550851411.5439867",
+      "name": "Humanity",
+      "percentChange5m": "-2.91",
+      "price": "0.05508514115439867",
+      "quoteVolumeMin": "311527.2719900",
+      "quoteVolumeSum": "2185509.6950400",
+      "quoteVolumes1m": [
+        "459856.2550800",
+        "311527.2719900",
+        "611982.6895300",
+        "363782.3791300",
+        "438361.0993100"
+      ],
+      "symbol": "H",
+      "top10HoldersPercent": "89.4063012496502"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "HUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
