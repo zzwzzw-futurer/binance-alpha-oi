@@ -9,53 +9,57 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-25T00:56:32.257547+00:00",
-  "generatedAtMs": 1782348992257,
-  "localTime": "2026-06-25 08:56:32 CST",
+  "generatedAt": "2026-06-25T01:01:33.154134+00:00",
+  "generatedAtMs": 1782349293154,
+  "localTime": "2026-06-25 09:01:33 CST",
   "matches": [
     {
-      "alphaVolume5m": "900.7038176739051",
-      "chainId": "1",
-      "contractAddress": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
-      "futuresSymbol": "HUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/HUSDT",
-      "holders": "5208",
-      "isFreshAlert": true,
-      "key": "1|0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1|HUSDT",
+      "alphaVolume5m": "29778.738666693593",
+      "chainId": "56",
+      "contractAddress": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+      "futuresSymbol": "MUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/MUSDT",
+      "holders": "7108",
+      "isFreshAlert": false,
+      "key": "56|0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa|MUSDT",
       "links": [
         {
           "label": "website",
-          "link": "https://www.humanity.org/"
+          "link": "https://memecore.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/MemeCoreLabs"
         },
         {
           "label": "x",
-          "link": "https://x.com/Humanityprot"
+          "link": "https://x.com/MemeCore_ORG"
         }
       ],
-      "liquidity": "410395.19524480164",
-      "marketCap": "550851411.5439867",
-      "name": "Humanity",
-      "percentChange5m": "-2.91",
-      "price": "0.05508514115439867",
-      "quoteVolumeMin": "311527.2719900",
-      "quoteVolumeSum": "2185509.6950400",
+      "liquidity": "52981.92924334775",
+      "marketCap": "163349544.69552344",
+      "name": "MemeCore",
+      "percentChange5m": "26.35",
+      "price": "0.7133662077002922",
+      "quoteVolumeMin": "420911.7323000",
+      "quoteVolumeSum": "2704227.7918000",
       "quoteVolumes1m": [
-        "459856.2550800",
-        "311527.2719900",
-        "611982.6895300",
-        "363782.3791300",
-        "438361.0993100"
+        "515036.4005000",
+        "722049.6424000",
+        "466000.2002000",
+        "420911.7323000",
+        "580229.8164000"
       ],
-      "symbol": "H",
-      "top10HoldersPercent": "89.4063012496502"
+      "symbol": "M",
+      "top10HoldersPercent": "86.90589406113293"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 1,
     "symbols": [
-      "HUSDT"
+      "MUSDT"
     ]
   },
   "telegram": {
