@@ -9,12 +9,52 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-27T14:02:56.745247+00:00",
-  "generatedAtMs": 1782568976745,
-  "localTime": "2026-06-27 22:02:56 CST",
+  "generatedAt": "2026-06-27T14:07:56.713369+00:00",
+  "generatedAtMs": 1782569276713,
+  "localTime": "2026-06-27 22:07:56 CST",
   "matches": [
     {
-      "alphaVolume5m": "17852.300372630372",
+      "alphaVolume5m": "55713.10755632579",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15295",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "6185120.213057814",
+      "marketCap": "1436359812.2040217",
+      "name": "Velvet",
+      "percentChange5m": "-1.72",
+      "price": "1.4363598294210604",
+      "quoteVolumeMin": "615323.0939000",
+      "quoteVolumeSum": "4072900.7264000",
+      "quoteVolumes1m": [
+        "1255786.9412000",
+        "792270.5429000",
+        "628665.6938000",
+        "615323.0939000",
+        "780854.4546000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.51263228445335"
+    },
+    {
+      "alphaVolume5m": "8037.83614801121",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
@@ -36,62 +76,22 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "9974768.867972704",
-      "marketCap": "15629955502.059206",
+      "liquidity": "9973605.458981685",
+      "marketCap": "15475011675.517273",
       "name": "LAB",
-      "percentChange5m": "1.81",
-      "price": "15.629955502132344",
-      "quoteVolumeMin": "777747.5610000",
-      "quoteVolumeSum": "4594751.2413000",
+      "percentChange5m": "-0.39",
+      "price": "15.475011675589684",
+      "quoteVolumeMin": "355204.2750000",
+      "quoteVolumeSum": "2651267.2480000",
       "quoteVolumes1m": [
-        "809861.8881000",
-        "959973.2554000",
-        "777747.5610000",
-        "1088523.7114000",
-        "958644.8254000"
+        "882537.1650000",
+        "613099.8550000",
+        "355204.2750000",
+        "421077.5230000",
+        "379348.4300000"
       ],
       "symbol": "LAB",
       "top10HoldersPercent": "87.91139879657331"
-    },
-    {
-      "alphaVolume5m": "53462.633952824726",
-      "chainId": "56",
-      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-      "futuresSymbol": "VELVETUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15290",
-      "isFreshAlert": false,
-      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://velvet.capital"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/velvetcapital/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/velvet_capital"
-        }
-      ],
-      "liquidity": "6277362.334653323",
-      "marketCap": "1458654005.1919944",
-      "name": "Velvet",
-      "percentChange5m": "-0.59",
-      "price": "1.4586540226762643",
-      "quoteVolumeMin": "544294.5276000",
-      "quoteVolumeSum": "4330352.9770000",
-      "quoteVolumes1m": [
-        "544294.5276000",
-        "1095685.7542000",
-        "872231.2793000",
-        "907313.5926000",
-        "910827.8233000"
-      ],
-      "symbol": "VELVET",
-      "top10HoldersPercent": "89.51263228445335"
     }
   ],
   "status": "ok",
@@ -99,8 +99,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "LABUSDT",
-      "VELVETUSDT"
+      "VELVETUSDT",
+      "LABUSDT"
     ]
   },
   "telegram": {
