@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-26T18:10:52.816886+00:00",
-    "generatedAtMs": 1782497452816,
-    "localTime": "2026-06-27 02:10:52 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-26T18:15:53.537407+00:00",
     "generatedAtMs": 1782497753537,
     "localTime": "2026-06-27 02:15:53 CST",
@@ -6063,6 +6054,62 @@
       "SLXUSDT",
       "VELVETUSDT",
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-27T18:13:20.817476+00:00",
+    "generatedAtMs": 1782584000817,
+    "localTime": "2026-06-28 02:13:20 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "144.98460349882734",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "SLIMEX",
+        "percentChange5m": "-0.02",
+        "price": "0.001170637334376867",
+        "quoteVolumeMin": "896840.7876600",
+        "quoteVolumeSum": "7026976.6597500",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.39233977036082"
+      },
+      {
+        "alphaVolume5m": "77062.65026257792",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "Solstice",
+        "percentChange5m": "1.33",
+        "price": "0.5886201631581698",
+        "quoteVolumeMin": "896840.7876600",
+        "quoteVolumeSum": "7026976.6597500",
+        "symbol": "SLX",
+        "top10HoldersPercent": "88.71310405874235"
+      },
+      {
+        "alphaVolume5m": "37574.802626907156",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "-2.08",
+        "price": "1.2840672271625484",
+        "quoteVolumeMin": "504791.9135000",
+        "quoteVolumeSum": "3646798.1979000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.51039678741147"
+      }
+    ],
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT",
+      "VELVETUSDT"
     ]
   }
 ]
