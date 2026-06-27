@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-27T16:08:08.642770+00:00",
-  "generatedAtMs": 1782576488642,
-  "localTime": "2026-06-28 00:08:08 CST",
+  "generatedAt": "2026-06-27T16:13:09.408451+00:00",
+  "generatedAtMs": 1782576789408,
+  "localTime": "2026-06-28 00:13:09 CST",
   "matches": [
     {
-      "alphaVolume5m": "73233.95666555123",
+      "alphaVolume5m": "30198.909764093176",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15289",
+      "holders": "15286",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,71 +36,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "6038808.693812826",
-      "marketCap": "1401392638.7704241",
+      "liquidity": "5950968.494075903",
+      "marketCap": "1376704456.436519",
       "name": "Velvet",
-      "percentChange5m": "-2.68",
-      "price": "1.4013926555683263",
-      "quoteVolumeMin": "775903.1321000",
-      "quoteVolumeSum": "10722958.3845000",
+      "percentChange5m": "-1.59",
+      "price": "1.3767044729384943",
+      "quoteVolumeMin": "477994.0273000",
+      "quoteVolumeSum": "4054718.8527000",
       "quoteVolumes1m": [
-        "775903.1321000",
-        "3669719.8038000",
-        "1744929.9109000",
-        "1798916.3435000",
-        "2733489.1942000"
+        "1245393.2891000",
+        "975417.1190000",
+        "648361.6724000",
+        "707552.7449000",
+        "477994.0273000"
       ],
       "symbol": "VELVET",
-      "top10HoldersPercent": "89.51042363148531"
-    },
-    {
-      "alphaVolume5m": "2209.4520472926356",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21417",
-      "isFreshAlert": true,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "9980564.285298768",
-      "marketCap": "15608393941.4548",
-      "name": "LAB",
-      "percentChange5m": "0.78",
-      "price": "15.608393941527835",
-      "quoteVolumeMin": "305105.8480000",
-      "quoteVolumeSum": "1871071.2838000",
-      "quoteVolumes1m": [
-        "352690.7090000",
-        "417323.0840000",
-        "437169.0130000",
-        "305105.8480000",
-        "358782.6298000"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "87.90583221208134"
+      "top10HoldersPercent": "89.51042351733005"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "VELVETUSDT",
-      "LABUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
