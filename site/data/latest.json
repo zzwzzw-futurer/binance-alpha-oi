@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-27T18:38:22.852405+00:00",
-  "generatedAtMs": 1782585502852,
-  "localTime": "2026-06-28 02:38:22 CST",
+  "generatedAt": "2026-06-27T18:43:23.301219+00:00",
+  "generatedAtMs": 1782585803301,
+  "localTime": "2026-06-28 02:43:23 CST",
   "matches": [
     {
-      "alphaVolume5m": "133.15283316530932",
+      "alphaVolume5m": "103.00651352985075",
       "chainId": "56",
       "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
       "futuresSymbol": "SLXUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
       "holders": "237917",
-      "isFreshAlert": true,
+      "isFreshAlert": false,
       "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
       "links": [
         {
@@ -36,31 +36,31 @@
           "link": "https://x.com/Slime_Miner"
         }
       ],
-      "liquidity": "329815.15193443047",
-      "marketCap": "2029757.8209766618",
+      "liquidity": "329742.140757733",
+      "marketCap": "2029207.4320393803",
       "name": "SLIMEX",
-      "percentChange5m": "0.04",
-      "price": "0.001171239365826118",
-      "quoteVolumeMin": "649522.1441100",
-      "quoteVolumeSum": "5430194.5896800",
+      "percentChange5m": "0",
+      "price": "0.00117092177267131",
+      "quoteVolumeMin": "601271.1115300",
+      "quoteVolumeSum": "5184891.8253600",
       "quoteVolumes1m": [
-        "2039808.3533500",
-        "954937.6715800",
-        "999330.8688700",
-        "786595.5517700",
-        "649522.1441100"
+        "1415360.6865800",
+        "601271.1115300",
+        "700336.8482200",
+        "1225608.1136800",
+        "1242315.0653500"
       ],
       "symbol": "SLX",
       "top10HoldersPercent": "92.39233977036082"
     },
     {
-      "alphaVolume5m": "62427.358157952694",
+      "alphaVolume5m": "81370.6673168932",
       "chainId": "56",
       "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
       "futuresSymbol": "SLXUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
-      "holders": "27865",
-      "isFreshAlert": true,
+      "holders": "27869",
+      "isFreshAlert": false,
       "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
       "links": [
         {
@@ -72,72 +72,31 @@
           "link": "https://twitter.com/solsticefi"
         }
       ],
-      "liquidity": "1369282.4728781688",
-      "marketCap": "7123732.046825495",
+      "liquidity": "1361988.0109835838",
+      "marketCap": "6941366.16321989",
       "name": "Solstice",
-      "percentChange5m": "2.47",
-      "price": "0.5636715593772859",
-      "quoteVolumeMin": "649522.1441100",
-      "quoteVolumeSum": "5430194.5896800",
+      "percentChange5m": "-2.49",
+      "price": "0.5492416985524399",
+      "quoteVolumeMin": "601271.1115300",
+      "quoteVolumeSum": "5184891.8253600",
       "quoteVolumes1m": [
-        "2039808.3533500",
-        "954937.6715800",
-        "999330.8688700",
-        "786595.5517700",
-        "649522.1441100"
+        "1415360.6865800",
+        "601271.1115300",
+        "700336.8482200",
+        "1225608.1136800",
+        "1242315.0653500"
       ],
       "symbol": "SLX",
-      "top10HoldersPercent": "88.87449118628521"
-    },
-    {
-      "alphaVolume5m": "40103.367664515514",
-      "chainId": "56",
-      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-      "futuresSymbol": "VELVETUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15283",
-      "isFreshAlert": false,
-      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://velvet.capital"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/velvetcapital/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/velvet_capital"
-        }
-      ],
-      "liquidity": "5936454.933907958",
-      "marketCap": "1373416293.9601507",
-      "name": "Velvet",
-      "percentChange5m": "2.01",
-      "price": "1.3734163104227122",
-      "quoteVolumeMin": "302639.1657000",
-      "quoteVolumeSum": "3960331.0880600",
-      "quoteVolumes1m": [
-        "418318.7267000",
-        "302639.1657000",
-        "1225887.6323600",
-        "1248594.6285000",
-        "764890.9348000"
-      ],
-      "symbol": "VELVET",
-      "top10HoldersPercent": "89.51039678741147"
+      "top10HoldersPercent": "88.88054396811684"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 2,
-    "matchCount": 3,
+    "freshAlertCount": 0,
+    "matchCount": 2,
     "symbols": [
       "SLXUSDT",
-      "SLXUSDT",
-      "VELVETUSDT"
+      "SLXUSDT"
     ]
   },
   "telegram": {
