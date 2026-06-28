@@ -9,15 +9,136 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-28T10:04:51.788589+00:00",
-  "generatedAtMs": 1782641091788,
-  "localTime": "2026-06-28 18:04:51 CST",
-  "matches": [],
+  "generatedAt": "2026-06-28T10:09:52.499796+00:00",
+  "generatedAtMs": 1782641392499,
+  "localTime": "2026-06-28 18:09:52 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "127.17656554978137",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "237914",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "327480.9587787106",
+      "marketCap": "2011403.6454346403",
+      "name": "SLIMEX",
+      "percentChange5m": "-0.03",
+      "price": "0.001160648381670306",
+      "quoteVolumeMin": "389521.0128900",
+      "quoteVolumeSum": "9001469.3291800",
+      "quoteVolumes1m": [
+        "5808276.1677500",
+        "1382125.3868900",
+        "754955.1859900",
+        "666591.5756600",
+        "389521.0128900"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.39233977036082"
+    },
+    {
+      "alphaVolume5m": "87979.97165967252",
+      "chainId": "56",
+      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "27936",
+      "isFreshAlert": true,
+      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://solstice.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/solsticefi"
+        }
+      ],
+      "liquidity": "1327689.2750581538",
+      "marketCap": "6002035.026724323",
+      "name": "Solstice",
+      "percentChange5m": "0.8",
+      "price": "0.4806671890034918",
+      "quoteVolumeMin": "389521.0128900",
+      "quoteVolumeSum": "9001469.3291800",
+      "quoteVolumes1m": [
+        "5808276.1677500",
+        "1382125.3868900",
+        "754955.1859900",
+        "666591.5756600",
+        "389521.0128900"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "88.85787804290524"
+    },
+    {
+      "alphaVolume5m": "9657.266874373609",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15345",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "7042297.213352359",
+      "marketCap": "1639353247.9553242",
+      "name": "Velvet",
+      "percentChange5m": "0.19",
+      "price": "1.6393532676055595",
+      "quoteVolumeMin": "301439.5943000",
+      "quoteVolumeSum": "2394051.7044000",
+      "quoteVolumes1m": [
+        "597337.4403000",
+        "625748.4249000",
+        "546609.6719000",
+        "322916.5730000",
+        "301439.5943000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.51196321858211"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 2,
+    "matchCount": 3,
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT",
+      "VELVETUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
