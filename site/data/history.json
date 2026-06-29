@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T07:49:38.205652+00:00",
-    "generatedAtMs": 1782632978205,
-    "localTime": "2026-06-28 15:49:38 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T07:54:38.995433+00:00",
     "generatedAtMs": 1782633278995,
     "localTime": "2026-06-28 15:54:38 CST",
@@ -4962,5 +4953,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T07:52:09.583149+00:00",
+    "generatedAtMs": 1782719529583,
+    "localTime": "2026-06-29 15:52:09 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "344055.816932609",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": false,
+        "name": "RaveDAO",
+        "percentChange5m": "1.62",
+        "price": "0.5186643119429822",
+        "quoteVolumeMin": "467553.2110400",
+        "quoteVolumeSum": "3637605.8142300",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "92.7098591881302"
+      }
+    ],
+    "symbols": [
+      "RAVEUSDT"
+    ]
   }
 ]
