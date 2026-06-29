@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T13:55:13.369986+00:00",
-    "generatedAtMs": 1782654913369,
-    "localTime": "2026-06-28 21:55:13 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "20137.15791677239",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "-0.56",
-        "price": "1.746376648224565",
-        "quoteVolumeMin": "304502.2998000",
-        "quoteVolumeSum": "1892830.1781000",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.51196321858211"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T14:00:13.172174+00:00",
     "generatedAtMs": 1782655213172,
     "localTime": "2026-06-28 22:00:13 CST",
@@ -4930,5 +4904,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T13:57:47.993101+00:00",
+    "generatedAtMs": 1782741467993,
+    "localTime": "2026-06-29 21:57:47 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "7988.767792089063",
+        "chainId": "56",
+        "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
+        "futuresSymbol": "GWEIUSDT",
+        "isFreshAlert": false,
+        "name": "ETHGas",
+        "percentChange5m": "7.75",
+        "price": "0.23260643991402774",
+        "quoteVolumeMin": "331443.2424000",
+        "quoteVolumeSum": "2453342.8207000",
+        "symbol": "GWEI",
+        "top10HoldersPercent": "87.25695963649122"
+      }
+    ],
+    "symbols": [
+      "GWEIUSDT"
+    ]
   }
 ]
