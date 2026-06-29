@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T06:49:32.490258+00:00",
-    "generatedAtMs": 1782629372490,
-    "localTime": "2026-06-28 14:49:32 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T06:54:32.478411+00:00",
     "generatedAtMs": 1782629672478,
     "localTime": "2026-06-28 14:54:32 CST",
@@ -4844,6 +4835,47 @@
     ],
     "symbols": [
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-06-29T06:52:03.564954+00:00",
+    "generatedAtMs": 1782715923564,
+    "localTime": "2026-06-29 14:52:03 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "50265.21924711191",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": true,
+        "name": "Solstice",
+        "percentChange5m": "-2.27",
+        "price": "0.6318494438349721",
+        "quoteVolumeMin": "306602.5686600",
+        "quoteVolumeSum": "3005909.1180800",
+        "symbol": "SLX",
+        "top10HoldersPercent": "89.20607630559041"
+      },
+      {
+        "alphaVolume5m": "114.98018434867534",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": true,
+        "name": "SLIMEX",
+        "percentChange5m": "0.03",
+        "price": "0.001159673268070661",
+        "quoteVolumeMin": "303961.4322500",
+        "quoteVolumeSum": "3003267.9816700",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.39233977036082"
+      }
+    ],
+    "symbols": [
+      "SLXUSDT",
+      "SLXUSDT"
     ]
   }
 ]
