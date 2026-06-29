@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-29T09:57:22.233213+00:00",
-  "generatedAtMs": 1782727042233,
-  "localTime": "2026-06-29 17:57:22 CST",
+  "generatedAt": "2026-06-29T10:02:22.821408+00:00",
+  "generatedAtMs": 1782727342821,
+  "localTime": "2026-06-29 18:02:22 CST",
   "matches": [
     {
-      "alphaVolume5m": "14495.85836028982",
+      "alphaVolume5m": "10877.784378909832",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21559",
+      "holders": "21558",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "9975585.488343976",
-      "marketCap": "15202015147.874445",
+      "liquidity": "9975663.599331483",
+      "marketCap": "15149637464.067717",
       "name": "LAB",
-      "percentChange5m": "-0.64",
-      "price": "15.20201514794558",
-      "quoteVolumeMin": "441704.4010000",
-      "quoteVolumeSum": "2775394.6902000",
+      "percentChange5m": "-0.35",
+      "price": "15.149637464138605",
+      "quoteVolumeMin": "500644.3460000",
+      "quoteVolumeSum": "4215247.6284000",
       "quoteVolumes1m": [
-        "441704.4010000",
-        "586009.0290000",
-        "632578.1438000",
-        "570488.3230000",
-        "544614.7934000"
+        "537713.2070000",
+        "500644.3460000",
+        "1079010.7186000",
+        "1457254.3068000",
+        "640625.0500000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.89703939147816"
+      "top10HoldersPercent": "87.89710310636548"
+    },
+    {
+      "alphaVolume5m": "486647.0131295556",
+      "chainId": "56",
+      "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+      "futuresSymbol": "RAVEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/RAVEUSDT",
+      "holders": "32186",
+      "isFreshAlert": false,
+      "key": "56|0x97693439ea2f0ecdeb9135881e49f354656a911c|RAVEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://ravedao.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/RaveDAO"
+        }
+      ],
+      "liquidity": "1877444.0597514058",
+      "marketCap": "13528080.020074945",
+      "name": "RaveDAO",
+      "percentChange5m": "-2.34",
+      "price": "0.3983684243274232",
+      "quoteVolumeMin": "335953.3583000",
+      "quoteVolumeSum": "3048387.6257000",
+      "quoteVolumes1m": [
+        "670451.5320000",
+        "798734.8146000",
+        "335953.3583000",
+        "647147.5617000",
+        "596100.3591000"
+      ],
+      "symbol": "RAVE",
+      "top10HoldersPercent": "92.07344452091924"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "RAVEUSDT"
     ]
   },
   "telegram": {
