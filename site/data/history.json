@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T06:19:29.309243+00:00",
-    "generatedAtMs": 1782627569309,
-    "localTime": "2026-06-28 14:19:29 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T06:24:30.072741+00:00",
     "generatedAtMs": 1782627870072,
     "localTime": "2026-06-28 14:24:30 CST",
@@ -4810,6 +4801,32 @@
     "symbols": [
       "RAVEUSDT",
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T06:21:59.937705+00:00",
+    "generatedAtMs": 1782714119937,
+    "localTime": "2026-06-29 14:21:59 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "479303.1975678986",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": false,
+        "name": "RaveDAO",
+        "percentChange5m": "-1.41",
+        "price": "0.4594569430559645",
+        "quoteVolumeMin": "313971.6259000",
+        "quoteVolumeSum": "2875343.2039000",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "92.97485665925504"
+      }
+    ],
+    "symbols": [
+      "RAVEUSDT"
     ]
   }
 ]
