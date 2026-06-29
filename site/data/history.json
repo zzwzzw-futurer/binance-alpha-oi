@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-28T09:34:48.838193+00:00",
-    "generatedAtMs": 1782639288838,
-    "localTime": "2026-06-28 17:34:48 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "203468.14046554506",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "-0.94",
-        "price": "2.565403821015525",
-        "quoteVolumeMin": "342078.0284000",
-        "quoteVolumeSum": "3139925.7394000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.36016173814868"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-28T09:39:48.678314+00:00",
     "generatedAtMs": 1782639588678,
@@ -5062,5 +5036,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T09:37:20.658962+00:00",
+    "generatedAtMs": 1782725840658,
+    "localTime": "2026-06-29 17:37:20 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "590715.8647589213",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": false,
+        "name": "RaveDAO",
+        "percentChange5m": "-6.51",
+        "price": "0.4336297111952428",
+        "quoteVolumeMin": "390929.3621000",
+        "quoteVolumeSum": "6672112.6793800",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "92.43458506508578"
+      },
+      {
+        "alphaVolume5m": "34544.628008799256",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-1.4",
+        "price": "15.64000841439905",
+        "quoteVolumeMin": "364839.6860000",
+        "quoteVolumeSum": "2777472.0503000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.8965373728518"
+      }
+    ],
+    "symbols": [
+      "RAVEUSDT",
+      "LABUSDT"
+    ]
   }
 ]
