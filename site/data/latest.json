@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-29T08:57:17.302125+00:00",
-  "generatedAtMs": 1782723437302,
-  "localTime": "2026-06-29 16:57:17 CST",
+  "generatedAt": "2026-06-29T09:02:18.091717+00:00",
+  "generatedAtMs": 1782723738091,
+  "localTime": "2026-06-29 17:02:18 CST",
   "matches": [
     {
-      "alphaVolume5m": "330578.84146413126",
+      "alphaVolume5m": "502237.41234108456",
       "chainId": "56",
       "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
       "futuresSymbol": "RAVEUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/RAVEUSDT",
-      "holders": "32222",
-      "isFreshAlert": false,
+      "holders": "32221",
+      "isFreshAlert": true,
       "key": "56|0x97693439ea2f0ecdeb9135881e49f354656a911c|RAVEUSDT",
       "links": [
         {
@@ -32,30 +32,71 @@
           "link": "https://x.com/RaveDAO"
         }
       ],
-      "liquidity": "2027778.1382148105",
-      "marketCap": "16432827.671050327",
+      "liquidity": "2004250.3726828308",
+      "marketCap": "15865103.860931078",
       "name": "RaveDAO",
-      "percentChange5m": "3.07",
-      "price": "0.4841910813950186",
-      "quoteVolumeMin": "355410.8143000",
-      "quoteVolumeSum": "2600808.2313600",
+      "percentChange5m": "-3.39",
+      "price": "0.46742393526681353",
+      "quoteVolumeMin": "511895.1299000",
+      "quoteVolumeSum": "4191366.0107000",
       "quoteVolumes1m": [
-        "534582.0983000",
-        "556050.5098000",
-        "355410.8143000",
-        "508549.6063000",
-        "646215.2026600"
+        "1062534.5373000",
+        "511895.1299000",
+        "678790.3444000",
+        "1193281.7349000",
+        "744864.2642000"
       ],
       "symbol": "RAVE",
-      "top10HoldersPercent": "92.52270270687706"
+      "top10HoldersPercent": "92.43095481032846"
+    },
+    {
+      "alphaVolume5m": "28035.48168766414",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15450",
+      "isFreshAlert": true,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "7134816.175404151",
+      "marketCap": "1641345005.6365986",
+      "name": "Velvet",
+      "percentChange5m": "-0.61",
+      "price": "1.6413450253107082",
+      "quoteVolumeMin": "306388.4032000",
+      "quoteVolumeSum": "3828344.9836000",
+      "quoteVolumes1m": [
+        "306388.4032000",
+        "911935.6767000",
+        "1616270.2202000",
+        "636448.9068000",
+        "357301.7767000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.51320093561779"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 2,
     "symbols": [
-      "RAVEUSDT"
+      "RAVEUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
