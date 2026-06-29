@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T09:04:45.336242+00:00",
-    "generatedAtMs": 1782637485336,
-    "localTime": "2026-06-28 17:04:45 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "45400.04532581841",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "0.48",
-        "price": "1.5810898276809358",
-        "quoteVolumeMin": "434729.4373000",
-        "quoteVolumeSum": "3819954.2215000",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "89.51196321858211"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T09:09:46.333622+00:00",
     "generatedAtMs": 1782637786333,
     "localTime": "2026-06-28 17:09:46 CST",
@@ -5046,6 +5020,47 @@
     "symbols": [
       "RAVEUSDT",
       "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T09:07:18.396146+00:00",
+    "generatedAtMs": 1782724038396,
+    "localTime": "2026-06-29 17:07:18 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "50296.139085364426",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "2.58",
+        "price": "1.6860645443658284",
+        "quoteVolumeMin": "384134.7750000",
+        "quoteVolumeSum": "3710579.7088000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.51320093561779"
+      },
+      {
+        "alphaVolume5m": "320575.3629383397",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": false,
+        "name": "RaveDAO",
+        "percentChange5m": "1.12",
+        "price": "0.47189660716080917",
+        "quoteVolumeMin": "370166.0707000",
+        "quoteVolumeSum": "2597532.6708600",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "92.44565405898703"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "RAVEUSDT"
     ]
   }
 ]
