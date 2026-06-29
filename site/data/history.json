@@ -1,47 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-28T10:39:56.179086+00:00",
-    "generatedAtMs": 1782643196179,
-    "localTime": "2026-06-28 18:39:56 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "96.90392598039641",
-        "chainId": "56",
-        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
-        "futuresSymbol": "SLXUSDT",
-        "isFreshAlert": false,
-        "name": "SLIMEX",
-        "percentChange5m": "0.01",
-        "price": "0.001161202073036366",
-        "quoteVolumeMin": "354359.5535200",
-        "quoteVolumeSum": "2689467.2786000",
-        "symbol": "SLX",
-        "top10HoldersPercent": "92.39233977036082"
-      },
-      {
-        "alphaVolume5m": "26049.952308721542",
-        "chainId": "56",
-        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-        "futuresSymbol": "SLXUSDT",
-        "isFreshAlert": false,
-        "name": "Solstice",
-        "percentChange5m": "-0.85",
-        "price": "0.5143207349746522",
-        "quoteVolumeMin": "354359.5535200",
-        "quoteVolumeSum": "2689467.2786000",
-        "symbol": "SLX",
-        "top10HoldersPercent": "88.79304283425174"
-      }
-    ],
-    "symbols": [
-      "SLXUSDT",
-      "SLXUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-28T10:44:56.391911+00:00",
     "generatedAtMs": 1782643496391,
     "localTime": "2026-06-28 18:44:56 CST",
@@ -5015,5 +4974,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-29T10:42:26.946833+00:00",
+    "generatedAtMs": 1782729746946,
+    "localTime": "2026-06-29 18:42:26 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "406136.32482331496",
+        "chainId": "56",
+        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+        "futuresSymbol": "RAVEUSDT",
+        "isFreshAlert": false,
+        "name": "RaveDAO",
+        "percentChange5m": "-0.15",
+        "price": "0.42397648585616715",
+        "quoteVolumeMin": "385704.7612000",
+        "quoteVolumeSum": "3157978.9131000",
+        "symbol": "RAVE",
+        "top10HoldersPercent": "91.8423109616882"
+      }
+    ],
+    "symbols": [
+      "RAVEUSDT"
+    ]
   }
 ]

@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-29T10:37:26.598188+00:00",
-  "generatedAtMs": 1782729446598,
-  "localTime": "2026-06-29 18:37:26 CST",
-  "matches": [],
+  "generatedAt": "2026-06-29T10:42:26.946833+00:00",
+  "generatedAtMs": 1782729746946,
+  "localTime": "2026-06-29 18:42:26 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "406136.32482331496",
+      "chainId": "56",
+      "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
+      "futuresSymbol": "RAVEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/RAVEUSDT",
+      "holders": "32207",
+      "isFreshAlert": false,
+      "key": "56|0x97693439ea2f0ecdeb9135881e49f354656a911c|RAVEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://ravedao.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/RaveDAO"
+        }
+      ],
+      "liquidity": "1929966.650917394",
+      "marketCap": "14404956.036411077",
+      "name": "RaveDAO",
+      "percentChange5m": "-0.15",
+      "price": "0.42397648585616715",
+      "quoteVolumeMin": "385704.7612000",
+      "quoteVolumeSum": "3157978.9131000",
+      "quoteVolumes1m": [
+        "930630.8409000",
+        "612664.3614000",
+        "580448.9358000",
+        "648530.0138000",
+        "385704.7612000"
+      ],
+      "symbol": "RAVE",
+      "top10HoldersPercent": "91.8423109616882"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "RAVEUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
