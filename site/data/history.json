@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-29T08:07:14.240832+00:00",
-    "generatedAtMs": 1782720434240,
-    "localTime": "2026-06-29 16:07:14 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "358073.096530088",
-        "chainId": "56",
-        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
-        "futuresSymbol": "RAVEUSDT",
-        "isFreshAlert": false,
-        "name": "RaveDAO",
-        "percentChange5m": "0.23",
-        "price": "0.5117098154321459",
-        "quoteVolumeMin": "441297.3709800",
-        "quoteVolumeSum": "3068567.9492200",
-        "symbol": "RAVE",
-        "top10HoldersPercent": "93.16452718100174"
-      }
-    ],
-    "symbols": [
-      "RAVEUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-29T08:12:11.727994+00:00",
     "generatedAtMs": 1782720731727,
     "localTime": "2026-06-29 16:12:11 CST",
@@ -3579,5 +3553,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-06-30T08:09:39.889043+00:00",
+    "generatedAtMs": 1782806979889,
+    "localTime": "2026-06-30 16:09:39 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "10966.834848246526",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "2.63",
+        "price": "1.5895519537991556",
+        "quoteVolumeMin": "305361.4767000",
+        "quoteVolumeSum": "2158561.9348000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.16314050386131"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT"
+    ]
   }
 ]
