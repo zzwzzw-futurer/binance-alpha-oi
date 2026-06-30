@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-30T19:05:44.664910+00:00",
-  "generatedAtMs": 1782846344664,
-  "localTime": "2026-07-01 03:05:44 CST",
+  "generatedAt": "2026-06-30T19:10:44.486053+00:00",
+  "generatedAtMs": 1782846644486,
+  "localTime": "2026-07-01 03:10:44 CST",
   "matches": [
     {
-      "alphaVolume5m": "119531.62176227657",
+      "alphaVolume5m": "121916.28820791237",
       "chainId": "56",
       "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
       "futuresSymbol": "INUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/INUSDT",
-      "holders": "9509",
+      "holders": "9504",
       "isFreshAlert": false,
       "key": "56|0x61fac5f038515572d6f42d4bcb6b581642753d50|INUSDT",
       "links": [
@@ -36,30 +36,71 @@
           "link": "https://x.com/Infinit_Labs"
         }
       ],
-      "liquidity": "3909660.707304818",
-      "marketCap": "16894672.872675437",
+      "liquidity": "3843399.469685493",
+      "marketCap": "15916412.577573014",
       "name": "INFINIT",
-      "percentChange5m": "-3.14",
-      "price": "0.23074943844444834",
-      "quoteVolumeMin": "621908.2249400",
-      "quoteVolumeSum": "6978407.1522400",
+      "percentChange5m": "-5.95",
+      "price": "0.21699465428911066",
+      "quoteVolumeMin": "624080.3954200",
+      "quoteVolumeSum": "6414208.5437500",
       "quoteVolumes1m": [
-        "2747867.8293800",
-        "1949484.0036500",
-        "766224.0339600",
-        "892923.0603100",
-        "621908.2249400"
+        "1356783.1016300",
+        "624080.3954200",
+        "829916.5704800",
+        "2108813.5957200",
+        "1494614.8805000"
       ],
       "symbol": "IN",
-      "top10HoldersPercent": "86.91160045899912"
+      "top10HoldersPercent": "86.87350768612428"
+    },
+    {
+      "alphaVolume5m": "36272.98621383964",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21606",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "9446750.045472518",
+      "marketCap": "14022657634.717827",
+      "name": "LAB",
+      "percentChange5m": "-1.84",
+      "price": "14.022657634783442",
+      "quoteVolumeMin": "411619.9612000",
+      "quoteVolumeSum": "2906388.5141000",
+      "quoteVolumes1m": [
+        "684733.3403000",
+        "778710.3072000",
+        "500633.0652000",
+        "530691.8402000",
+        "411619.9612000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.89986542079076"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "INUSDT"
+      "INUSDT",
+      "LABUSDT"
     ]
   },
   "telegram": {
