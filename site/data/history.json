@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-29T16:03:03.839625+00:00",
-    "generatedAtMs": 1782748983839,
-    "localTime": "2026-06-30 00:03:03 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "509062.2407010949",
-        "chainId": "56",
-        "contractAddress": "0x97693439ea2f0ecdeb9135881e49f354656a911c",
-        "futuresSymbol": "RAVEUSDT",
-        "isFreshAlert": true,
-        "name": "RaveDAO",
-        "percentChange5m": "2.37",
-        "price": "0.4424771257192242",
-        "quoteVolumeMin": "421607.7442000",
-        "quoteVolumeSum": "2845661.7081000",
-        "symbol": "RAVE",
-        "top10HoldersPercent": "91.89943914719758"
-      }
-    ],
-    "symbols": [
-      "RAVEUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-29T16:08:04.089743+00:00",
     "generatedAtMs": 1782749284089,
@@ -3733,6 +3707,62 @@
     "symbols": [
       "INUSDT",
       "CAPUSDT",
+      "SLXUSDT",
+      "SLXUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-30T16:05:28.649081+00:00",
+    "generatedAtMs": 1782835528649,
+    "localTime": "2026-07-01 00:05:28 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "518566.0115507079",
+        "chainId": "56",
+        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+        "futuresSymbol": "INUSDT",
+        "isFreshAlert": false,
+        "name": "INFINIT",
+        "percentChange5m": "9.13",
+        "price": "0.319260247768781",
+        "quoteVolumeMin": "2228859.4258900",
+        "quoteVolumeSum": "17056441.2359600",
+        "symbol": "IN",
+        "top10HoldersPercent": "88.27335647464827"
+      },
+      {
+        "alphaVolume5m": "114.03096187227865",
+        "chainId": "56",
+        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "SLIMEX",
+        "percentChange5m": "0.05",
+        "price": "0.001154637633333158",
+        "quoteVolumeMin": "605599.6354800",
+        "quoteVolumeSum": "6340080.6926600",
+        "symbol": "SLX",
+        "top10HoldersPercent": "92.39233977036082"
+      },
+      {
+        "alphaVolume5m": "142374.79004549776",
+        "chainId": "56",
+        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+        "futuresSymbol": "SLXUSDT",
+        "isFreshAlert": false,
+        "name": "Solstice",
+        "percentChange5m": "3.17",
+        "price": "0.5896091883413347",
+        "quoteVolumeMin": "605599.6354800",
+        "quoteVolumeSum": "6340080.6926600",
+        "symbol": "SLX",
+        "top10HoldersPercent": "89.83770833004694"
+      }
+    ],
+    "symbols": [
+      "INUSDT",
       "SLXUSDT",
       "SLXUSDT"
     ]
