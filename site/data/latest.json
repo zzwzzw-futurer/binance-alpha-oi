@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-30T19:30:46.576126+00:00",
-  "generatedAtMs": 1782847846576,
-  "localTime": "2026-07-01 03:30:46 CST",
-  "matches": [],
+  "generatedAt": "2026-06-30T19:35:46.550167+00:00",
+  "generatedAtMs": 1782848146550,
+  "localTime": "2026-07-01 03:35:46 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "396414.180305005",
+      "chainId": "56",
+      "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+      "futuresSymbol": "INUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/INUSDT",
+      "holders": "9504",
+      "isFreshAlert": false,
+      "key": "56|0x61fac5f038515572d6f42d4bcb6b581642753d50|INUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://infinit.tech/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/infinit_labs"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Infinit_Labs"
+        }
+      ],
+      "liquidity": "3301562.6956878467",
+      "marketCap": "10988285.964368846",
+      "name": "INFINIT",
+      "percentChange5m": "-3",
+      "price": "0.1282175336020623",
+      "quoteVolumeMin": "344276.7660700",
+      "quoteVolumeSum": "2411332.7377200",
+      "quoteVolumes1m": [
+        "475157.9444500",
+        "525140.1622800",
+        "344276.7660700",
+        "600788.9835400",
+        "465968.8813800"
+      ],
+      "symbol": "IN",
+      "top10HoldersPercent": "92.69814785882758"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "INUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
