@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-29T16:13:05.381127+00:00",
-    "generatedAtMs": 1782749585381,
-    "localTime": "2026-06-30 00:13:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-29T16:18:04.781687+00:00",
     "generatedAtMs": 1782749884781,
     "localTime": "2026-06-30 00:18:04 CST",
@@ -3812,6 +3803,32 @@
       "INUSDT",
       "SLXUSDT",
       "SLXUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-30T16:15:29.734235+00:00",
+    "generatedAtMs": 1782836129734,
+    "localTime": "2026-07-01 00:15:29 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "352650.8987928732",
+        "chainId": "56",
+        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+        "futuresSymbol": "INUSDT",
+        "isFreshAlert": false,
+        "name": "INFINIT",
+        "percentChange5m": "1.99",
+        "price": "0.3385472188355507",
+        "quoteVolumeMin": "853101.2897600",
+        "quoteVolumeSum": "6075549.6871600",
+        "symbol": "IN",
+        "top10HoldersPercent": "88.63959684364605"
+      }
+    ],
+    "symbols": [
+      "INUSDT"
     ]
   }
 ]
