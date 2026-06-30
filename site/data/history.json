@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-06-29T15:53:02.593598+00:00",
-    "generatedAtMs": 1782748382593,
-    "localTime": "2026-06-29 23:53:02 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "15447.860382407134",
-        "chainId": "56",
-        "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
-        "futuresSymbol": "GWEIUSDT",
-        "isFreshAlert": true,
-        "name": "ETHGas",
-        "percentChange5m": "-8.81",
-        "price": "0.17322350732365932",
-        "quoteVolumeMin": "794932.9614000",
-        "quoteVolumeSum": "5649894.4813000",
-        "symbol": "GWEI",
-        "top10HoldersPercent": "87.22388724820486"
-      }
-    ],
-    "symbols": [
-      "GWEIUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-06-29T15:58:02.926940+00:00",
     "generatedAtMs": 1782748682926,
@@ -3669,6 +3643,32 @@
         "quoteVolumeSum": "8071452.9554200",
         "symbol": "IN",
         "top10HoldersPercent": "87.37223483470636"
+      }
+    ],
+    "symbols": [
+      "INUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-30T15:55:28.056022+00:00",
+    "generatedAtMs": 1782834928056,
+    "localTime": "2026-06-30 23:55:28 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "229418.13976075395",
+        "chainId": "56",
+        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+        "futuresSymbol": "INUSDT",
+        "isFreshAlert": false,
+        "name": "INFINIT",
+        "percentChange5m": "-1.79",
+        "price": "0.29304400894753746",
+        "quoteVolumeMin": "580478.8134000",
+        "quoteVolumeSum": "3879338.8912300",
+        "symbol": "IN",
+        "top10HoldersPercent": "87.84648926438116"
       }
     ],
     "symbols": [
