@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-06-30T15:55:28.056022+00:00",
-  "generatedAtMs": 1782834928056,
-  "localTime": "2026-06-30 23:55:28 CST",
+  "generatedAt": "2026-06-30T16:00:28.560787+00:00",
+  "generatedAtMs": 1782835228560,
+  "localTime": "2026-07-01 00:00:28 CST",
   "matches": [
     {
-      "alphaVolume5m": "229418.13976075395",
+      "alphaVolume5m": "279898.700352483",
       "chainId": "56",
       "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
       "futuresSymbol": "INUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/INUSDT",
-      "holders": "9479",
+      "holders": "9482",
       "isFreshAlert": false,
       "key": "56|0x61fac5f038515572d6f42d4bcb6b581642753d50|INUSDT",
       "links": [
@@ -36,30 +36,145 @@
           "link": "https://x.com/Infinit_Labs"
         }
       ],
-      "liquidity": "4151906.140726759",
-      "marketCap": "21948147.391839284",
+      "liquidity": "4150241.663669616",
+      "marketCap": "21841479.78903999",
       "name": "INFINIT",
-      "percentChange5m": "-1.79",
-      "price": "0.29304400894753746",
-      "quoteVolumeMin": "580478.8134000",
-      "quoteVolumeSum": "3879338.8912300",
+      "percentChange5m": "-0.12",
+      "price": "0.2925215667442483",
+      "quoteVolumeMin": "529469.6103700",
+      "quoteVolumeSum": "5735080.7770700",
       "quoteVolumes1m": [
-        "757815.7546100",
-        "730458.0503600",
-        "580478.8134000",
-        "914838.9153100",
-        "895747.3575500"
+        "1646114.3808000",
+        "966045.0318000",
+        "529469.6103700",
+        "971770.6020500",
+        "1621681.1520500"
       ],
       "symbol": "IN",
-      "top10HoldersPercent": "87.84648926438116"
+      "top10HoldersPercent": "87.6781236032619"
+    },
+    {
+      "alphaVolume5m": "409094.52162429685",
+      "chainId": "56",
+      "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+      "futuresSymbol": "CAPUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CAPUSDT",
+      "holders": "4703",
+      "isFreshAlert": true,
+      "key": "56|0x99991c6aabba5a096f24f250b73580f5179b9999|CAPUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.cap.app/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/capapp"
+        }
+      ],
+      "liquidity": "1138369.3846045048",
+      "marketCap": "52029622.49477625",
+      "name": "Cap",
+      "percentChange5m": "1.23",
+      "price": "0.03335232211203606",
+      "quoteVolumeMin": "333699.5219400",
+      "quoteVolumeSum": "1943439.9171400",
+      "quoteVolumes1m": [
+        "361978.0498200",
+        "379953.8856900",
+        "345724.1506700",
+        "333699.5219400",
+        "522084.3090200"
+      ],
+      "symbol": "CAP",
+      "top10HoldersPercent": "80.06331423286876"
+    },
+    {
+      "alphaVolume5m": "122.09684139794473",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "237885",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "326053.29334240657",
+      "marketCap": "2000377.5950729505",
+      "name": "SLIMEX",
+      "percentChange5m": "0",
+      "price": "0.001154285975229631",
+      "quoteVolumeMin": "302431.8434000",
+      "quoteVolumeSum": "4076251.0687300",
+      "quoteVolumes1m": [
+        "302431.8434000",
+        "1268340.0607000",
+        "491845.5156000",
+        "418118.5256500",
+        "1595515.1233800"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.39233977036082"
+    },
+    {
+      "alphaVolume5m": "95169.76860320565",
+      "chainId": "56",
+      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "28065",
+      "isFreshAlert": true,
+      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://solstice.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/solsticefi"
+        }
+      ],
+      "liquidity": "1369656.6858827726",
+      "marketCap": "7098535.096100979",
+      "name": "Solstice",
+      "percentChange5m": "1.6",
+      "price": "0.5702188780849994",
+      "quoteVolumeMin": "302431.8434000",
+      "quoteVolumeSum": "4076251.0687300",
+      "quoteVolumes1m": [
+        "302431.8434000",
+        "1268340.0607000",
+        "491845.5156000",
+        "418118.5256500",
+        "1595515.1233800"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "90.18943221336683"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 3,
+    "matchCount": 4,
     "symbols": [
-      "INUSDT"
+      "INUSDT",
+      "CAPUSDT",
+      "SLXUSDT",
+      "SLXUSDT"
     ]
   },
   "telegram": {
