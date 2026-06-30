@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-06-29T15:48:01.443934+00:00",
-    "generatedAtMs": 1782748081443,
-    "localTime": "2026-06-29 23:48:01 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-06-29T15:53:02.593598+00:00",
     "generatedAtMs": 1782748382593,
@@ -3652,6 +3643,32 @@
         "quoteVolumeSum": "8353978.1674400",
         "symbol": "IN",
         "top10HoldersPercent": "87.37826692394373"
+      }
+    ],
+    "symbols": [
+      "INUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-06-30T15:50:27.718764+00:00",
+    "generatedAtMs": 1782834627718,
+    "localTime": "2026-06-30 23:50:27 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "331805.5069542287",
+        "chainId": "56",
+        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
+        "futuresSymbol": "INUSDT",
+        "isFreshAlert": false,
+        "name": "INFINIT",
+        "percentChange5m": "3.26",
+        "price": "0.29849823024790323",
+        "quoteVolumeMin": "1170886.5035000",
+        "quoteVolumeSum": "8071452.9554200",
+        "symbol": "IN",
+        "top10HoldersPercent": "87.37223483470636"
       }
     ],
     "symbols": [
