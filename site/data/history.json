@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-30T15:05:24.328405+00:00",
-    "generatedAtMs": 1782831924328,
-    "localTime": "2026-06-30 23:05:24 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "723363.9308725791",
-        "chainId": "56",
-        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
-        "futuresSymbol": "INUSDT",
-        "isFreshAlert": false,
-        "name": "INFINIT",
-        "percentChange5m": "3.8",
-        "price": "0.254002752905807",
-        "quoteVolumeMin": "1062150.1328800",
-        "quoteVolumeSum": "11966508.3456500",
-        "symbol": "IN",
-        "top10HoldersPercent": "86.3341531266701"
-      }
-    ],
-    "symbols": [
-      "INUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-30T15:10:24.703133+00:00",
     "generatedAtMs": 1782832224703,
     "localTime": "2026-06-30 23:10:24 CST",
@@ -5202,5 +5176,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-01T15:07:47.515086+00:00",
+    "generatedAtMs": 1782918467515,
+    "localTime": "2026-07-01 23:07:47 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "0",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": true,
+        "name": "Taiko Token",
+        "percentChange5m": "0",
+        "price": "0.09635281103955923",
+        "quoteVolumeMin": "547681.7784000",
+        "quoteVolumeSum": "4090355.4351000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.53403758314157"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
+    ]
   }
 ]
