@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-30T23:11:10.477179+00:00",
-    "generatedAtMs": 1782861070477,
-    "localTime": "2026-07-01 07:11:10 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-30T23:16:11.949818+00:00",
     "generatedAtMs": 1782861371949,
     "localTime": "2026-07-01 07:16:11 CST",
@@ -4684,6 +4675,32 @@
       "TAIKOUSDT",
       "SLXUSDT",
       "SLXUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-01T23:13:33.568713+00:00",
+    "generatedAtMs": 1782947613568,
+    "localTime": "2026-07-02 07:13:33 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "213.43586724552534",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "8.98",
+        "price": "0.1947162866698805",
+        "quoteVolumeMin": "1160826.1095000",
+        "quoteVolumeSum": "7363227.6211000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.52437552322098"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
     ]
   }
 ]
