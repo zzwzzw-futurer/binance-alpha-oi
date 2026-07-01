@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-30T23:46:14.172643+00:00",
-    "generatedAtMs": 1782863174172,
-    "localTime": "2026-07-01 07:46:14 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-30T23:51:14.492095+00:00",
     "generatedAtMs": 1782863474492,
     "localTime": "2026-07-01 07:51:14 CST",
@@ -4797,6 +4788,32 @@
         "price": "0.23357477014917727",
         "quoteVolumeMin": "597665.3606000",
         "quoteVolumeSum": "4343602.5446000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.40943774348189"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-01T23:48:37.034731+00:00",
+    "generatedAtMs": 1782949717034,
+    "localTime": "2026-07-02 07:48:37 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "0",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "0",
+        "price": "0.23357477014917727",
+        "quoteVolumeMin": "536513.5408000",
+        "quoteVolumeSum": "4159904.1618000",
         "symbol": "TAIKO",
         "top10HoldersPercent": "97.40943774348189"
       }
