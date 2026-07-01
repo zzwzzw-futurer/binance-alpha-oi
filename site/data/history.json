@@ -1,62 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-06-30T16:05:28.649081+00:00",
-    "generatedAtMs": 1782835528649,
-    "localTime": "2026-07-01 00:05:28 CST",
-    "matchCount": 3,
-    "matches": [
-      {
-        "alphaVolume5m": "518566.0115507079",
-        "chainId": "56",
-        "contractAddress": "0x61fac5f038515572d6f42d4bcb6b581642753d50",
-        "futuresSymbol": "INUSDT",
-        "isFreshAlert": false,
-        "name": "INFINIT",
-        "percentChange5m": "9.13",
-        "price": "0.319260247768781",
-        "quoteVolumeMin": "2228859.4258900",
-        "quoteVolumeSum": "17056441.2359600",
-        "symbol": "IN",
-        "top10HoldersPercent": "88.27335647464827"
-      },
-      {
-        "alphaVolume5m": "114.03096187227865",
-        "chainId": "56",
-        "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
-        "futuresSymbol": "SLXUSDT",
-        "isFreshAlert": false,
-        "name": "SLIMEX",
-        "percentChange5m": "0.05",
-        "price": "0.001154637633333158",
-        "quoteVolumeMin": "605599.6354800",
-        "quoteVolumeSum": "6340080.6926600",
-        "symbol": "SLX",
-        "top10HoldersPercent": "92.39233977036082"
-      },
-      {
-        "alphaVolume5m": "142374.79004549776",
-        "chainId": "56",
-        "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
-        "futuresSymbol": "SLXUSDT",
-        "isFreshAlert": false,
-        "name": "Solstice",
-        "percentChange5m": "3.17",
-        "price": "0.5896091883413347",
-        "quoteVolumeMin": "605599.6354800",
-        "quoteVolumeSum": "6340080.6926600",
-        "symbol": "SLX",
-        "top10HoldersPercent": "89.83770833004694"
-      }
-    ],
-    "symbols": [
-      "INUSDT",
-      "SLXUSDT",
-      "SLXUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-06-30T16:10:29.107720+00:00",
     "generatedAtMs": 1782835829107,
     "localTime": "2026-07-01 00:10:29 CST",
@@ -4997,6 +4941,32 @@
         "price": "0.09635281103955923",
         "quoteVolumeMin": "350524.2728000",
         "quoteVolumeSum": "4087380.7716000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.53225475542062"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-01T16:07:53.358268+00:00",
+    "generatedAtMs": 1782922073358,
+    "localTime": "2026-07-02 00:07:53 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "0",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "0",
+        "price": "0.09635281103955923",
+        "quoteVolumeMin": "327087.9831000",
+        "quoteVolumeSum": "2800360.5195000",
         "symbol": "TAIKO",
         "top10HoldersPercent": "97.53225475542062"
       }
