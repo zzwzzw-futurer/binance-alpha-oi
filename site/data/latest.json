@@ -9,10 +9,50 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-01T16:07:53.358268+00:00",
-  "generatedAtMs": 1782922073358,
-  "localTime": "2026-07-02 00:07:53 CST",
+  "generatedAt": "2026-07-01T16:12:54.299273+00:00",
+  "generatedAtMs": 1782922374299,
+  "localTime": "2026-07-02 00:12:54 CST",
   "matches": [
+    {
+      "alphaVolume5m": "9592.212745531837",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21725",
+      "isFreshAlert": true,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "7342772.124514756",
+      "marketCap": "9103289462.98807",
+      "name": "LAB",
+      "percentChange5m": "1.07",
+      "price": "9.103289463030666",
+      "quoteVolumeMin": "402243.9720000",
+      "quoteVolumeSum": "2476998.2760000",
+      "quoteVolumes1m": [
+        "402243.9720000",
+        "488813.5740000",
+        "509860.5160000",
+        "643231.2690000",
+        "432848.9450000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.87179418302176"
+    },
     {
       "alphaVolume5m": "0",
       "chainId": "56",
@@ -20,7 +60,7 @@
       "futuresSymbol": "TAIKOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
       "holders": "1584",
-      "isFreshAlert": false,
+      "isFreshAlert": true,
       "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
       "links": [
         {
@@ -37,14 +77,14 @@
       "name": "Taiko Token",
       "percentChange5m": "0",
       "price": "0.09635281103955923",
-      "quoteVolumeMin": "327087.9831000",
-      "quoteVolumeSum": "2800360.5195000",
+      "quoteVolumeMin": "307236.3302000",
+      "quoteVolumeSum": "1984418.2327000",
       "quoteVolumes1m": [
-        "623365.9662000",
-        "719055.9776000",
-        "501242.9454000",
-        "327087.9831000",
-        "629607.6472000"
+        "607473.3132000",
+        "421644.8525000",
+        "307236.3302000",
+        "331735.1426000",
+        "316328.5942000"
       ],
       "symbol": "TAIKO",
       "top10HoldersPercent": "97.53225475542062"
@@ -52,9 +92,10 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 2,
     "symbols": [
+      "LABUSDT",
       "TAIKOUSDT"
     ]
   },
