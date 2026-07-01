@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-01T23:03:33.334374+00:00",
-  "generatedAtMs": 1782947013334,
-  "localTime": "2026-07-02 07:03:33 CST",
+  "generatedAt": "2026-07-01T23:08:33.511568+00:00",
+  "generatedAtMs": 1782947313511,
+  "localTime": "2026-07-02 07:08:33 CST",
   "matches": [
     {
-      "alphaVolume5m": "239.29764662018812",
+      "alphaVolume5m": "256.56182658576",
       "chainId": "56",
       "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
       "futuresSymbol": "TAIKOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
-      "holders": "1596",
+      "holders": "1593",
       "isFreshAlert": false,
       "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
       "links": [
@@ -32,30 +32,108 @@
           "link": "https://x.com/taikoxyz"
         }
       ],
-      "liquidity": "8254.07690549332",
-      "marketCap": "565161.1026552008",
+      "liquidity": "8215.455298771414",
+      "marketCap": "555768.2202588853",
       "name": "Taiko Token",
-      "percentChange5m": "10.85",
-      "price": "0.1933673901643428",
-      "quoteVolumeMin": "1196124.2300000",
-      "quoteVolumeSum": "9904342.8300000",
+      "percentChange5m": "5.39",
+      "price": "0.1902012745165384",
+      "quoteVolumeMin": "1115068.7988000",
+      "quoteVolumeSum": "8330282.1110000",
       "quoteVolumes1m": [
-        "1196124.2300000",
-        "1307495.9460000",
-        "1828433.0846000",
-        "2519733.8107000",
-        "3052555.7587000"
+        "2678835.2050000",
+        "1115068.7988000",
+        "1548459.7258000",
+        "1577951.8961000",
+        "1409966.4853000"
       ],
       "symbol": "TAIKO",
-      "top10HoldersPercent": "97.52600729391176"
+      "top10HoldersPercent": "97.54704485952456"
+    },
+    {
+      "alphaVolume5m": "0",
+      "chainId": "56",
+      "contractAddress": "0x8a063a9ff4de28dcb87117cc759be6ce70e09f81",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "237876",
+      "isFreshAlert": true,
+      "key": "56|0x8a063a9ff4de28dcb87117cc759be6ce70e09f81|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://slimex.io/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/slimexofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Slime_Miner"
+        }
+      ],
+      "liquidity": "327060.97228762053",
+      "marketCap": "2007866.5823932",
+      "name": "SLIMEX",
+      "percentChange5m": "0",
+      "price": "0.001158607375876053",
+      "quoteVolumeMin": "301100.0122400",
+      "quoteVolumeSum": "3783786.2758300",
+      "quoteVolumes1m": [
+        "900445.2840500",
+        "1177417.6610600",
+        "886482.9084200",
+        "518340.4100600",
+        "301100.0122400"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "92.39232278734148"
+    },
+    {
+      "alphaVolume5m": "153798.09167253238",
+      "chainId": "56",
+      "contractAddress": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+      "futuresSymbol": "SLXUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SLXUSDT",
+      "holders": "28066",
+      "isFreshAlert": true,
+      "key": "56|0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d|SLXUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://solstice.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/solsticefi"
+        }
+      ],
+      "liquidity": "1316186.3343090664",
+      "marketCap": "5788878.388106106",
+      "name": "Solstice",
+      "percentChange5m": "0.32",
+      "price": "0.4656474245257685",
+      "quoteVolumeMin": "301100.0122400",
+      "quoteVolumeSum": "3783786.2758300",
+      "quoteVolumes1m": [
+        "900445.2840500",
+        "1177417.6610600",
+        "886482.9084200",
+        "518340.4100600",
+        "301100.0122400"
+      ],
+      "symbol": "SLX",
+      "top10HoldersPercent": "90.32011882491976"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 3,
     "symbols": [
-      "TAIKOUSDT"
+      "TAIKOUSDT",
+      "SLXUSDT",
+      "SLXUSDT"
     ]
   },
   "telegram": {
