@@ -9,58 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-01T16:52:57.039386+00:00",
-  "generatedAtMs": 1782924777039,
-  "localTime": "2026-07-02 00:52:57 CST",
+  "generatedAt": "2026-07-01T16:57:57.893405+00:00",
+  "generatedAtMs": 1782925077893,
+  "localTime": "2026-07-02 00:57:57 CST",
   "matches": [
     {
-      "alphaVolume5m": "13920.636518509173",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21733",
-      "isFreshAlert": false,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "7174157.919514097",
-      "marketCap": "8703627371.034176",
-      "name": "LAB",
-      "percentChange5m": "-0.34",
-      "price": "8.703627371074903",
-      "quoteVolumeMin": "514626.3820000",
-      "quoteVolumeSum": "3426405.5255000",
-      "quoteVolumes1m": [
-        "752800.2490000",
-        "514626.3820000",
-        "886351.7545000",
-        "528894.5170000",
-        "743732.6230000"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "87.87036308862177"
-    },
-    {
-      "alphaVolume5m": "77642.31506053965",
+      "alphaVolume5m": "93027.80908654617",
       "chainId": "56",
       "contractAddress": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
       "futuresSymbol": "MUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/MUSDT",
-      "holders": "7488",
-      "isFreshAlert": true,
+      "holders": "7487",
+      "isFreshAlert": false,
       "key": "56|0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa|MUSDT",
       "links": [
         {
@@ -76,30 +36,29 @@
           "link": "https://x.com/MemeCore_ORG"
         }
       ],
-      "liquidity": "126400.27403859679",
-      "marketCap": "234468804.2761529",
+      "liquidity": "126101.73898431429",
+      "marketCap": "235789973.239133",
       "name": "MemeCore",
-      "percentChange5m": "-12.12",
-      "price": "1.0217211891018025",
-      "quoteVolumeMin": "408367.9522000",
-      "quoteVolumeSum": "5411650.5533000",
+      "percentChange5m": "0.39",
+      "price": "1.0274783145668627",
+      "quoteVolumeMin": "403327.8203000",
+      "quoteVolumeSum": "5959728.3552000",
       "quoteVolumes1m": [
-        "2306559.1737000",
-        "945982.3657000",
-        "628039.8403000",
-        "1122701.2214000",
-        "408367.9522000"
+        "2170743.3929000",
+        "1636696.5357000",
+        "790801.5649000",
+        "958159.0414000",
+        "403327.8203000"
       ],
       "symbol": "M",
-      "top10HoldersPercent": "86.87169462641702"
+      "top10HoldersPercent": "86.8707722174581"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "LABUSDT",
       "MUSDT"
     ]
   },
