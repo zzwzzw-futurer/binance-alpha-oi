@@ -9,18 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T08:29:31.687455+00:00",
-  "generatedAtMs": 1782980971687,
-  "localTime": "2026-07-02 16:29:31 CST",
+  "generatedAt": "2026-07-02T08:34:31.898547+00:00",
+  "generatedAtMs": 1782981271898,
+  "localTime": "2026-07-02 16:34:31 CST",
   "matches": [
     {
-      "alphaVolume5m": "37817.49073582642",
+      "alphaVolume5m": "5.098722229820683",
+      "chainId": "56",
+      "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+      "futuresSymbol": "TAIKOUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
+      "holders": "1636",
+      "isFreshAlert": false,
+      "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://taiko.xyz/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/taikoxyz"
+        }
+      ],
+      "liquidity": "24367.377184847468",
+      "marketCap": "360585.944692898",
+      "name": "Taiko Token",
+      "percentChange5m": "21.89",
+      "price": "0.1222080989260423",
+      "quoteVolumeMin": "742119.7960000",
+      "quoteVolumeSum": "5743034.6460000",
+      "quoteVolumes1m": [
+        "1046074.9186000",
+        "1148549.7505000",
+        "1873020.0936000",
+        "933270.0873000",
+        "742119.7960000"
+      ],
+      "symbol": "TAIKO",
+      "top10HoldersPercent": "97.10085761607579"
+    },
+    {
+      "alphaVolume5m": "28910.81665634355",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15285",
-      "isFreshAlert": true,
+      "holders": "15286",
+      "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
         {
@@ -36,29 +72,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "2617612.468597154",
-      "marketCap": "568189815.4021424",
+      "liquidity": "2672760.571268992",
+      "marketCap": "581146778.555751",
       "name": "Velvet",
-      "percentChange5m": "-6.25",
-      "price": "0.5681898236616023",
-      "quoteVolumeMin": "327025.6453600",
-      "quoteVolumeSum": "4323724.5007300",
+      "percentChange5m": "2.33",
+      "price": "0.5811467870035592",
+      "quoteVolumeMin": "326006.0783800",
+      "quoteVolumeSum": "2631287.6874400",
       "quoteVolumes1m": [
-        "327025.6453600",
-        "569973.6563400",
-        "1439313.1511900",
-        "703373.0529400",
-        "1284038.9949000"
+        "740047.7025600",
+        "713299.8117600",
+        "334210.7022000",
+        "326006.0783800",
+        "517723.3925400"
       ],
       "symbol": "VELVET",
-      "top10HoldersPercent": "91.01738111959784"
+      "top10HoldersPercent": "91.01728192898345"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 1,
+    "freshAlertCount": 0,
+    "matchCount": 2,
     "symbols": [
+      "TAIKOUSDT",
       "VELVETUSDT"
     ]
   },
