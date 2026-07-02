@@ -1,47 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T10:07:19.176822+00:00",
-    "generatedAtMs": 1782900439176,
-    "localTime": "2026-07-01 18:07:19 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "40168.5516508729",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-0.97",
-        "price": "8.875432549088838",
-        "quoteVolumeMin": "929361.8240000",
-        "quoteVolumeSum": "7768696.9321000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.88095072796176"
-      },
-      {
-        "alphaVolume5m": "0",
-        "chainId": "56",
-        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
-        "futuresSymbol": "TAIKOUSDT",
-        "isFreshAlert": false,
-        "name": "Taiko Token",
-        "percentChange5m": "0",
-        "price": "0.05772586906755624",
-        "quoteVolumeMin": "337656.6438000",
-        "quoteVolumeSum": "2513014.9096000",
-        "symbol": "TAIKO",
-        "top10HoldersPercent": "97.88834562298818"
-      }
-    ],
-    "symbols": [
-      "LABUSDT",
-      "TAIKOUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T10:12:19.648666+00:00",
     "generatedAtMs": 1782900739648,
     "localTime": "2026-07-01 18:12:19 CST",
@@ -6551,6 +6510,32 @@
     "symbols": [
       "TAIKOUSDT",
       "BIRBUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T10:09:42.542314+00:00",
+    "generatedAtMs": 1782986982542,
+    "localTime": "2026-07-02 18:09:42 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "1299.213751472914",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "42.29",
+        "price": "0.17080088687181905",
+        "quoteVolumeMin": "578354.0906000",
+        "quoteVolumeSum": "5041060.8139000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.50668587083149"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
     ]
   }
 ]
