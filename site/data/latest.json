@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T14:00:08.685434+00:00",
-  "generatedAtMs": 1783000808685,
-  "localTime": "2026-07-02 22:00:08 CST",
-  "matches": [],
+  "generatedAt": "2026-07-02T14:05:05.879462+00:00",
+  "generatedAtMs": 1783001105879,
+  "localTime": "2026-07-02 22:05:05 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "0",
+      "chainId": "56",
+      "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+      "futuresSymbol": "TAIKOUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
+      "holders": "1629",
+      "isFreshAlert": false,
+      "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://taiko.xyz/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/taikoxyz"
+        }
+      ],
+      "liquidity": "27683.34347536056",
+      "marketCap": "347358.75292876037",
+      "name": "Taiko Token",
+      "percentChange5m": "0",
+      "price": "0.11789438734637067",
+      "quoteVolumeMin": "389786.0592000",
+      "quoteVolumeSum": "3192276.6487000",
+      "quoteVolumes1m": [
+        "475058.6763000",
+        "728395.6836000",
+        "474355.1336000",
+        "1124681.0960000",
+        "389786.0592000"
+      ],
+      "symbol": "TAIKO",
+      "top10HoldersPercent": "97.57042029349553"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "TAIKOUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
