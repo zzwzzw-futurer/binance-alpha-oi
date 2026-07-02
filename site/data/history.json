@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T06:06:54.968352+00:00",
-    "generatedAtMs": 1782886014968,
-    "localTime": "2026-07-01 14:06:54 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "223567.98392670476",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "3.37",
-        "price": "3.077840400377173",
-        "quoteVolumeMin": "319506.0570000",
-        "quoteVolumeSum": "2641750.8534000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.20966173814868"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T06:11:54.757394+00:00",
     "generatedAtMs": 1782886314757,
     "localTime": "2026-07-01 14:11:54 CST",
@@ -6159,6 +6133,47 @@
     ],
     "symbols": [
       "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T06:09:18.240319+00:00",
+    "generatedAtMs": 1782972558240,
+    "localTime": "2026-07-02 14:09:18 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "346.88759252882693",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "-2.7",
+        "price": "0.1518473737570132",
+        "quoteVolumeMin": "355889.8632000",
+        "quoteVolumeSum": "2379226.0155000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "96.68026401431896"
+      },
+      {
+        "alphaVolume5m": "39577.76191322483",
+        "chainId": "CT_501",
+        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+        "futuresSymbol": "BIRBUSDT",
+        "isFreshAlert": false,
+        "name": "Moonbirds",
+        "percentChange5m": "-2",
+        "price": "0.0920284695028758",
+        "quoteVolumeMin": "344128.5940400",
+        "quoteVolumeSum": "3299109.3955700",
+        "symbol": "BIRB",
+        "top10HoldersPercent": "93.2212724267229"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT",
+      "BIRBUSDT"
     ]
   }
 ]
