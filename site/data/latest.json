@@ -9,12 +9,48 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T05:19:12.498005+00:00",
-  "generatedAtMs": 1782969552498,
-  "localTime": "2026-07-02 13:19:12 CST",
+  "generatedAt": "2026-07-02T05:24:13.465982+00:00",
+  "generatedAtMs": 1782969853465,
+  "localTime": "2026-07-02 13:24:13 CST",
   "matches": [
     {
-      "alphaVolume5m": "9.749829306142505",
+      "alphaVolume5m": "247969.09832475788",
+      "chainId": "CT_501",
+      "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+      "futuresSymbol": "BIRBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BIRBUSDT",
+      "holders": "15668",
+      "isFreshAlert": false,
+      "key": "CT_501|g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg|BIRBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.moonbirds.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/moonbirds"
+        }
+      ],
+      "liquidity": "1779502.4549587653",
+      "marketCap": "103279173.59052628",
+      "name": "Moonbirds",
+      "percentChange5m": "9.59",
+      "price": "0.10327921319638855",
+      "quoteVolumeMin": "561843.3487000",
+      "quoteVolumeSum": "4391345.6787900",
+      "quoteVolumes1m": [
+        "630713.9212100",
+        "561843.3487000",
+        "686066.9968800",
+        "1017243.5163000",
+        "1495477.8957000"
+      ],
+      "symbol": "BIRB",
+      "top10HoldersPercent": "92.78440329170375"
+    },
+    {
+      "alphaVolume5m": "124.21854433726033",
       "chainId": "56",
       "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
       "futuresSymbol": "TAIKOUSDT",
@@ -32,58 +68,22 @@
           "link": "https://x.com/taikoxyz"
         }
       ],
-      "liquidity": "22499.477076259882",
-      "marketCap": "432178.3506215249",
+      "liquidity": "22826.507552304072",
+      "marketCap": "523786.9684050317",
       "name": "Taiko Token",
-      "percentChange5m": "3.25",
-      "price": "0.1443325818569865",
-      "quoteVolumeMin": "390003.6772000",
-      "quoteVolumeSum": "3236792.1115000",
+      "percentChange5m": "21.32",
+      "price": "0.17492668335704634",
+      "quoteVolumeMin": "328933.7743000",
+      "quoteVolumeSum": "3144517.4110000",
       "quoteVolumes1m": [
-        "390003.6772000",
-        "659866.1999000",
-        "916682.0649000",
-        "572728.4230000",
-        "697511.7465000"
+        "557293.5256000",
+        "328933.7743000",
+        "405354.6750000",
+        "973259.6382000",
+        "879675.7979000"
       ],
       "symbol": "TAIKO",
-      "top10HoldersPercent": "96.77440008197338"
-    },
-    {
-      "alphaVolume5m": "133720.38277387994",
-      "chainId": "CT_501",
-      "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
-      "futuresSymbol": "BIRBUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BIRBUSDT",
-      "holders": "15643",
-      "isFreshAlert": false,
-      "key": "CT_501|g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg|BIRBUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://www.moonbirds.com"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/moonbirds"
-        }
-      ],
-      "liquidity": "1738405.4862233882",
-      "marketCap": "93882694.0051401",
-      "name": "Moonbirds",
-      "percentChange5m": "4.59",
-      "price": "0.09388273000760719",
-      "quoteVolumeMin": "366270.0149200",
-      "quoteVolumeSum": "2533161.4767700",
-      "quoteVolumes1m": [
-        "527642.6931300",
-        "366270.0149200",
-        "668880.1006800",
-        "367604.9831400",
-        "602763.6849000"
-      ],
-      "symbol": "BIRB",
-      "top10HoldersPercent": "92.80005733005741"
+      "top10HoldersPercent": "96.73943378434053"
     }
   ],
   "status": "ok",
@@ -91,8 +91,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "TAIKOUSDT",
-      "BIRBUSDT"
+      "BIRBUSDT",
+      "TAIKOUSDT"
     ]
   },
   "telegram": {
