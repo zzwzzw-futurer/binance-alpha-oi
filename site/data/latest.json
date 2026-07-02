@@ -9,90 +9,57 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T06:09:18.240319+00:00",
-  "generatedAtMs": 1782972558240,
-  "localTime": "2026-07-02 14:09:18 CST",
+  "generatedAt": "2026-07-02T06:14:18.605896+00:00",
+  "generatedAtMs": 1782972858605,
+  "localTime": "2026-07-02 14:14:18 CST",
   "matches": [
     {
-      "alphaVolume5m": "346.88759252882693",
+      "alphaVolume5m": "475571.0731004395",
       "chainId": "56",
-      "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
-      "futuresSymbol": "TAIKOUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
-      "holders": "1631",
-      "isFreshAlert": false,
-      "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15369",
+      "isFreshAlert": true,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
         {
           "label": "website",
-          "link": "https://taiko.xyz/"
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
         },
         {
           "label": "x",
-          "link": "https://x.com/taikoxyz"
+          "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "22630.272913463286",
-      "marketCap": "458104.87586411816",
-      "name": "Taiko Token",
-      "percentChange5m": "-2.7",
-      "price": "0.1518473737570132",
-      "quoteVolumeMin": "355889.8632000",
-      "quoteVolumeSum": "2379226.0155000",
+      "liquidity": "4738228.261662179",
+      "marketCap": "1066239824.6759565",
+      "name": "Velvet",
+      "percentChange5m": "-18.72",
+      "price": "1.066239840175293",
+      "quoteVolumeMin": "2002011.8418200",
+      "quoteVolumeSum": "17556701.5367300",
       "quoteVolumes1m": [
-        "449876.8486000",
-        "355889.8632000",
-        "741871.1319000",
-        "366278.7178000",
-        "465309.4540000"
+        "5511801.1548100",
+        "3526837.8797000",
+        "3129204.3887100",
+        "3386846.2716900",
+        "2002011.8418200"
       ],
-      "symbol": "TAIKO",
-      "top10HoldersPercent": "96.68026401431896"
-    },
-    {
-      "alphaVolume5m": "39577.76191322483",
-      "chainId": "CT_501",
-      "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
-      "futuresSymbol": "BIRBUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BIRBUSDT",
-      "holders": "15651",
-      "isFreshAlert": false,
-      "key": "CT_501|g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg|BIRBUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://www.moonbirds.com"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/moonbirds"
-        }
-      ],
-      "liquidity": "1730019.9669736952",
-      "marketCap": "92028434.21148679",
-      "name": "Moonbirds",
-      "percentChange5m": "-2",
-      "price": "0.0920284695028758",
-      "quoteVolumeMin": "344128.5940400",
-      "quoteVolumeSum": "3299109.3955700",
-      "quoteVolumes1m": [
-        "669808.1030700",
-        "1230827.2593600",
-        "409875.6353500",
-        "644469.8037500",
-        "344128.5940400"
-      ],
-      "symbol": "BIRB",
-      "top10HoldersPercent": "93.2212724267229"
+      "symbol": "VELVET",
+      "top10HoldersPercent": "89.12033956411621"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 2,
+    "freshAlertCount": 1,
+    "matchCount": 1,
     "symbols": [
-      "TAIKOUSDT",
-      "BIRBUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
