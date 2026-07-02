@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-07-01T05:51:53.384338+00:00",
-    "generatedAtMs": 1782885113384,
-    "localTime": "2026-07-01 13:51:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "259876.0129725986",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "-0.64",
-        "price": "3.1043655410046624",
-        "quoteVolumeMin": "398929.7134000",
-        "quoteVolumeSum": "3190935.6642000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.20966173814868"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-07-01T05:56:54.480987+00:00",
     "generatedAtMs": 1782885414480,
@@ -6144,6 +6118,32 @@
     "symbols": [
       "BIRBUSDT",
       "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T05:54:16.352352+00:00",
+    "generatedAtMs": 1782971656352,
+    "localTime": "2026-07-02 13:54:16 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "77972.942049495",
+        "chainId": "CT_501",
+        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+        "futuresSymbol": "BIRBUSDT",
+        "isFreshAlert": false,
+        "name": "Moonbirds",
+        "percentChange5m": "-1.62",
+        "price": "0.09523715518782247",
+        "quoteVolumeMin": "406068.2669000",
+        "quoteVolumeSum": "3774801.7706600",
+        "symbol": "BIRB",
+        "top10HoldersPercent": "93.10986892708331"
+      }
+    ],
+    "symbols": [
+      "BIRBUSDT"
     ]
   }
 ]
