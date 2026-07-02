@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T04:54:10.749780+00:00",
-  "generatedAtMs": 1782968050749,
-  "localTime": "2026-07-02 12:54:10 CST",
+  "generatedAt": "2026-07-02T04:59:11.007487+00:00",
+  "generatedAtMs": 1782968351007,
+  "localTime": "2026-07-02 12:59:11 CST",
   "matches": [
     {
-      "alphaVolume5m": "740.9564310802597",
+      "alphaVolume5m": "198869.1753627159",
+      "chainId": "CT_501",
+      "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+      "futuresSymbol": "BIRBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BIRBUSDT",
+      "holders": "15628",
+      "isFreshAlert": false,
+      "key": "CT_501|g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg|BIRBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.moonbirds.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/moonbirds"
+        }
+      ],
+      "liquidity": "1744934.129577838",
+      "marketCap": "95336194.53469789",
+      "name": "Moonbirds",
+      "percentChange5m": "14.53",
+      "price": "0.09533623109455851",
+      "quoteVolumeMin": "545227.7011900",
+      "quoteVolumeSum": "3611445.1644600",
+      "quoteVolumes1m": [
+        "545227.7011900",
+        "730436.8470400",
+        "608430.1150300",
+        "674685.5631600",
+        "1052664.9380400"
+      ],
+      "symbol": "BIRB",
+      "top10HoldersPercent": "92.72537594516085"
+    },
+    {
+      "alphaVolume5m": "607.7348901396053",
       "chainId": "56",
       "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
       "futuresSymbol": "TAIKOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
-      "holders": "1621",
+      "holders": "1623",
       "isFreshAlert": false,
       "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
       "links": [
@@ -32,29 +68,30 @@
           "link": "https://x.com/taikoxyz"
         }
       ],
-      "liquidity": "23745.358459524843",
-      "marketCap": "614165.8422271643",
+      "liquidity": "22708.005951737417",
+      "marketCap": "448940.8099147489",
       "name": "Taiko Token",
-      "percentChange5m": "-15.62",
-      "price": "0.20900050880885568",
-      "quoteVolumeMin": "400929.2351000",
-      "quoteVolumeSum": "2536417.9742000",
+      "percentChange5m": "-28.43",
+      "price": "0.14996951381767934",
+      "quoteVolumeMin": "486441.0583000",
+      "quoteVolumeSum": "3238347.1591000",
       "quoteVolumes1m": [
-        "400929.2351000",
-        "707184.2062000",
-        "505407.1541000",
-        "491262.6545000",
-        "431634.7243000"
+        "486441.0583000",
+        "752915.0671000",
+        "488841.2898000",
+        "733206.8329000",
+        "776942.9110000"
       ],
       "symbol": "TAIKO",
-      "top10HoldersPercent": "97.10379918764724"
+      "top10HoldersPercent": "96.79922878581313"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "BIRBUSDT",
       "TAIKOUSDT"
     ]
   },
