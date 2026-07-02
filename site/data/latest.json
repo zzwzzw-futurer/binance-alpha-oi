@@ -9,12 +9,52 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T03:08:58.876856+00:00",
-  "generatedAtMs": 1782961738876,
-  "localTime": "2026-07-02 11:08:58 CST",
+  "generatedAt": "2026-07-02T03:13:59.239570+00:00",
+  "generatedAtMs": 1782962039239,
+  "localTime": "2026-07-02 11:13:59 CST",
   "matches": [
     {
-      "alphaVolume5m": "143.47206000413811",
+      "alphaVolume5m": "99387.91692120976",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "21783",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "7833369.67029186",
+      "marketCap": "10277324870.6766",
+      "name": "LAB",
+      "percentChange5m": "0.83",
+      "price": "10.27732487072469",
+      "quoteVolumeMin": "445042.4960000",
+      "quoteVolumeSum": "3505742.2690000",
+      "quoteVolumes1m": [
+        "1116124.8392000",
+        "575385.7310000",
+        "856581.8768000",
+        "445042.4960000",
+        "512607.3260000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "87.86360722073547"
+    },
+    {
+      "alphaVolume5m": "156.5591950899061",
       "chainId": "56",
       "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
       "futuresSymbol": "TAIKOUSDT",
@@ -32,62 +72,22 @@
           "link": "https://x.com/taikoxyz"
         }
       ],
-      "liquidity": "23655.191490887686",
-      "marketCap": "461708.5113141458",
+      "liquidity": "23389.33092249705",
+      "marketCap": "724828.3546487318",
       "name": "Taiko Token",
-      "percentChange5m": "-4.38",
-      "price": "0.1575827838520197",
-      "quoteVolumeMin": "421953.0593000",
-      "quoteVolumeSum": "4034567.0099000",
+      "percentChange5m": "32.94",
+      "price": "0.24727287583970478",
+      "quoteVolumeMin": "425149.0048000",
+      "quoteVolumeSum": "3185450.2212000",
       "quoteVolumes1m": [
-        "447153.3702000",
-        "421953.0593000",
-        "812507.6524000",
-        "1507643.6349000",
-        "845309.2931000"
+        "1096803.6922000",
+        "510286.0254000",
+        "504554.0208000",
+        "648657.4780000",
+        "425149.0048000"
       ],
       "symbol": "TAIKO",
-      "top10HoldersPercent": "97.32885428514574"
-    },
-    {
-      "alphaVolume5m": "58662.820636363234",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21781",
-      "isFreshAlert": false,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "7787903.479836089",
-      "marketCap": "10192394576.2757",
-      "name": "LAB",
-      "percentChange5m": "3.39",
-      "price": "10.192394576323391",
-      "quoteVolumeMin": "343875.2550000",
-      "quoteVolumeSum": "2543461.8022000",
-      "quoteVolumes1m": [
-        "343875.2550000",
-        "662412.2564000",
-        "507841.2310000",
-        "396814.8600000",
-        "632518.1998000"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "87.86360722073547"
+      "top10HoldersPercent": "97.36477929659719"
     }
   ],
   "status": "ok",
@@ -95,8 +95,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "TAIKOUSDT",
-      "LABUSDT"
+      "LABUSDT",
+      "TAIKOUSDT"
     ]
   },
   "telegram": {
