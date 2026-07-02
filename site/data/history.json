@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T22:53:31.910989+00:00",
-    "generatedAtMs": 1782946411910,
-    "localTime": "2026-07-02 06:53:31 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "381.83504490464037",
-        "chainId": "56",
-        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
-        "futuresSymbol": "TAIKOUSDT",
-        "isFreshAlert": false,
-        "name": "Taiko Token",
-        "percentChange5m": "11.96",
-        "price": "0.1726181037640437",
-        "quoteVolumeMin": "1119384.0950000",
-        "quoteVolumeSum": "9699816.3927000",
-        "symbol": "TAIKO",
-        "top10HoldersPercent": "97.45295464211"
-      }
-    ],
-    "symbols": [
-      "TAIKOUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T22:58:32.634753+00:00",
     "generatedAtMs": 1782946712634,
     "localTime": "2026-07-02 06:58:32 CST",
@@ -5722,5 +5696,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-02T22:55:55.294884+00:00",
+    "generatedAtMs": 1783032955294,
+    "localTime": "2026-07-03 06:55:55 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "79179.48174790012",
+        "chainId": "CT_501",
+        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+        "futuresSymbol": "BIRBUSDT",
+        "isFreshAlert": true,
+        "name": "Moonbirds",
+        "percentChange5m": "0.19",
+        "price": "0.09861159303006152",
+        "quoteVolumeMin": "489237.3943100",
+        "quoteVolumeSum": "5750051.4760100",
+        "symbol": "BIRB",
+        "top10HoldersPercent": "93.823942708255"
+      }
+    ],
+    "symbols": [
+      "BIRBUSDT"
+    ]
   }
 ]
