@@ -9,18 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T03:59:05.330266+00:00",
-  "generatedAtMs": 1782964745330,
-  "localTime": "2026-07-02 11:59:05 CST",
+  "generatedAt": "2026-07-02T04:04:06.241439+00:00",
+  "generatedAtMs": 1782965046241,
+  "localTime": "2026-07-02 12:04:06 CST",
   "matches": [
     {
-      "alphaVolume5m": "57788.19575297289",
+      "alphaVolume5m": "236.55433226840137",
+      "chainId": "56",
+      "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+      "futuresSymbol": "TAIKOUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
+      "holders": "1615",
+      "isFreshAlert": false,
+      "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://taiko.xyz/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/taikoxyz"
+        }
+      ],
+      "liquidity": "22104.101307128163",
+      "marketCap": "431385.0881100249",
+      "name": "Taiko Token",
+      "percentChange5m": "-0.07",
+      "price": "0.1469419997556181",
+      "quoteVolumeMin": "429865.6333000",
+      "quoteVolumeSum": "4189169.2518000",
+      "quoteVolumes1m": [
+        "1012669.8841000",
+        "1111328.6787000",
+        "646410.6509000",
+        "429865.6333000",
+        "988894.4048000"
+      ],
+      "symbol": "TAIKO",
+      "top10HoldersPercent": "97.18994130505023"
+    },
+    {
+      "alphaVolume5m": "36547.637258122704",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "21789",
-      "isFreshAlert": true,
+      "holders": "21792",
+      "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
@@ -36,29 +72,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "7823180.657572622",
-      "marketCap": "10111611462.269577",
+      "liquidity": "7825998.335920962",
+      "marketCap": "10256897702.623682",
       "name": "LAB",
-      "percentChange5m": "-3.29",
-      "price": "10.111611462316892",
-      "quoteVolumeMin": "469506.4558000",
-      "quoteVolumeSum": "3997645.3309000",
+      "percentChange5m": "3.24",
+      "price": "10.256897702671678",
+      "quoteVolumeMin": "397753.7608000",
+      "quoteVolumeSum": "3272934.0608000",
       "quoteVolumes1m": [
-        "1309007.9695000",
-        "717946.8708000",
-        "902776.2824000",
-        "469506.4558000",
-        "598407.7524000"
+        "946679.0105000",
+        "730859.7630000",
+        "677063.3705000",
+        "520578.1560000",
+        "397753.7608000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.8646846171226"
+      "top10HoldersPercent": "87.8646875657816"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 1,
+    "freshAlertCount": 0,
+    "matchCount": 2,
     "symbols": [
+      "TAIKOUSDT",
       "LABUSDT"
     ]
   },
