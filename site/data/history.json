@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-07-01T04:51:47.292051+00:00",
-    "generatedAtMs": 1782881507292,
-    "localTime": "2026-07-01 12:51:47 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "541668.3737538077",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "-0.62",
-        "price": "3.5956262682954647",
-        "quoteVolumeMin": "433614.1274000",
-        "quoteVolumeSum": "3971425.9761000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.20966173814868"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-07-01T04:56:48.321538+00:00",
     "generatedAtMs": 1782881808321,
@@ -5918,6 +5892,32 @@
     "symbols": [
       "TAIKOUSDT",
       "BIRBUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T04:54:10.749780+00:00",
+    "generatedAtMs": 1782968050749,
+    "localTime": "2026-07-02 12:54:10 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "740.9564310802597",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "-15.62",
+        "price": "0.20900050880885568",
+        "quoteVolumeMin": "400929.2351000",
+        "quoteVolumeSum": "2536417.9742000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.10379918764724"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
     ]
   }
 ]
