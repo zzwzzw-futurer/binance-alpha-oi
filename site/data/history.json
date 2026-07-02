@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 1,
-    "generatedAt": "2026-07-01T05:46:53.378522+00:00",
-    "generatedAtMs": 1782884813378,
-    "localTime": "2026-07-01 13:46:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "28947.02402998309",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": true,
-        "name": "LAB",
-        "percentChange5m": "-2.45",
-        "price": "12.469335013761166",
-        "quoteVolumeMin": "424677.8586000",
-        "quoteVolumeSum": "2647722.0406000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.9021146008966"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 1,
     "generatedAt": "2026-07-01T05:51:53.384338+00:00",
     "generatedAtMs": 1782885113384,
     "localTime": "2026-07-01 13:51:53 CST",
@@ -6129,6 +6103,47 @@
     ],
     "symbols": [
       "BIRBUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T05:49:16.483013+00:00",
+    "generatedAtMs": 1782971356483,
+    "localTime": "2026-07-02 13:49:16 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "87179.13001249588",
+        "chainId": "CT_501",
+        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+        "futuresSymbol": "BIRBUSDT",
+        "isFreshAlert": false,
+        "name": "Moonbirds",
+        "percentChange5m": "-3.07",
+        "price": "0.09705158903901366",
+        "quoteVolumeMin": "396243.4279900",
+        "quoteVolumeSum": "2493730.7839800",
+        "symbol": "BIRB",
+        "top10HoldersPercent": "93.11133814189414"
+      },
+      {
+        "alphaVolume5m": "9.805993778580472",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "-3",
+        "price": "0.14791256108108553",
+        "quoteVolumeMin": "306267.9583000",
+        "quoteVolumeSum": "2120117.4198000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "96.41055632192733"
+      }
+    ],
+    "symbols": [
+      "BIRBUSDT",
+      "TAIKOUSDT"
     ]
   }
 ]
