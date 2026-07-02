@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T09:37:16.056640+00:00",
-    "generatedAtMs": 1782898636056,
-    "localTime": "2026-07-01 17:37:16 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "47329.23360400273",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-0.25",
-        "price": "9.672584243049645",
-        "quoteVolumeMin": "390704.6840000",
-        "quoteVolumeSum": "3794588.2751000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.88233848512176"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T09:42:16.760137+00:00",
     "generatedAtMs": 1782898936760,
     "localTime": "2026-07-01 17:42:16 CST",
@@ -6545,6 +6519,32 @@
         "price": "0.10867108005041311",
         "quoteVolumeMin": "464292.1737000",
         "quoteVolumeSum": "3516779.3959000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.06826034735856"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T09:39:39.738874+00:00",
+    "generatedAtMs": 1782985179738,
+    "localTime": "2026-07-02 17:39:39 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "0",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "0",
+        "price": "0.10867108005041311",
+        "quoteVolumeMin": "412093.1681000",
+        "quoteVolumeSum": "2994820.3796000",
         "symbol": "TAIKO",
         "top10HoldersPercent": "97.06826034735856"
       }
