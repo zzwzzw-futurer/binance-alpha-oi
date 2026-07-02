@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T07:42:05.593632+00:00",
-    "generatedAtMs": 1782891725593,
-    "localTime": "2026-07-01 15:42:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T07:47:06.508117+00:00",
     "generatedAtMs": 1782892026508,
     "localTime": "2026-07-01 15:47:06 CST",
@@ -6385,6 +6376,47 @@
     "symbols": [
       "VELVETUSDT",
       "TAIKOUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-02T07:44:26.960241+00:00",
+    "generatedAtMs": 1782978266960,
+    "localTime": "2026-07-02 15:44:26 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "0",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": false,
+        "name": "Taiko Token",
+        "percentChange5m": "0",
+        "price": "0.12252180418644612",
+        "quoteVolumeMin": "386800.6239000",
+        "quoteVolumeSum": "2725206.6027000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "97.073640427851"
+      },
+      {
+        "alphaVolume5m": "66226.16866523931",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "0.22",
+        "price": "0.774377302817732",
+        "quoteVolumeMin": "365018.4888000",
+        "quoteVolumeSum": "2910189.2235000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.04406065574044"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT",
+      "VELVETUSDT"
     ]
   }
 ]

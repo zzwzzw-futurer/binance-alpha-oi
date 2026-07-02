@@ -9,50 +9,10 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T07:39:26.186000+00:00",
-  "generatedAtMs": 1782977966186,
-  "localTime": "2026-07-02 15:39:26 CST",
+  "generatedAt": "2026-07-02T07:44:26.960241+00:00",
+  "generatedAtMs": 1782978266960,
+  "localTime": "2026-07-02 15:44:26 CST",
   "matches": [
-    {
-      "alphaVolume5m": "150672.11634485557",
-      "chainId": "56",
-      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-      "futuresSymbol": "VELVETUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "15282",
-      "isFreshAlert": false,
-      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://velvet.capital"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/velvetcapital/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/velvet_capital"
-        }
-      ],
-      "liquidity": "3496409.067905853",
-      "marketCap": "774044296.2560428",
-      "name": "Velvet",
-      "percentChange5m": "-9.75",
-      "price": "0.7740443075078952",
-      "quoteVolumeMin": "751867.9842000",
-      "quoteVolumeSum": "6028212.0796300",
-      "quoteVolumes1m": [
-        "997708.7936000",
-        "885051.1383000",
-        "1532829.9176300",
-        "1860754.2459000",
-        "751867.9842000"
-      ],
-      "symbol": "VELVET",
-      "top10HoldersPercent": "91.04518655854044"
-    },
     {
       "alphaVolume5m": "0",
       "chainId": "56",
@@ -60,7 +20,7 @@
       "futuresSymbol": "TAIKOUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAIKOUSDT",
       "holders": "1634",
-      "isFreshAlert": true,
+      "isFreshAlert": false,
       "key": "56|0x30c60b20c25b2810ca524810467a0c342294fc61|TAIKOUSDT",
       "links": [
         {
@@ -77,26 +37,66 @@
       "name": "Taiko Token",
       "percentChange5m": "0",
       "price": "0.12252180418644612",
-      "quoteVolumeMin": "536941.5190000",
-      "quoteVolumeSum": "5237785.1303000",
+      "quoteVolumeMin": "386800.6239000",
+      "quoteVolumeSum": "2725206.6027000",
       "quoteVolumes1m": [
-        "1373092.6271000",
-        "1449563.4070000",
-        "1167238.1566000",
-        "710949.4206000",
-        "536941.5190000"
+        "499409.4231000",
+        "948501.6849000",
+        "479985.5136000",
+        "410509.3572000",
+        "386800.6239000"
       ],
       "symbol": "TAIKO",
       "top10HoldersPercent": "97.073640427851"
+    },
+    {
+      "alphaVolume5m": "66226.16866523931",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "15284",
+      "isFreshAlert": false,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "3509817.1504128217",
+      "marketCap": "774377291.5610391",
+      "name": "Velvet",
+      "percentChange5m": "0.22",
+      "price": "0.774377302817732",
+      "quoteVolumeMin": "365018.4888000",
+      "quoteVolumeSum": "2910189.2235000",
+      "quoteVolumes1m": [
+        "644756.9504000",
+        "489618.5784000",
+        "396127.9171000",
+        "1014667.2888000",
+        "365018.4888000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "91.04406065574044"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "VELVETUSDT",
-      "TAIKOUSDT"
+      "TAIKOUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
