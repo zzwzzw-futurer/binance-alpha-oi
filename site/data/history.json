@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-01T06:31:58.413486+00:00",
-    "generatedAtMs": 1782887518413,
-    "localTime": "2026-07-01 14:31:58 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "432641.4418588111",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "-3.33",
-        "price": "2.82439378671554",
-        "quoteVolumeMin": "416632.7940000",
-        "quoteVolumeSum": "4526680.4162000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.20966173814868"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-01T06:36:58.417470+00:00",
     "generatedAtMs": 1782887818417,
     "localTime": "2026-07-01 14:36:58 CST",
@@ -6207,6 +6181,47 @@
       }
     ],
     "symbols": [
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-02T06:34:20.665901+00:00",
+    "generatedAtMs": 1782974060665,
+    "localTime": "2026-07-02 14:34:20 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "118.70072601168512",
+        "chainId": "56",
+        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+        "futuresSymbol": "TAIKOUSDT",
+        "isFreshAlert": true,
+        "name": "Taiko Token",
+        "percentChange5m": "17.13",
+        "price": "0.1654713095439966",
+        "quoteVolumeMin": "559585.4966000",
+        "quoteVolumeSum": "5234463.5590000",
+        "symbol": "TAIKO",
+        "top10HoldersPercent": "96.23362651490507"
+      },
+      {
+        "alphaVolume5m": "56324.52020899621",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "6.21",
+        "price": "1.1909219551120405",
+        "quoteVolumeMin": "489133.2502000",
+        "quoteVolumeSum": "2940771.7567000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "89.1203266089175"
+      }
+    ],
+    "symbols": [
+      "TAIKOUSDT",
       "VELVETUSDT"
     ]
   }
