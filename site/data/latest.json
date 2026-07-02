@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-02T12:39:57.915119+00:00",
-  "generatedAtMs": 1782995997915,
-  "localTime": "2026-07-02 20:39:57 CST",
-  "matches": [],
+  "generatedAt": "2026-07-02T12:44:57.856936+00:00",
+  "generatedAtMs": 1782996297856,
+  "localTime": "2026-07-02 20:44:57 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "41595.32754064914",
+      "chainId": "56",
+      "contractAddress": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+      "futuresSymbol": "MUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/MUSDT",
+      "holders": "7581",
+      "isFreshAlert": true,
+      "key": "56|0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa|MUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://memecore.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/MemeCoreLabs"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/MemeCore_ORG"
+        }
+      ],
+      "liquidity": "161919.39951008518",
+      "marketCap": "365420837.8891461",
+      "name": "MemeCore",
+      "percentChange5m": "-2.05",
+      "price": "1.5923577303313308",
+      "quoteVolumeMin": "416093.8254000",
+      "quoteVolumeSum": "3431049.3399000",
+      "quoteVolumes1m": [
+        "769411.4736000",
+        "416093.8254000",
+        "797132.8168000",
+        "931327.2026000",
+        "517084.0215000"
+      ],
+      "symbol": "M",
+      "top10HoldersPercent": "86.95153650391623"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "MUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
