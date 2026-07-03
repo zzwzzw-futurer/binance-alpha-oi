@@ -1,47 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-02T06:44:21.920123+00:00",
-    "generatedAtMs": 1782974661920,
-    "localTime": "2026-07-02 14:44:21 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "357.2274487483081",
-        "chainId": "56",
-        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
-        "futuresSymbol": "TAIKOUSDT",
-        "isFreshAlert": false,
-        "name": "Taiko Token",
-        "percentChange5m": "-14.26",
-        "price": "0.11516958583591823",
-        "quoteVolumeMin": "1333013.9460000",
-        "quoteVolumeSum": "8596221.0602000",
-        "symbol": "TAIKO",
-        "top10HoldersPercent": "96.81872764038802"
-      },
-      {
-        "alphaVolume5m": "54906.269333036296",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": false,
-        "name": "Velvet",
-        "percentChange5m": "4.21",
-        "price": "1.223246171417343",
-        "quoteVolumeMin": "332319.6086000",
-        "quoteVolumeSum": "2500964.7898000",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "91.05400068434044"
-      }
-    ],
-    "symbols": [
-      "TAIKOUSDT",
-      "VELVETUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-02T06:49:22.377482+00:00",
     "generatedAtMs": 1782974962377,
     "localTime": "2026-07-02 14:49:22 CST",
@@ -4189,5 +4148,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-03T06:46:42.979390+00:00",
+    "generatedAtMs": 1783061202979,
+    "localTime": "2026-07-03 14:46:42 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "32268.210752922725",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "2.22",
+        "price": "9.511650306801464",
+        "quoteVolumeMin": "350261.5990000",
+        "quoteVolumeSum": "2180528.0602000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.93864308697829"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
   }
 ]
