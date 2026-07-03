@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-07-02T06:09:18.240319+00:00",
-    "generatedAtMs": 1782972558240,
-    "localTime": "2026-07-02 14:09:18 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "346.88759252882693",
-        "chainId": "56",
-        "contractAddress": "0x30c60b20c25b2810ca524810467a0c342294fc61",
-        "futuresSymbol": "TAIKOUSDT",
-        "isFreshAlert": false,
-        "name": "Taiko Token",
-        "percentChange5m": "-2.7",
-        "price": "0.1518473737570132",
-        "quoteVolumeMin": "355889.8632000",
-        "quoteVolumeSum": "2379226.0155000",
-        "symbol": "TAIKO",
-        "top10HoldersPercent": "96.68026401431896"
-      },
-      {
-        "alphaVolume5m": "39577.76191322483",
-        "chainId": "CT_501",
-        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
-        "futuresSymbol": "BIRBUSDT",
-        "isFreshAlert": false,
-        "name": "Moonbirds",
-        "percentChange5m": "-2",
-        "price": "0.0920284695028758",
-        "quoteVolumeMin": "344128.5940400",
-        "quoteVolumeSum": "3299109.3955700",
-        "symbol": "BIRB",
-        "top10HoldersPercent": "93.2212724267229"
-      }
-    ],
-    "symbols": [
-      "TAIKOUSDT",
-      "BIRBUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-07-02T06:14:18.605896+00:00",
     "generatedAtMs": 1782972858605,
@@ -4251,5 +4210,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-03T06:11:38.606339+00:00",
+    "generatedAtMs": 1783059098606,
+    "localTime": "2026-07-03 14:11:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "47139.075288365624",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "-5.13",
+        "price": "9.574131797874683",
+        "quoteVolumeMin": "521674.3870000",
+        "quoteVolumeSum": "4674246.4243000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.94196254546829"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
   }
 ]
