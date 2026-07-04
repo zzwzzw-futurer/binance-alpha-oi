@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-07-03T07:31:48.058011+00:00",
-    "generatedAtMs": 1783063908058,
-    "localTime": "2026-07-03 15:31:48 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "17845.025460368794",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": true,
-        "name": "LAB",
-        "percentChange5m": "-1.82",
-        "price": "9.033450061274632",
-        "quoteVolumeMin": "323191.8590000",
-        "quoteVolumeSum": "2373250.1325000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.93396732729609"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-07-03T07:36:48.987810+00:00",
     "generatedAtMs": 1783064208987,
@@ -4478,6 +4452,47 @@
         "price": "0.6170117014002916",
         "quoteVolumeMin": "322080.6336200",
         "quoteVolumeSum": "2782910.6343600",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.61850468665821"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-04T07:34:09.201094+00:00",
+    "generatedAtMs": 1783150449201,
+    "localTime": "2026-07-04 15:34:09 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "16801.11404325929",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-0.53",
+        "price": "8.984749203879776",
+        "quoteVolumeMin": "495717.8390000",
+        "quoteVolumeSum": "3184694.6510000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.85197565059224"
+      },
+      {
+        "alphaVolume5m": "63362.587395278584",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "0.79",
+        "price": "0.6231705423373463",
+        "quoteVolumeMin": "417660.7013000",
+        "quoteVolumeSum": "2950288.7320800",
         "symbol": "VELVET",
         "top10HoldersPercent": "91.61850468665821"
       }
