@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-04T01:38:36.803907+00:00",
-    "generatedAtMs": 1783129116803,
-    "localTime": "2026-07-04 09:38:36 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-04T01:43:36.906983+00:00",
     "generatedAtMs": 1783129416906,
     "localTime": "2026-07-04 09:43:36 CST",
@@ -6830,6 +6821,32 @@
         "quoteVolumeSum": "3335975.7040000",
         "symbol": "LAB",
         "top10HoldersPercent": "87.87387312499642"
+      }
+    ],
+    "symbols": [
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-05T01:41:08.429246+00:00",
+    "generatedAtMs": 1783215668429,
+    "localTime": "2026-07-05 09:41:08 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "12433.372111228262",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "0.89",
+        "price": "15.901216490818983",
+        "quoteVolumeMin": "421861.4320000",
+        "quoteVolumeSum": "3072841.4270000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.87407438225326"
       }
     ],
     "symbols": [
