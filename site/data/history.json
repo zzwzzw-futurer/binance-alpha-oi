@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-06T01:03:34.437696+00:00",
-    "generatedAtMs": 1783299814437,
-    "localTime": "2026-07-06 09:03:34 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-06T01:08:35.243532+00:00",
     "generatedAtMs": 1783300115243,
     "localTime": "2026-07-06 09:08:35 CST",
@@ -4732,5 +4723,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-07T01:05:52.640710+00:00",
+    "generatedAtMs": 1783386352640,
+    "localTime": "2026-07-07 09:05:52 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "191883.04146327195",
+        "chainId": "56",
+        "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+        "futuresSymbol": "EDGEUSDT",
+        "isFreshAlert": true,
+        "name": "edgeX",
+        "percentChange5m": "-1.69",
+        "price": "0.3225378535730194",
+        "quoteVolumeMin": "336586.8630000",
+        "quoteVolumeSum": "2880568.2178000",
+        "symbol": "EDGE",
+        "top10HoldersPercent": "96.2395244956762"
+      }
+    ],
+    "symbols": [
+      "EDGEUSDT"
+    ]
   }
 ]
