@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-06T20:55:31.892451+00:00",
-    "generatedAtMs": 1783371331892,
-    "localTime": "2026-07-07 04:55:31 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-06T21:00:32.695630+00:00",
     "generatedAtMs": 1783371632695,
     "localTime": "2026-07-07 05:00:32 CST",
@@ -6779,6 +6770,47 @@
         "quoteVolumeSum": "4549539.2452800",
         "symbol": "EVAA",
         "top10HoldersPercent": "84.32545431302952"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "EVAAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-07T20:57:51.904036+00:00",
+    "generatedAtMs": 1783457871904,
+    "localTime": "2026-07-08 04:57:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "39583.423219818585",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "6.64",
+        "price": "5.930203289739291",
+        "quoteVolumeMin": "614683.9757000",
+        "quoteVolumeSum": "4107986.7770000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.85530156714744"
+      },
+      {
+        "alphaVolume5m": "49238.559862045826",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "0.17",
+        "price": "2.2882885550692937",
+        "quoteVolumeMin": "341021.6836100",
+        "quoteVolumeSum": "2511361.1823600",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "84.3272705560665"
       }
     ],
     "symbols": [
