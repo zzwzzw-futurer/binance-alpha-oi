@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-06T16:35:06.572328+00:00",
-    "generatedAtMs": 1783355706572,
-    "localTime": "2026-07-07 00:35:06 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "33938.86548844193",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-2.47",
-        "price": "15.728265332687428",
-        "quoteVolumeMin": "443476.8330000",
-        "quoteVolumeSum": "8459208.7699000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.97322106815129"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-06T16:40:07.367248+00:00",
     "generatedAtMs": 1783356007367,
     "localTime": "2026-07-07 00:40:07 CST",
@@ -6049,6 +6023,47 @@
         "quoteVolumeSum": "4493435.6358000",
         "symbol": "EVAA",
         "top10HoldersPercent": "84.54988404073613"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "EVAAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-07T16:37:27.543889+00:00",
+    "generatedAtMs": 1783442247543,
+    "localTime": "2026-07-08 00:37:27 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "99932.42748547762",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.13",
+        "price": "6.625176477305255",
+        "quoteVolumeMin": "959038.7731000",
+        "quoteVolumeSum": "6186275.3202000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.89365840030823"
+      },
+      {
+        "alphaVolume5m": "80869.33501446653",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "0.88",
+        "price": "2.1659141008557175",
+        "quoteVolumeMin": "604226.6854900",
+        "quoteVolumeSum": "4190567.1671700",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "84.52871192182906"
       }
     ],
     "symbols": [
