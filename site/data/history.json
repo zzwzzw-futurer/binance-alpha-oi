@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-07T06:56:30.549982+00:00",
-    "generatedAtMs": 1783407390549,
-    "localTime": "2026-07-07 14:56:30 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "766.6912433986104",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "0.09",
-        "price": "14.99921073058448",
-        "quoteVolumeMin": "318486.0530000",
-        "quoteVolumeSum": "2573507.4332000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.93580022930502"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-07T07:01:31.729016+00:00",
     "generatedAtMs": 1783407691729,
     "localTime": "2026-07-07 15:01:31 CST",
@@ -9273,6 +9247,47 @@
     ],
     "symbols": [
       "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-08T06:58:51.800268+00:00",
+    "generatedAtMs": 1783493931800,
+    "localTime": "2026-07-08 14:58:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "56835.80458210089",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "0.39",
+        "price": "2.840638513784232",
+        "quoteVolumeMin": "416391.1710000",
+        "quoteVolumeSum": "3925571.7071000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.52273125916795"
+      },
+      {
+        "alphaVolume5m": "29847.348196335",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "-2.53",
+        "price": "2.754140402619797",
+        "quoteVolumeMin": "300049.1245400",
+        "quoteVolumeSum": "2412702.4535500",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "84.42648650539586"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "EVAAUSDT"
     ]
   }
 ]
