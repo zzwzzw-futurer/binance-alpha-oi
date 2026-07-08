@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T06:38:50.333333+00:00",
-  "generatedAtMs": 1783492730333,
-  "localTime": "2026-07-08 14:38:50 CST",
+  "generatedAt": "2026-07-08T06:43:50.304113+00:00",
+  "generatedAtMs": 1783493030304,
+  "localTime": "2026-07-08 14:43:50 CST",
   "matches": [
     {
-      "alphaVolume5m": "178657.08247824138",
+      "alphaVolume5m": "151373.50853449455",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "23109",
-      "isFreshAlert": true,
+      "holders": "23111",
+      "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "4472120.789257014",
-      "marketCap": "2792434274.425504",
+      "liquidity": "4554503.007741735",
+      "marketCap": "2857627332.3683543",
       "name": "LAB",
-      "percentChange5m": "-9.29",
-      "price": "2.7924342744386452",
-      "quoteVolumeMin": "1399643.2701000",
-      "quoteVolumeSum": "16997094.1030000",
+      "percentChange5m": "1.37",
+      "price": "2.8576273323818024",
+      "quoteVolumeMin": "989960.3779000",
+      "quoteVolumeSum": "5714602.3459000",
       "quoteVolumes1m": [
-        "4604900.1128000",
-        "1460416.1813000",
-        "6755161.1980000",
-        "2776973.3408000",
-        "1399643.2701000"
+        "1281627.8314000",
+        "1293842.6717000",
+        "989960.3779000",
+        "1057813.3763000",
+        "1091358.0886000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.54938606094795"
+      "top10HoldersPercent": "87.54113462798796"
+    },
+    {
+      "alphaVolume5m": "277858.2754462144",
+      "chainId": "56",
+      "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+      "futuresSymbol": "EDGEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EDGEUSDT",
+      "holders": "2095",
+      "isFreshAlert": false,
+      "key": "56|0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf|EDGEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://pro.edgex.exchange/en-US/home"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/edgeX_exchange"
+        }
+      ],
+      "liquidity": "1031667.5079234104",
+      "marketCap": "2529529.5150861805",
+      "name": "edgeX",
+      "percentChange5m": "1.95",
+      "price": "0.43922014713962104",
+      "quoteVolumeMin": "449970.7459000",
+      "quoteVolumeSum": "2672713.4493000",
+      "quoteVolumes1m": [
+        "747778.9612000",
+        "513967.3555000",
+        "477353.6272000",
+        "449970.7459000",
+        "483642.7595000"
+      ],
+      "symbol": "EDGE",
+      "top10HoldersPercent": "95.2179662318065"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 1,
+    "freshAlertCount": 0,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "EDGEUSDT"
     ]
   },
   "telegram": {
