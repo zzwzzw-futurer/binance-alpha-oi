@@ -9,12 +9,48 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T07:33:54.611037+00:00",
-  "generatedAtMs": 1783496034611,
-  "localTime": "2026-07-08 15:33:54 CST",
+  "generatedAt": "2026-07-08T07:38:54.900425+00:00",
+  "generatedAtMs": 1783496334900,
+  "localTime": "2026-07-08 15:38:54 CST",
   "matches": [
     {
-      "alphaVolume5m": "56014.166473140685",
+      "alphaVolume5m": "63155.526972904285",
+      "chainId": "56",
+      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+      "futuresSymbol": "EVAAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
+      "holders": "24652",
+      "isFreshAlert": true,
+      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://evaa.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/evaaprotocol"
+        }
+      ],
+      "liquidity": "696285.2341525891",
+      "marketCap": "91778347.3709489",
+      "name": "EVAA",
+      "percentChange5m": "3.05",
+      "price": "3.059278245715916",
+      "quoteVolumeMin": "816240.5545900",
+      "quoteVolumeSum": "5749627.2951700",
+      "quoteVolumes1m": [
+        "1358380.7241300",
+        "1169753.7677100",
+        "955888.7226000",
+        "1449363.5261400",
+        "816240.5545900"
+      ],
+      "symbol": "EVAA",
+      "top10HoldersPercent": "84.4096990306556"
+    },
+    {
+      "alphaVolume5m": "52505.65665964391",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
@@ -36,29 +72,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "4732297.736024171",
-      "marketCap": "3318020374.5634274",
+      "liquidity": "4766488.9631638555",
+      "marketCap": "3394341174.719919",
       "name": "LAB",
-      "percentChange5m": "1.29",
-      "price": "3.318020374579042",
-      "quoteVolumeMin": "1110512.0837000",
-      "quoteVolumeSum": "6867636.6687000",
+      "percentChange5m": "2.95",
+      "price": "3.394341174735893",
+      "quoteVolumeMin": "756622.8034000",
+      "quoteVolumeSum": "5928489.5348000",
       "quoteVolumes1m": [
-        "1121724.8662000",
-        "1110512.0837000",
-        "1436611.6000000",
-        "1924252.4418000",
-        "1274535.6770000"
+        "1083807.7215000",
+        "839021.4590000",
+        "756622.8034000",
+        "1888240.4340000",
+        "1360797.1169000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.48310325698796"
+      "top10HoldersPercent": "87.48174166424796"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "EVAAUSDT",
       "LABUSDT"
     ]
   },
