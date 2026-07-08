@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T09:59:07.521861+00:00",
-  "generatedAtMs": 1783504747521,
-  "localTime": "2026-07-08 17:59:07 CST",
+  "generatedAt": "2026-07-08T10:04:08.755803+00:00",
+  "generatedAtMs": 1783505048755,
+  "localTime": "2026-07-08 18:04:08 CST",
   "matches": [
     {
-      "alphaVolume5m": "159692.970763725",
+      "alphaVolume5m": "160889.31743540327",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "23304",
+      "holders": "23307",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "4174577.073585009",
-      "marketCap": "2032924118.1855354",
+      "liquidity": "4265238.680123652",
+      "marketCap": "2149996072.690474",
       "name": "LAB",
-      "percentChange5m": "10.66",
-      "price": "2.0329241181951296",
-      "quoteVolumeMin": "1714019.3305000",
-      "quoteVolumeSum": "12582980.0291000",
+      "percentChange5m": "5.87",
+      "price": "2.1499960727006284",
+      "quoteVolumeMin": "1745718.5850000",
+      "quoteVolumeSum": "11080898.6175000",
       "quoteVolumes1m": [
-        "1716666.4955000",
-        "4776335.8073000",
-        "2348330.2571000",
-        "1714019.3305000",
-        "2027628.1387000"
+        "2294027.0575000",
+        "1950883.6753000",
+        "2829258.2735000",
+        "2261011.0262000",
+        "1745718.5850000"
       ],
       "symbol": "LAB",
       "top10HoldersPercent": "87.2972337107921"
+    },
+    {
+      "alphaVolume5m": "46215.129360385996",
+      "chainId": "56",
+      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+      "futuresSymbol": "EVAAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
+      "holders": "24693",
+      "isFreshAlert": false,
+      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://evaa.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/evaaprotocol"
+        }
+      ],
+      "liquidity": "707748.6479880868",
+      "marketCap": "96313003.5505286",
+      "name": "EVAA",
+      "percentChange5m": "1.74",
+      "price": "3.210433451702776",
+      "quoteVolumeMin": "428081.4583600",
+      "quoteVolumeSum": "4946449.7230400",
+      "quoteVolumes1m": [
+        "428081.4583600",
+        "2229075.5625200",
+        "785414.4110400",
+        "663433.2060200",
+        "840445.0851000"
+      ],
+      "symbol": "EVAA",
+      "top10HoldersPercent": "84.38146499243338"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "EVAAUSDT"
     ]
   },
   "telegram": {
