@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-07T11:16:56.093132+00:00",
-    "generatedAtMs": 1783423016093,
-    "localTime": "2026-07-07 19:16:56 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "57598.93466323416",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-0.7",
-        "price": "13.802122325872366",
-        "quoteVolumeMin": "2965940.1626000",
-        "quoteVolumeSum": "18034440.4054000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.9379404158651"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-07T11:21:56.174186+00:00",
     "generatedAtMs": 1783423316174,
     "localTime": "2026-07-07 19:21:56 CST",
@@ -9968,6 +9942,47 @@
         "price": "2.286962370693935",
         "quoteVolumeMin": "449109.0610000",
         "quoteVolumeSum": "2809318.5662000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.2985152084941"
+      }
+    ],
+    "symbols": [
+      "EVAAUSDT",
+      "LABUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-08T11:19:14.574285+00:00",
+    "generatedAtMs": 1783509554574,
+    "localTime": "2026-07-08 19:19:14 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "72777.7363432042",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "-2.42",
+        "price": "3.166683395392718",
+        "quoteVolumeMin": "744958.5459600",
+        "quoteVolumeSum": "5077705.5343100",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "84.270708972215"
+      },
+      {
+        "alphaVolume5m": "80585.36938866391",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "10.31",
+        "price": "2.4852974015480074",
+        "quoteVolumeMin": "728908.7492000",
+        "quoteVolumeSum": "8170018.7072000",
         "symbol": "LAB",
         "top10HoldersPercent": "87.2985152084941"
       }
