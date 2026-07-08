@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T18:35:02.897586+00:00",
-  "generatedAtMs": 1783535702897,
-  "localTime": "2026-07-09 02:35:02 CST",
+  "generatedAt": "2026-07-08T18:40:04.385380+00:00",
+  "generatedAtMs": 1783536004385,
+  "localTime": "2026-07-09 02:40:04 CST",
   "matches": [
     {
-      "alphaVolume5m": "615564.5275062141",
+      "alphaVolume5m": "912937.3518440024",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "23901",
+      "holders": "23906",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "3762866.3561377195",
-      "marketCap": "1156983406.067411",
+      "liquidity": "3793742.317797432",
+      "marketCap": "1191764816.427418",
       "name": "LAB",
-      "percentChange5m": "0.35",
-      "price": "1.1569834060728754",
-      "quoteVolumeMin": "342211.7820000",
-      "quoteVolumeSum": "2616281.3409000",
+      "percentChange5m": "2.81",
+      "price": "1.1917648164330468",
+      "quoteVolumeMin": "675393.4946000",
+      "quoteVolumeSum": "5016146.8962000",
       "quoteVolumes1m": [
-        "567144.9728000",
-        "473441.1770000",
-        "689337.7481000",
-        "544145.6610000",
-        "342211.7820000"
+        "675393.4946000",
+        "1141088.3773000",
+        "835236.1697000",
+        "789138.9480000",
+        "1575289.9066000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "86.88328736030631"
+      "top10HoldersPercent": "86.87078442814632"
+    },
+    {
+      "alphaVolume5m": "158296.97655292097",
+      "chainId": "56",
+      "contractAddress": "0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223",
+      "futuresSymbol": "POWERUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/POWERUSDT",
+      "holders": "3384",
+      "isFreshAlert": false,
+      "key": "56|0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223|POWERUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://powerprotocol.xyz/en"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/PowerPrtcl"
+        }
+      ],
+      "liquidity": "557920.241080812",
+      "marketCap": "4633889.36095334",
+      "name": "Power Protocol",
+      "percentChange5m": "-4.04",
+      "price": "0.10570093098283657",
+      "quoteVolumeMin": "441208.2676400",
+      "quoteVolumeSum": "3525250.8018400",
+      "quoteVolumes1m": [
+        "471863.4833500",
+        "1029619.6754000",
+        "987753.3626000",
+        "441208.2676400",
+        "594806.0128500"
+      ],
+      "symbol": "POWER",
+      "top10HoldersPercent": "82.02612622229957"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "LABUSDT"
+      "LABUSDT",
+      "POWERUSDT"
     ]
   },
   "telegram": {
