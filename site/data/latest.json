@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T11:44:16.527460+00:00",
-  "generatedAtMs": 1783511056527,
-  "localTime": "2026-07-08 19:44:16 CST",
+  "generatedAt": "2026-07-08T11:49:16.620960+00:00",
+  "generatedAtMs": 1783511356620,
+  "localTime": "2026-07-08 19:49:16 CST",
   "matches": [
     {
-      "alphaVolume5m": "46312.93781146856",
+      "alphaVolume5m": "65873.8270357784",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "23448",
+      "holders": "23441",
       "isFreshAlert": false,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
@@ -36,67 +36,67 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "4421688.016544292",
-      "marketCap": "2496389456.6817827",
+      "liquidity": "4369511.960829108",
+      "marketCap": "2387487883.2177334",
       "name": "LAB",
-      "percentChange5m": "-0.76",
-      "price": "2.496389456693574",
-      "quoteVolumeMin": "546506.0040000",
-      "quoteVolumeSum": "3596750.4772000",
+      "percentChange5m": "-4.9",
+      "price": "2.3874878832290096",
+      "quoteVolumeMin": "792073.8680000",
+      "quoteVolumeSum": "5656667.3549000",
       "quoteVolumes1m": [
-        "955426.8009000",
-        "546506.0040000",
-        "662957.2380000",
-        "626906.9916000",
-        "804953.4427000"
+        "792073.8680000",
+        "1305718.7725000",
+        "1451799.6434000",
+        "1190094.7920000",
+        "916980.2790000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.2985152084941"
+      "top10HoldersPercent": "87.2990152084941"
     },
     {
-      "alphaVolume5m": "28142.477361549893",
+      "alphaVolume5m": "381121.4356034062",
       "chainId": "56",
-      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-      "futuresSymbol": "EVAAUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
-      "holders": "24757",
-      "isFreshAlert": false,
-      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
+      "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+      "futuresSymbol": "EDGEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EDGEUSDT",
+      "holders": "2124",
+      "isFreshAlert": true,
+      "key": "56|0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf|EDGEUSDT",
       "links": [
         {
           "label": "website",
-          "link": "https://evaa.finance/"
+          "link": "https://pro.edgex.exchange/en-US/home"
         },
         {
           "label": "x",
-          "link": "https://twitter.com/evaaprotocol"
+          "link": "https://x.com/edgeX_exchange"
         }
       ],
-      "liquidity": "730432.9223836443",
-      "marketCap": "96406114.5439083",
-      "name": "EVAA",
-      "percentChange5m": "1.56",
-      "price": "3.2135371514821176",
-      "quoteVolumeMin": "301786.1614700",
-      "quoteVolumeSum": "1951747.7110800",
+      "liquidity": "1141806.2657344507",
+      "marketCap": "2869109.814875713",
+      "name": "edgeX",
+      "percentChange5m": "3.32",
+      "price": "0.529356861820556",
+      "quoteVolumeMin": "374587.0488000",
+      "quoteVolumeSum": "4864700.5538000",
       "quoteVolumes1m": [
-        "519335.6535900",
-        "336302.3188000",
-        "301786.1614700",
-        "347932.6169800",
-        "446390.9602400"
+        "415776.2416000",
+        "1065040.3596000",
+        "374587.0488000",
+        "2134361.0883000",
+        "874935.8155000"
       ],
-      "symbol": "EVAA",
-      "top10HoldersPercent": "84.25267119876516"
+      "symbol": "EDGE",
+      "top10HoldersPercent": "94.31973929390472"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
+    "freshAlertCount": 1,
     "matchCount": 2,
     "symbols": [
       "LABUSDT",
-      "EVAAUSDT"
+      "EDGEUSDT"
     ]
   },
   "telegram": {
