@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T13:59:30.411422+00:00",
-  "generatedAtMs": 1783519170411,
-  "localTime": "2026-07-08 21:59:30 CST",
+  "generatedAt": "2026-07-08T14:04:31.767719+00:00",
+  "generatedAtMs": 1783519471767,
+  "localTime": "2026-07-08 22:04:31 CST",
   "matches": [
     {
-      "alphaVolume5m": "130582.54779681549",
+      "alphaVolume5m": "127345.13741272752",
       "chainId": "56",
       "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
       "futuresSymbol": "LABUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "23534",
-      "isFreshAlert": false,
+      "holders": "23537",
+      "isFreshAlert": true,
       "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
       "links": [
         {
@@ -36,30 +36,30 @@
           "link": "https://twitter.com/LABtrade_"
         }
       ],
-      "liquidity": "4122832.694655742",
-      "marketCap": "1863778403.1028867",
+      "liquidity": "4147709.4535367126",
+      "marketCap": "1880635797.4519727",
       "name": "LAB",
-      "percentChange5m": "5.97",
-      "price": "1.8637784031116895",
-      "quoteVolumeMin": "1509426.2580000",
-      "quoteVolumeSum": "9819431.6109000",
+      "percentChange5m": "5.21",
+      "price": "1.8806357974608554",
+      "quoteVolumeMin": "1088582.6938000",
+      "quoteVolumeSum": "8876880.4351000",
       "quoteVolumes1m": [
-        "1914225.7987000",
-        "2640094.8271000",
-        "2172999.0593000",
-        "1509426.2580000",
-        "1582685.6678000"
+        "1088582.6938000",
+        "1231293.2648000",
+        "1676153.1931000",
+        "3277288.5682000",
+        "1603562.7152000"
       ],
       "symbol": "LAB",
-      "top10HoldersPercent": "87.27886068562776"
+      "top10HoldersPercent": "87.27816224807776"
     },
     {
-      "alphaVolume5m": "84300.436334503",
+      "alphaVolume5m": "64402.91428294686",
       "chainId": "56",
       "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
       "futuresSymbol": "EVAAUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
-      "holders": "24788",
+      "holders": "24789",
       "isFreshAlert": false,
       "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
       "links": [
@@ -72,31 +72,68 @@
           "link": "https://twitter.com/evaaprotocol"
         }
       ],
-      "liquidity": "690946.6977321412",
-      "marketCap": "79749936.36035378",
+      "liquidity": "692792.126446769",
+      "marketCap": "80376248.54205678",
       "name": "EVAA",
-      "percentChange5m": "1.79",
-      "price": "2.658331212027103",
-      "quoteVolumeMin": "522463.7998400",
-      "quoteVolumeSum": "4166531.8848600",
+      "percentChange5m": "0.58",
+      "price": "2.6792082847506564",
+      "quoteVolumeMin": "430109.0850300",
+      "quoteVolumeSum": "3559387.6103700",
       "quoteVolumes1m": [
-        "880618.4969800",
-        "838707.5287700",
-        "522463.7998400",
-        "558606.8693700",
-        "1366135.1899000"
+        "820988.3742200",
+        "968974.5443700",
+        "640859.3797200",
+        "698456.2270300",
+        "430109.0850300"
       ],
       "symbol": "EVAA",
-      "top10HoldersPercent": "84.08086442363576"
+      "top10HoldersPercent": "84.09121385892881"
+    },
+    {
+      "alphaVolume5m": "214988.60731334967",
+      "chainId": "56",
+      "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+      "futuresSymbol": "EDGEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EDGEUSDT",
+      "holders": "2149",
+      "isFreshAlert": false,
+      "key": "56|0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf|EDGEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://pro.edgex.exchange/en-US/home"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/edgeX_exchange"
+        }
+      ],
+      "liquidity": "1179640.355211714",
+      "marketCap": "3341030.775934785",
+      "name": "edgeX",
+      "percentChange5m": "1.31",
+      "price": "0.5659665546416736",
+      "quoteVolumeMin": "418387.2785000",
+      "quoteVolumeSum": "3236980.9685000",
+      "quoteVolumes1m": [
+        "1075932.9854000",
+        "580065.3646000",
+        "418387.2785000",
+        "519380.0549000",
+        "643215.2851000"
+      ],
+      "symbol": "EDGE",
+      "top10HoldersPercent": "93.24626087296053"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 2,
+    "freshAlertCount": 1,
+    "matchCount": 3,
     "symbols": [
       "LABUSDT",
-      "EVAAUSDT"
+      "EVAAUSDT",
+      "EDGEUSDT"
     ]
   },
   "telegram": {
