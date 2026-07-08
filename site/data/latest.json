@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-08T20:45:12.069972+00:00",
-  "generatedAtMs": 1783543512069,
-  "localTime": "2026-07-09 04:45:12 CST",
-  "matches": [],
+  "generatedAt": "2026-07-08T20:50:12.187901+00:00",
+  "generatedAtMs": 1783543812187,
+  "localTime": "2026-07-09 04:50:12 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "247669.03820181862",
+      "chainId": "56",
+      "contractAddress": "0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223",
+      "futuresSymbol": "POWERUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/POWERUSDT",
+      "holders": "3382",
+      "isFreshAlert": false,
+      "key": "56|0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223|POWERUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://powerprotocol.xyz/en"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/PowerPrtcl"
+        }
+      ],
+      "liquidity": "514060.7753504081",
+      "marketCap": "3841739.512040686",
+      "name": "Power Protocol",
+      "percentChange5m": "-7.68",
+      "price": "0.08761269918654284",
+      "quoteVolumeMin": "336725.8071400",
+      "quoteVolumeSum": "4831476.3728900",
+      "quoteVolumes1m": [
+        "911924.7123700",
+        "1552410.5816700",
+        "1536374.7768900",
+        "494040.4948200",
+        "336725.8071400"
+      ],
+      "symbol": "POWER",
+      "top10HoldersPercent": "82.30020326486104"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "POWERUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
