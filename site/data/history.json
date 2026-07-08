@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-07T11:51:59.714963+00:00",
-    "generatedAtMs": 1783425119714,
-    "localTime": "2026-07-07 19:51:59 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "28954.480640146565",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "0.99",
-        "price": "13.698358538689746",
-        "quoteVolumeMin": "559300.5130000",
-        "quoteVolumeSum": "4703104.7714000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.9377677372755"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-07T11:57:00.477404+00:00",
     "generatedAtMs": 1783425420477,
     "localTime": "2026-07-07 19:57:00 CST",
@@ -10060,6 +10034,47 @@
         "quoteVolumeSum": "4864700.5538000",
         "symbol": "EDGE",
         "top10HoldersPercent": "94.31973929390472"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "EDGEUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-08T11:54:17.051356+00:00",
+    "generatedAtMs": 1783511657051,
+    "localTime": "2026-07-08 19:54:17 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "48643.75893107243",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": true,
+        "name": "LAB",
+        "percentChange5m": "1.71",
+        "price": "2.4284011018232805",
+        "quoteVolumeMin": "799806.2121000",
+        "quoteVolumeSum": "4847867.4847000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "87.2990152084941"
+      },
+      {
+        "alphaVolume5m": "168068.66727205573",
+        "chainId": "56",
+        "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+        "futuresSymbol": "EDGEUSDT",
+        "isFreshAlert": false,
+        "name": "edgeX",
+        "percentChange5m": "-1.28",
+        "price": "0.5224157078134057",
+        "quoteVolumeMin": "423920.8277000",
+        "quoteVolumeSum": "2971152.6087000",
+        "symbol": "EDGE",
+        "top10HoldersPercent": "94.8088299049343"
       }
     ],
     "symbols": [
