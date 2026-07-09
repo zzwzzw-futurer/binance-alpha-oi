@@ -9,52 +9,12 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-09T09:11:23.443660+00:00",
-  "generatedAtMs": 1783588283443,
-  "localTime": "2026-07-09 17:11:23 CST",
+  "generatedAt": "2026-07-09T09:16:24.189975+00:00",
+  "generatedAtMs": 1783588584189,
+  "localTime": "2026-07-09 17:16:24 CST",
   "matches": [
     {
-      "alphaVolume5m": "1799564.1058417908",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "24558",
-      "isFreshAlert": true,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "3599779.7774575613",
-      "marketCap": "962165661.6488618",
-      "name": "LAB",
-      "percentChange5m": "-13.52",
-      "price": "0.9621656616534061",
-      "quoteVolumeMin": "1070587.4328000",
-      "quoteVolumeSum": "17545000.1069000",
-      "quoteVolumes1m": [
-        "1291183.3431000",
-        "1070587.4328000",
-        "9555119.9031000",
-        "2897746.8628000",
-        "2730362.5651000"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "86.85821987879606"
-    },
-    {
-      "alphaVolume5m": "31109.80916566533",
+      "alphaVolume5m": "142502.67380832284",
       "chainId": "56",
       "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
       "futuresSymbol": "EVAAUSDT",
@@ -72,31 +32,71 @@
           "link": "https://twitter.com/evaaprotocol"
         }
       ],
-      "liquidity": "647080.7705790866",
-      "marketCap": "69862692.4679807",
+      "liquidity": "643104.5269265724",
+      "marketCap": "68643627.9157601",
       "name": "EVAA",
-      "percentChange5m": "-4.67",
-      "price": "2.328756415612769",
-      "quoteVolumeMin": "398521.3053400",
-      "quoteVolumeSum": "2848964.9953700",
+      "percentChange5m": "-1.53",
+      "price": "2.288120930538515",
+      "quoteVolumeMin": "1111051.6485200",
+      "quoteVolumeSum": "13615565.2227100",
       "quoteVolumes1m": [
-        "489438.2517300",
-        "423850.3293100",
-        "426158.0308600",
-        "398521.3053400",
-        "1110997.0781300"
+        "5013151.8528600",
+        "2320479.2362100",
+        "3372354.9571800",
+        "1798527.5279400",
+        "1111051.6485200"
       ],
       "symbol": "EVAA",
-      "top10HoldersPercent": "81.31191293651334"
+      "top10HoldersPercent": "81.32820737104701"
+    },
+    {
+      "alphaVolume5m": "1399814.3008688523",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "24564",
+      "isFreshAlert": false,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "3555633.2116819015",
+      "marketCap": "933784684.8680246",
+      "name": "LAB",
+      "percentChange5m": "-3.08",
+      "price": "0.933784684872435",
+      "quoteVolumeMin": "935645.8254000",
+      "quoteVolumeSum": "9762867.9940000",
+      "quoteVolumes1m": [
+        "1873902.2788000",
+        "935645.8254000",
+        "1061736.8072000",
+        "1420310.6013000",
+        "4471272.4813000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "86.85821987879606"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "LABUSDT",
-      "EVAAUSDT"
+      "EVAAUSDT",
+      "LABUSDT"
     ]
   },
   "telegram": {
