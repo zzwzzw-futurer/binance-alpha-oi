@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-09T14:46:53.279145+00:00",
-  "generatedAtMs": 1783608413279,
-  "localTime": "2026-07-09 22:46:53 CST",
+  "generatedAt": "2026-07-09T14:51:53.913982+00:00",
+  "generatedAtMs": 1783608713913,
+  "localTime": "2026-07-09 22:51:53 CST",
   "matches": [
     {
-      "alphaVolume5m": "298142.90294335695",
+      "alphaVolume5m": "107883.52538152137",
+      "chainId": "56",
+      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+      "futuresSymbol": "EVAAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
+      "holders": "24849",
+      "isFreshAlert": true,
+      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://evaa.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/evaaprotocol"
+        }
+      ],
+      "liquidity": "558899.0766960705",
+      "marketCap": "50377968.104992166",
+      "name": "EVAA",
+      "percentChange5m": "-11.69",
+      "price": "1.6792656035094105",
+      "quoteVolumeMin": "521572.1623900",
+      "quoteVolumeSum": "5258494.7255900",
+      "quoteVolumes1m": [
+        "1436877.5095200",
+        "574609.5437600",
+        "521572.1623900",
+        "1281614.7543000",
+        "1443820.7556200"
+      ],
+      "symbol": "EVAA",
+      "top10HoldersPercent": "80.80777316413791"
+    },
+    {
+      "alphaVolume5m": "346159.55619106937",
       "chainId": "56",
       "contractAddress": "0x208bf3e7da9639f1eaefa2de78c23396b0682025",
       "futuresSymbol": "TAGUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAGUSDT",
-      "holders": "33127",
+      "holders": "33135",
       "isFreshAlert": false,
       "key": "56|0x208bf3e7da9639f1eaefa2de78c23396b0682025|TAGUSDT",
       "links": [
@@ -32,29 +68,30 @@
           "link": "https://x.com/TaggerAI"
         }
       ],
-      "liquidity": "1956582.4465147166",
-      "marketCap": "301834773.7562494",
+      "liquidity": "1869688.4948589483",
+      "marketCap": "276971999.6266412",
       "name": "Tagger",
-      "percentChange5m": "-2.19",
-      "price": "0.00074457873736051",
-      "quoteVolumeMin": "418294.0583280",
-      "quoteVolumeSum": "3619417.4281620",
+      "percentChange5m": "-8.4",
+      "price": "0.000683246198573402",
+      "quoteVolumeMin": "430426.5284530",
+      "quoteVolumeSum": "4568227.1573550",
       "quoteVolumes1m": [
-        "914079.2475670",
-        "708767.0603290",
-        "418294.0583280",
-        "716815.6715050",
-        "861461.3904330"
+        "430426.5284530",
+        "811714.3648350",
+        "972281.7827590",
+        "1240620.8151850",
+        "1113183.6661230"
       ],
       "symbol": "TAG",
-      "top10HoldersPercent": "95.97678918397759"
+      "top10HoldersPercent": "95.97698868618092"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "EVAAUSDT",
       "TAGUSDT"
     ]
   },
