@@ -1,62 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-08T15:39:40.508764+00:00",
-    "generatedAtMs": 1783525180508,
-    "localTime": "2026-07-08 23:39:40 CST",
-    "matchCount": 3,
-    "matches": [
-      {
-        "alphaVolume5m": "678158.535112863",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-3.49",
-        "price": "1.303816862357464",
-        "quoteVolumeMin": "1148105.1529000",
-        "quoteVolumeSum": "7895160.9477000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.20731210276422"
-      },
-      {
-        "alphaVolume5m": "478283.0899511188",
-        "chainId": "56",
-        "contractAddress": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
-        "futuresSymbol": "EDGEUSDT",
-        "isFreshAlert": false,
-        "name": "edgeX",
-        "percentChange5m": "1.97",
-        "price": "0.4833334833198804",
-        "quoteVolumeMin": "648949.2482000",
-        "quoteVolumeSum": "4010375.2271000",
-        "symbol": "EDGE",
-        "top10HoldersPercent": "95.36604682115511"
-      },
-      {
-        "alphaVolume5m": "51547.641203595835",
-        "chainId": "56",
-        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-        "futuresSymbol": "EVAAUSDT",
-        "isFreshAlert": false,
-        "name": "EVAA",
-        "percentChange5m": "-1.63",
-        "price": "2.778852940113297",
-        "quoteVolumeMin": "491191.0808200",
-        "quoteVolumeSum": "3427493.5479400",
-        "symbol": "EVAA",
-        "top10HoldersPercent": "83.95032983613709"
-      }
-    ],
-    "symbols": [
-      "LABUSDT",
-      "EDGEUSDT",
-      "EVAAUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-08T15:44:40.828942+00:00",
     "generatedAtMs": 1783525480828,
     "localTime": "2026-07-08 23:44:40 CST",
@@ -5877,5 +5821,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-09T15:41:59.210325+00:00",
+    "generatedAtMs": 1783611719210,
+    "localTime": "2026-07-09 23:41:59 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "204096.97235289658",
+        "chainId": "56",
+        "contractAddress": "0x208bf3e7da9639f1eaefa2de78c23396b0682025",
+        "futuresSymbol": "TAGUSDT",
+        "isFreshAlert": true,
+        "name": "Tagger",
+        "percentChange5m": "2.88",
+        "price": "0.000713693178718029",
+        "quoteVolumeMin": "338099.9080380",
+        "quoteVolumeSum": "2281226.2486880",
+        "symbol": "TAG",
+        "top10HoldersPercent": "95.9789385405495"
+      }
+    ],
+    "symbols": [
+      "TAGUSDT"
+    ]
   }
 ]
