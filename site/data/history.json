@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-08T17:29:53.273635+00:00",
-    "generatedAtMs": 1783531793273,
-    "localTime": "2026-07-09 01:29:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "1371131.565673412",
-        "chainId": "56",
-        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-        "futuresSymbol": "LABUSDT",
-        "isFreshAlert": false,
-        "name": "LAB",
-        "percentChange5m": "-1.2",
-        "price": "1.1945393173539658",
-        "quoteVolumeMin": "1153069.5663000",
-        "quoteVolumeSum": "8123214.0464000",
-        "symbol": "LAB",
-        "top10HoldersPercent": "87.04422060112631"
-      }
-    ],
-    "symbols": [
-      "LABUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-08T17:34:53.734191+00:00",
     "generatedAtMs": 1783532093734,
     "localTime": "2026-07-09 01:34:53 CST",
@@ -5554,5 +5528,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-09T17:32:11.143052+00:00",
+    "generatedAtMs": 1783618331143,
+    "localTime": "2026-07-10 01:32:11 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "636613.9909550991",
+        "chainId": "56",
+        "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+        "futuresSymbol": "LABUSDT",
+        "isFreshAlert": false,
+        "name": "LAB",
+        "percentChange5m": "-1.3",
+        "price": "1.008058085139716",
+        "quoteVolumeMin": "349961.6543000",
+        "quoteVolumeSum": "2903150.4784000",
+        "symbol": "LAB",
+        "top10HoldersPercent": "86.76020902657973"
+      },
+      {
+        "alphaVolume5m": "228697.83297115212",
+        "chainId": "56",
+        "contractAddress": "0x208bf3e7da9639f1eaefa2de78c23396b0682025",
+        "futuresSymbol": "TAGUSDT",
+        "isFreshAlert": true,
+        "name": "Tagger",
+        "percentChange5m": "0.15",
+        "price": "0.000752755326269074",
+        "quoteVolumeMin": "306341.6772130",
+        "quoteVolumeSum": "2400437.1640710",
+        "symbol": "TAG",
+        "top10HoldersPercent": "95.99169430751917"
+      }
+    ],
+    "symbols": [
+      "LABUSDT",
+      "TAGUSDT"
+    ]
   }
 ]
