@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-09T14:21:50.549103+00:00",
-  "generatedAtMs": 1783606910549,
-  "localTime": "2026-07-09 22:21:50 CST",
-  "matches": [],
+  "generatedAt": "2026-07-09T14:26:51.720165+00:00",
+  "generatedAtMs": 1783607211720,
+  "localTime": "2026-07-09 22:26:51 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "453178.6729217675",
+      "chainId": "56",
+      "contractAddress": "0x208bf3e7da9639f1eaefa2de78c23396b0682025",
+      "futuresSymbol": "TAGUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAGUSDT",
+      "holders": "33117",
+      "isFreshAlert": true,
+      "key": "56|0x208bf3e7da9639f1eaefa2de78c23396b0682025|TAGUSDT",
+      "links": [
+        {
+          "label": "telegram",
+          "link": "https://t.me/TAG666888"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/TaggerAI"
+        }
+      ],
+      "liquidity": "2099826.4036993952",
+      "marketCap": "344579096.5603865",
+      "name": "Tagger",
+      "percentChange5m": "-8.81",
+      "price": "0.000850022233836288",
+      "quoteVolumeMin": "345824.0508480",
+      "quoteVolumeSum": "3874445.9338840",
+      "quoteVolumes1m": [
+        "345824.0508480",
+        "1088540.4910740",
+        "849387.7479510",
+        "1040838.6638630",
+        "549854.9801480"
+      ],
+      "symbol": "TAG",
+      "top10HoldersPercent": "95.97694373062106"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "TAGUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
