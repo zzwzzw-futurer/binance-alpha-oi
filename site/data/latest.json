@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-10T18:49:51.451340+00:00",
-  "generatedAtMs": 1783709391451,
-  "localTime": "2026-07-11 02:49:51 CST",
-  "matches": [],
+  "generatedAt": "2026-07-10T18:54:52.337019+00:00",
+  "generatedAtMs": 1783709692337,
+  "localTime": "2026-07-11 02:54:52 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "411719.89770675165",
+      "chainId": "56",
+      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+      "futuresSymbol": "LABUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
+      "holders": "25411",
+      "isFreshAlert": true,
+      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://about.lab.pro/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/memeslabxyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/LABtrade_"
+        }
+      ],
+      "liquidity": "3624435.111124108",
+      "marketCap": "907358227.0743252",
+      "name": "LAB",
+      "percentChange5m": "-0.1",
+      "price": "0.9165234616956102",
+      "quoteVolumeMin": "314642.2467000",
+      "quoteVolumeSum": "6819597.2124000",
+      "quoteVolumes1m": [
+        "4073234.3122000",
+        "1528411.7208000",
+        "564081.7962000",
+        "314642.2467000",
+        "339227.1365000"
+      ],
+      "symbol": "LAB",
+      "top10HoldersPercent": "86.8743668243188"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "LABUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
