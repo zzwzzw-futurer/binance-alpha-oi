@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-12T14:34:11.719881+00:00",
-  "generatedAtMs": 1783866851719,
-  "localTime": "2026-07-12 22:34:11 CST",
+  "generatedAt": "2026-07-12T14:39:12.867128+00:00",
+  "generatedAtMs": 1783867152867,
+  "localTime": "2026-07-12 22:39:12 CST",
   "matches": [
     {
-      "alphaVolume5m": "204511.9023910379",
+      "alphaVolume5m": "108527.4571114601",
       "chainId": "56",
       "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
       "futuresSymbol": "EVAAUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
-      "holders": "25349",
+      "holders": "25355",
       "isFreshAlert": false,
       "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
       "links": [
@@ -32,30 +32,71 @@
           "link": "https://twitter.com/evaaprotocol"
         }
       ],
-      "liquidity": "433031.22693679424",
-      "marketCap": "36691716.781567015",
+      "liquidity": "442514.9979139787",
+      "marketCap": "38238378.051789984",
       "name": "EVAA",
-      "percentChange5m": "1.55",
-      "price": "1.2230572260593278",
-      "quoteVolumeMin": "885374.4291500",
-      "quoteVolumeSum": "7738398.1274700",
+      "percentChange5m": "4.54",
+      "price": "1.2746126017337258",
+      "quoteVolumeMin": "578320.6420400",
+      "quoteVolumeSum": "5419692.0842800",
       "quoteVolumes1m": [
-        "2296272.5050400",
-        "2103515.8803000",
-        "1437621.6888300",
-        "1015613.6241500",
-        "885374.4291500"
+        "641714.5626300",
+        "578320.6420400",
+        "934648.1090800",
+        "2683146.3729600",
+        "581862.3975700"
       ],
       "symbol": "EVAA",
-      "top10HoldersPercent": "82.62166735724043"
+      "top10HoldersPercent": "82.44873635047492"
+    },
+    {
+      "alphaVolume5m": "30781.045272406805",
+      "chainId": "56",
+      "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+      "futuresSymbol": "VELVETUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
+      "holders": "16080",
+      "isFreshAlert": true,
+      "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://velvet.capital"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/velvetcapital/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/velvet_capital"
+        }
+      ],
+      "liquidity": "2581242.5296376506",
+      "marketCap": "543696373.0110453",
+      "name": "Velvet",
+      "percentChange5m": "1.61",
+      "price": "0.5436963809146005",
+      "quoteVolumeMin": "351904.9667400",
+      "quoteVolumeSum": "2185744.5014400",
+      "quoteVolumes1m": [
+        "468137.7149600",
+        "351904.9667400",
+        "483477.4000600",
+        "477894.2362800",
+        "404330.1834000"
+      ],
+      "symbol": "VELVET",
+      "top10HoldersPercent": "91.3818745402098"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "EVAAUSDT"
+      "EVAAUSDT",
+      "VELVETUSDT"
     ]
   },
   "telegram": {
