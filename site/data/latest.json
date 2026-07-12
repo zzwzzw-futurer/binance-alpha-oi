@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-12T08:18:31.951515+00:00",
-  "generatedAtMs": 1783844311951,
-  "localTime": "2026-07-12 16:18:31 CST",
-  "matches": [],
+  "generatedAt": "2026-07-12T08:23:32.877736+00:00",
+  "generatedAtMs": 1783844612877,
+  "localTime": "2026-07-12 16:23:32 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "118119.9385415529",
+      "chainId": "56",
+      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+      "futuresSymbol": "EVAAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
+      "holders": "25385",
+      "isFreshAlert": false,
+      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://evaa.finance/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/evaaprotocol"
+        }
+      ],
+      "liquidity": "439190.67720255215",
+      "marketCap": "38934700.27210543",
+      "name": "EVAA",
+      "percentChange5m": "-1.58",
+      "price": "1.2978233424110421",
+      "quoteVolumeMin": "388671.2084300",
+      "quoteVolumeSum": "6363442.9421000",
+      "quoteVolumes1m": [
+        "651929.8383300",
+        "2856851.1899400",
+        "1679525.1491000",
+        "786465.5563000",
+        "388671.2084300"
+      ],
+      "symbol": "EVAA",
+      "top10HoldersPercent": "82.11872811982921"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "EVAAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
