@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-07-12T13:24:03.277796+00:00",
-    "generatedAtMs": 1783862643277,
-    "localTime": "2026-07-12 21:24:03 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-07-12T13:29:03.981730+00:00",
     "generatedAtMs": 1783862943981,
@@ -3502,5 +3493,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-13T13:26:38.165526+00:00",
+    "generatedAtMs": 1783949198165,
+    "localTime": "2026-07-13 21:26:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "53139.819647482924",
+        "chainId": "56",
+        "contractAddress": "0x500a02a20b0b0a3f3efccfc0559543f5743bd1c4",
+        "futuresSymbol": "OUSDT",
+        "isFreshAlert": true,
+        "name": "o1.exchange",
+        "percentChange5m": "6.7",
+        "price": "0.555855260981706",
+        "quoteVolumeMin": "484521.4654000",
+        "quoteVolumeSum": "3020894.8051000",
+        "symbol": "O",
+        "top10HoldersPercent": "80.00437066668003"
+      }
+    ],
+    "symbols": [
+      "OUSDT"
+    ]
   }
 ]
