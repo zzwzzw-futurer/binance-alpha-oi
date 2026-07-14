@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-07-13T12:51:33.765896+00:00",
-    "generatedAtMs": 1783947093765,
-    "localTime": "2026-07-13 20:51:33 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "33081.556177877916",
-        "chainId": "56",
-        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
-        "futuresSymbol": "VELVETUSDT",
-        "isFreshAlert": true,
-        "name": "Velvet",
-        "percentChange5m": "-0.04",
-        "price": "0.5984774564196325",
-        "quoteVolumeMin": "330608.3091000",
-        "quoteVolumeSum": "2981117.9788000",
-        "symbol": "VELVET",
-        "top10HoldersPercent": "91.31397311327346"
-      }
-    ],
-    "symbols": [
-      "VELVETUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-07-13T12:56:34.745227+00:00",
     "generatedAtMs": 1783947394745,
@@ -4449,6 +4423,32 @@
         "quoteVolumeSum": "3169367.9879300",
         "symbol": "EVAA",
         "top10HoldersPercent": "83.04179340130376"
+      }
+    ],
+    "symbols": [
+      "EVAAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-14T12:54:04.271092+00:00",
+    "generatedAtMs": 1784033644271,
+    "localTime": "2026-07-14 20:54:04 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "41981.258095263816",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "0.07",
+        "price": "1.1559056887513341",
+        "quoteVolumeMin": "300514.0024800",
+        "quoteVolumeSum": "2131180.3501200",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "83.02650288501607"
       }
     ],
     "symbols": [
