@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-14T12:59:04.871691+00:00",
-  "generatedAtMs": 1784033944871,
-  "localTime": "2026-07-14 20:59:04 CST",
+  "generatedAt": "2026-07-14T13:04:04.694972+00:00",
+  "generatedAtMs": 1784034244694,
+  "localTime": "2026-07-14 21:04:04 CST",
   "matches": [
     {
-      "alphaVolume5m": "40593.62517410974",
+      "alphaVolume5m": "74276.86128982242",
       "chainId": "56",
       "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
       "futuresSymbol": "EVAAUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
-      "holders": "25546",
+      "holders": "25541",
       "isFreshAlert": false,
       "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
       "links": [
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/evaaprotocol"
         }
       ],
-      "liquidity": "450957.64284391486",
-      "marketCap": "35364725.47377606",
+      "liquidity": "449908.144585027",
+      "marketCap": "35208712.64978028",
       "name": "EVAA",
-      "percentChange5m": "1.79",
-      "price": "1.1788241824660395",
-      "quoteVolumeMin": "357848.9292600",
-      "quoteVolumeSum": "3437869.0116200",
+      "percentChange5m": "-0.42",
+      "price": "1.1736237549994832",
+      "quoteVolumeMin": "359296.4583600",
+      "quoteVolumeSum": "3035257.2778300",
       "quoteVolumes1m": [
-        "357848.9292600",
-        "908038.1405400",
-        "591905.0223800",
-        "1141502.4548200",
-        "438574.4646200"
+        "359296.4583600",
+        "728215.2374100",
+        "873459.7483200",
+        "556255.2942300",
+        "518030.5395100"
       ],
       "symbol": "EVAA",
-      "top10HoldersPercent": "83.02914273028321"
+      "top10HoldersPercent": "83.00127507747251"
+    },
+    {
+      "alphaVolume5m": "165175.76759545074",
+      "chainId": "56",
+      "contractAddress": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+      "futuresSymbol": "BILLUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BILLUSDT",
+      "holders": "37462",
+      "isFreshAlert": false,
+      "key": "56|0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5|BILLUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://billions.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/billions_ntwk"
+        }
+      ],
+      "liquidity": "1833156.2990007254",
+      "marketCap": "10372527.975288983",
+      "name": "Billions Network",
+      "percentChange5m": "-7.35",
+      "price": "0.05561006316148218",
+      "quoteVolumeMin": "335065.9186000",
+      "quoteVolumeSum": "3535470.1826200",
+      "quoteVolumes1m": [
+        "335065.9186000",
+        "879178.9066200",
+        "1061180.8950100",
+        "480133.4235000",
+        "779911.0388900"
+      ],
+      "symbol": "BILL",
+      "top10HoldersPercent": "93.9150704424733"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "EVAAUSDT"
+      "EVAAUSDT",
+      "BILLUSDT"
     ]
   },
   "telegram": {
