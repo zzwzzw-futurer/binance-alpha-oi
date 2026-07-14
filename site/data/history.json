@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-13T17:57:04.315293+00:00",
-    "generatedAtMs": 1783965424315,
-    "localTime": "2026-07-14 01:57:04 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "89021.64212520397",
-        "chainId": "56",
-        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-        "futuresSymbol": "EVAAUSDT",
-        "isFreshAlert": false,
-        "name": "EVAA",
-        "percentChange5m": "-0.52",
-        "price": "0.851721121341672",
-        "quoteVolumeMin": "337819.9215100",
-        "quoteVolumeSum": "2860738.8464500",
-        "symbol": "EVAA",
-        "top10HoldersPercent": "83.27170524648507"
-      }
-    ],
-    "symbols": [
-      "EVAAUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-13T18:02:05.005940+00:00",
     "generatedAtMs": 1783965725005,
     "localTime": "2026-07-14 02:02:05 CST",
@@ -4478,5 +4452,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-07-14T17:59:38.168501+00:00",
+    "generatedAtMs": 1784051978168,
+    "localTime": "2026-07-15 01:59:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "122562.46754481262",
+        "chainId": "56",
+        "contractAddress": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+        "futuresSymbol": "BSBUSDT",
+        "isFreshAlert": true,
+        "name": "Block Street",
+        "percentChange5m": "-0.17",
+        "price": "0.17051642348247256",
+        "quoteVolumeMin": "325441.0801800",
+        "quoteVolumeSum": "2590433.4475900",
+        "symbol": "BSB",
+        "top10HoldersPercent": "90.77140770884871"
+      }
+    ],
+    "symbols": [
+      "BSBUSDT"
+    ]
   }
 ]
