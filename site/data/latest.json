@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-15T10:21:12.045887+00:00",
-  "generatedAtMs": 1784110872045,
-  "localTime": "2026-07-15 18:21:12 CST",
+  "generatedAt": "2026-07-15T10:26:13.170066+00:00",
+  "generatedAtMs": 1784111173170,
+  "localTime": "2026-07-15 18:26:13 CST",
   "matches": [
     {
-      "alphaVolume5m": "35355.7256975304",
+      "alphaVolume5m": "38251.033043988406",
       "chainId": "56",
       "contractAddress": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
       "futuresSymbol": "AKEUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AKEUSDT",
-      "holders": "34175",
+      "holders": "34174",
       "isFreshAlert": false,
       "key": "56|0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db|AKEUSDT",
       "links": [
@@ -36,67 +36,30 @@
           "link": "https://x.com/akedofun"
         }
       ],
-      "liquidity": "1052575.0877381251",
-      "marketCap": "55490235.553049915",
+      "liquidity": "1049517.3613784027",
+      "marketCap": "55295080.81050004",
       "name": "AKE",
-      "percentChange5m": "1.72",
-      "price": "0.000554902355657904",
-      "quoteVolumeMin": "528286.3644407",
-      "quoteVolumeSum": "3606466.4128831",
+      "percentChange5m": "-0.23",
+      "price": "0.000552950808231957",
+      "quoteVolumeMin": "404556.7568025",
+      "quoteVolumeSum": "3634737.6594716",
       "quoteVolumes1m": [
-        "900290.9442574",
-        "528286.3644407",
-        "830258.3353001",
-        "656739.5662907",
-        "690891.2025942"
+        "552379.4695813",
+        "404556.7568025",
+        "852083.0586923",
+        "1150824.9685294",
+        "674893.4058661"
       ],
       "symbol": "AKE",
-      "top10HoldersPercent": "85.48562872196919"
-    },
-    {
-      "alphaVolume5m": "33764.46625909297",
-      "chainId": "56",
-      "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-      "futuresSymbol": "EVAAUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/EVAAUSDT",
-      "holders": "25559",
-      "isFreshAlert": true,
-      "key": "56|0xaa036928c9c0df07d525b55ea8ee690bb5a628c1|EVAAUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://evaa.finance/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/evaaprotocol"
-        }
-      ],
-      "liquidity": "475733.79112926644",
-      "marketCap": "34410376.99974611",
-      "name": "EVAA",
-      "percentChange5m": "-0.84",
-      "price": "1.1470125666648565",
-      "quoteVolumeMin": "347340.1167600",
-      "quoteVolumeSum": "2076099.7937300",
-      "quoteVolumes1m": [
-        "511757.2130900",
-        "465069.6520600",
-        "396506.9376900",
-        "355425.8741300",
-        "347340.1167600"
-      ],
-      "symbol": "EVAA",
-      "top10HoldersPercent": "83.0223104978865"
+      "top10HoldersPercent": "85.48462416585947"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "AKEUSDT",
-      "EVAAUSDT"
+      "AKEUSDT"
     ]
   },
   "telegram": {
