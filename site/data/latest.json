@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-15T07:40:56.484689+00:00",
-  "generatedAtMs": 1784101256484,
-  "localTime": "2026-07-15 15:40:56 CST",
+  "generatedAt": "2026-07-15T07:45:56.355409+00:00",
+  "generatedAtMs": 1784101556355,
+  "localTime": "2026-07-15 15:45:56 CST",
   "matches": [
     {
-      "alphaVolume5m": "181329.0429293259",
+      "alphaVolume5m": "140886.52055645484",
       "chainId": "56",
       "contractAddress": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
       "futuresSymbol": "AKEUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AKEUSDT",
-      "holders": "34140",
+      "holders": "34146",
       "isFreshAlert": false,
       "key": "56|0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db|AKEUSDT",
       "links": [
@@ -36,71 +36,30 @@
           "link": "https://x.com/akedofun"
         }
       ],
-      "liquidity": "993531.987050685",
-      "marketCap": "51390049.2515615",
+      "liquidity": "975314.4864981468",
+      "marketCap": "49809137.67425026",
       "name": "AKE",
-      "percentChange5m": "4.39",
-      "price": "0.000513900492633602",
-      "quoteVolumeMin": "670070.8474507",
-      "quoteVolumeSum": "9688989.1276784",
+      "percentChange5m": "-2.15",
+      "price": "0.00049809137685686",
+      "quoteVolumeMin": "606317.6346177",
+      "quoteVolumeSum": "6086926.4351324",
       "quoteVolumes1m": [
-        "670070.8474507",
-        "3938412.5984074",
-        "2934028.1046547",
-        "941942.7147876",
-        "1204534.8623780"
+        "1342725.8612029",
+        "1893479.9427988",
+        "1357297.1404204",
+        "606317.6346177",
+        "887105.8560926"
       ],
       "symbol": "AKE",
-      "top10HoldersPercent": "86.17054528959375"
-    },
-    {
-      "alphaVolume5m": "329942.0277583564",
-      "chainId": "56",
-      "contractAddress": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
-      "futuresSymbol": "LABUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/LABUSDT",
-      "holders": "26958",
-      "isFreshAlert": true,
-      "key": "56|0x7ec43cf65f1663f820427c62a5780b8f2e25593a|LABUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://about.lab.pro/"
-        },
-        {
-          "label": "telegram",
-          "link": "https://t.me/memeslabxyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/LABtrade_"
-        }
-      ],
-      "liquidity": "2239014.5807854505",
-      "marketCap": "238438251.1712135",
-      "name": "LAB",
-      "percentChange5m": "-1.4",
-      "price": "0.24084671835591018",
-      "quoteVolumeMin": "315452.3576000",
-      "quoteVolumeSum": "3166979.5621000",
-      "quoteVolumes1m": [
-        "1327762.1106000",
-        "755517.6555000",
-        "436955.4063000",
-        "315452.3576000",
-        "331292.0321000"
-      ],
-      "symbol": "LAB",
-      "top10HoldersPercent": "81.74048857696498"
+      "top10HoldersPercent": "86.15725091687499"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "AKEUSDT",
-      "LABUSDT"
+      "AKEUSDT"
     ]
   },
   "telegram": {
