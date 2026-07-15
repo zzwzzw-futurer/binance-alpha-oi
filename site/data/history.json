@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-14T09:58:43.192613+00:00",
-    "generatedAtMs": 1784023123192,
-    "localTime": "2026-07-14 17:58:43 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-14T10:03:44.011474+00:00",
     "generatedAtMs": 1784023424011,
     "localTime": "2026-07-14 18:03:44 CST",
@@ -4384,6 +4375,32 @@
         "quoteVolumeSum": "3012763.0852902",
         "symbol": "AKE",
         "top10HoldersPercent": "85.50726115965229"
+      }
+    ],
+    "symbols": [
+      "AKEUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-07-15T10:01:10.987762+00:00",
+    "generatedAtMs": 1784109670987,
+    "localTime": "2026-07-15 18:01:10 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "98726.01232143548",
+        "chainId": "56",
+        "contractAddress": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+        "futuresSymbol": "AKEUSDT",
+        "isFreshAlert": false,
+        "name": "AKE",
+        "percentChange5m": "-4.84",
+        "price": "0.000550864379588964",
+        "quoteVolumeMin": "308794.5648918",
+        "quoteVolumeSum": "4962335.4249414",
+        "symbol": "AKE",
+        "top10HoldersPercent": "85.4893652285346"
       }
     ],
     "symbols": [
