@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-16T05:53:15.039354+00:00",
-  "generatedAtMs": 1784181195039,
-  "localTime": "2026-07-16 13:53:15 CST",
-  "matches": [],
+  "generatedAt": "2026-07-16T05:58:15.769782+00:00",
+  "generatedAtMs": 1784181495769,
+  "localTime": "2026-07-16 13:58:15 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "111053.69956689482",
+      "chainId": "56",
+      "contractAddress": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+      "futuresSymbol": "AKEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AKEUSDT",
+      "holders": "34891",
+      "isFreshAlert": false,
+      "key": "56|0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db|AKEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://learn.akedo.fun/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/akedoglobal"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/akedofun"
+        }
+      ],
+      "liquidity": "1381129.0918956571",
+      "marketCap": "83135255.58690779",
+      "name": "AKE",
+      "percentChange5m": "-1.75",
+      "price": "0.000831352556081269",
+      "quoteVolumeMin": "304815.0325636",
+      "quoteVolumeSum": "2504325.0198075",
+      "quoteVolumes1m": [
+        "358267.2100302",
+        "659649.1988386",
+        "531135.2520171",
+        "650458.3263580",
+        "304815.0325636"
+      ],
+      "symbol": "AKE",
+      "top10HoldersPercent": "82.68021454680952"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "AKEUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
