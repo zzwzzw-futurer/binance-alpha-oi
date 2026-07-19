@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-19T01:50:04.592392+00:00",
-  "generatedAtMs": 1784425804592,
-  "localTime": "2026-07-19 09:50:04 CST",
-  "matches": [],
+  "generatedAt": "2026-07-19T01:55:04.560491+00:00",
+  "generatedAtMs": 1784426104560,
+  "localTime": "2026-07-19 09:55:04 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "82364.5958135821",
+      "chainId": "56",
+      "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+      "futuresSymbol": "ESPORTSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ESPORTSUSDT",
+      "holders": "87440",
+      "isFreshAlert": false,
+      "key": "56|0xf39e4b21c84e737df08e2c3b32541d856f508e48|ESPORTSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.yooldo.gg/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Yooldo_Games"
+        }
+      ],
+      "liquidity": "1624398.7035034227",
+      "marketCap": "40168602.60362263",
+      "name": "Yooldo",
+      "percentChange5m": "-1.16",
+      "price": "0.04463180886632007",
+      "quoteVolumeMin": "309811.4183600",
+      "quoteVolumeSum": "2021978.8153400",
+      "quoteVolumes1m": [
+        "470652.6585900",
+        "354292.2450300",
+        "332804.9354300",
+        "309811.4183600",
+        "554417.5579300"
+      ],
+      "symbol": "ESPORTS",
+      "top10HoldersPercent": "87.81292923727513"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "ESPORTSUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
