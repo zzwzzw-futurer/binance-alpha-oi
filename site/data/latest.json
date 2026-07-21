@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-21T10:00:48.181060+00:00",
-  "generatedAtMs": 1784628048181,
-  "localTime": "2026-07-21 18:00:48 CST",
-  "matches": [],
+  "generatedAt": "2026-07-21T10:05:48.539196+00:00",
+  "generatedAtMs": 1784628348539,
+  "localTime": "2026-07-21 18:05:48 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "247815.44544936062",
+      "chainId": "56",
+      "contractAddress": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+      "futuresSymbol": "ONUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ONUSDT",
+      "holders": "2172",
+      "isFreshAlert": true,
+      "key": "56|0x0e4f6209ed984b21edea43ace6e09559ed051d48|ONUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://orochi.network/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/OrochiNetwork"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/OrochiNetwork"
+        }
+      ],
+      "liquidity": "1024029.4151517954",
+      "marketCap": "25493685.764976434",
+      "name": "Orochi Network",
+      "percentChange5m": "-1.46",
+      "price": "0.17670203268048126",
+      "quoteVolumeMin": "357614.9036700",
+      "quoteVolumeSum": "2547399.9366500",
+      "quoteVolumes1m": [
+        "617376.4095400",
+        "498258.5315300",
+        "641235.6827700",
+        "432914.4091400",
+        "357614.9036700"
+      ],
+      "symbol": "ON",
+      "top10HoldersPercent": "93.33691813963071"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "ONUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
