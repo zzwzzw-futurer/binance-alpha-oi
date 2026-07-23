@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-07-23T12:05:59.354971+00:00",
-  "generatedAtMs": 1784808359354,
-  "localTime": "2026-07-23 20:05:59 CST",
-  "matches": [],
+  "generatedAt": "2026-07-23T12:10:59.870550+00:00",
+  "generatedAtMs": 1784808659870,
+  "localTime": "2026-07-23 20:10:59 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "742614.3648381267",
+      "chainId": "56",
+      "contractAddress": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
+      "futuresSymbol": "IDOLUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/IDOLUSDT",
+      "holders": "314204",
+      "isFreshAlert": true,
+      "key": "56|0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07|IDOLUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.meet48.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/meet_48"
+        }
+      ],
+      "liquidity": "912257.4491960101",
+      "marketCap": "70859296.4621121",
+      "name": "MEET48 Token",
+      "percentChange5m": "-1.85",
+      "price": "0.014861961283919551",
+      "quoteVolumeMin": "350126.9048200",
+      "quoteVolumeSum": "2870690.7625800",
+      "quoteVolumes1m": [
+        "414839.4935100",
+        "627634.7943600",
+        "350126.9048200",
+        "465616.5667500",
+        "1012473.0031400"
+      ],
+      "symbol": "IDOL",
+      "top10HoldersPercent": "84.62353623814003"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "IDOLUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
