@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-07-31T15:31:05.759942+00:00",
-    "generatedAtMs": 1785511865759,
-    "localTime": "2026-07-31 23:31:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-07-31T15:36:06.189684+00:00",
     "generatedAtMs": 1785512166189,
     "localTime": "2026-07-31 23:36:06 CST",
@@ -2590,5 +2581,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-08-01T15:33:31.476617+00:00",
+    "generatedAtMs": 1785598411476,
+    "localTime": "2026-08-01 23:33:31 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "734025.7429207496",
+        "chainId": "56",
+        "contractAddress": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
+        "futuresSymbol": "IDOLUSDT",
+        "isFreshAlert": true,
+        "name": "MEET48 Token",
+        "percentChange5m": "-0.29",
+        "price": "0.02404029986405537",
+        "quoteVolumeMin": "853929.9216400",
+        "quoteVolumeSum": "6917523.6838300",
+        "symbol": "IDOL",
+        "top10HoldersPercent": "80.28406987839894"
+      },
+      {
+        "alphaVolume5m": "227646.11018849217",
+        "chainId": "56",
+        "contractAddress": "0xb2d97c4ed2d0ef452654f5cab3da3735b5e6f3ab",
+        "futuresSymbol": "FIGHTUSDT",
+        "isFreshAlert": true,
+        "name": "FIGHT",
+        "percentChange5m": "-20.29",
+        "price": "0.003571648974437177",
+        "quoteVolumeMin": "310264.4335230",
+        "quoteVolumeSum": "5834987.1392910",
+        "symbol": "FIGHT",
+        "top10HoldersPercent": "93.95455685378994"
+      }
+    ],
+    "symbols": [
+      "IDOLUSDT",
+      "FIGHTUSDT"
+    ]
   }
 ]
