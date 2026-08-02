@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-01T12:23:11.634201+00:00",
-    "generatedAtMs": 1785586991634,
-    "localTime": "2026-08-01 20:23:11 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-01T12:28:12.964190+00:00",
     "generatedAtMs": 1785587292964,
     "localTime": "2026-08-01 20:28:12 CST",
@@ -2979,5 +2970,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-02T12:25:27.792869+00:00",
+    "generatedAtMs": 1785673527792,
+    "localTime": "2026-08-02 20:25:27 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "21170.397083989017",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": true,
+        "name": "Bless",
+        "percentChange5m": "1.21",
+        "price": "0.015414728634649866",
+        "quoteVolumeMin": "383835.4327390",
+        "quoteVolumeSum": "2576748.1313800",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "90.7709169908251"
+      }
+    ],
+    "symbols": [
+      "BLESSUSDT"
+    ]
   }
 ]
