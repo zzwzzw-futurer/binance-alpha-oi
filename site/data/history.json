@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-02T10:00:14.266957+00:00",
-    "generatedAtMs": 1785664814266,
-    "localTime": "2026-08-02 18:00:14 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "28872.785560270924",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": false,
-        "name": "Bless",
-        "percentChange5m": "-0.77",
-        "price": "0.015295040699153713",
-        "quoteVolumeMin": "409269.1302690",
-        "quoteVolumeSum": "2942476.9111690",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "90.90022736187183"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-02T10:05:15.122388+00:00",
     "generatedAtMs": 1785665115122,
     "localTime": "2026-08-02 18:05:15 CST",
@@ -4782,6 +4756,47 @@
     ],
     "symbols": [
       "BEATUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-03T10:02:40.762546+00:00",
+    "generatedAtMs": 1785751360762,
+    "localTime": "2026-08-03 18:02:40 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "546798.2888459442",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-0.08",
+        "price": "3.5937079878649594",
+        "quoteVolumeMin": "319231.7074000",
+        "quoteVolumeSum": "2108820.4124000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "85.4752305757704"
+      },
+      {
+        "alphaVolume5m": "26785.221441357084",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": false,
+        "name": "Bless",
+        "percentChange5m": "1.69",
+        "price": "0.02021786700428173",
+        "quoteVolumeMin": "317668.8993260",
+        "quoteVolumeSum": "4079372.3161680",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "89.14282866268935"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT",
+      "BLESSUSDT"
     ]
   }
 ]
