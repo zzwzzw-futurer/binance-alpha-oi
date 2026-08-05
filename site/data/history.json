@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-04T04:04:35.892067+00:00",
-    "generatedAtMs": 1785816275892,
-    "localTime": "2026-08-04 12:04:35 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-04T04:09:36.703104+00:00",
     "generatedAtMs": 1785816576703,
     "localTime": "2026-08-04 12:09:36 CST",
@@ -2947,5 +2938,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-05T04:07:13.180557+00:00",
+    "generatedAtMs": 1785902833180,
+    "localTime": "2026-08-05 12:07:13 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "257174.70759993966",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "2.34",
+        "price": "0.5078356588809853",
+        "quoteVolumeMin": "301748.4885000",
+        "quoteVolumeSum": "2354844.8110000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "86.31058585017306"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT"
+    ]
   }
 ]
