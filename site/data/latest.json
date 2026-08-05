@@ -9,53 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-05T12:48:08.034405+00:00",
-  "generatedAtMs": 1785934088034,
-  "localTime": "2026-08-05 20:48:08 CST",
+  "generatedAt": "2026-08-05T12:53:08.683950+00:00",
+  "generatedAtMs": 1785934388683,
+  "localTime": "2026-08-05 20:53:08 CST",
   "matches": [
     {
-      "alphaVolume5m": "52953.059140095254",
-      "chainId": "56",
-      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-      "futuresSymbol": "BLESSUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
-      "holders": "6784",
-      "isFreshAlert": false,
-      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://bless.network/"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/theblessnetwork"
-        }
-      ],
-      "liquidity": "328833.4285852896",
-      "marketCap": "16916067.369735952",
-      "name": "Bless",
-      "percentChange5m": "4.71",
-      "price": "0.02014937242435898",
-      "quoteVolumeMin": "783738.5781470",
-      "quoteVolumeSum": "7972616.1598470",
-      "quoteVolumes1m": [
-        "2476339.5579530",
-        "926034.7992730",
-        "783738.5781470",
-        "2492175.1594480",
-        "1294328.0650260"
-      ],
-      "symbol": "BLESS",
-      "top10HoldersPercent": "92.0102766089785"
-    },
-    {
-      "alphaVolume5m": "236811.7177487218",
+      "alphaVolume5m": "298754.82083444565",
       "chainId": "56",
       "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
       "futuresSymbol": "CYSUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
-      "holders": "9496",
+      "holders": "9502",
       "isFreshAlert": false,
       "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
       "links": [
@@ -68,22 +32,58 @@
           "link": "https://twitter.com/cysic_xyz"
         }
       ],
-      "liquidity": "1900077.1627876258",
-      "marketCap": "344732116.21957856",
+      "liquidity": "1920062.6226290814",
+      "marketCap": "356105949.3784144",
       "name": "Cysic",
-      "percentChange5m": "0.41",
-      "price": "0.7133206492844469",
-      "quoteVolumeMin": "387299.3787000",
-      "quoteVolumeSum": "2280955.0609000",
+      "percentChange5m": "3.39",
+      "price": "0.7368554163455641",
+      "quoteVolumeMin": "493400.0569000",
+      "quoteVolumeSum": "4838710.6788000",
       "quoteVolumes1m": [
-        "490218.8019000",
-        "415009.7433000",
-        "408502.0121000",
-        "579925.1249000",
-        "387299.3787000"
+        "1294408.4558000",
+        "735553.9867000",
+        "1507915.0946000",
+        "493400.0569000",
+        "807433.0848000"
       ],
       "symbol": "CYS",
       "top10HoldersPercent": "86.25398433136198"
+    },
+    {
+      "alphaVolume5m": "23222.492122882217",
+      "chainId": "56",
+      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+      "futuresSymbol": "BLESSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
+      "holders": "6781",
+      "isFreshAlert": false,
+      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bless.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/theblessnetwork"
+        }
+      ],
+      "liquidity": "327836.49390019744",
+      "marketCap": "16776307.793179512",
+      "name": "Bless",
+      "percentChange5m": "-0.75",
+      "price": "0.019982899467237483",
+      "quoteVolumeMin": "323224.9075210",
+      "quoteVolumeSum": "2757855.5528230",
+      "quoteVolumes1m": [
+        "698288.8121170",
+        "788614.4786790",
+        "606277.5900020",
+        "341449.7645040",
+        "323224.9075210"
+      ],
+      "symbol": "BLESS",
+      "top10HoldersPercent": "92.01525204305446"
     }
   ],
   "status": "ok",
@@ -91,8 +91,8 @@
     "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "BLESSUSDT",
-      "CYSUSDT"
+      "CYSUSDT",
+      "BLESSUSDT"
     ]
   },
   "telegram": {
