@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-05T10:22:51.749654+00:00",
-  "generatedAtMs": 1785925371749,
-  "localTime": "2026-08-05 18:22:51 CST",
+  "generatedAt": "2026-08-05T10:27:51.947818+00:00",
+  "generatedAtMs": 1785925671947,
+  "localTime": "2026-08-05 18:27:51 CST",
   "matches": [
     {
-      "alphaVolume5m": "509784.94456908375",
+      "alphaVolume5m": "878482.8153021345",
       "chainId": "56",
       "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
       "futuresSymbol": "CYSUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
-      "holders": "9559",
-      "isFreshAlert": true,
+      "holders": "9532",
+      "isFreshAlert": false,
       "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
       "links": [
         {
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/cysic_xyz"
         }
       ],
-      "liquidity": "1850797.9589173326",
-      "marketCap": "318788348.0698492",
+      "liquidity": "1807373.5622246473",
+      "marketCap": "297288327.4338627",
       "name": "Cysic",
-      "percentChange5m": "3.66",
-      "price": "0.6596415989781027",
-      "quoteVolumeMin": "302679.7401000",
-      "quoteVolumeSum": "6924029.8714000",
+      "percentChange5m": "-6.64",
+      "price": "0.6151533977948525",
+      "quoteVolumeMin": "735900.6377000",
+      "quoteVolumeSum": "9417839.8374000",
       "quoteVolumes1m": [
-        "302679.7401000",
-        "526566.0240000",
-        "4019217.5487000",
-        "1215807.2077000",
-        "859759.3509000"
+        "735900.6377000",
+        "2886768.1245000",
+        "2527299.3225000",
+        "2103053.3843000",
+        "1164818.3684000"
       ],
       "symbol": "CYS",
-      "top10HoldersPercent": "86.25452115715879"
+      "top10HoldersPercent": "86.25448456893733"
+    },
+    {
+      "alphaVolume5m": "31915.71832715673",
+      "chainId": "56",
+      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+      "futuresSymbol": "BLESSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
+      "holders": "6757",
+      "isFreshAlert": false,
+      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bless.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/theblessnetwork"
+        }
+      ],
+      "liquidity": "319364.22166283964",
+      "marketCap": "16044407.979333248",
+      "name": "Bless",
+      "percentChange5m": "1.3",
+      "price": "0.01911120950142166",
+      "quoteVolumeMin": "312135.9544370",
+      "quoteVolumeSum": "4440198.2068780",
+      "quoteVolumes1m": [
+        "887203.9641340",
+        "2267332.5601530",
+        "418230.2947000",
+        "555295.4334540",
+        "312135.9544370"
+      ],
+      "symbol": "BLESS",
+      "top10HoldersPercent": "92.15777652645517"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 1,
+    "freshAlertCount": 0,
+    "matchCount": 2,
     "symbols": [
-      "CYSUSDT"
+      "CYSUSDT",
+      "BLESSUSDT"
     ]
   },
   "telegram": {
