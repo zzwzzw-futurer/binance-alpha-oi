@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-05T08:37:41.026981+00:00",
-  "generatedAtMs": 1785919061026,
-  "localTime": "2026-08-05 16:37:41 CST",
+  "generatedAt": "2026-08-05T08:42:41.863695+00:00",
+  "generatedAtMs": 1785919361863,
+  "localTime": "2026-08-05 16:42:41 CST",
   "matches": [
     {
-      "alphaVolume5m": "39812.78029794453",
+      "alphaVolume5m": "303286.9296936306",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "9533",
+      "isFreshAlert": false,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "1755925.3390837265",
+      "marketCap": "274198241.4262129",
+      "name": "Cysic",
+      "percentChange5m": "1.02",
+      "price": "0.5673772103167838",
+      "quoteVolumeMin": "427293.6153000",
+      "quoteVolumeSum": "3675178.9901000",
+      "quoteVolumes1m": [
+        "1253920.8683000",
+        "521826.2985000",
+        "427293.6153000",
+        "1034390.3830000",
+        "437747.8250000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "86.60986136314729"
+    },
+    {
+      "alphaVolume5m": "55047.26546379758",
       "chainId": "56",
       "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
       "futuresSymbol": "BLESSUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
-      "holders": "6741",
+      "holders": "6743",
       "isFreshAlert": false,
       "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
       "links": [
@@ -32,67 +68,31 @@
           "link": "https://x.com/theblessnetwork"
         }
       ],
-      "liquidity": "304979.51523004833",
-      "marketCap": "14461034.37600447",
+      "liquidity": "311778.90137838275",
+      "marketCap": "15206916.880904019",
       "name": "Bless",
-      "percentChange5m": "1.82",
-      "price": "0.01724892162112338",
-      "quoteVolumeMin": "530746.9372240",
-      "quoteVolumeSum": "3629821.0707840",
+      "percentChange5m": "5.02",
+      "price": "0.018138599947794654",
+      "quoteVolumeMin": "342555.2392820",
+      "quoteVolumeSum": "5831630.1888690",
       "quoteVolumes1m": [
-        "728674.1128850",
-        "1260989.8630660",
-        "530746.9372240",
-        "564796.2476560",
-        "544613.9099530"
+        "342555.2392820",
+        "3338678.3748010",
+        "821297.5873210",
+        "777016.2584000",
+        "552082.7290650"
       ],
       "symbol": "BLESS",
-      "top10HoldersPercent": "91.74419713235868"
-    },
-    {
-      "alphaVolume5m": "276876.49704123347",
-      "chainId": "56",
-      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-      "futuresSymbol": "CYSUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
-      "holders": "9533",
-      "isFreshAlert": true,
-      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://cysic.xyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/cysic_xyz"
-        }
-      ],
-      "liquidity": "1749470.6625263528",
-      "marketCap": "271480627.0489975",
-      "name": "Cysic",
-      "percentChange5m": "-4.71",
-      "price": "0.5617538611076818",
-      "quoteVolumeMin": "387350.9690000",
-      "quoteVolumeSum": "3169372.2853000",
-      "quoteVolumes1m": [
-        "387350.9690000",
-        "419391.6408000",
-        "442045.4849000",
-        "556863.1579000",
-        "1363721.0327000"
-      ],
-      "symbol": "CYS",
-      "top10HoldersPercent": "86.60986136314729"
+      "top10HoldersPercent": "91.76203079588964"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "BLESSUSDT",
-      "CYSUSDT"
+      "CYSUSDT",
+      "BLESSUSDT"
     ]
   },
   "telegram": {
