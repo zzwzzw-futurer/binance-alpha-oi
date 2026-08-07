@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-07T18:48:41.844203+00:00",
-  "generatedAtMs": 1786128521844,
-  "localTime": "2026-08-08 02:48:41 CST",
+  "generatedAt": "2026-08-07T18:53:42.913509+00:00",
+  "generatedAtMs": 1786128822913,
+  "localTime": "2026-08-08 02:53:42 CST",
   "matches": [
     {
-      "alphaVolume5m": "203496.42447192466",
+      "alphaVolume5m": "158439.67470764354",
       "chainId": "56",
       "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
       "futuresSymbol": "GWEIUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/GWEIUSDT",
-      "holders": "3327",
+      "holders": "3336",
       "isFreshAlert": false,
       "key": "56|0x30117e4bc17d7b044194b76a38365c53b72f7d49|GWEIUSDT",
       "links": [
@@ -32,67 +32,30 @@
           "link": "https://twitter.com/ETHGasOfficial"
         }
       ],
-      "liquidity": "1623624.2207635776",
-      "marketCap": "6523837.293195508",
+      "liquidity": "1625471.4560123656",
+      "marketCap": "6550533.569387309",
       "name": "ETHGas",
-      "percentChange5m": "1.42",
-      "price": "0.03108022106448005",
-      "quoteVolumeMin": "482838.3365800",
-      "quoteVolumeSum": "4133598.2393400",
+      "percentChange5m": "0.37",
+      "price": "0.03120740482586923",
+      "quoteVolumeMin": "339186.4822100",
+      "quoteVolumeSum": "2574019.5904900",
       "quoteVolumes1m": [
-        "725875.4794100",
-        "1216501.9326500",
-        "1140290.5982500",
-        "568091.8924500",
-        "482838.3365800"
+        "459488.8286600",
+        "813197.0820900",
+        "363323.3250100",
+        "339186.4822100",
+        "598823.8725200"
       ],
       "symbol": "GWEI",
-      "top10HoldersPercent": "96.77088776676621"
-    },
-    {
-      "alphaVolume5m": "80080.53047531769",
-      "chainId": "56",
-      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-      "futuresSymbol": "BLESSUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
-      "holders": "7203",
-      "isFreshAlert": false,
-      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://bless.network/"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/theblessnetwork"
-        }
-      ],
-      "liquidity": "320935.9391642706",
-      "marketCap": "13170377.520610772",
-      "name": "Bless",
-      "percentChange5m": "-3",
-      "price": "0.015653625241739317",
-      "quoteVolumeMin": "376413.9771830",
-      "quoteVolumeSum": "3082304.1646550",
-      "quoteVolumes1m": [
-        "494619.6512350",
-        "434268.1660280",
-        "376413.9771830",
-        "1182070.2753770",
-        "594932.0948320"
-      ],
-      "symbol": "BLESS",
-      "top10HoldersPercent": "93.35080652478722"
+      "top10HoldersPercent": "96.7677639248285"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 2,
+    "matchCount": 1,
     "symbols": [
-      "GWEIUSDT",
-      "BLESSUSDT"
+      "GWEIUSDT"
     ]
   },
   "telegram": {
