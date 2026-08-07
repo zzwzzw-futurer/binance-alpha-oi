@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-06T23:56:44.366521+00:00",
-    "generatedAtMs": 1786060604366,
-    "localTime": "2026-08-07 07:56:44 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-07T00:01:44.813896+00:00",
     "generatedAtMs": 1786060904813,
     "localTime": "2026-08-07 08:01:44 CST",
@@ -3402,5 +3393,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-07T23:59:14.731555+00:00",
+    "generatedAtMs": 1786147154731,
+    "localTime": "2026-08-08 07:59:14 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "181013.29187436367",
+        "chainId": "56",
+        "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
+        "futuresSymbol": "GWEIUSDT",
+        "isFreshAlert": false,
+        "name": "ETHGas",
+        "percentChange5m": "-1.04",
+        "price": "0.032946148289882606",
+        "quoteVolumeMin": "350155.2607100",
+        "quoteVolumeSum": "2683066.2034100",
+        "symbol": "GWEI",
+        "top10HoldersPercent": "97.48042073245357"
+      }
+    ],
+    "symbols": [
+      "GWEIUSDT"
+    ]
   }
 ]
