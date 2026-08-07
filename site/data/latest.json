@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-07T04:52:17.037022+00:00",
-  "generatedAtMs": 1786078337037,
-  "localTime": "2026-08-07 12:52:17 CST",
-  "matches": [],
+  "generatedAt": "2026-08-07T04:57:17.823894+00:00",
+  "generatedAtMs": 1786078637823,
+  "localTime": "2026-08-07 12:57:17 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "59147.17009135055",
+      "chainId": "56",
+      "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+      "futuresSymbol": "BLESSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLESSUSDT",
+      "holders": "7020",
+      "isFreshAlert": false,
+      "key": "56|0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f|BLESSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bless.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/theblessnetwork"
+        }
+      ],
+      "liquidity": "313289.34974285524",
+      "marketCap": "14944824.560183862",
+      "name": "Bless",
+      "percentChange5m": "-1.71",
+      "price": "0.01777881228798163",
+      "quoteVolumeMin": "449859.7852920",
+      "quoteVolumeSum": "3647444.2373380",
+      "quoteVolumes1m": [
+        "987412.0456330",
+        "449859.7852920",
+        "557218.8873850",
+        "510799.8744340",
+        "1142153.6445940"
+      ],
+      "symbol": "BLESS",
+      "top10HoldersPercent": "93.18734093209501"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "BLESSUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
