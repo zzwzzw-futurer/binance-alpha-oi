@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-07T21:59:03.134991+00:00",
-  "generatedAtMs": 1786139943134,
-  "localTime": "2026-08-08 05:59:03 CST",
-  "matches": [],
+  "generatedAt": "2026-08-07T22:04:03.545728+00:00",
+  "generatedAtMs": 1786140243545,
+  "localTime": "2026-08-08 06:04:03 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "153969.0421678776",
+      "chainId": "56",
+      "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
+      "futuresSymbol": "GWEIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/GWEIUSDT",
+      "holders": "3371",
+      "isFreshAlert": true,
+      "key": "56|0x30117e4bc17d7b044194b76a38365c53b72f7d49|GWEIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.ethgas.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/ETHGasOfficial"
+        }
+      ],
+      "liquidity": "1649070.017800506",
+      "marketCap": "6828029.528788359",
+      "name": "ETHGas",
+      "percentChange5m": "0.76",
+      "price": "0.03288067294778732",
+      "quoteVolumeMin": "316965.4286100",
+      "quoteVolumeSum": "1652826.6256800",
+      "quoteVolumes1m": [
+        "317666.6211000",
+        "370485.5390400",
+        "316965.4286100",
+        "318413.8962500",
+        "329295.1406800"
+      ],
+      "symbol": "GWEI",
+      "top10HoldersPercent": "97.01489269046186"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "GWEIUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
