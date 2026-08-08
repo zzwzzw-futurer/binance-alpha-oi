@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-07T09:57:46.204080+00:00",
-    "generatedAtMs": 1786096666204,
-    "localTime": "2026-08-07 17:57:46 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-07T10:02:46.564596+00:00",
     "generatedAtMs": 1786096966564,
     "localTime": "2026-08-07 18:02:46 CST",
@@ -3666,5 +3657,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-08T10:00:21.316707+00:00",
+    "generatedAtMs": 1786183221316,
+    "localTime": "2026-08-08 18:00:21 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "39306.20065236038",
+        "chainId": "56",
+        "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
+        "futuresSymbol": "BLUAIUSDT",
+        "isFreshAlert": true,
+        "name": "Bluwhale",
+        "percentChange5m": "-7.68",
+        "price": "0.017655613967848444",
+        "quoteVolumeMin": "363891.6200500",
+        "quoteVolumeSum": "5088961.8428400",
+        "symbol": "BLUAI",
+        "top10HoldersPercent": "88.29419019264328"
+      }
+    ],
+    "symbols": [
+      "BLUAIUSDT"
+    ]
   }
 ]
