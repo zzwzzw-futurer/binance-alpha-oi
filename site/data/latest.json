@@ -9,12 +9,12 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-08T05:39:49.816209+00:00",
-  "generatedAtMs": 1786167589816,
-  "localTime": "2026-08-08 13:39:49 CST",
+  "generatedAt": "2026-08-08T05:44:50.394561+00:00",
+  "generatedAtMs": 1786167890394,
+  "localTime": "2026-08-08 13:44:50 CST",
   "matches": [
     {
-      "alphaVolume5m": "198449.19796729396",
+      "alphaVolume5m": "96091.80545588785",
       "chainId": "56",
       "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
       "futuresSymbol": "GWEIUSDT",
@@ -32,67 +32,30 @@
           "link": "https://twitter.com/ETHGasOfficial"
         }
       ],
-      "liquidity": "1559189.568614416",
-      "marketCap": "5331193.283673903",
+      "liquidity": "1553951.0078912228",
+      "marketCap": "5275706.871829",
       "name": "ETHGas",
-      "percentChange5m": "-2.6",
-      "price": "0.02582428569188124",
-      "quoteVolumeMin": "501300.2556100",
-      "quoteVolumeSum": "3350450.6673300",
+      "percentChange5m": "-1.17",
+      "price": "0.0255555096645914",
+      "quoteVolumeMin": "366623.6294200",
+      "quoteVolumeSum": "3615941.0778500",
       "quoteVolumes1m": [
-        "501300.2556100",
-        "972891.0122100",
-        "800662.5547800",
-        "502529.3355500",
-        "573067.5091800"
+        "366623.6294200",
+        "750518.3299100",
+        "546420.2769400",
+        "751031.7855000",
+        "1201347.0560800"
       ],
       "symbol": "GWEI",
-      "top10HoldersPercent": "97.91400014918983"
-    },
-    {
-      "alphaVolume5m": "102843.35853242471",
-      "chainId": "56",
-      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-      "futuresSymbol": "BTWUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "45212",
-      "isFreshAlert": true,
-      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://bitway.com"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/bitwayofficial"
-        }
-      ],
-      "liquidity": "1535595.785709755",
-      "marketCap": "1537816167.4294767",
-      "name": "Bitway",
-      "percentChange5m": "-3.21",
-      "price": "0.1537816200163814",
-      "quoteVolumeMin": "372516.8670500",
-      "quoteVolumeSum": "2467272.6686200",
-      "quoteVolumes1m": [
-        "761504.6944900",
-        "372516.8670500",
-        "487563.6869100",
-        "436147.1130800",
-        "409540.3070900"
-      ],
-      "symbol": "BTW",
-      "top10HoldersPercent": "99.24149350177497"
+      "top10HoldersPercent": "97.81328239816875"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
-    "matchCount": 2,
+    "freshAlertCount": 0,
+    "matchCount": 1,
     "symbols": [
-      "GWEIUSDT",
-      "BTWUSDT"
+      "GWEIUSDT"
     ]
   },
   "telegram": {
