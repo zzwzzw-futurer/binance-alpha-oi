@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-08-07T05:37:22.096814+00:00",
-    "generatedAtMs": 1786081042096,
-    "localTime": "2026-08-07 13:37:22 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "50396.970483219375",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": false,
-        "name": "Bless",
-        "percentChange5m": "-7.94",
-        "price": "0.014439086781116122",
-        "quoteVolumeMin": "345674.5721090",
-        "quoteVolumeSum": "3492582.9701650",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "93.13804515850161"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-08-07T05:42:22.465163+00:00",
     "generatedAtMs": 1786081342465,
@@ -3572,5 +3546,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-08T05:39:49.816209+00:00",
+    "generatedAtMs": 1786167589816,
+    "localTime": "2026-08-08 13:39:49 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "198449.19796729396",
+        "chainId": "56",
+        "contractAddress": "0x30117e4bc17d7b044194b76a38365c53b72f7d49",
+        "futuresSymbol": "GWEIUSDT",
+        "isFreshAlert": false,
+        "name": "ETHGas",
+        "percentChange5m": "-2.6",
+        "price": "0.02582428569188124",
+        "quoteVolumeMin": "501300.2556100",
+        "quoteVolumeSum": "3350450.6673300",
+        "symbol": "GWEI",
+        "top10HoldersPercent": "97.91400014918983"
+      },
+      {
+        "alphaVolume5m": "102843.35853242471",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": true,
+        "name": "Bitway",
+        "percentChange5m": "-3.21",
+        "price": "0.1537816200163814",
+        "quoteVolumeMin": "372516.8670500",
+        "quoteVolumeSum": "2467272.6686200",
+        "symbol": "BTW",
+        "top10HoldersPercent": "99.24149350177497"
+      }
+    ],
+    "symbols": [
+      "GWEIUSDT",
+      "BTWUSDT"
+    ]
   }
 ]
