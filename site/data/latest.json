@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-08T10:15:21.948318+00:00",
-  "generatedAtMs": 1786184121948,
-  "localTime": "2026-08-08 18:15:21 CST",
+  "generatedAt": "2026-08-08T10:20:22.893618+00:00",
+  "generatedAtMs": 1786184422893,
+  "localTime": "2026-08-08 18:20:22 CST",
   "matches": [
     {
-      "alphaVolume5m": "25058.047605525906",
+      "alphaVolume5m": "82181.97075572742",
       "chainId": "56",
       "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
       "futuresSymbol": "BLUAIUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BLUAIUSDT",
-      "holders": "38523",
+      "holders": "38511",
       "isFreshAlert": false,
       "key": "56|0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad|BLUAIUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/bluwhaleai"
         }
       ],
-      "liquidity": "1060742.909723104",
-      "marketCap": "193446307.42823592",
+      "liquidity": "1066125.8209510376",
+      "marketCap": "194580846.30020103",
       "name": "Bluwhale",
-      "percentChange5m": "9.59",
-      "price": "0.019344631942997216",
-      "quoteVolumeMin": "345456.7866890",
-      "quoteVolumeSum": "3739389.5713240",
+      "percentChange5m": "0.36",
+      "price": "0.0194580858372326",
+      "quoteVolumeMin": "360496.8027330",
+      "quoteVolumeSum": "3746793.9314930",
       "quoteVolumes1m": [
-        "798928.6440040",
-        "345456.7866890",
-        "609336.8455890",
-        "874190.3528740",
-        "1111476.9421680"
+        "950920.4465970",
+        "1153397.1552910",
+        "767272.5009250",
+        "514707.0259470",
+        "360496.8027330"
       ],
       "symbol": "BLUAI",
-      "top10HoldersPercent": "88.29652003089245"
+      "top10HoldersPercent": "88.30400752056916"
+    },
+    {
+      "alphaVolume5m": "248665.5188683176",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "9649",
+      "isFreshAlert": true,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2227914.164080064",
+      "marketCap": "569914274.98825",
+      "name": "Cysic",
+      "percentChange5m": "-0.82",
+      "price": "1.178317735339405",
+      "quoteVolumeMin": "300195.1349000",
+      "quoteVolumeSum": "3986116.6857000",
+      "quoteVolumes1m": [
+        "300195.1349000",
+        "1590204.9465000",
+        "472333.7600000",
+        "564106.0848000",
+        "1059276.7595000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "86.66277323884202"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BLUAIUSDT"
+      "BLUAIUSDT",
+      "CYSUSDT"
     ]
   },
   "telegram": {
