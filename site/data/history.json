@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-07T06:02:24.058484+00:00",
-    "generatedAtMs": 1786082544058,
-    "localTime": "2026-08-07 14:02:24 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "73008.14374931729",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": false,
-        "name": "Bless",
-        "percentChange5m": "1.32",
-        "price": "0.014063797892673773",
-        "quoteVolumeMin": "455478.7362850",
-        "quoteVolumeSum": "4268946.5061500",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "93.16547265864618"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-07T06:07:24.940507+00:00",
     "generatedAtMs": 1786082844940,
     "localTime": "2026-08-07 14:07:24 CST",
@@ -3584,6 +3558,47 @@
     ],
     "symbols": [
       "BLESSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-08T06:04:51.781134+00:00",
+    "generatedAtMs": 1786169091781,
+    "localTime": "2026-08-08 14:04:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "125849.8317704157",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "-9.91",
+        "price": "0.13301084206119373",
+        "quoteVolumeMin": "362311.1080900",
+        "quoteVolumeSum": "3061418.7547500",
+        "symbol": "BTW",
+        "top10HoldersPercent": "99.2375823362145"
+      },
+      {
+        "alphaVolume5m": "401724.0796411913",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": true,
+        "name": "Cysic",
+        "percentChange5m": "2.13",
+        "price": "0.9884999299743625",
+        "quoteVolumeMin": "322369.7684000",
+        "quoteVolumeSum": "5827766.6049000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "86.66277319884111"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT",
+      "CYSUSDT"
     ]
   }
 ]
