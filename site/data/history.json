@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 1,
-    "generatedAt": "2026-08-07T02:57:03.871906+00:00",
-    "generatedAtMs": 1786071423871,
-    "localTime": "2026-08-07 10:57:03 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "459236.7442645934",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": true,
-        "name": "Cysic",
-        "percentChange5m": "-6.99",
-        "price": "0.6932514637778897",
-        "quoteVolumeMin": "330853.4311000",
-        "quoteVolumeSum": "3154302.5120000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "86.19907130921064"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 1,
     "generatedAt": "2026-08-07T03:02:04.262824+00:00",
     "generatedAtMs": 1786071724262,
     "localTime": "2026-08-07 11:02:04 CST",
@@ -3703,6 +3677,32 @@
         "quoteVolumeSum": "3004512.8030200",
         "symbol": "BLESS",
         "top10HoldersPercent": "93.00963002864746"
+      }
+    ],
+    "symbols": [
+      "BLESSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-08T02:59:32.167262+00:00",
+    "generatedAtMs": 1786157972167,
+    "localTime": "2026-08-08 10:59:32 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "82485.17615890029",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": false,
+        "name": "Bless",
+        "percentChange5m": "-2.68",
+        "price": "0.018231199129762937",
+        "quoteVolumeMin": "372232.3882010",
+        "quoteVolumeSum": "2949412.7328940",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "92.9802543148075"
       }
     ],
     "symbols": [
