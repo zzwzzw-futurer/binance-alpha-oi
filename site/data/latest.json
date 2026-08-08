@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-08T13:40:46.431683+00:00",
-  "generatedAtMs": 1786196446431,
-  "localTime": "2026-08-08 21:40:46 CST",
-  "matches": [],
+  "generatedAt": "2026-08-08T13:45:46.819275+00:00",
+  "generatedAtMs": 1786196746819,
+  "localTime": "2026-08-08 21:45:46 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "504692.1044384191",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "9684",
+      "isFreshAlert": true,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2043205.247411137",
+      "marketCap": "406980135.42254263",
+      "name": "Cysic",
+      "percentChange5m": "-0.04",
+      "price": "0.8414457111043077",
+      "quoteVolumeMin": "326957.0291000",
+      "quoteVolumeSum": "2751926.3381000",
+      "quoteVolumes1m": [
+        "329504.9119000",
+        "326957.0291000",
+        "651787.6375000",
+        "700904.6946000",
+        "742772.0650000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "86.77465618303351"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "CYSUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
