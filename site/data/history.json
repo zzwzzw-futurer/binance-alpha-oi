@@ -1,47 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-08T06:14:53.805554+00:00",
-    "generatedAtMs": 1786169693805,
-    "localTime": "2026-08-08 14:14:53 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "255008.02951690377",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": false,
-        "name": "Bitway",
-        "percentChange5m": "10.51",
-        "price": "0.15826964706409236",
-        "quoteVolumeMin": "555498.0170000",
-        "quoteVolumeSum": "4755979.9997000",
-        "symbol": "BTW",
-        "top10HoldersPercent": "99.23907188604116"
-      },
-      {
-        "alphaVolume5m": "71058.83650229262",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": false,
-        "name": "Bless",
-        "percentChange5m": "2.48",
-        "price": "0.01861610462348017",
-        "quoteVolumeMin": "330008.1618390",
-        "quoteVolumeSum": "3595897.8418270",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "93.1213562773096"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT",
-      "BLESSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-08T06:19:54.021240+00:00",
     "generatedAtMs": 1786169994021,
     "localTime": "2026-08-08 14:19:54 CST",
@@ -3550,6 +3509,32 @@
     "symbols": [
       "BLUAIUSDT",
       "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-09T06:17:28.226379+00:00",
+    "generatedAtMs": 1786256248226,
+    "localTime": "2026-08-09 14:17:28 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "345622.0206344525",
+        "chainId": "56",
+        "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
+        "futuresSymbol": "BLUAIUSDT",
+        "isFreshAlert": false,
+        "name": "Bluwhale",
+        "percentChange5m": "7.39",
+        "price": "0.02218065968510846",
+        "quoteVolumeMin": "385512.1124130",
+        "quoteVolumeSum": "3049788.7946830",
+        "symbol": "BLUAI",
+        "top10HoldersPercent": "88.50258215083102"
+      }
+    ],
+    "symbols": [
+      "BLUAIUSDT"
     ]
   }
 ]
