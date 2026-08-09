@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-08-08T07:15:01.012260+00:00",
-    "generatedAtMs": 1786173301012,
-    "localTime": "2026-08-08 15:15:01 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "66495.0259177418",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": true,
-        "name": "Bless",
-        "percentChange5m": "-7.27",
-        "price": "0.016755386193454957",
-        "quoteVolumeMin": "305919.6676270",
-        "quoteVolumeSum": "2958930.7638340",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "93.0243912928775"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-08T07:20:02.764044+00:00",
     "generatedAtMs": 1786173602764,
@@ -3434,5 +3408,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-08-09T07:17:35.866358+00:00",
+    "generatedAtMs": 1786259855866,
+    "localTime": "2026-08-09 15:17:35 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "442899.5774401141",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": true,
+        "name": "龙虾",
+        "percentChange5m": "-42.07",
+        "price": "0.014873480297409503",
+        "quoteVolumeMin": "372246.7487610",
+        "quoteVolumeSum": "3183932.0404650",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "86.37462420609249"
+      },
+      {
+        "alphaVolume5m": "209240.43758431592",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": true,
+        "name": "Bitway",
+        "percentChange5m": "-4.42",
+        "price": "0.20491366068370837",
+        "quoteVolumeMin": "335771.3855100",
+        "quoteVolumeSum": "2857168.9988400",
+        "symbol": "BTW",
+        "top10HoldersPercent": "98.93580014122863"
+      }
+    ],
+    "symbols": [
+      "龙虾USDT",
+      "BTWUSDT"
+    ]
   }
 ]
