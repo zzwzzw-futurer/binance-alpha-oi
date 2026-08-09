@@ -9,15 +9,50 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-09T15:33:26.580806+00:00",
-  "generatedAtMs": 1786289606580,
-  "localTime": "2026-08-09 23:33:26 CST",
-  "matches": [],
+  "generatedAt": "2026-08-09T15:38:27.330021+00:00",
+  "generatedAtMs": 1786289907330,
+  "localTime": "2026-08-09 23:38:27 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "251016.10071288078",
+      "chainId": "56",
+      "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+      "futuresSymbol": "龙虾USDT",
+      "futuresUrl": "https://www.binance.com/en/futures/%E9%BE%99%E8%99%BEUSDT",
+      "holders": "45403",
+      "isFreshAlert": false,
+      "key": "56|0xeccbb861c0dda7efd964010085488b69317e4444|龙虾USDT",
+      "links": [
+        {
+          "label": "x",
+          "link": "https://x.com/i/status/2027304629890072818"
+        }
+      ],
+      "liquidity": "1248117.3788739508",
+      "marketCap": "18238492.92609419",
+      "name": "龙虾",
+      "percentChange5m": "7.87",
+      "price": "0.01823849296575836",
+      "quoteVolumeMin": "436918.4652650",
+      "quoteVolumeSum": "2618194.0982940",
+      "quoteVolumes1m": [
+        "510312.0185630",
+        "599688.6326680",
+        "450356.5497470",
+        "620918.4320510",
+        "436918.4652650"
+      ],
+      "symbol": "龙虾",
+      "top10HoldersPercent": "88.59284223224903"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "龙虾USDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
