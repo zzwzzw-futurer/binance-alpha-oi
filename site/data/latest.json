@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-10T08:40:06.984478+00:00",
-  "generatedAtMs": 1786351206984,
-  "localTime": "2026-08-10 16:40:06 CST",
-  "matches": [],
+  "generatedAt": "2026-08-10T08:45:07.633455+00:00",
+  "generatedAtMs": 1786351507633,
+  "localTime": "2026-08-10 16:45:07 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "53379.261525543894",
+      "chainId": "56",
+      "contractAddress": "0x46f2564e0fa8248d15125e7e54173cfbdef91be7",
+      "futuresSymbol": "GRVTUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/GRVTUSDT",
+      "holders": "27453",
+      "isFreshAlert": false,
+      "key": "56|0x46f2564e0fa8248d15125e7e54173cfbdef91be7|GRVTUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.grvt.io"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/grvt_io"
+        }
+      ],
+      "liquidity": "891245.3886798131",
+      "marketCap": "46069351.45029808",
+      "name": "GRVT",
+      "percentChange5m": "1.36",
+      "price": "0.40301297555848986",
+      "quoteVolumeMin": "344998.4731000",
+      "quoteVolumeSum": "2939291.8123000",
+      "quoteVolumes1m": [
+        "1451493.5629000",
+        "394349.6106000",
+        "397893.0571000",
+        "350557.1086000",
+        "344998.4731000"
+      ],
+      "symbol": "GRVT",
+      "top10HoldersPercent": "82.34730677689528"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "GRVTUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
