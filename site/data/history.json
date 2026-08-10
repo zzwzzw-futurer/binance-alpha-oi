@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-09T08:47:44.934088+00:00",
-    "generatedAtMs": 1786265264934,
-    "localTime": "2026-08-09 16:47:44 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-09T08:52:44.901254+00:00",
     "generatedAtMs": 1786265564901,
     "localTime": "2026-08-09 16:52:44 CST",
@@ -2840,6 +2831,32 @@
         "quoteVolumeSum": "2939291.8123000",
         "symbol": "GRVT",
         "top10HoldersPercent": "82.34730677689528"
+      }
+    ],
+    "symbols": [
+      "GRVTUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-10T08:50:07.532301+00:00",
+    "generatedAtMs": 1786351807532,
+    "localTime": "2026-08-10 16:50:07 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "40532.55712080903",
+        "chainId": "56",
+        "contractAddress": "0x46f2564e0fa8248d15125e7e54173cfbdef91be7",
+        "futuresSymbol": "GRVTUSDT",
+        "isFreshAlert": false,
+        "name": "GRVT",
+        "percentChange5m": "-0.09",
+        "price": "0.4023659427476074",
+        "quoteVolumeMin": "388733.7043000",
+        "quoteVolumeSum": "2231484.7203000",
+        "symbol": "GRVT",
+        "top10HoldersPercent": "82.29360974375821"
       }
     ],
     "symbols": [
