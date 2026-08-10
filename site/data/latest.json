@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-10T01:04:21.138476+00:00",
-  "generatedAtMs": 1786323861138,
-  "localTime": "2026-08-10 09:04:21 CST",
-  "matches": [],
+  "generatedAt": "2026-08-10T01:09:22.026947+00:00",
+  "generatedAtMs": 1786324162026,
+  "localTime": "2026-08-10 09:09:22 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "46542.82445228713",
+      "chainId": "56",
+      "contractAddress": "0xe3225e11cab122f1a126a28997788e5230838ab9",
+      "futuresSymbol": "XNYUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/XNYUSDT",
+      "holders": "36374",
+      "isFreshAlert": true,
+      "key": "56|0xe3225e11cab122f1a126a28997788e5230838ab9|XNYUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://codatta.io"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/codatta_io"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/codatta_io"
+        }
+      ],
+      "liquidity": "745929.3000206004",
+      "marketCap": "17379038.159786887",
+      "name": "Codatta XNY",
+      "percentChange5m": "-7.3",
+      "price": "0.006951615263914755",
+      "quoteVolumeMin": "352358.0433460",
+      "quoteVolumeSum": "3647834.1873860",
+      "quoteVolumes1m": [
+        "352358.0433460",
+        "1328888.8114540",
+        "579344.0147520",
+        "877220.8148040",
+        "510022.5030300"
+      ],
+      "symbol": "XNY",
+      "top10HoldersPercent": "88.82354903182168"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "XNYUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
