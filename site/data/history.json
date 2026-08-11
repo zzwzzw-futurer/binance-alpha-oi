@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 2,
-    "generatedAt": "2026-08-10T17:05:56.982081+00:00",
-    "generatedAtMs": 1786381556982,
-    "localTime": "2026-08-11 01:05:56 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "416915.93732696335",
-        "chainId": "56",
-        "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
-        "futuresSymbol": "GUAUSDT",
-        "isFreshAlert": true,
-        "name": "SUPERFORTUNE",
-        "percentChange5m": "-2.44",
-        "price": "0.05652797629944082",
-        "quoteVolumeMin": "328337.8820400",
-        "quoteVolumeSum": "3440768.4167100",
-        "symbol": "GUA",
-        "top10HoldersPercent": "92.32453440588843"
-      },
-      {
-        "alphaVolume5m": "100482.2321518513",
-        "chainId": "56",
-        "contractAddress": "0x46f2564e0fa8248d15125e7e54173cfbdef91be7",
-        "futuresSymbol": "GRVTUSDT",
-        "isFreshAlert": true,
-        "name": "GRVT",
-        "percentChange5m": "-1.68",
-        "price": "0.354675078389319",
-        "quoteVolumeMin": "300378.2763000",
-        "quoteVolumeSum": "4463820.5680000",
-        "symbol": "GRVT",
-        "top10HoldersPercent": "81.60224545629423"
-      }
-    ],
-    "symbols": [
-      "GUAUSDT",
-      "GRVTUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-10T17:10:57.015948+00:00",
     "generatedAtMs": 1786381857015,
@@ -4374,6 +4333,32 @@
     "symbols": [
       "CYSUSDT",
       "INXUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-11T17:08:29.140107+00:00",
+    "generatedAtMs": 1786468109140,
+    "localTime": "2026-08-12 01:08:29 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "526352.3659395715",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "-2",
+        "price": "1.4865235339481102",
+        "quoteVolumeMin": "648209.0418000",
+        "quoteVolumeSum": "4570162.6721000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.31996008753626"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT"
     ]
   }
 ]
