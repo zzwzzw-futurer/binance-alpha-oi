@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-10T10:30:20.622026+00:00",
-    "generatedAtMs": 1786357820622,
-    "localTime": "2026-08-10 18:30:20 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "474698.6276854262",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": false,
-        "name": "Cysic",
-        "percentChange5m": "2.29",
-        "price": "1.1167297318854175",
-        "quoteVolumeMin": "485190.6245000",
-        "quoteVolumeSum": "2913216.8443000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "87.2068499596291"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-10T10:35:20.518307+00:00",
     "generatedAtMs": 1786358120518,
     "localTime": "2026-08-10 18:35:20 CST",
@@ -3691,5 +3665,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-11T10:32:45.507347+00:00",
+    "generatedAtMs": 1786444365507,
+    "localTime": "2026-08-11 18:32:45 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "26834.611531767187",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "1.1",
+        "price": "0.6640070718446517",
+        "quoteVolumeMin": "305380.0631000",
+        "quoteVolumeSum": "2506875.2464000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.93311724527393"
+      },
+      {
+        "alphaVolume5m": "151309.3376586635",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": true,
+        "name": "Cysic",
+        "percentChange5m": "-0.68",
+        "price": "1.4026251466685755",
+        "quoteVolumeMin": "301141.2125000",
+        "quoteVolumeSum": "2785035.8286000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.25710097824519"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "CYSUSDT"
+    ]
   }
 ]
