@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-10T16:45:54.974093+00:00",
-    "generatedAtMs": 1786380354974,
-    "localTime": "2026-08-11 00:45:54 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-10T16:50:55.269438+00:00",
     "generatedAtMs": 1786380655269,
     "localTime": "2026-08-11 00:50:55 CST",
@@ -4247,5 +4238,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-11T16:48:27.393104+00:00",
+    "generatedAtMs": 1786466907393,
+    "localTime": "2026-08-12 00:48:27 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "1082799.003487736",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "7.1",
+        "price": "1.6664390384437127",
+        "quoteVolumeMin": "946582.9464000",
+        "quoteVolumeSum": "17153652.2914000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.31522240066906"
+      },
+      {
+        "alphaVolume5m": "4841.17468507252",
+        "chainId": "56",
+        "contractAddress": "0x45f55b46689402583073ff227b6ac20520052a24",
+        "futuresSymbol": "INXUSDT",
+        "isFreshAlert": true,
+        "name": "Infinex",
+        "percentChange5m": "-3.53",
+        "price": "0.012397645048810113",
+        "quoteVolumeMin": "501152.3403270",
+        "quoteVolumeSum": "3942216.2695290",
+        "symbol": "INX",
+        "top10HoldersPercent": "93.50627556081523"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT",
+      "INXUSDT"
+    ]
   }
 ]
