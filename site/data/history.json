@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-10T10:10:17.490352+00:00",
-    "generatedAtMs": 1786356617490,
-    "localTime": "2026-08-10 18:10:17 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "579856.687466368",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": false,
-        "name": "Cysic",
-        "percentChange5m": "-0.28",
-        "price": "1.051029985779962",
-        "quoteVolumeMin": "463153.5506000",
-        "quoteVolumeSum": "2941630.2362000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "87.206385803907"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-10T10:15:18.249773+00:00",
     "generatedAtMs": 1786356918249,
     "localTime": "2026-08-10 18:15:18 CST",
@@ -3708,5 +3682,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-11T10:12:43.995358+00:00",
+    "generatedAtMs": 1786443163995,
+    "localTime": "2026-08-11 18:12:43 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "29712.73659732707",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": false,
+        "name": "Velvet",
+        "percentChange5m": "9.95",
+        "price": "0.6295869335005624",
+        "quoteVolumeMin": "433757.0263000",
+        "quoteVolumeSum": "4191476.1579000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.93311724527393"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT"
+    ]
   }
 ]
