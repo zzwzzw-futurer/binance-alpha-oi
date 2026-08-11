@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-08-10T15:55:49.749029+00:00",
-    "generatedAtMs": 1786377349749,
-    "localTime": "2026-08-10 23:55:49 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "276151.3660547627",
-        "chainId": "56",
-        "contractAddress": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
-        "futuresSymbol": "GUAUSDT",
-        "isFreshAlert": true,
-        "name": "SUPERFORTUNE",
-        "percentChange5m": "2.64",
-        "price": "0.07010446711788926",
-        "quoteVolumeMin": "418505.4286200",
-        "quoteVolumeSum": "3214585.1806700",
-        "symbol": "GUA",
-        "top10HoldersPercent": "92.21846303810473"
-      }
-    ],
-    "symbols": [
-      "GUAUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-10T16:00:50.557017+00:00",
     "generatedAtMs": 1786377650557,
@@ -4262,6 +4236,32 @@
     ],
     "symbols": [
       "BEATUSDT",
+      "VELVETUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-11T15:58:21.572615+00:00",
+    "generatedAtMs": 1786463901572,
+    "localTime": "2026-08-11 23:58:21 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "17865.45666397504",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "2.33",
+        "price": "0.6776285391867247",
+        "quoteVolumeMin": "324350.1946000",
+        "quoteVolumeSum": "2503459.3644000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.83052975220328"
+      }
+    ],
+    "symbols": [
       "VELVETUSDT"
     ]
   }
