@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-11T14:03:08.503213+00:00",
-  "generatedAtMs": 1786456988503,
-  "localTime": "2026-08-11 22:03:08 CST",
+  "generatedAt": "2026-08-11T14:08:08.384223+00:00",
+  "generatedAtMs": 1786457288384,
+  "localTime": "2026-08-11 22:08:08 CST",
   "matches": [
     {
-      "alphaVolume5m": "619221.4318662207",
+      "alphaVolume5m": "661799.1742366814",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "153468",
-      "isFreshAlert": false,
+      "holders": "153489",
+      "isFreshAlert": true,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
         {
@@ -36,30 +36,71 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "2174323.897494679",
-      "marketCap": "827911166.3638074",
+      "liquidity": "2218558.506439038",
+      "marketCap": "863614232.2044525",
       "name": "Audiera",
-      "percentChange5m": "-8.03",
-      "price": "0.8443107008482384",
-      "quoteVolumeMin": "794682.5020000",
-      "quoteVolumeSum": "4724220.3265000",
+      "percentChange5m": "3.98",
+      "price": "0.8807209846649681",
+      "quoteVolumeMin": "638160.3063000",
+      "quoteVolumeSum": "5095886.9830000",
       "quoteVolumes1m": [
-        "1052090.5162000",
-        "992799.1118000",
-        "807755.8134000",
-        "794682.5020000",
-        "1076892.3831000"
+        "875425.6482000",
+        "776084.3125000",
+        "638160.3063000",
+        "920669.2488000",
+        "1885547.4672000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "85.17145389024311"
+    },
+    {
+      "alphaVolume5m": "57294.70812994884",
+      "chainId": "56",
+      "contractAddress": "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad",
+      "futuresSymbol": "BLUAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BLUAIUSDT",
+      "holders": "38190",
+      "isFreshAlert": false,
+      "key": "56|0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad|BLUAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bluwhale.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/bluwhaleofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/bluwhaleai"
+        }
+      ],
+      "liquidity": "914107.1981432078",
+      "marketCap": "146733984.2097222",
+      "name": "Bluwhale",
+      "percentChange5m": "-1.9",
+      "price": "0.014673399331334687",
+      "quoteVolumeMin": "339239.6387280",
+      "quoteVolumeSum": "2276010.4223190",
+      "quoteVolumes1m": [
+        "727405.0924870",
+        "389575.4750510",
+        "423004.7462480",
+        "339239.6387280",
+        "396785.4698050"
+      ],
+      "symbol": "BLUAI",
+      "top10HoldersPercent": "89.83689172385105"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BEATUSDT"
+      "BEATUSDT",
+      "BLUAIUSDT"
     ]
   },
   "telegram": {
