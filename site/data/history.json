@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-10T17:10:57.015948+00:00",
-    "generatedAtMs": 1786381857015,
-    "localTime": "2026-08-11 01:10:57 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-10T17:15:58.312302+00:00",
     "generatedAtMs": 1786382158312,
     "localTime": "2026-08-11 01:15:58 CST",
@@ -4359,6 +4350,47 @@
     ],
     "symbols": [
       "CYSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-11T17:13:29.547321+00:00",
+    "generatedAtMs": 1786468409547,
+    "localTime": "2026-08-12 01:13:29 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "526996.1741979963",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "-0.5",
+        "price": "1.4853868786688578",
+        "quoteVolumeMin": "674221.3519000",
+        "quoteVolumeSum": "5365111.8499000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.31996008753626"
+      },
+      {
+        "alphaVolume5m": "609475.9441414712",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "-4.9",
+        "price": "0.9693114056741309",
+        "quoteVolumeMin": "410392.4383000",
+        "quoteVolumeSum": "3183729.7839000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "85.17145389024311"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT",
+      "BEATUSDT"
     ]
   }
 ]
