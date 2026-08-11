@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-11T11:02:48.546997+00:00",
-  "generatedAtMs": 1786446168546,
-  "localTime": "2026-08-11 19:02:48 CST",
+  "generatedAt": "2026-08-11T11:07:48.641733+00:00",
+  "generatedAtMs": 1786446468641,
+  "localTime": "2026-08-11 19:07:48 CST",
   "matches": [
     {
-      "alphaVolume5m": "86312.95614912717",
+      "alphaVolume5m": "85637.17864312527",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "16264",
+      "holders": "16270",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,30 +36,67 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3569568.2964440277",
-      "marketCap": "798728393.1098714",
+      "liquidity": "3749892.6987139895",
+      "marketCap": "837686751.7004173",
       "name": "Velvet",
-      "percentChange5m": "2.36",
-      "price": "0.7987284047207525",
-      "quoteVolumeMin": "1514756.7830000",
-      "quoteVolumeSum": "10378156.8309000",
+      "percentChange5m": "5.87",
+      "price": "0.8376867638776246",
+      "quoteVolumeMin": "1237519.7064000",
+      "quoteVolumeSum": "8963939.2204000",
       "quoteVolumes1m": [
-        "1514756.7830000",
-        "2326475.2169000",
-        "2382253.4265000",
-        "1938037.5400000",
-        "2216633.8645000"
+        "1457181.3014000",
+        "2747595.3815000",
+        "1964597.6673000",
+        "1237519.7064000",
+        "1557045.1638000"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "91.93311724527393"
+    },
+    {
+      "alphaVolume5m": "95683.289900149",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "10095",
+      "isFreshAlert": false,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2330142.1858445145",
+      "marketCap": "704231752.0340078",
+      "name": "Cysic",
+      "percentChange5m": "0.69",
+      "price": "1.4552098691378845",
+      "quoteVolumeMin": "323810.1555000",
+      "quoteVolumeSum": "1949246.5301000",
+      "quoteVolumes1m": [
+        "419890.5167000",
+        "390391.2282000",
+        "323810.1555000",
+        "384198.1987000",
+        "430956.4310000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "87.31567023970176"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "VELVETUSDT"
+      "VELVETUSDT",
+      "CYSUSDT"
     ]
   },
   "telegram": {
