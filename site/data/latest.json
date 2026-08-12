@@ -9,15 +9,91 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T10:40:23.730474+00:00",
-  "generatedAtMs": 1786531223730,
-  "localTime": "2026-08-12 18:40:23 CST",
-  "matches": [],
+  "generatedAt": "2026-08-12T10:45:23.998079+00:00",
+  "generatedAtMs": 1786531523998,
+  "localTime": "2026-08-12 18:45:23 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "55678.92907520824",
+      "chainId": "56",
+      "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "futuresSymbol": "BRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
+      "holders": "81754",
+      "isFreshAlert": true,
+      "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bedrockdao.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Bedrock_DeFi"
+        }
+      ],
+      "liquidity": "1149103.2478561355",
+      "marketCap": "214747649.72819743",
+      "name": "Bedrock",
+      "percentChange5m": "7.86",
+      "price": "0.21474765013244235",
+      "quoteVolumeMin": "406508.9516500",
+      "quoteVolumeSum": "3677010.5172300",
+      "quoteVolumes1m": [
+        "562223.0769200",
+        "928280.9825700",
+        "679639.7150100",
+        "1100357.7910800",
+        "406508.9516500"
+      ],
+      "symbol": "BR",
+      "top10HoldersPercent": "83.93747156751162"
+    },
+    {
+      "alphaVolume5m": "100511.50644696485",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "14617",
+      "isFreshAlert": false,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "723199.2215843106",
+      "marketCap": "171623291.59560493",
+      "name": "aPriori",
+      "percentChange5m": "-0.66",
+      "price": "0.3638061788113083",
+      "quoteVolumeMin": "314053.3759000",
+      "quoteVolumeSum": "2918345.1920000",
+      "quoteVolumes1m": [
+        "667014.2757000",
+        "378463.6383000",
+        "323201.9592000",
+        "314053.3759000",
+        "1235611.9429000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "83.10134577608375"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 2,
+    "symbols": [
+      "BRUSDT",
+      "APRUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
