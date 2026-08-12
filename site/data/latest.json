@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T11:20:26.372058+00:00",
-  "generatedAtMs": 1786533626372,
-  "localTime": "2026-08-12 19:20:26 CST",
+  "generatedAt": "2026-08-12T11:25:26.385640+00:00",
+  "generatedAtMs": 1786533926385,
+  "localTime": "2026-08-12 19:25:26 CST",
   "matches": [
     {
-      "alphaVolume5m": "655621.3122323466",
+      "alphaVolume5m": "419186.6149944851",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "153827",
+      "holders": "153820",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,67 +36,30 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "2706030.8541070856",
-      "marketCap": "1252376951.1803381",
+      "liquidity": "2679973.0082027223",
+      "marketCap": "1224818122.511247",
       "name": "Audiera",
-      "percentChange5m": "5.7",
-      "price": "1.2771844424098542",
-      "quoteVolumeMin": "527167.3000000",
-      "quoteVolumeSum": "4013340.6930000",
+      "percentChange5m": "-2.31",
+      "price": "1.2490797194715817",
+      "quoteVolumeMin": "307220.4400000",
+      "quoteVolumeSum": "1996595.0240000",
       "quoteVolumes1m": [
-        "585699.4070000",
-        "837636.5760000",
-        "1187058.0490000",
-        "527167.3000000",
-        "875779.3610000"
+        "377875.0940000",
+        "500957.7480000",
+        "373150.8000000",
+        "307220.4400000",
+        "437390.9420000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "85.01007222305452"
-    },
-    {
-      "alphaVolume5m": "428097.8059835265",
-      "chainId": "56",
-      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-      "futuresSymbol": "CYSUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
-      "holders": "10201",
-      "isFreshAlert": false,
-      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://cysic.xyz"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/cysic_xyz"
-        }
-      ],
-      "liquidity": "2342727.576785754",
-      "marketCap": "679775541.3109039",
-      "name": "Cysic",
-      "percentChange5m": "2.75",
-      "price": "1.404847363526805",
-      "quoteVolumeMin": "384632.7132000",
-      "quoteVolumeSum": "2804985.9078000",
-      "quoteVolumes1m": [
-        "733530.2422000",
-        "624964.5655000",
-        "513551.1333000",
-        "548307.2536000",
-        "384632.7132000"
-      ],
-      "symbol": "CYS",
-      "top10HoldersPercent": "87.45260279461199"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 2,
+    "matchCount": 1,
     "symbols": [
-      "BEATUSDT",
-      "CYSUSDT"
+      "BEATUSDT"
     ]
   },
   "telegram": {
