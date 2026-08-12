@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T09:10:13.475392+00:00",
-  "generatedAtMs": 1786525813475,
-  "localTime": "2026-08-12 17:10:13 CST",
+  "generatedAt": "2026-08-12T09:15:13.569120+00:00",
+  "generatedAtMs": 1786526113569,
+  "localTime": "2026-08-12 17:15:13 CST",
   "matches": [
     {
-      "alphaVolume5m": "109964.72264685303",
+      "alphaVolume5m": "433906.69816214615",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "10247",
+      "isFreshAlert": false,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2355292.2418724275",
+      "marketCap": "695737520.2988989",
+      "name": "Cysic",
+      "percentChange5m": "2.05",
+      "price": "1.4378445577517895",
+      "quoteVolumeMin": "524882.1133000",
+      "quoteVolumeSum": "3501462.4488000",
+      "quoteVolumes1m": [
+        "545981.5359000",
+        "524882.1133000",
+        "694000.1848000",
+        "761121.6755000",
+        "975476.9393000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "87.40285082771175"
+    },
+    {
+      "alphaVolume5m": "94468.20666881066",
       "chainId": "56",
       "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
       "futuresSymbol": "APRUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
-      "holders": "14617",
+      "holders": "14621",
       "isFreshAlert": false,
       "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
       "links": [
@@ -32,67 +68,31 @@
           "link": "https://twitter.com/aPriori"
         }
       ],
-      "liquidity": "720823.943193449",
-      "marketCap": "170790447.96597216",
+      "liquidity": "719706.2303134088",
+      "marketCap": "170107598.3157318",
       "name": "aPriori",
-      "percentChange5m": "-0.57",
-      "price": "0.36212944346695775",
-      "quoteVolumeMin": "586524.1179000",
-      "quoteVolumeSum": "3284128.4289000",
+      "percentChange5m": "-0.35",
+      "price": "0.3606823556582631",
+      "quoteVolumeMin": "372137.3472000",
+      "quoteVolumeSum": "2692087.1658000",
       "quoteVolumes1m": [
-        "608276.2491000",
-        "734707.1660000",
-        "637216.3643000",
-        "586524.1179000",
-        "717404.5316000"
+        "648276.6191000",
+        "827609.3887000",
+        "372137.3472000",
+        "417752.0608000",
+        "426311.7500000"
       ],
       "symbol": "APR",
-      "top10HoldersPercent": "82.94752394202344"
-    },
-    {
-      "alphaVolume5m": "18396.781339011715",
-      "chainId": "56",
-      "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-      "futuresSymbol": "BRUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
-      "holders": "81755",
-      "isFreshAlert": true,
-      "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://www.bedrockdao.com/"
-        },
-        {
-          "label": "x",
-          "link": "https://x.com/Bedrock_DeFi"
-        }
-      ],
-      "liquidity": "1025178.5564237748",
-      "marketCap": "187409776.3450845",
-      "name": "Bedrock",
-      "percentChange5m": "4.06",
-      "price": "0.1874097766978681",
-      "quoteVolumeMin": "320044.0984200",
-      "quoteVolumeSum": "2715228.5384500",
-      "quoteVolumes1m": [
-        "991547.0145700",
-        "557969.9042800",
-        "442778.6796000",
-        "402888.8415800",
-        "320044.0984200"
-      ],
-      "symbol": "BR",
-      "top10HoldersPercent": "83.95184092911948"
+      "top10HoldersPercent": "82.94819696829988"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "APRUSDT",
-      "BRUSDT"
+      "CYSUSDT",
+      "APRUSDT"
     ]
   },
   "telegram": {
