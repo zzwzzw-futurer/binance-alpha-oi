@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T09:45:18.083758+00:00",
-  "generatedAtMs": 1786527918083,
-  "localTime": "2026-08-12 17:45:18 CST",
-  "matches": [],
+  "generatedAt": "2026-08-12T09:50:18.881401+00:00",
+  "generatedAtMs": 1786528218881,
+  "localTime": "2026-08-12 17:50:18 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "67839.96695889506",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "14614",
+      "isFreshAlert": true,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "713632.2069654923",
+      "marketCap": "166582397.76280174",
+      "name": "aPriori",
+      "percentChange5m": "-0.78",
+      "price": "0.3532113685440196",
+      "quoteVolumeMin": "306800.5847000",
+      "quoteVolumeSum": "1786954.6197000",
+      "quoteVolumes1m": [
+        "387092.3867000",
+        "337258.9249000",
+        "306800.5847000",
+        "340796.8376000",
+        "415005.8858000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "82.95715925900363"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "APRUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
