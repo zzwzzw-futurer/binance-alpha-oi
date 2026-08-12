@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-11T07:02:20.701692+00:00",
-    "generatedAtMs": 1786431740701,
-    "localTime": "2026-08-11 15:02:20 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-11T07:07:21.835155+00:00",
     "generatedAtMs": 1786432041835,
     "localTime": "2026-08-11 15:07:21 CST",
@@ -4642,6 +4633,47 @@
     "symbols": [
       "CYSUSDT",
       "APRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-12T07:05:00.368053+00:00",
+    "generatedAtMs": 1786518300368,
+    "localTime": "2026-08-12 15:05:00 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "349452.31699062587",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "4.21",
+        "price": "0.31695834640457116",
+        "quoteVolumeMin": "783757.1942000",
+        "quoteVolumeSum": "8513788.7029800",
+        "symbol": "APR",
+        "top10HoldersPercent": "82.8493372571154"
+      },
+      {
+        "alphaVolume5m": "761175.130478253",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "1.5",
+        "price": "1.3142196679407263",
+        "quoteVolumeMin": "351650.0015000",
+        "quoteVolumeSum": "3571210.1684000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.40335647199791"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "CYSUSDT"
     ]
   }
 ]
