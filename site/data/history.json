@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-11T14:43:12.100591+00:00",
-    "generatedAtMs": 1786459392100,
-    "localTime": "2026-08-11 22:43:12 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "569165.7918237855",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "3.94",
-        "price": "0.982153934355366",
-        "quoteVolumeMin": "336203.1385000",
-        "quoteVolumeSum": "2886965.7476000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.17145389024311"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-11T14:48:13.208245+00:00",
     "generatedAtMs": 1786459693208,
     "localTime": "2026-08-11 22:48:13 CST",
@@ -5246,6 +5220,47 @@
       }
     ],
     "symbols": [
+      "APRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-12T14:45:47.682481+00:00",
+    "generatedAtMs": 1786545947682,
+    "localTime": "2026-08-12 22:45:47 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "106424.77631220831",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": true,
+        "name": "Bless",
+        "percentChange5m": "-9.39",
+        "price": "0.010618569171276253",
+        "quoteVolumeMin": "534275.0214100",
+        "quoteVolumeSum": "3480436.7308810",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "91.5826049056671"
+      },
+      {
+        "alphaVolume5m": "79689.92265058",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "0.36",
+        "price": "0.42786241300516387",
+        "quoteVolumeMin": "494361.6320000",
+        "quoteVolumeSum": "3311694.8933000",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.40043310518557"
+      }
+    ],
+    "symbols": [
+      "BLESSUSDT",
       "APRUSDT"
     ]
   }
