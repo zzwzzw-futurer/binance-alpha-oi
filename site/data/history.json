@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-11T08:37:32.250315+00:00",
-    "generatedAtMs": 1786437452250,
-    "localTime": "2026-08-11 16:37:32 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-11T08:42:32.955225+00:00",
     "generatedAtMs": 1786437752955,
     "localTime": "2026-08-11 16:42:32 CST",
@@ -4987,6 +4978,62 @@
     ],
     "symbols": [
       "APRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-08-12T08:40:12.277156+00:00",
+    "generatedAtMs": 1786524012277,
+    "localTime": "2026-08-12 16:40:12 CST",
+    "matchCount": 3,
+    "matches": [
+      {
+        "alphaVolume5m": "116981.63885945982",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": true,
+        "name": "aPriori",
+        "percentChange5m": "0.2",
+        "price": "0.3508777985175549",
+        "quoteVolumeMin": "505313.8926000",
+        "quoteVolumeSum": "3898902.3257000",
+        "symbol": "APR",
+        "top10HoldersPercent": "82.94609727551544"
+      },
+      {
+        "alphaVolume5m": "1168270.8279576786",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "2.34",
+        "price": "1.3463564367493999",
+        "quoteVolumeMin": "394495.7540000",
+        "quoteVolumeSum": "5898875.7545000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "85.01007222305452"
+      },
+      {
+        "alphaVolume5m": "284015.16839372646",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "0.38",
+        "price": "1.4135782921752962",
+        "quoteVolumeMin": "390432.4795000",
+        "quoteVolumeSum": "2393477.3039000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "87.40286852954898"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "BEATUSDT",
+      "CYSUSDT"
     ]
   }
 ]
