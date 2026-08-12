@@ -9,15 +9,95 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T13:10:38.212633+00:00",
-  "generatedAtMs": 1786540238212,
-  "localTime": "2026-08-12 21:10:38 CST",
-  "matches": [],
+  "generatedAt": "2026-08-12T13:15:39.046514+00:00",
+  "generatedAtMs": 1786540539046,
+  "localTime": "2026-08-12 21:15:39 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "57926.708056404554",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "14650",
+      "isFreshAlert": false,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "735523.9834252789",
+      "marketCap": "179230670.1040423",
+      "name": "aPriori",
+      "percentChange5m": "-0.35",
+      "price": "0.3794542602584723",
+      "quoteVolumeMin": "375890.6100000",
+      "quoteVolumeSum": "3233513.1185000",
+      "quoteVolumes1m": [
+        "1318437.8585000",
+        "623777.0959000",
+        "447858.3575000",
+        "467549.1966000",
+        "375890.6100000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "83.05711772684785"
+    },
+    {
+      "alphaVolume5m": "458822.2801583658",
+      "chainId": "56",
+      "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+      "futuresSymbol": "BEATUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
+      "holders": "153860",
+      "isFreshAlert": false,
+      "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://audiera.fi/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/Audiera_web3"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/Audiera_web3"
+        }
+      ],
+      "liquidity": "2390742.802670807",
+      "marketCap": "941465876.0959586",
+      "name": "Audiera",
+      "percentChange5m": "-10.69",
+      "price": "0.9601147393173132",
+      "quoteVolumeMin": "309228.2620000",
+      "quoteVolumeSum": "3901081.1142000",
+      "quoteVolumes1m": [
+        "309228.2620000",
+        "428048.3670000",
+        "333303.7870000",
+        "836466.4448000",
+        "1994034.2534000"
+      ],
+      "symbol": "BEAT",
+      "top10HoldersPercent": "85.01007222305452"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 2,
+    "symbols": [
+      "APRUSDT",
+      "BEATUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

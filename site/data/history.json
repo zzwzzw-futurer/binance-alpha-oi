@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-11T13:13:03.528429+00:00",
-    "generatedAtMs": 1786453983528,
-    "localTime": "2026-08-11 21:13:03 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "435376.2460993253",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "1.09",
-        "price": "0.8248823485311237",
-        "quoteVolumeMin": "391486.1915000",
-        "quoteVolumeSum": "3288651.7127000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.17145389024311"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-11T13:18:05.012095+00:00",
     "generatedAtMs": 1786454285012,
     "localTime": "2026-08-11 21:18:05 CST",
@@ -5276,5 +5250,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-12T13:15:39.046514+00:00",
+    "generatedAtMs": 1786540539046,
+    "localTime": "2026-08-12 21:15:39 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "57926.708056404554",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-0.35",
+        "price": "0.3794542602584723",
+        "quoteVolumeMin": "375890.6100000",
+        "quoteVolumeSum": "3233513.1185000",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.05711772684785"
+      },
+      {
+        "alphaVolume5m": "458822.2801583658",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "-10.69",
+        "price": "0.9601147393173132",
+        "quoteVolumeMin": "309228.2620000",
+        "quoteVolumeSum": "3901081.1142000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "85.01007222305452"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "BEATUSDT"
+    ]
   }
 ]
