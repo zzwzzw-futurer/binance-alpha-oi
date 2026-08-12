@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T08:10:08.572740+00:00",
-  "generatedAtMs": 1786522208572,
-  "localTime": "2026-08-12 16:10:08 CST",
+  "generatedAt": "2026-08-12T08:15:09.503753+00:00",
+  "generatedAtMs": 1786522509503,
+  "localTime": "2026-08-12 16:15:09 CST",
   "matches": [
     {
-      "alphaVolume5m": "106615.64525979962",
+      "alphaVolume5m": "761980.3068624263",
       "chainId": "56",
       "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
       "futuresSymbol": "APRUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
-      "holders": "14599",
+      "holders": "14610",
       "isFreshAlert": false,
       "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
       "links": [
@@ -32,30 +32,66 @@
           "link": "https://twitter.com/aPriori"
         }
       ],
-      "liquidity": "691690.3203313636",
-      "marketCap": "154889494.66231778",
+      "liquidity": "680356.021539816",
+      "marketCap": "150423757.3130113",
       "name": "aPriori",
-      "percentChange5m": "-0.04",
-      "price": "0.3293101679199174",
-      "quoteVolumeMin": "547475.4766000",
-      "quoteVolumeSum": "4202270.8200000",
+      "percentChange5m": "-3.86",
+      "price": "0.3192657241378833",
+      "quoteVolumeMin": "3091828.3976000",
+      "quoteVolumeSum": "25160093.0609300",
       "quoteVolumes1m": [
-        "547475.4766000",
-        "953811.6847000",
-        "702039.1523000",
-        "983887.5697000",
-        "1015056.9367000"
+        "6752485.4410000",
+        "3457946.0301700",
+        "8150045.4386500",
+        "3091828.3976000",
+        "3707787.7535100"
       ],
       "symbol": "APR",
-      "top10HoldersPercent": "83.26260491599982"
+      "top10HoldersPercent": "83.26458850986988"
     },
     {
-      "alphaVolume5m": "511064.804373124",
+      "alphaVolume5m": "355753.545314722",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "10271",
+      "isFreshAlert": true,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2329774.6581136314",
+      "marketCap": "665302715.0604581",
+      "name": "Cysic",
+      "percentChange5m": "3.81",
+      "price": "1.374951260833803",
+      "quoteVolumeMin": "436265.4442000",
+      "quoteVolumeSum": "3797731.9214000",
+      "quoteVolumes1m": [
+        "664219.7098000",
+        "803970.2076000",
+        "436265.4442000",
+        "695995.5900000",
+        "1197280.9698000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "87.40313792349565"
+    },
+    {
+      "alphaVolume5m": "607180.8731087509",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "153795",
+      "holders": "153793",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -72,19 +108,19 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "2657171.2218290074",
-      "marketCap": "1203289254.5200725",
+      "liquidity": "2685666.0550106205",
+      "marketCap": "1234249096.3029208",
       "name": "Audiera",
-      "percentChange5m": "5.15",
-      "price": "1.2271244006395727",
-      "quoteVolumeMin": "312440.9070000",
-      "quoteVolumeSum": "2398585.8015000",
+      "percentChange5m": "2.81",
+      "price": "1.2586975050689202",
+      "quoteVolumeMin": "313726.5270000",
+      "quoteVolumeSum": "3203738.6820000",
       "quoteVolumes1m": [
-        "316798.9560000",
-        "312440.9070000",
-        "456363.7990000",
-        "749791.7110000",
-        "563190.4285000"
+        "910334.3930000",
+        "724217.4210000",
+        "313726.5270000",
+        "872580.1950000",
+        "382880.1460000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "85.01007222305452"
@@ -92,10 +128,11 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 2,
+    "freshAlertCount": 1,
+    "matchCount": 3,
     "symbols": [
       "APRUSDT",
+      "CYSUSDT",
       "BEATUSDT"
     ]
   },
