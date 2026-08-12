@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T11:05:25.535114+00:00",
-  "generatedAtMs": 1786532725535,
-  "localTime": "2026-08-12 19:05:25 CST",
+  "generatedAt": "2026-08-12T11:10:26.014636+00:00",
+  "generatedAtMs": 1786533026014,
+  "localTime": "2026-08-12 19:10:26 CST",
   "matches": [
     {
-      "alphaVolume5m": "758426.6541141442",
+      "alphaVolume5m": "1128174.7641010971",
       "chainId": "56",
       "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
       "futuresSymbol": "CYSUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
-      "holders": "10200",
+      "holders": "10192",
       "isFreshAlert": false,
       "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
       "links": [
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/cysic_xyz"
         }
       ],
-      "liquidity": "2391329.035526438",
-      "marketCap": "742661472.4423692",
+      "liquidity": "2345296.1721026963",
+      "marketCap": "682876059.5766814",
       "name": "Cysic",
-      "percentChange5m": "-1.89",
-      "price": "1.5348096348873164",
-      "quoteVolumeMin": "1142495.6679000",
-      "quoteVolumeSum": "8173425.3614000",
+      "percentChange5m": "-8.29",
+      "price": "1.4112550530262056",
+      "quoteVolumeMin": "580445.0174000",
+      "quoteVolumeSum": "8264228.1645000",
       "quoteVolumes1m": [
-        "2177430.7309000",
-        "1504613.6654000",
-        "1642284.4064000",
-        "1706600.8908000",
-        "1142495.6679000"
+        "1278093.3994000",
+        "2273357.5769000",
+        "2680102.1769000",
+        "1452229.9939000",
+        "580445.0174000"
       ],
       "symbol": "CYS",
       "top10HoldersPercent": "87.45260604779779"
+    },
+    {
+      "alphaVolume5m": "125731.59358384999",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "14624",
+      "isFreshAlert": true,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "725739.8703744251",
+      "marketCap": "173210609.67280626",
+      "name": "aPriori",
+      "percentChange5m": "-1.36",
+      "price": "0.3671717537572944",
+      "quoteVolumeMin": "316932.9306000",
+      "quoteVolumeSum": "6296877.7260000",
+      "quoteVolumes1m": [
+        "3623897.7834000",
+        "1127450.6690000",
+        "680569.9393000",
+        "548026.4037000",
+        "316932.9306000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "83.11665420617697"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "CYSUSDT"
+      "CYSUSDT",
+      "APRUSDT"
     ]
   },
   "telegram": {
