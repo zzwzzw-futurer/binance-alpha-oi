@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-11T06:37:18.054447+00:00",
-    "generatedAtMs": 1786430238054,
-    "localTime": "2026-08-11 14:37:18 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-11T06:42:18.550177+00:00",
     "generatedAtMs": 1786430538550,
     "localTime": "2026-08-11 14:42:18 CST",
@@ -4527,6 +4518,47 @@
     "symbols": [
       "BEATUSDT",
       "CYSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-12T06:39:56.653745+00:00",
+    "generatedAtMs": 1786516796653,
+    "localTime": "2026-08-12 14:39:56 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "242247.53300537745",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": true,
+        "name": "aPriori",
+        "percentChange5m": "1.74",
+        "price": "0.27490954268821965",
+        "quoteVolumeMin": "364795.0069000",
+        "quoteVolumeSum": "2077301.1363000",
+        "symbol": "APR",
+        "top10HoldersPercent": "82.71411865155014"
+      },
+      {
+        "alphaVolume5m": "354393.95499544806",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": false,
+        "name": "Audiera",
+        "percentChange5m": "1.06",
+        "price": "1.2207683606271267",
+        "quoteVolumeMin": "337837.1660000",
+        "quoteVolumeSum": "2470085.0670000",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "85.01007222305452"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "BEATUSDT"
     ]
   }
 ]
