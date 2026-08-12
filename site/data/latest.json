@@ -9,17 +9,89 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-12T13:30:40.459100+00:00",
-  "generatedAtMs": 1786541440459,
-  "localTime": "2026-08-12 21:30:40 CST",
+  "generatedAt": "2026-08-12T13:35:41.074767+00:00",
+  "generatedAtMs": 1786541741074,
+  "localTime": "2026-08-12 21:35:41 CST",
   "matches": [
     {
-      "alphaVolume5m": "515156.39206059696",
+      "alphaVolume5m": "333288.96144130785",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "14649",
+      "isFreshAlert": true,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "739152.2248586736",
+      "marketCap": "181159241.86865896",
+      "name": "aPriori",
+      "percentChange5m": "0.76",
+      "price": "0.38359590018718337",
+      "quoteVolumeMin": "375253.9003000",
+      "quoteVolumeSum": "7580224.5615000",
+      "quoteVolumes1m": [
+        "375253.9003000",
+        "4102532.5918000",
+        "1647631.0596000",
+        "747901.8755000",
+        "706905.1343000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "83.14304950101216"
+    },
+    {
+      "alphaVolume5m": "303230.52023919934",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "10225",
+      "isFreshAlert": true,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "2378996.7461404228",
+      "marketCap": "725254162.3869503",
+      "name": "Cysic",
+      "percentChange5m": "-3.43",
+      "price": "1.498801690947164",
+      "quoteVolumeMin": "365734.1925000",
+      "quoteVolumeSum": "2997913.1689000",
+      "quoteVolumes1m": [
+        "365734.1925000",
+        "417876.7226000",
+        "415958.4173000",
+        "835688.9429000",
+        "962654.8936000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "87.45065721056294"
+    },
+    {
+      "alphaVolume5m": "404711.0877013812",
       "chainId": "56",
       "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
       "futuresSymbol": "BEATUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BEATUSDT",
-      "holders": "153872",
+      "holders": "153879",
       "isFreshAlert": false,
       "key": "56|0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36|BEATUSDT",
       "links": [
@@ -36,19 +108,19 @@
           "link": "https://twitter.com/Audiera_web3"
         }
       ],
-      "liquidity": "2476986.7690996896",
-      "marketCap": "1018560761.3493512",
+      "liquidity": "2483545.742784292",
+      "marketCap": "1021959476.4774916",
       "name": "Audiera",
-      "percentChange5m": "-0.31",
-      "price": "1.038736745209553",
-      "quoteVolumeMin": "559095.7942000",
-      "quoteVolumeSum": "7751819.2912000",
+      "percentChange5m": "-0.07",
+      "price": "1.0422027831957623",
+      "quoteVolumeMin": "325240.6710000",
+      "quoteVolumeSum": "3184914.7093000",
       "quoteVolumes1m": [
-        "3374002.9244000",
-        "1801507.5205000",
-        "1161455.0684000",
-        "855757.9837000",
-        "559095.7942000"
+        "865902.9319000",
+        "485132.2342000",
+        "585887.1550000",
+        "325240.6710000",
+        "922751.7172000"
       ],
       "symbol": "BEAT",
       "top10HoldersPercent": "85.01007222305452"
@@ -56,9 +128,11 @@
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 3,
     "symbols": [
+      "APRUSDT",
+      "CYSUSDT",
       "BEATUSDT"
     ]
   },
