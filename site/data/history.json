@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-12T03:59:39.350456+00:00",
-    "generatedAtMs": 1786507179350,
-    "localTime": "2026-08-12 11:59:39 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-12T04:04:40.002423+00:00",
     "generatedAtMs": 1786507480002,
     "localTime": "2026-08-12 12:04:40 CST",
@@ -6256,6 +6247,32 @@
         "quoteVolumeSum": "4253040.1609000",
         "symbol": "APR",
         "top10HoldersPercent": "83.47757883231297"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-13T04:02:01.970655+00:00",
+    "generatedAtMs": 1786593721970,
+    "localTime": "2026-08-13 12:02:01 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "133144.42983439984",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-1.38",
+        "price": "0.44282029060597367",
+        "quoteVolumeMin": "591194.8043000",
+        "quoteVolumeSum": "3674395.5012700",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.47600520637147"
       }
     ],
     "symbols": [
