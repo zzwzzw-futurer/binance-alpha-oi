@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-08-12T08:10:08.572740+00:00",
-    "generatedAtMs": 1786522208572,
-    "localTime": "2026-08-12 16:10:08 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "106615.64525979962",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "-0.04",
-        "price": "0.3293101679199174",
-        "quoteVolumeMin": "547475.4766000",
-        "quoteVolumeSum": "4202270.8200000",
-        "symbol": "APR",
-        "top10HoldersPercent": "83.26260491599982"
-      },
-      {
-        "alphaVolume5m": "511064.804373124",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": false,
-        "name": "Audiera",
-        "percentChange5m": "5.15",
-        "price": "1.2271244006395727",
-        "quoteVolumeMin": "312440.9070000",
-        "quoteVolumeSum": "2398585.8015000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.01007222305452"
-      }
-    ],
-    "symbols": [
-      "APRUSDT",
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-08-12T08:15:09.503753+00:00",
     "generatedAtMs": 1786522509503,
@@ -6188,5 +6147,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-13T08:12:29.762422+00:00",
+    "generatedAtMs": 1786608749762,
+    "localTime": "2026-08-13 16:12:29 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "68475.43499200705",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "0.18",
+        "price": "0.49218119539798366",
+        "quoteVolumeMin": "373269.7209000",
+        "quoteVolumeSum": "3434236.0249000",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.49888198663147"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
   }
 ]
