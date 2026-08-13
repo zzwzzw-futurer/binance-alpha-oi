@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 2,
-    "generatedAt": "2026-08-12T07:40:04.158959+00:00",
-    "generatedAtMs": 1786520404158,
-    "localTime": "2026-08-12 15:40:04 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "933924.7472765397",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": true,
-        "name": "aPriori",
-        "percentChange5m": "-0.53",
-        "price": "0.32770906324162463",
-        "quoteVolumeMin": "762773.2431000",
-        "quoteVolumeSum": "5715470.9299000",
-        "symbol": "APR",
-        "top10HoldersPercent": "83.05318040075247"
-      },
-      {
-        "alphaVolume5m": "505093.03447893384",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "-2.69",
-        "price": "1.1718746631725607",
-        "quoteVolumeMin": "340736.1460000",
-        "quoteVolumeSum": "2857342.0195000",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "85.01007222305452"
-      }
-    ],
-    "symbols": [
-      "APRUSDT",
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-12T07:45:06.566239+00:00",
     "generatedAtMs": 1786520706566,
@@ -6266,6 +6225,32 @@
         "quoteVolumeSum": "1889663.4770000",
         "symbol": "APR",
         "top10HoldersPercent": "83.4927022651116"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-13T07:42:26.370627+00:00",
+    "generatedAtMs": 1786606946370,
+    "localTime": "2026-08-13 15:42:26 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "107559.95464283632",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "1.48",
+        "price": "0.4818233370789647",
+        "quoteVolumeMin": "321231.1811000",
+        "quoteVolumeSum": "3131470.7531200",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.49404533213617"
       }
     ],
     "symbols": [
