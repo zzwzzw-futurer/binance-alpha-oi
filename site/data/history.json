@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-08-12T14:45:47.682481+00:00",
-    "generatedAtMs": 1786545947682,
-    "localTime": "2026-08-12 22:45:47 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "106424.77631220831",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": true,
-        "name": "Bless",
-        "percentChange5m": "-9.39",
-        "price": "0.010618569171276253",
-        "quoteVolumeMin": "534275.0214100",
-        "quoteVolumeSum": "3480436.7308810",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "91.5826049056671"
-      },
-      {
-        "alphaVolume5m": "79689.92265058",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "0.36",
-        "price": "0.42786241300516387",
-        "quoteVolumeMin": "494361.6320000",
-        "quoteVolumeSum": "3311694.8933000",
-        "symbol": "APR",
-        "top10HoldersPercent": "83.40043310518557"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT",
-      "APRUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-12T14:50:48.278007+00:00",
     "generatedAtMs": 1786546248278,
@@ -5155,5 +5114,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-13T14:48:05.743346+00:00",
+    "generatedAtMs": 1786632485743,
+    "localTime": "2026-08-13 22:48:05 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "33178.23151674118",
+        "chainId": "56",
+        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+        "futuresSymbol": "BRUSDT",
+        "isFreshAlert": true,
+        "name": "Bedrock",
+        "percentChange5m": "2.54",
+        "price": "0.2506016636537286",
+        "quoteVolumeMin": "404863.0350200",
+        "quoteVolumeSum": "3381226.7827900",
+        "symbol": "BR",
+        "top10HoldersPercent": "83.9531769819547"
+      }
+    ],
+    "symbols": [
+      "BRUSDT"
+    ]
   }
 ]
