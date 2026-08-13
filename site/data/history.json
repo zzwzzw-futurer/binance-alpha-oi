@@ -1,47 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-12T09:15:13.569120+00:00",
-    "generatedAtMs": 1786526113569,
-    "localTime": "2026-08-12 17:15:13 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "433906.69816214615",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": false,
-        "name": "Cysic",
-        "percentChange5m": "2.05",
-        "price": "1.4378445577517895",
-        "quoteVolumeMin": "524882.1133000",
-        "quoteVolumeSum": "3501462.4488000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "87.40285082771175"
-      },
-      {
-        "alphaVolume5m": "94468.20666881066",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "-0.35",
-        "price": "0.3606823556582631",
-        "quoteVolumeMin": "372137.3472000",
-        "quoteVolumeSum": "2692087.1658000",
-        "symbol": "APR",
-        "top10HoldersPercent": "82.94819696829988"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT",
-      "APRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-12T09:20:14.791781+00:00",
     "generatedAtMs": 1786526414791,
     "localTime": "2026-08-12 17:20:14 CST",
@@ -5964,5 +5923,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-13T09:17:36.768070+00:00",
+    "generatedAtMs": 1786612656768,
+    "localTime": "2026-08-13 17:17:36 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "72627.38088073795",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-3.18",
+        "price": "0.4728038459500522",
+        "quoteVolumeMin": "382913.0494000",
+        "quoteVolumeSum": "2894291.5343000",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.49906633877397"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
   }
 ]
