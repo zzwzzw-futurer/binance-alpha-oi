@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-13T05:17:09.844876+00:00",
-    "generatedAtMs": 1786598229844,
-    "localTime": "2026-08-13 13:17:09 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "214250.2404725189",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "-5.32",
-        "price": "0.44927003498450013",
-        "quoteVolumeMin": "330966.9432000",
-        "quoteVolumeSum": "6535938.8715700",
-        "symbol": "APR",
-        "top10HoldersPercent": "83.49092531680597"
-      }
-    ],
-    "symbols": [
-      "APRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-13T05:22:10.363330+00:00",
     "generatedAtMs": 1786598530363,
     "localTime": "2026-08-13 13:22:10 CST",
@@ -3304,5 +3278,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-14T05:19:35.116392+00:00",
+    "generatedAtMs": 1786684775116,
+    "localTime": "2026-08-14 13:19:35 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "133412.3794709618",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "-20.44",
+        "price": "0.5173740274721511",
+        "quoteVolumeMin": "426132.3721000",
+        "quoteVolumeSum": "4226630.5006400",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.67486581452982"
+      },
+      {
+        "alphaVolume5m": "111113.52017978409",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-3.09",
+        "price": "0.4344392221992162",
+        "quoteVolumeMin": "314634.0068000",
+        "quoteVolumeSum": "4161307.1340600",
+        "symbol": "APR",
+        "top10HoldersPercent": "83.55437224786128"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT",
+      "APRUSDT"
+    ]
   }
 ]
