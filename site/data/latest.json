@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-14T05:24:35.542271+00:00",
-  "generatedAtMs": 1786685075542,
-  "localTime": "2026-08-14 13:24:35 CST",
+  "generatedAt": "2026-08-14T05:29:35.818103+00:00",
+  "generatedAtMs": 1786685375818,
+  "localTime": "2026-08-14 13:29:35 CST",
   "matches": [
     {
-      "alphaVolume5m": "209027.65799518814",
+      "alphaVolume5m": "228461.44921941953",
       "chainId": "56",
       "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
       "futuresSymbol": "VELVETUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/VELVETUSDT",
-      "holders": "16440",
+      "holders": "16433",
       "isFreshAlert": false,
       "key": "56|0x8b194370825e37b33373e74a41009161808c1488|VELVETUSDT",
       "links": [
@@ -36,67 +36,30 @@
           "link": "https://twitter.com/velvet_capital"
         }
       ],
-      "liquidity": "3056859.050831356",
-      "marketCap": "663638204.1450392",
+      "liquidity": "4053693.0814557606",
+      "marketCap": "904868898.958162",
       "name": "Velvet",
-      "percentChange5m": "27.24",
-      "price": "0.6636382137921537",
-      "quoteVolumeMin": "945012.9643200",
-      "quoteVolumeSum": "5513079.9744400",
+      "percentChange5m": "37.08",
+      "price": "0.9048689121119765",
+      "quoteVolumeMin": "478741.8331000",
+      "quoteVolumeSum": "5884283.1578000",
       "quoteVolumes1m": [
-        "1102393.4931200",
-        "1044521.4134000",
-        "945012.9643200",
-        "1131876.5624800",
-        "1289275.5411200"
+        "1298546.8757000",
+        "478741.8331000",
+        "1228986.9729000",
+        "1759338.4616000",
+        "1118669.0145000"
       ],
       "symbol": "VELVET",
       "top10HoldersPercent": "91.67486581452982"
-    },
-    {
-      "alphaVolume5m": "84529.9613314523",
-      "chainId": "56",
-      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-      "futuresSymbol": "APRUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
-      "holders": "14850",
-      "isFreshAlert": false,
-      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://apr.io/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/aPriori"
-        }
-      ],
-      "liquidity": "781649.7956640784",
-      "marketCap": "207689403.27237552",
-      "name": "aPriori",
-      "percentChange5m": "0.41",
-      "price": "0.4363287964164435",
-      "quoteVolumeMin": "327441.7832000",
-      "quoteVolumeSum": "1974301.3719000",
-      "quoteVolumes1m": [
-        "478272.5474000",
-        "390633.3164000",
-        "449837.9130000",
-        "328115.8119000",
-        "327441.7832000"
-      ],
-      "symbol": "APR",
-      "top10HoldersPercent": "83.55372873792317"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 2,
+    "matchCount": 1,
     "symbols": [
-      "VELVETUSDT",
-      "APRUSDT"
+      "VELVETUSDT"
     ]
   },
   "telegram": {
