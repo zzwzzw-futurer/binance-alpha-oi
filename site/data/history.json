@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-13T06:22:17.791623+00:00",
-    "generatedAtMs": 1786602137791,
-    "localTime": "2026-08-13 14:22:17 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "118613.33031033279",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "3.38",
-        "price": "0.5028622642671288",
-        "quoteVolumeMin": "433366.3893000",
-        "quoteVolumeSum": "4625044.8427000",
-        "symbol": "APR",
-        "top10HoldersPercent": "83.49630337812918"
-      }
-    ],
-    "symbols": [
-      "APRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-13T06:27:17.832907+00:00",
     "generatedAtMs": 1786602437832,
     "localTime": "2026-08-13 14:27:17 CST",
@@ -3402,5 +3376,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-14T06:24:42.382665+00:00",
+    "generatedAtMs": 1786688682382,
+    "localTime": "2026-08-14 14:24:42 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "49469.86303071409",
+        "chainId": "56",
+        "contractAddress": "0x8b194370825e37b33373e74a41009161808c1488",
+        "futuresSymbol": "VELVETUSDT",
+        "isFreshAlert": true,
+        "name": "Velvet",
+        "percentChange5m": "-1.29",
+        "price": "0.9307859323478166",
+        "quoteVolumeMin": "302248.7925000",
+        "quoteVolumeSum": "2114052.7344000",
+        "symbol": "VELVET",
+        "top10HoldersPercent": "91.67486581452982"
+      }
+    ],
+    "symbols": [
+      "VELVETUSDT"
+    ]
   }
 ]
