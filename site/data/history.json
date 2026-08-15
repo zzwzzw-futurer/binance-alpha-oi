@@ -1,41 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-13T14:43:05.399648+00:00",
-    "generatedAtMs": 1786632185399,
-    "localTime": "2026-08-13 22:43:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-08-13T14:48:05.743346+00:00",
-    "generatedAtMs": 1786632485743,
-    "localTime": "2026-08-13 22:48:05 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "33178.23151674118",
-        "chainId": "56",
-        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-        "futuresSymbol": "BRUSDT",
-        "isFreshAlert": true,
-        "name": "Bedrock",
-        "percentChange5m": "2.54",
-        "price": "0.2506016636537286",
-        "quoteVolumeMin": "404863.0350200",
-        "quoteVolumeSum": "3381226.7827900",
-        "symbol": "BR",
-        "top10HoldersPercent": "83.9531769819547"
-      }
-    ],
-    "symbols": [
-      "BRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-13T14:53:06.144464+00:00",
     "generatedAtMs": 1786632786144,
     "localTime": "2026-08-13 22:53:06 CST",
@@ -3300,5 +3265,40 @@
     "symbols": [
       "CYSUSDT"
     ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-15T15:56:56.698568+00:00",
+    "generatedAtMs": 1786809416698,
+    "localTime": "2026-08-15 23:56:56 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "272141.91249102005",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": true,
+        "name": "Cysic",
+        "percentChange5m": "-1.76",
+        "price": "1.4685787354722233",
+        "quoteVolumeMin": "426995.6842000",
+        "quoteVolumeSum": "3674900.5689000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "88.53306342583208"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-15T15:59:09.023235+00:00",
+    "generatedAtMs": 1786809549023,
+    "localTime": "2026-08-15 23:59:09 CST",
+    "matchCount": 0,
+    "matches": [],
+    "symbols": []
   }
 ]
