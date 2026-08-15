@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-13T14:53:06.144464+00:00",
-    "generatedAtMs": 1786632786144,
-    "localTime": "2026-08-13 22:53:06 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "39310.45048823426",
-        "chainId": "56",
-        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-        "futuresSymbol": "BRUSDT",
-        "isFreshAlert": false,
-        "name": "Bedrock",
-        "percentChange5m": "-6.75",
-        "price": "0.2343362006265151",
-        "quoteVolumeMin": "305353.4893600",
-        "quoteVolumeSum": "2243017.1100800",
-        "symbol": "BR",
-        "top10HoldersPercent": "83.95275261376027"
-      }
-    ],
-    "symbols": [
-      "BRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-13T14:58:07.606406+00:00",
     "generatedAtMs": 1786633087606,
     "localTime": "2026-08-13 22:58:07 CST",
@@ -3300,5 +3274,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-08-15T16:05:38.901719+00:00",
+    "generatedAtMs": 1786809938901,
+    "localTime": "2026-08-16 00:05:38 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "172131.46677412294",
+        "chainId": "56",
+        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+        "futuresSymbol": "CYSUSDT",
+        "isFreshAlert": false,
+        "name": "Cysic",
+        "percentChange5m": "-0.19",
+        "price": "1.453457210476864",
+        "quoteVolumeMin": "452469.7849000",
+        "quoteVolumeSum": "2577037.0555000",
+        "symbol": "CYS",
+        "top10HoldersPercent": "88.53306342583208"
+      }
+    ],
+    "symbols": [
+      "CYSUSDT"
+    ]
   }
 ]
