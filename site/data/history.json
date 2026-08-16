@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-14T02:09:12.497603+00:00",
-    "generatedAtMs": 1786673352497,
-    "localTime": "2026-08-14 10:09:12 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-14T02:14:13.578663+00:00",
     "generatedAtMs": 1786673653578,
     "localTime": "2026-08-14 10:14:13 CST",
@@ -3656,6 +3647,32 @@
     ],
     "symbols": [
       "CYSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-16T16:30:52.269800+00:00",
+    "generatedAtMs": 1786897852269,
+    "localTime": "2026-08-17 00:30:52 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "4167.0888364314715",
+        "chainId": "56",
+        "contractAddress": "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4",
+        "futuresSymbol": "AIOUSDT",
+        "isFreshAlert": true,
+        "name": "OLAXBT",
+        "percentChange5m": "2.66",
+        "price": "0.07338732456116998",
+        "quoteVolumeMin": "301482.8229000",
+        "quoteVolumeSum": "3025874.7776000",
+        "symbol": "AIO",
+        "top10HoldersPercent": "95.56463617771942"
+      }
+    ],
+    "symbols": [
+      "AIOUSDT"
     ]
   }
 ]
