@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-13T20:28:37.646106+00:00",
-    "generatedAtMs": 1786652917646,
-    "localTime": "2026-08-14 04:28:37 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-13T20:33:38.588686+00:00",
     "generatedAtMs": 1786653218588,
     "localTime": "2026-08-14 04:33:38 CST",
@@ -3538,5 +3529,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-16T10:00:13.900996+00:00",
+    "generatedAtMs": 1786874413900,
+    "localTime": "2026-08-16 18:00:13 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "34764.61099111374",
+        "chainId": "1",
+        "contractAddress": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+        "futuresSymbol": "HUSDT",
+        "isFreshAlert": true,
+        "name": "Humanity",
+        "percentChange5m": "0.52",
+        "price": "0.153983717246724",
+        "quoteVolumeMin": "392755.6935600",
+        "quoteVolumeSum": "3245521.0274500",
+        "symbol": "H",
+        "top10HoldersPercent": "87.80264752195355"
+      }
+    ],
+    "symbols": [
+      "HUSDT"
+    ]
   }
 ]
