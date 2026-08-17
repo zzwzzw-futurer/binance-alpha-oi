@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-08-15T15:45:10.371448+00:00",
-    "generatedAtMs": 1786808710371,
-    "localTime": "2026-08-15 23:45:10 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "324318.5249517316",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": true,
-        "name": "Cysic",
-        "percentChange5m": "-2.17",
-        "price": "1.5245819870863615",
-        "quoteVolumeMin": "578768.5761000",
-        "quoteVolumeSum": "5819970.4299000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "88.53306342583208"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-15T15:46:14.904920+00:00",
     "generatedAtMs": 1786808774904,
@@ -3321,5 +3295,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-17T05:46:35.624501+00:00",
+    "generatedAtMs": 1786945595624,
+    "localTime": "2026-08-17 13:46:35 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "133720.32341837458",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": true,
+        "name": "Bitway",
+        "percentChange5m": "-6.12",
+        "price": "0.3754864645651619",
+        "quoteVolumeMin": "343408.2273200",
+        "quoteVolumeSum": "2898814.5212500",
+        "symbol": "BTW",
+        "top10HoldersPercent": "97.6153221573542"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT"
+    ]
   }
 ]
