@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-19T09:00:16.690590+00:00",
-  "generatedAtMs": 1787130016690,
-  "localTime": "2026-08-19 17:00:16 CST",
+  "generatedAt": "2026-08-19T09:05:47.038302+00:00",
+  "generatedAtMs": 1787130347038,
+  "localTime": "2026-08-19 17:05:47 CST",
   "matches": [
     {
-      "alphaVolume5m": "19263.147135155505",
+      "alphaVolume5m": "24187.476327707394",
       "chainId": "56",
       "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
       "futuresSymbol": "BTWUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "42147",
+      "holders": "42142",
       "isFreshAlert": false,
       "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
       "links": [
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/bitwayofficial"
         }
       ],
-      "liquidity": "2367677.614013482",
-      "marketCap": "6734690269.944547",
+      "liquidity": "2374056.808283779",
+      "marketCap": "6699886649.331292",
       "name": "Bitway",
-      "percentChange5m": "-0.19",
-      "price": "0.6734690413301776",
-      "quoteVolumeMin": "433821.3546000",
-      "quoteVolumeSum": "2591525.5400100",
+      "percentChange5m": "0.06",
+      "price": "0.6699886791947679",
+      "quoteVolumeMin": "765553.3070600",
+      "quoteVolumeSum": "5482998.2549500",
       "quoteVolumes1m": [
-        "692396.3495600",
-        "441193.1636500",
-        "486946.5738100",
-        "537168.0983900",
-        "433821.3546000"
+        "765553.3070600",
+        "849301.6213700",
+        "1106968.0406400",
+        "1590176.2597500",
+        "1170999.0261300"
       ],
       "symbol": "BTW",
-      "top10HoldersPercent": "97.50631151488152"
+      "top10HoldersPercent": "97.50611945422767"
+    },
+    {
+      "alphaVolume5m": "396068.170163426",
+      "chainId": "56",
+      "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+      "futuresSymbol": "CYSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CYSUSDT",
+      "holders": "11428",
+      "isFreshAlert": true,
+      "key": "56|0x0c69199c1562233640e0db5ce2c399a88eb507c7|CYSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://cysic.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/cysic_xyz"
+        }
+      ],
+      "liquidity": "1839508.053225638",
+      "marketCap": "284363936.7537192",
+      "name": "Cysic",
+      "percentChange5m": "3.8",
+      "price": "0.5881537125611801",
+      "quoteVolumeMin": "373810.0869000",
+      "quoteVolumeSum": "2594419.2655000",
+      "quoteVolumes1m": [
+        "476137.0683000",
+        "481181.4760000",
+        "711024.6549000",
+        "552265.9794000",
+        "373810.0869000"
+      ],
+      "symbol": "CYS",
+      "top10HoldersPercent": "88.17530490941846"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BTWUSDT"
+      "BTWUSDT",
+      "CYSUSDT"
     ]
   },
   "telegram": {
