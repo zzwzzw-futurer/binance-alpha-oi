@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-19T06:24:50.076583+00:00",
-  "generatedAtMs": 1787120690076,
-  "localTime": "2026-08-19 14:24:50 CST",
-  "matches": [],
+  "generatedAt": "2026-08-19T06:30:14.082078+00:00",
+  "generatedAtMs": 1787121014082,
+  "localTime": "2026-08-19 14:30:14 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "12837.64436856237",
+      "chainId": "56",
+      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+      "futuresSymbol": "BTWUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
+      "holders": "42118",
+      "isFreshAlert": true,
+      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bitway.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/bitwayofficial"
+        }
+      ],
+      "liquidity": "2147298.6407008334",
+      "marketCap": "5898446275.133052",
+      "name": "Bitway",
+      "percentChange5m": "3.6",
+      "price": "0.5898446400689668",
+      "quoteVolumeMin": "954233.8371500",
+      "quoteVolumeSum": "5848876.6914600",
+      "quoteVolumes1m": [
+        "1232496.2734800",
+        "954233.8371500",
+        "1132661.3589800",
+        "1230456.8635100",
+        "1299028.3583400"
+      ],
+      "symbol": "BTW",
+      "top10HoldersPercent": "97.33214913395202"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "BTWUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
