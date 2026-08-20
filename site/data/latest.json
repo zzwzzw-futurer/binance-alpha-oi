@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-20T23:25:19.116552+00:00",
-  "generatedAtMs": 1787268319116,
-  "localTime": "2026-08-21 07:25:19 CST",
-  "matches": [],
+  "generatedAt": "2026-08-20T23:30:37.642406+00:00",
+  "generatedAtMs": 1787268637642,
+  "localTime": "2026-08-21 07:30:37 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "207378.1652941658",
+      "chainId": "56",
+      "contractAddress": "0x011ebe7d75e2c9d1e0bd0be0bef5c36f0a90075f",
+      "futuresSymbol": "STABLEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/STABLEUSDT",
+      "holders": "7951",
+      "isFreshAlert": true,
+      "key": "56|0x011ebe7d75e2c9d1e0bd0be0bef5c36f0a90075f|STABLEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.stable.xyz"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/stable"
+        }
+      ],
+      "liquidity": "969913.3101942812",
+      "marketCap": "23427977.874415543",
+      "name": "Stable",
+      "percentChange5m": "0.01",
+      "price": "0.03246579486062046",
+      "quoteVolumeMin": "478974.4132720",
+      "quoteVolumeSum": "3468795.5574290",
+      "quoteVolumes1m": [
+        "723337.7977000",
+        "615742.5452470",
+        "967697.9047500",
+        "478974.4132720",
+        "683042.8964600"
+      ],
+      "symbol": "STABLE",
+      "top10HoldersPercent": "94.25246415178192"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "STABLEUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
