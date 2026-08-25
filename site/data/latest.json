@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-08-25T06:36:44.894345+00:00",
-  "generatedAtMs": 1787639804894,
-  "localTime": "2026-08-25 14:36:44 CST",
-  "matches": [],
+  "generatedAt": "2026-08-25T06:42:04.852113+00:00",
+  "generatedAtMs": 1787640124852,
+  "localTime": "2026-08-25 14:42:04 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "1391.1066565311469",
+      "chainId": "56",
+      "contractAddress": "0x1219c409fabe2c27bd0d1a565daeed9bd9f271de",
+      "futuresSymbol": "TACUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TACUSDT",
+      "holders": "4346",
+      "isFreshAlert": true,
+      "key": "56|0x1219c409fabe2c27bd0d1a565daeed9bd9f271de|TACUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://tac.build/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/TACbuild"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/TacBuild"
+        }
+      ],
+      "liquidity": "166983.88367775897",
+      "marketCap": "838659.5611189578",
+      "name": "TAC",
+      "percentChange5m": "3.01",
+      "price": "0.000346499441194187",
+      "quoteVolumeMin": "300572.3577560",
+      "quoteVolumeSum": "2153635.4930910",
+      "quoteVolumes1m": [
+        "493110.4505070",
+        "454730.9068570",
+        "300572.3577560",
+        "413901.8211520",
+        "491319.9568190"
+      ],
+      "symbol": "TAC",
+      "top10HoldersPercent": "83.68100314355492"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "TACUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
