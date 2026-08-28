@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-25T06:52:53.095833+00:00",
-    "generatedAtMs": 1787640773095,
-    "localTime": "2026-08-25 14:52:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "271.8229834621894",
-        "chainId": "56",
-        "contractAddress": "0x1219c409fabe2c27bd0d1a565daeed9bd9f271de",
-        "futuresSymbol": "TACUSDT",
-        "isFreshAlert": false,
-        "name": "TAC",
-        "percentChange5m": "-2.24",
-        "price": "0.00033971950651714",
-        "quoteVolumeMin": "329374.2334070",
-        "quoteVolumeSum": "3633197.8558260",
-        "symbol": "TAC",
-        "top10HoldersPercent": "83.65433282986827"
-      }
-    ],
-    "symbols": [
-      "TACUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-25T06:58:25.088644+00:00",
     "generatedAtMs": 1787641105088,
     "localTime": "2026-08-25 14:58:25 CST",
@@ -2894,5 +2868,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-08-28T10:39:21.958413+00:00",
+    "generatedAtMs": 1787913561958,
+    "localTime": "2026-08-28 18:39:21 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "20010.628161277844",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": true,
+        "name": "龙虾",
+        "percentChange5m": "0.72",
+        "price": "0.056203495382706206",
+        "quoteVolumeMin": "396665.4456060",
+        "quoteVolumeSum": "2316676.2055500",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "82.65871267128436"
+      }
+    ],
+    "symbols": [
+      "龙虾USDT"
+    ]
   }
 ]
