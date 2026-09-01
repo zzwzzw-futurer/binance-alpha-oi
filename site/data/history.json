@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-30T22:54:20.264734+00:00",
-    "generatedAtMs": 1788130460264,
-    "localTime": "2026-08-31 06:54:20 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-30T22:59:34.598567+00:00",
     "generatedAtMs": 1788130774598,
     "localTime": "2026-08-31 06:59:34 CST",
@@ -2892,5 +2883,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-01T03:16:31.366995+00:00",
+    "generatedAtMs": 1788232591366,
+    "localTime": "2026-09-01 11:16:31 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "207424.2928274922",
+        "chainId": "56",
+        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+        "futuresSymbol": "BTRUSDT",
+        "isFreshAlert": false,
+        "name": "BTR token",
+        "percentChange5m": "1.45",
+        "price": "0.14546243828364933",
+        "quoteVolumeMin": "355093.0439900",
+        "quoteVolumeSum": "2622967.4616300",
+        "symbol": "BTR",
+        "top10HoldersPercent": "87.72184378400438"
+      }
+    ],
+    "symbols": [
+      "BTRUSDT"
+    ]
   }
 ]
