@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-02T07:13:26.642209+00:00",
-  "generatedAtMs": 1788333206642,
-  "localTime": "2026-09-02 15:13:26 CST",
+  "generatedAt": "2026-09-02T07:18:51.688185+00:00",
+  "generatedAtMs": 1788333531688,
+  "localTime": "2026-09-02 15:18:51 CST",
   "matches": [
     {
-      "alphaVolume5m": "438417.176320945",
+      "alphaVolume5m": "897229.3866600118",
       "chainId": "56",
       "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
       "futuresSymbol": "BTRUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BTRUSDT",
-      "holders": "38658",
-      "isFreshAlert": false,
+      "holders": "38665",
+      "isFreshAlert": true,
       "key": "56|0xfed13d0c40790220fbde712987079eda1ed75c51|BTRUSDT",
       "links": [
         {
@@ -36,30 +36,71 @@
           "link": "https://x.com/BitLayerLabs"
         }
       ],
-      "liquidity": "573565.3962715388",
-      "marketCap": "11371794.818602698",
+      "liquidity": "539855.9403448257",
+      "marketCap": "9720060.125842843",
       "name": "BTR token",
-      "percentChange5m": "-18.72",
-      "price": "0.0525800664337891",
-      "quoteVolumeMin": "388545.7283700",
-      "quoteVolumeSum": "9731616.4621200",
+      "percentChange5m": "-11.45",
+      "price": "0.04566204362966686",
+      "quoteVolumeMin": "1642260.0101700",
+      "quoteVolumeSum": "11267808.9622800",
       "quoteVolumes1m": [
-        "388545.7283700",
-        "1346920.1417300",
-        "2255024.9375400",
-        "3178973.7932400",
-        "2562151.8612400"
+        "2296896.6598100",
+        "1642260.0101700",
+        "2676222.0560400",
+        "2307177.2720800",
+        "2345252.9641800"
       ],
       "symbol": "BTR",
-      "top10HoldersPercent": "88.84711790920693"
+      "top10HoldersPercent": "86.52057459999338"
+    },
+    {
+      "alphaVolume5m": "123.50023215006695",
+      "chainId": "56",
+      "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+      "futuresSymbol": "UAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/UAIUSDT",
+      "holders": "6686",
+      "isFreshAlert": true,
+      "key": "56|0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0|UAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://unifai.network/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/unifai_network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/UnifaiNetwork"
+        }
+      ],
+      "liquidity": "1149484.4725435013",
+      "marketCap": "563076571.9985785",
+      "name": "UnifAI Network",
+      "percentChange5m": "-2.17",
+      "price": "0.5630765719986485",
+      "quoteVolumeMin": "332450.6098000",
+      "quoteVolumeSum": "3750902.0991000",
+      "quoteVolumes1m": [
+        "2052017.3063000",
+        "582180.7326000",
+        "380470.7207000",
+        "403782.7297000",
+        "332450.6098000"
+      ],
+      "symbol": "UAI",
+      "top10HoldersPercent": "92.31173346139951"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 2,
     "symbols": [
-      "BTRUSDT"
+      "BTRUSDT",
+      "UAIUSDT"
     ]
   },
   "telegram": {

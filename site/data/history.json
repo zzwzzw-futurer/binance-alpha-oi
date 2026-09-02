@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-31T11:34:34.683350+00:00",
-    "generatedAtMs": 1788176074683,
-    "localTime": "2026-08-31 19:34:34 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-31T11:40:04.997109+00:00",
     "generatedAtMs": 1788176404997,
     "localTime": "2026-08-31 19:40:04 CST",
@@ -3473,6 +3464,47 @@
     ],
     "symbols": [
       "BTRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-09-02T07:18:51.688185+00:00",
+    "generatedAtMs": 1788333531688,
+    "localTime": "2026-09-02 15:18:51 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "897229.3866600118",
+        "chainId": "56",
+        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+        "futuresSymbol": "BTRUSDT",
+        "isFreshAlert": true,
+        "name": "BTR token",
+        "percentChange5m": "-11.45",
+        "price": "0.04566204362966686",
+        "quoteVolumeMin": "1642260.0101700",
+        "quoteVolumeSum": "11267808.9622800",
+        "symbol": "BTR",
+        "top10HoldersPercent": "86.52057459999338"
+      },
+      {
+        "alphaVolume5m": "123.50023215006695",
+        "chainId": "56",
+        "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+        "futuresSymbol": "UAIUSDT",
+        "isFreshAlert": true,
+        "name": "UnifAI Network",
+        "percentChange5m": "-2.17",
+        "price": "0.5630765719986485",
+        "quoteVolumeMin": "332450.6098000",
+        "quoteVolumeSum": "3750902.0991000",
+        "symbol": "UAI",
+        "top10HoldersPercent": "92.31173346139951"
+      }
+    ],
+    "symbols": [
+      "BTRUSDT",
+      "UAIUSDT"
     ]
   }
 ]
