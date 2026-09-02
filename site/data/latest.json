@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-02T10:06:12.569339+00:00",
-  "generatedAtMs": 1788343572569,
-  "localTime": "2026-09-02 18:06:12 CST",
-  "matches": [],
+  "generatedAt": "2026-09-02T10:11:30.948757+00:00",
+  "generatedAtMs": 1788343890948,
+  "localTime": "2026-09-02 18:11:30 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "645062.1934771244",
+      "chainId": "56",
+      "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+      "futuresSymbol": "BTRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BTRUSDT",
+      "holders": "38717",
+      "isFreshAlert": false,
+      "key": "56|0xfed13d0c40790220fbde712987079eda1ed75c51|BTRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bitlayer.org/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/bitlayerofficial"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/BitLayerLabs"
+        }
+      ],
+      "liquidity": "556952.9968128426",
+      "marketCap": "10570056.123091675",
+      "name": "BTR token",
+      "percentChange5m": "-0.13",
+      "price": "0.049461469026192806",
+      "quoteVolumeMin": "822441.2564400",
+      "quoteVolumeSum": "6149446.6568800",
+      "quoteVolumes1m": [
+        "1629314.5406200",
+        "1038332.4093300",
+        "1231589.3232800",
+        "1427769.1272100",
+        "822441.2564400"
+      ],
+      "symbol": "BTR",
+      "top10HoldersPercent": "83.13000054817613"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "BTRUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
