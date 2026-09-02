@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-08-31T11:45:21.880411+00:00",
-    "generatedAtMs": 1788176721880,
-    "localTime": "2026-08-31 19:45:21 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-08-31T11:50:38.452565+00:00",
     "generatedAtMs": 1788177038452,
     "localTime": "2026-08-31 19:50:38 CST",
@@ -3530,6 +3521,47 @@
         "price": "0.5761422770130944",
         "quoteVolumeMin": "318436.9748000",
         "quoteVolumeSum": "2446009.7250000",
+        "symbol": "UAI",
+        "top10HoldersPercent": "92.31173346139951"
+      }
+    ],
+    "symbols": [
+      "BTRUSDT",
+      "UAIUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-02T07:35:31.710702+00:00",
+    "generatedAtMs": 1788334531710,
+    "localTime": "2026-09-02 15:35:31 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "260553.68619891786",
+        "chainId": "56",
+        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+        "futuresSymbol": "BTRUSDT",
+        "isFreshAlert": false,
+        "name": "BTR token",
+        "percentChange5m": "7.1",
+        "price": "0.05471609083178733",
+        "quoteVolumeMin": "503008.9505100",
+        "quoteVolumeSum": "3772997.5283300",
+        "symbol": "BTR",
+        "top10HoldersPercent": "88.47196015854253"
+      },
+      {
+        "alphaVolume5m": "734.2331990667017",
+        "chainId": "56",
+        "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+        "futuresSymbol": "UAIUSDT",
+        "isFreshAlert": false,
+        "name": "UnifAI Network",
+        "percentChange5m": "-3.47",
+        "price": "0.5675140303676756",
+        "quoteVolumeMin": "323911.0829000",
+        "quoteVolumeSum": "2431978.7806000",
         "symbol": "UAI",
         "top10HoldersPercent": "92.31173346139951"
       }
