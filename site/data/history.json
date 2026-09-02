@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 2,
-    "generatedAt": "2026-08-31T10:30:37.508793+00:00",
-    "generatedAtMs": 1788172237508,
-    "localTime": "2026-08-31 18:30:37 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "725570.174820866",
-        "chainId": "56",
-        "contractAddress": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
-        "futuresSymbol": "CYSUSDT",
-        "isFreshAlert": true,
-        "name": "Cysic",
-        "percentChange5m": "-1.8",
-        "price": "0.9368557817409142",
-        "quoteVolumeMin": "431731.6322000",
-        "quoteVolumeSum": "4655254.0046000",
-        "symbol": "CYS",
-        "top10HoldersPercent": "88.34172272120202"
-      },
-      {
-        "alphaVolume5m": "478524.22266367706",
-        "chainId": "56",
-        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
-        "futuresSymbol": "BTRUSDT",
-        "isFreshAlert": true,
-        "name": "BTR token",
-        "percentChange5m": "-0.03",
-        "price": "0.09949404064950972",
-        "quoteVolumeMin": "390312.5313900",
-        "quoteVolumeSum": "5702303.6412400",
-        "symbol": "BTR",
-        "top10HoldersPercent": "87.4338542911582"
-      }
-    ],
-    "symbols": [
-      "CYSUSDT",
-      "BTRUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-08-31T10:35:58.440044+00:00",
     "generatedAtMs": 1788172558440,
@@ -3404,5 +3363,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-02T06:14:18.304597+00:00",
+    "generatedAtMs": 1788329658304,
+    "localTime": "2026-09-02 14:14:18 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "318614.9382752204",
+        "chainId": "56",
+        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+        "futuresSymbol": "BTRUSDT",
+        "isFreshAlert": true,
+        "name": "BTR token",
+        "percentChange5m": "-11.53",
+        "price": "0.0763339478216261",
+        "quoteVolumeMin": "757893.3413600",
+        "quoteVolumeSum": "5679585.4109800",
+        "symbol": "BTR",
+        "top10HoldersPercent": "88.55727261132911"
+      }
+    ],
+    "symbols": [
+      "BTRUSDT"
+    ]
   }
 ]
