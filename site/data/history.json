@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-02T00:44:21.766778+00:00",
-    "generatedAtMs": 1788309861766,
-    "localTime": "2026-09-02 08:44:21 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-02T00:49:37.838070+00:00",
     "generatedAtMs": 1788310177838,
     "localTime": "2026-09-02 08:49:37 CST",
@@ -3196,5 +3187,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-03T07:16:37.662126+00:00",
+    "generatedAtMs": 1788419797662,
+    "localTime": "2026-09-03 15:16:37 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "305357.8075846193",
+        "chainId": "56",
+        "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+        "futuresSymbol": "UAIUSDT",
+        "isFreshAlert": true,
+        "name": "UnifAI Network",
+        "percentChange5m": "15.87",
+        "price": "0.36307926176719535",
+        "quoteVolumeMin": "410024.9608000",
+        "quoteVolumeSum": "3645144.0178000",
+        "symbol": "UAI",
+        "top10HoldersPercent": "92.28818562479226"
+      }
+    ],
+    "symbols": [
+      "UAIUSDT"
+    ]
   }
 ]
