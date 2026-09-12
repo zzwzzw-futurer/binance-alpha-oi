@@ -1,33 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-02T17:38:00.507863+00:00",
-    "generatedAtMs": 1788370680507,
-    "localTime": "2026-09-03 01:38:00 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-09-02T17:43:17.507331+00:00",
-    "generatedAtMs": 1788370997507,
-    "localTime": "2026-09-03 01:43:17 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-09-02T17:48:38.576785+00:00",
-    "generatedAtMs": 1788371318576,
-    "localTime": "2026-09-03 01:48:38 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-02T17:53:54.931816+00:00",
     "generatedAtMs": 1788371634931,
     "localTime": "2026-09-03 01:53:54 CST",
@@ -2726,5 +2699,49 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-11T05:33:43.895661+00:00",
+    "generatedAtMs": 1789104823895,
+    "localTime": "2026-09-11 13:33:43 CST",
+    "matchCount": 0,
+    "matches": [],
+    "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-11T18:59:28.142441+00:00",
+    "generatedAtMs": 1789153168142,
+    "localTime": "2026-09-12 02:59:28 CST",
+    "matchCount": 0,
+    "matches": [],
+    "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-12T14:56:36.313952+00:00",
+    "generatedAtMs": 1789224996313,
+    "localTime": "2026-09-12 22:56:36 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "109584.59869889119",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": true,
+        "name": "龙虾",
+        "percentChange5m": "0.15",
+        "price": "0.13416782476637445",
+        "quoteVolumeMin": "737754.2081160",
+        "quoteVolumeSum": "6503574.8688170",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "91.85373631381344"
+      }
+    ],
+    "symbols": [
+      "龙虾USDT"
+    ]
   }
 ]
