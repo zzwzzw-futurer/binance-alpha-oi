@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-03T00:27:57.455103+00:00",
-    "generatedAtMs": 1788395277455,
-    "localTime": "2026-09-03 08:27:57 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-03T00:39:51.557513+00:00",
     "generatedAtMs": 1788395991557,
     "localTime": "2026-09-03 08:39:51 CST",
@@ -3048,6 +3039,32 @@
     ],
     "symbols": [
       "BRUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-18T14:13:49.478860+00:00",
+    "generatedAtMs": 1789740829478,
+    "localTime": "2026-09-18 22:13:49 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "305001.26341766614",
+        "chainId": "56",
+        "contractAddress": "0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16",
+        "futuresSymbol": "MYXUSDT",
+        "isFreshAlert": true,
+        "name": "MYX Finance",
+        "percentChange5m": "-3.04",
+        "price": "0.10594867816457966",
+        "quoteVolumeMin": "330098.6159300",
+        "quoteVolumeSum": "2002912.1833100",
+        "symbol": "MYX",
+        "top10HoldersPercent": "88.27397851494105"
+      }
+    ],
+    "symbols": [
+      "MYXUSDT"
     ]
   }
 ]
