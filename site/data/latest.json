@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-19T20:07:21.953575+00:00",
-  "generatedAtMs": 1789848441953,
-  "localTime": "2026-09-20 04:07:21 CST",
-  "matches": [],
+  "generatedAt": "2026-09-19T20:13:07.340272+00:00",
+  "generatedAtMs": 1789848787340,
+  "localTime": "2026-09-20 04:13:07 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "4417.926462489556",
+      "chainId": "56",
+      "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "futuresSymbol": "BRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
+      "holders": "81334",
+      "isFreshAlert": true,
+      "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bedrockdao.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Bedrock_DeFi"
+        }
+      ],
+      "liquidity": "5607291.944882941",
+      "marketCap": "1104994151.9994524",
+      "name": "Bedrock",
+      "percentChange5m": "-4.67",
+      "price": "1.104994154079514",
+      "quoteVolumeMin": "400930.0794800",
+      "quoteVolumeSum": "3244539.2091400",
+      "quoteVolumes1m": [
+        "437184.4732900",
+        "400930.0794800",
+        "983010.4393600",
+        "643108.2969300",
+        "780305.9200800"
+      ],
+      "symbol": "BR",
+      "top10HoldersPercent": "84.13515069568298"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "BRUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
