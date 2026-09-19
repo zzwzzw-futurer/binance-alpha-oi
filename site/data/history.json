@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-06T08:19:09.465585+00:00",
-    "generatedAtMs": 1788682749465,
-    "localTime": "2026-09-06 16:19:09 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-06T08:26:53.281254+00:00",
     "generatedAtMs": 1788683213281,
     "localTime": "2026-09-06 16:26:53 CST",
@@ -3202,5 +3193,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-19T15:28:15.408434+00:00",
+    "generatedAtMs": 1789831695408,
+    "localTime": "2026-09-19 23:28:15 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "774479.6620303543",
+        "chainId": "56",
+        "contractAddress": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+        "futuresSymbol": "B2USDT",
+        "isFreshAlert": false,
+        "name": "BSquared Network",
+        "percentChange5m": "-2.26",
+        "price": "0.5342826429656332",
+        "quoteVolumeMin": "300098.5004000",
+        "quoteVolumeSum": "3440534.1625000",
+        "symbol": "B2",
+        "top10HoldersPercent": "87.9788298959372"
+      }
+    ],
+    "symbols": [
+      "B2USDT"
+    ]
   }
 ]
