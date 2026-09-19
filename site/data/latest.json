@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-19T14:42:11.749173+00:00",
-  "generatedAtMs": 1789828931749,
-  "localTime": "2026-09-19 22:42:11 CST",
-  "matches": [],
+  "generatedAt": "2026-09-19T14:47:58.342146+00:00",
+  "generatedAtMs": 1789829278342,
+  "localTime": "2026-09-19 22:47:58 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "336438.9427773948",
+      "chainId": "56",
+      "contractAddress": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+      "futuresSymbol": "B2USDT",
+      "futuresUrl": "https://www.binance.com/en/futures/B2USDT",
+      "holders": "31146",
+      "isFreshAlert": true,
+      "key": "56|0x783c3f003f172c6ac5ac700218a357d2d66ee2a2|B2USDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bsquared.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/BsquaredNetwork"
+        }
+      ],
+      "liquidity": "947118.2326810455",
+      "marketCap": "128810927.6496511",
+      "name": "BSquared Network",
+      "percentChange5m": "-3.02",
+      "price": "0.6209413838450403",
+      "quoteVolumeMin": "339451.5005000",
+      "quoteVolumeSum": "2582559.5860000",
+      "quoteVolumes1m": [
+        "553312.7501000",
+        "419720.4325000",
+        "339451.5005000",
+        "543866.2041000",
+        "726208.6988000"
+      ],
+      "symbol": "B2",
+      "top10HoldersPercent": "86.27663302142052"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "B2USDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

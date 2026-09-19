@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-09-03T09:55:47.439278+00:00",
-    "generatedAtMs": 1788429347439,
-    "localTime": "2026-09-03 17:55:47 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "491580.84955206263",
-        "chainId": "56",
-        "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
-        "futuresSymbol": "CAPUSDT",
-        "isFreshAlert": true,
-        "name": "Cap",
-        "percentChange5m": "-3.55",
-        "price": "0.04906786851251429",
-        "quoteVolumeMin": "370019.6107600",
-        "quoteVolumeSum": "2535163.1282500",
-        "symbol": "CAP",
-        "top10HoldersPercent": "98.30742962631342"
-      }
-    ],
-    "symbols": [
-      "CAPUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-09-03T10:01:06.465970+00:00",
     "generatedAtMs": 1788429666465,
@@ -3202,5 +3176,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-19T14:47:58.342146+00:00",
+    "generatedAtMs": 1789829278342,
+    "localTime": "2026-09-19 22:47:58 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "336438.9427773948",
+        "chainId": "56",
+        "contractAddress": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+        "futuresSymbol": "B2USDT",
+        "isFreshAlert": true,
+        "name": "BSquared Network",
+        "percentChange5m": "-3.02",
+        "price": "0.6209413838450403",
+        "quoteVolumeMin": "339451.5005000",
+        "quoteVolumeSum": "2582559.5860000",
+        "symbol": "B2",
+        "top10HoldersPercent": "86.27663302142052"
+      }
+    ],
+    "symbols": [
+      "B2USDT"
+    ]
   }
 ]
