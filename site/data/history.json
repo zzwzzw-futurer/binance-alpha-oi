@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-03T09:05:45.772265+00:00",
-    "generatedAtMs": 1788426345772,
-    "localTime": "2026-09-03 17:05:45 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-03T09:11:21.263425+00:00",
     "generatedAtMs": 1788426681263,
     "localTime": "2026-09-03 17:11:21 CST",
@@ -3134,5 +3125,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-19T13:49:45.361485+00:00",
+    "generatedAtMs": 1789825785361,
+    "localTime": "2026-09-19 21:49:45 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "416458.8026061822",
+        "chainId": "56",
+        "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+        "futuresSymbol": "CAPUSDT",
+        "isFreshAlert": false,
+        "name": "Cap",
+        "percentChange5m": "7.2",
+        "price": "0.060460468664030625",
+        "quoteVolumeMin": "352916.8764400",
+        "quoteVolumeSum": "2696420.1893400",
+        "symbol": "CAP",
+        "top10HoldersPercent": "97.71439055347878"
+      }
+    ],
+    "symbols": [
+      "CAPUSDT"
+    ]
   }
 ]
