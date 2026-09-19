@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-19T13:55:29.785982+00:00",
-  "generatedAtMs": 1789826129785,
-  "localTime": "2026-09-19 21:55:29 CST",
-  "matches": [],
+  "generatedAt": "2026-09-19T14:01:14.034226+00:00",
+  "generatedAtMs": 1789826474034,
+  "localTime": "2026-09-19 22:01:14 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "905238.8609236196",
+      "chainId": "56",
+      "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+      "futuresSymbol": "CAPUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CAPUSDT",
+      "holders": "4100",
+      "isFreshAlert": false,
+      "key": "56|0x99991c6aabba5a096f24f250b73580f5179b9999|CAPUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.cap.app/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/capapp"
+        }
+      ],
+      "liquidity": "1190081.9189070526",
+      "marketCap": "13861083.479257248",
+      "name": "Cap",
+      "percentChange5m": "3.11",
+      "price": "0.052902964902156006",
+      "quoteVolumeMin": "611842.3018700",
+      "quoteVolumeSum": "6217237.6630200",
+      "quoteVolumes1m": [
+        "1723325.0112800",
+        "1148175.0514200",
+        "860662.3840500",
+        "611842.3018700",
+        "1873232.9144000"
+      ],
+      "symbol": "CAP",
+      "top10HoldersPercent": "96.55147509352348"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "CAPUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
