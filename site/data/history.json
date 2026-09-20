@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-16T15:09:39.018414+00:00",
-    "generatedAtMs": 1789571379018,
-    "localTime": "2026-09-16 23:09:39 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "451.89973678120253",
-        "chainId": "56",
-        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-        "futuresSymbol": "BRUSDT",
-        "isFreshAlert": false,
-        "name": "Bedrock",
-        "percentChange5m": "-0.12",
-        "price": "0.6089951581854988",
-        "quoteVolumeMin": "326324.3173200",
-        "quoteVolumeSum": "3744354.1969300",
-        "symbol": "BR",
-        "top10HoldersPercent": "84.16859352923284"
-      }
-    ],
-    "symbols": [
-      "BRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-16T15:15:31.703777+00:00",
     "generatedAtMs": 1789571731703,
     "localTime": "2026-09-16 23:15:31 CST",
@@ -3168,5 +3142,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-20T08:05:19.433802+00:00",
+    "generatedAtMs": 1789891519433,
+    "localTime": "2026-09-20 16:05:19 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "560451.2205909123",
+        "chainId": "56",
+        "contractAddress": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+        "futuresSymbol": "B2USDT",
+        "isFreshAlert": true,
+        "name": "BSquared Network",
+        "percentChange5m": "-8.22",
+        "price": "0.4046984233758314",
+        "quoteVolumeMin": "394857.2593000",
+        "quoteVolumeSum": "3112775.6800000",
+        "symbol": "B2",
+        "top10HoldersPercent": "86.82588286625906"
+      }
+    ],
+    "symbols": [
+      "B2USDT"
+    ]
   }
 ]
