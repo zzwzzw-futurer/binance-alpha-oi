@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-20T10:31:02.332613+00:00",
-  "generatedAtMs": 1789900262332,
-  "localTime": "2026-09-20 18:31:02 CST",
+  "generatedAt": "2026-09-20T10:36:48.383113+00:00",
+  "generatedAtMs": 1789900608383,
+  "localTime": "2026-09-20 18:36:48 CST",
   "matches": [
     {
-      "alphaVolume5m": "1498.18265657155",
+      "alphaVolume5m": "10282.15448495829",
       "chainId": "56",
       "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
       "futuresSymbol": "BRUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
       "holders": "81272",
-      "isFreshAlert": false,
+      "isFreshAlert": true,
       "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
       "links": [
         {
@@ -32,30 +32,67 @@
           "link": "https://x.com/Bedrock_DeFi"
         }
       ],
-      "liquidity": "5767826.95191859",
-      "marketCap": "1141500359.707382",
+      "liquidity": "6110440.44437088",
+      "marketCap": "1203949437.1105435",
       "name": "Bedrock",
-      "percentChange5m": "-0.22",
-      "price": "1.1415003618561634",
-      "quoteVolumeMin": "306681.9011800",
-      "quoteVolumeSum": "2188792.3343100",
+      "percentChange5m": "-6.38",
+      "price": "1.2039494393768806",
+      "quoteVolumeMin": "960484.3913600",
+      "quoteVolumeSum": "15188560.1404800",
       "quoteVolumes1m": [
-        "584575.7869400",
-        "423738.1700900",
-        "486351.3211600",
-        "387445.1549400",
-        "306681.9011800"
+        "8868249.3509900",
+        "2127114.6250700",
+        "1935983.9101900",
+        "1296727.8628700",
+        "960484.3913600"
       ],
       "symbol": "BR",
-      "top10HoldersPercent": "84.2227114051092"
+      "top10HoldersPercent": "84.2219355171342"
+    },
+    {
+      "alphaVolume5m": "159002.5269742595",
+      "chainId": "56",
+      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+      "futuresSymbol": "BTWUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
+      "holders": "42411",
+      "isFreshAlert": true,
+      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://bitway.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/bitwayofficial"
+        }
+      ],
+      "liquidity": "2427071.448505595",
+      "marketCap": "7685444803.311274",
+      "name": "Bitway",
+      "percentChange5m": "-10.54",
+      "price": "0.7685444966980117",
+      "quoteVolumeMin": "371114.3671900",
+      "quoteVolumeSum": "7089299.5319000",
+      "quoteVolumes1m": [
+        "4632728.9417500",
+        "946658.1350400",
+        "573193.8432100",
+        "565604.2447100",
+        "371114.3671900"
+      ],
+      "symbol": "BTW",
+      "top10HoldersPercent": "96.3566602117332"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 2,
     "symbols": [
-      "BRUSDT"
+      "BRUSDT",
+      "BTWUSDT"
     ]
   },
   "telegram": {
