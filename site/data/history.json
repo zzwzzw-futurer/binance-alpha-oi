@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-17T06:06:27.544443+00:00",
-    "generatedAtMs": 1789625187544,
-    "localTime": "2026-09-17 14:06:27 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-17T07:25:17.748378+00:00",
     "generatedAtMs": 1789629917748,
     "localTime": "2026-09-17 15:25:17 CST",
@@ -3134,5 +3125,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-20T09:33:02.942989+00:00",
+    "generatedAtMs": 1789896782942,
+    "localTime": "2026-09-20 17:33:02 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "4458.4718137488935",
+        "chainId": "56",
+        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+        "futuresSymbol": "BRUSDT",
+        "isFreshAlert": true,
+        "name": "Bedrock",
+        "percentChange5m": "1.37",
+        "price": "1.0805806574214678",
+        "quoteVolumeMin": "843730.0279600",
+        "quoteVolumeSum": "6178300.7489100",
+        "symbol": "BR",
+        "top10HoldersPercent": "84.22429970510919"
+      }
+    ],
+    "symbols": [
+      "BRUSDT"
+    ]
   }
 ]
