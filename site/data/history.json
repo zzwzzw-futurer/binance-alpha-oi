@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-20T03:10:18.708838+00:00",
-    "generatedAtMs": 1789873818708,
-    "localTime": "2026-09-20 11:10:18 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-20T03:16:04.722428+00:00",
     "generatedAtMs": 1789874164722,
     "localTime": "2026-09-20 11:16:04 CST",
@@ -3129,6 +3120,47 @@
     ],
     "symbols": [
       "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-21T20:49:52.799443+00:00",
+    "generatedAtMs": 1790023792799,
+    "localTime": "2026-09-22 04:49:52 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "48665.23538499917",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "9.11",
+        "price": "0.7983921805117112",
+        "quoteVolumeMin": "607767.2786800",
+        "quoteVolumeSum": "7622132.6720000",
+        "symbol": "BTW",
+        "top10HoldersPercent": "96.1106727455442"
+      },
+      {
+        "alphaVolume5m": "347056.5573167227",
+        "chainId": "CT_501",
+        "contractAddress": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+        "futuresSymbol": "ALCHUSDT",
+        "isFreshAlert": true,
+        "name": "Alchemist AI",
+        "percentChange5m": "-1.37",
+        "price": "0.05684332610298167",
+        "quoteVolumeMin": "465915.4860500",
+        "quoteVolumeSum": "2995629.2254500",
+        "symbol": "ALCH",
+        "top10HoldersPercent": "86.46574233622948"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT",
+      "ALCHUSDT"
     ]
   }
 ]
