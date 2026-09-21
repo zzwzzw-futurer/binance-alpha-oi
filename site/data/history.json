@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-19T19:25:43.123600+00:00",
-    "generatedAtMs": 1789845943123,
-    "localTime": "2026-09-20 03:25:43 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-19T19:31:27.394991+00:00",
     "generatedAtMs": 1789846287394,
     "localTime": "2026-09-20 03:31:27 CST",
@@ -3011,5 +3002,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-21T01:58:42.185621+00:00",
+    "generatedAtMs": 1789955922185,
+    "localTime": "2026-09-21 09:58:42 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "20247.690754448293",
+        "chainId": "56",
+        "contractAddress": "0x95c9b514566fbd224dc2037f5914eb8ab91c9201",
+        "futuresSymbol": "PTBUSDT",
+        "isFreshAlert": true,
+        "name": "Portal To Bitcoin",
+        "percentChange5m": "7.79",
+        "price": "0.001250753126914756",
+        "quoteVolumeMin": "441583.1716586",
+        "quoteVolumeSum": "3838827.2353537",
+        "symbol": "PTB",
+        "top10HoldersPercent": "88.33593844494845"
+      }
+    ],
+    "symbols": [
+      "PTBUSDT"
+    ]
   }
 ]

@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-21T00:46:42.991712+00:00",
-  "generatedAtMs": 1789951602991,
-  "localTime": "2026-09-21 08:46:42 CST",
-  "matches": [],
+  "generatedAt": "2026-09-21T01:58:42.185621+00:00",
+  "generatedAtMs": 1789955922185,
+  "localTime": "2026-09-21 09:58:42 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "20247.690754448293",
+      "chainId": "56",
+      "contractAddress": "0x95c9b514566fbd224dc2037f5914eb8ab91c9201",
+      "futuresSymbol": "PTBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/PTBUSDT",
+      "holders": "34586",
+      "isFreshAlert": true,
+      "key": "56|0x95c9b514566fbd224dc2037f5914eb8ab91c9201|PTBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.portaltobitcoin.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/portaltobitcoin_announcements"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/portaltobitcoin"
+        }
+      ],
+      "liquidity": "76300.04954524501",
+      "marketCap": "1428578.995172017",
+      "name": "Portal To Bitcoin",
+      "percentChange5m": "7.79",
+      "price": "0.001250753126914756",
+      "quoteVolumeMin": "441583.1716586",
+      "quoteVolumeSum": "3838827.2353537",
+      "quoteVolumes1m": [
+        "682975.8463893",
+        "683293.7526876",
+        "765242.4471201",
+        "441583.1716586",
+        "1265732.0174981"
+      ],
+      "symbol": "PTB",
+      "top10HoldersPercent": "88.33593844494845"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "PTBUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
