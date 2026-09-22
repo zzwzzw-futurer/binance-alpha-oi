@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-20T09:38:55.685060+00:00",
-    "generatedAtMs": 1789897135685,
-    "localTime": "2026-09-20 17:38:55 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "446.1427400461051",
-        "chainId": "56",
-        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
-        "futuresSymbol": "BRUSDT",
-        "isFreshAlert": false,
-        "name": "Bedrock",
-        "percentChange5m": "-2.39",
-        "price": "1.0794105491118033",
-        "quoteVolumeMin": "333656.2925300",
-        "quoteVolumeSum": "2157914.8373200",
-        "symbol": "BR",
-        "top10HoldersPercent": "84.22429970510919"
-      }
-    ],
-    "symbols": [
-      "BRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-20T09:44:39.747276+00:00",
     "generatedAtMs": 1789897479747,
     "localTime": "2026-09-20 17:44:39 CST",
@@ -3162,5 +3136,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-22T03:18:40.466898+00:00",
+    "generatedAtMs": 1790047120466,
+    "localTime": "2026-09-22 11:18:40 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "254.7835594322141",
+        "chainId": "1",
+        "contractAddress": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+        "futuresSymbol": "ZETAUSDT",
+        "isFreshAlert": false,
+        "name": "Zeta",
+        "percentChange5m": "-2.39",
+        "price": "0.06524220468561508",
+        "quoteVolumeMin": "335725.014840",
+        "quoteVolumeSum": "4722697.008870",
+        "symbol": "ZETA",
+        "top10HoldersPercent": "96.36952778579524"
+      }
+    ],
+    "symbols": [
+      "ZETAUSDT"
+    ]
   }
 ]
