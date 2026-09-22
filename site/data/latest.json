@@ -9,15 +9,45 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-22T02:47:46.309089+00:00",
-  "generatedAtMs": 1790045266309,
-  "localTime": "2026-09-22 10:47:46 CST",
-  "matches": [],
+  "generatedAt": "2026-09-22T02:54:06.173901+00:00",
+  "generatedAtMs": 1790045646173,
+  "localTime": "2026-09-22 10:54:06 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "909.0424853404555",
+      "chainId": "1",
+      "contractAddress": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+      "futuresSymbol": "ZETAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ZETAUSDT",
+      "holders": "78738",
+      "isFreshAlert": true,
+      "key": "1|0xf091867ec603a6628ed83d274e835539d82e9cc8|ZETAUSDT",
+      "links": [],
+      "liquidity": "47280.06997185824",
+      "marketCap": "39492926.715853415",
+      "name": "Zeta",
+      "percentChange5m": "0.67",
+      "price": "0.06582155091355038",
+      "quoteVolumeMin": "302755.164290",
+      "quoteVolumeSum": "2360002.730790",
+      "quoteVolumes1m": [
+        "602212.500690",
+        "431519.084460",
+        "667207.379540",
+        "356308.601810",
+        "302755.164290"
+      ],
+      "symbol": "ZETA",
+      "top10HoldersPercent": "96.36952778579524"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "ZETAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-20T09:15:44.138815+00:00",
-    "generatedAtMs": 1789895744138,
-    "localTime": "2026-09-20 17:15:44 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-20T09:21:31.927462+00:00",
     "generatedAtMs": 1789896091927,
     "localTime": "2026-09-20 17:21:31 CST",
@@ -3162,5 +3153,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-22T02:54:06.173901+00:00",
+    "generatedAtMs": 1790045646173,
+    "localTime": "2026-09-22 10:54:06 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "909.0424853404555",
+        "chainId": "1",
+        "contractAddress": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+        "futuresSymbol": "ZETAUSDT",
+        "isFreshAlert": true,
+        "name": "Zeta",
+        "percentChange5m": "0.67",
+        "price": "0.06582155091355038",
+        "quoteVolumeMin": "302755.164290",
+        "quoteVolumeSum": "2360002.730790",
+        "symbol": "ZETA",
+        "top10HoldersPercent": "96.36952778579524"
+      }
+    ],
+    "symbols": [
+      "ZETAUSDT"
+    ]
   }
 ]
