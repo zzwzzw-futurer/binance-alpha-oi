@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-09-22T02:35:41.878738+00:00",
-    "generatedAtMs": 1790044541878,
-    "localTime": "2026-09-22 10:35:41 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-09-22T02:41:49.523861+00:00",
     "generatedAtMs": 1790044909523,
@@ -3059,6 +3050,47 @@
     ],
     "symbols": [
       "TAKEUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-23T07:51:45.631639+00:00",
+    "generatedAtMs": 1790149905631,
+    "localTime": "2026-09-23 15:51:45 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "293550.8761526581",
+        "chainId": "56",
+        "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+        "futuresSymbol": "TAKEUSDT",
+        "isFreshAlert": false,
+        "name": "OVERTAKE",
+        "percentChange5m": "-5.98",
+        "price": "0.1673459954438134",
+        "quoteVolumeMin": "663991.0942000",
+        "quoteVolumeSum": "4978399.7037300",
+        "symbol": "TAKE",
+        "top10HoldersPercent": "88.58357253133504"
+      },
+      {
+        "alphaVolume5m": "1864888.7073605624",
+        "chainId": "56",
+        "contractAddress": "0x783c3f003f172c6ac5ac700218a357d2d66ee2a2",
+        "futuresSymbol": "B2USDT",
+        "isFreshAlert": true,
+        "name": "BSquared Network",
+        "percentChange5m": "-3",
+        "price": "0.3847341359111931",
+        "quoteVolumeMin": "502278.5656000",
+        "quoteVolumeSum": "3514728.7290000",
+        "symbol": "B2",
+        "top10HoldersPercent": "86.86540255527329"
+      }
+    ],
+    "symbols": [
+      "TAKEUSDT",
+      "B2USDT"
     ]
   }
 ]
