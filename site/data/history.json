@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-22T04:25:04.828504+00:00",
-    "generatedAtMs": 1790051104828,
-    "localTime": "2026-09-22 12:25:04 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-22T04:31:01.062890+00:00",
     "generatedAtMs": 1790051461062,
     "localTime": "2026-09-22 12:31:01 CST",
@@ -3272,6 +3263,32 @@
         "quoteVolumeSum": "3031239.1606900",
         "symbol": "TAKE",
         "top10HoldersPercent": "94.01182213653014"
+      }
+    ],
+    "symbols": [
+      "TAKEUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-23T10:01:02.257628+00:00",
+    "generatedAtMs": 1790157662257,
+    "localTime": "2026-09-23 18:01:02 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "382178.1906426338",
+        "chainId": "56",
+        "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+        "futuresSymbol": "TAKEUSDT",
+        "isFreshAlert": false,
+        "name": "OVERTAKE",
+        "percentChange5m": "-12.76",
+        "price": "0.18149509124807184",
+        "quoteVolumeMin": "664010.0881700",
+        "quoteVolumeSum": "6094174.4697300",
+        "symbol": "TAKE",
+        "top10HoldersPercent": "93.59077592835398"
       }
     ],
     "symbols": [
