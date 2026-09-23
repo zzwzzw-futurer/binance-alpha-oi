@@ -9,15 +9,91 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-23T16:32:05.040136+00:00",
-  "generatedAtMs": 1790181125040,
-  "localTime": "2026-09-24 00:32:05 CST",
-  "matches": [],
+  "generatedAt": "2026-09-23T16:37:57.728856+00:00",
+  "generatedAtMs": 1790181477728,
+  "localTime": "2026-09-24 00:37:57 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "122307.61476279268",
+      "chainId": "56",
+      "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+      "futuresSymbol": "TAKEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAKEUSDT",
+      "holders": "21099",
+      "isFreshAlert": false,
+      "key": "56|0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197|TAKEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://overtake.world/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/overtake_world"
+        }
+      ],
+      "liquidity": "556505.2695498003",
+      "marketCap": "14687410.884216359",
+      "name": "OVERTAKE",
+      "percentChange5m": "-4.06",
+      "price": "0.10200460262843197",
+      "quoteVolumeMin": "467660.8056000",
+      "quoteVolumeSum": "4293373.1295200",
+      "quoteVolumes1m": [
+        "1056241.5825400",
+        "467660.8056000",
+        "498502.0646100",
+        "1122090.0962300",
+        "1148878.5805400"
+      ],
+      "symbol": "TAKE",
+      "top10HoldersPercent": "93.67745137500818"
+    },
+    {
+      "alphaVolume5m": "4029.941366972457",
+      "chainId": "56",
+      "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "futuresSymbol": "BRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BRUSDT",
+      "holders": "81082",
+      "isFreshAlert": true,
+      "key": "56|0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41|BRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.bedrockdao.com/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/Bedrock_DeFi"
+        }
+      ],
+      "liquidity": "5078641.469264228",
+      "marketCap": "1007369905.4959446",
+      "name": "Bedrock",
+      "percentChange5m": "1.29",
+      "price": "1.0073699073922366",
+      "quoteVolumeMin": "331363.3096500",
+      "quoteVolumeSum": "2915966.2861100",
+      "quoteVolumes1m": [
+        "690731.6287800",
+        "912885.1478800",
+        "501962.4490600",
+        "479023.7507400",
+        "331363.3096500"
+      ],
+      "symbol": "BR",
+      "top10HoldersPercent": "84.01729174623873"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 2,
+    "symbols": [
+      "TAKEUSDT",
+      "BRUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

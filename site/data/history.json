@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-22T11:21:07.582947+00:00",
-    "generatedAtMs": 1790076067582,
-    "localTime": "2026-09-22 19:21:07 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-22T11:26:57.365941+00:00",
     "generatedAtMs": 1790076417365,
     "localTime": "2026-09-22 19:26:57 CST",
@@ -4059,5 +4050,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-09-23T16:37:57.728856+00:00",
+    "generatedAtMs": 1790181477728,
+    "localTime": "2026-09-24 00:37:57 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "122307.61476279268",
+        "chainId": "56",
+        "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+        "futuresSymbol": "TAKEUSDT",
+        "isFreshAlert": false,
+        "name": "OVERTAKE",
+        "percentChange5m": "-4.06",
+        "price": "0.10200460262843197",
+        "quoteVolumeMin": "467660.8056000",
+        "quoteVolumeSum": "4293373.1295200",
+        "symbol": "TAKE",
+        "top10HoldersPercent": "93.67745137500818"
+      },
+      {
+        "alphaVolume5m": "4029.941366972457",
+        "chainId": "56",
+        "contractAddress": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+        "futuresSymbol": "BRUSDT",
+        "isFreshAlert": true,
+        "name": "Bedrock",
+        "percentChange5m": "1.29",
+        "price": "1.0073699073922366",
+        "quoteVolumeMin": "331363.3096500",
+        "quoteVolumeSum": "2915966.2861100",
+        "symbol": "BR",
+        "top10HoldersPercent": "84.01729174623873"
+      }
+    ],
+    "symbols": [
+      "TAKEUSDT",
+      "BRUSDT"
+    ]
   }
 ]
