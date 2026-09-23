@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-23T11:00:17.590502+00:00",
-  "generatedAtMs": 1790161217590,
-  "localTime": "2026-09-23 19:00:17 CST",
-  "matches": [],
+  "generatedAt": "2026-09-23T11:06:09.887919+00:00",
+  "generatedAtMs": 1790161569887,
+  "localTime": "2026-09-23 19:06:09 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "1067449.352368092",
+      "chainId": "56",
+      "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+      "futuresSymbol": "TAKEUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/TAKEUSDT",
+      "holders": "20922",
+      "isFreshAlert": false,
+      "key": "56|0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197|TAKEUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://overtake.world/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/overtake_world"
+        }
+      ],
+      "liquidity": "732946.1884068594",
+      "marketCap": "16583687.084444825",
+      "name": "OVERTAKE",
+      "percentChange5m": "2.32",
+      "price": "0.20585898123502433",
+      "quoteVolumeMin": "352291.5627900",
+      "quoteVolumeSum": "2618959.1775800",
+      "quoteVolumes1m": [
+        "836758.6835200",
+        "506919.8586700",
+        "479032.6041100",
+        "352291.5627900",
+        "443956.4684900"
+      ],
+      "symbol": "TAKE",
+      "top10HoldersPercent": "97.08642394002726"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "TAKEUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
