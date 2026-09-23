@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-22T01:47:26.046533+00:00",
-    "generatedAtMs": 1790041646046,
-    "localTime": "2026-09-22 09:47:26 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-22T01:53:21.069919+00:00",
     "generatedAtMs": 1790042001069,
     "localTime": "2026-09-22 09:53:21 CST",
@@ -2879,5 +2870,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-09-23T07:05:04.334120+00:00",
+    "generatedAtMs": 1790147104334,
+    "localTime": "2026-09-23 15:05:04 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "298894.51323376293",
+        "chainId": "56",
+        "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
+        "futuresSymbol": "TAKEUSDT",
+        "isFreshAlert": true,
+        "name": "OVERTAKE",
+        "percentChange5m": "24.5",
+        "price": "0.13065048895445028",
+        "quoteVolumeMin": "887002.7539300",
+        "quoteVolumeSum": "6367038.3364300",
+        "symbol": "TAKE",
+        "top10HoldersPercent": "88.50873156670127"
+      },
+      {
+        "alphaVolume5m": "97106.59624648417",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": true,
+        "name": "龙虾",
+        "percentChange5m": "0.11",
+        "price": "0.22896255703106164",
+        "quoteVolumeMin": "365804.9351920",
+        "quoteVolumeSum": "2301609.9912980",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "94.66263597222705"
+      }
+    ],
+    "symbols": [
+      "TAKEUSDT",
+      "龙虾USDT"
+    ]
   }
 ]
