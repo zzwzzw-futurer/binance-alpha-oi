@@ -9,17 +9,49 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-23T07:10:50.026236+00:00",
-  "generatedAtMs": 1790147450026,
-  "localTime": "2026-09-23 15:10:50 CST",
+  "generatedAt": "2026-09-23T07:16:46.131459+00:00",
+  "generatedAtMs": 1790147806131,
+  "localTime": "2026-09-23 15:16:46 CST",
   "matches": [
     {
-      "alphaVolume5m": "490392.87441024196",
+      "alphaVolume5m": "508799.7367949723",
+      "chainId": "56",
+      "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+      "futuresSymbol": "龙虾USDT",
+      "futuresUrl": "https://www.binance.com/en/futures/%E9%BE%99%E8%99%BEUSDT",
+      "holders": "89608",
+      "isFreshAlert": false,
+      "key": "56|0xeccbb861c0dda7efd964010085488b69317e4444|龙虾USDT",
+      "links": [
+        {
+          "label": "x",
+          "link": "https://x.com/i/status/2027304629890072818"
+        }
+      ],
+      "liquidity": "4276277.270440357",
+      "marketCap": "211245069.3798975",
+      "name": "龙虾",
+      "percentChange5m": "-1.07",
+      "price": "0.21124507035428924",
+      "quoteVolumeMin": "626716.4242320",
+      "quoteVolumeSum": "6133008.9902680",
+      "quoteVolumes1m": [
+        "1102002.6264870",
+        "626716.4242320",
+        "1888342.1728170",
+        "767689.5835210",
+        "1748258.1832110"
+      ],
+      "symbol": "龙虾",
+      "top10HoldersPercent": "94.62462246629129"
+    },
+    {
+      "alphaVolume5m": "308995.2116172296",
       "chainId": "56",
       "contractAddress": "0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197",
       "futuresSymbol": "TAKEUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/TAKEUSDT",
-      "holders": "20824",
+      "holders": "20832",
       "isFreshAlert": false,
       "key": "56|0xe747e54783ba3f77a8e5251a3cba19ebe9c0e197|TAKEUSDT",
       "links": [
@@ -32,29 +64,30 @@
           "link": "https://twitter.com/overtake_world"
         }
       ],
-      "liquidity": "640719.5570510478",
-      "marketCap": "9700770.189384166",
+      "liquidity": "638874.0867979219",
+      "marketCap": "9629165.326849183",
       "name": "OVERTAKE",
-      "percentChange5m": "10.55",
-      "price": "0.1459450598700869",
-      "quoteVolumeMin": "941342.3104300",
-      "quoteVolumeSum": "7736233.7871200",
+      "percentChange5m": "-1.26",
+      "price": "0.1448678088343794",
+      "quoteVolumeMin": "549844.9079200",
+      "quoteVolumeSum": "4275505.2947600",
       "quoteVolumes1m": [
-        "2974829.0983400",
-        "1074814.1618600",
-        "1262730.0825200",
-        "941342.3104300",
-        "1482518.1339700"
+        "903962.8350700",
+        "1057750.1231700",
+        "549844.9079200",
+        "638218.9300600",
+        "1125728.4985400"
       ],
       "symbol": "TAKE",
-      "top10HoldersPercent": "88.25699777537356"
+      "top10HoldersPercent": "88.33434780967544"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "龙虾USDT",
       "TAKEUSDT"
     ]
   },
