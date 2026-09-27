@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-09-27T15:32:49.666819+00:00",
-  "generatedAtMs": 1790523169666,
-  "localTime": "2026-09-27 23:32:49 CST",
-  "matches": [],
+  "generatedAt": "2026-09-27T15:38:37.090261+00:00",
+  "generatedAtMs": 1790523517090,
+  "localTime": "2026-09-27 23:38:37 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "158521.36262083793",
+      "chainId": "56",
+      "contractAddress": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
+      "futuresSymbol": "SOONUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/SOONUSDT",
+      "holders": "10759",
+      "isFreshAlert": true,
+      "key": "56|0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721|SOONUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://soo.network/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/soon_svm"
+        }
+      ],
+      "liquidity": "702655.6950532434",
+      "marketCap": "195105204.86012244",
+      "name": "SOON",
+      "percentChange5m": "6.44",
+      "price": "0.3139294130922869",
+      "quoteVolumeMin": "318741.2792000",
+      "quoteVolumeSum": "4740533.3600000",
+      "quoteVolumes1m": [
+        "1689883.2536000",
+        "564126.3344000",
+        "318741.2792000",
+        "763269.0240000",
+        "1404513.4688000"
+      ],
+      "symbol": "SOON",
+      "top10HoldersPercent": "93.10332631124312"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "SOONUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
