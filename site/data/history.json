@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-26T20:58:46.334758+00:00",
-    "generatedAtMs": 1790456326334,
-    "localTime": "2026-09-27 04:58:46 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-26T21:04:31.300593+00:00",
     "generatedAtMs": 1790456671300,
     "localTime": "2026-09-27 05:04:31 CST",
@@ -2998,5 +2989,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-09-30T16:13:30.378055+00:00",
+    "generatedAtMs": 1790784810378,
+    "localTime": "2026-10-01 00:13:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "134308.9056810856",
+        "chainId": "56",
+        "contractAddress": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
+        "futuresSymbol": "SOONUSDT",
+        "isFreshAlert": false,
+        "name": "SOON",
+        "percentChange5m": "-0.01",
+        "price": "0.5093810015499848",
+        "quoteVolumeMin": "319952.7472000",
+        "quoteVolumeSum": "2284015.7099000",
+        "symbol": "SOON",
+        "top10HoldersPercent": "91.99116822356494"
+      }
+    ],
+    "symbols": [
+      "SOONUSDT"
+    ]
   }
 ]
