@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-27T06:44:18.436099+00:00",
-    "generatedAtMs": 1790491458436,
-    "localTime": "2026-09-27 14:44:18 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-27T06:50:17.357173+00:00",
     "generatedAtMs": 1790491817357,
     "localTime": "2026-09-27 14:50:17 CST",
@@ -3097,6 +3088,47 @@
     "symbols": [
       "龙虾USDT",
       "CTUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-10-02T07:37:07.984596+00:00",
+    "generatedAtMs": 1790926627984,
+    "localTime": "2026-10-02 15:37:07 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "4027094.683809571",
+        "chainId": "56",
+        "contractAddress": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+        "futuresSymbol": "CTUSDT",
+        "isFreshAlert": true,
+        "name": "Concrete",
+        "percentChange5m": "2.15",
+        "price": "0.6095828425849411",
+        "quoteVolumeMin": "744791.8056700",
+        "quoteVolumeSum": "5210750.0749700",
+        "symbol": "CT",
+        "top10HoldersPercent": "85.11377640837316"
+      },
+      {
+        "alphaVolume5m": "140619.7215834597",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": true,
+        "name": "龙虾",
+        "percentChange5m": "8.4",
+        "price": "0.028226644090605723",
+        "quoteVolumeMin": "399837.9932190",
+        "quoteVolumeSum": "3754357.7997760",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "90.35924494825461"
+      }
+    ],
+    "symbols": [
+      "CTUSDT",
+      "龙虾USDT"
     ]
   }
 ]
