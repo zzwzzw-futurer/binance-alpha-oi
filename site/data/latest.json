@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-02T12:00:47.169428+00:00",
-  "generatedAtMs": 1790942447169,
-  "localTime": "2026-10-02 20:00:47 CST",
-  "matches": [],
+  "generatedAt": "2026-10-02T12:06:21.988366+00:00",
+  "generatedAtMs": 1790942781988,
+  "localTime": "2026-10-02 20:06:21 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "1281637.0720665772",
+      "chainId": "56",
+      "contractAddress": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+      "futuresSymbol": "CTUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CTUSDT",
+      "holders": "21104",
+      "isFreshAlert": true,
+      "key": "56|0x0a092e544da31150b439a1aaa1a3a2214a867f46|CTUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://concrete.xyz/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/ConcreteXYZ"
+        }
+      ],
+      "liquidity": "2079017.4734474446",
+      "marketCap": "103381944.56851776",
+      "name": "Concrete",
+      "percentChange5m": "-3.62",
+      "price": "0.5441154977290408",
+      "quoteVolumeMin": "313873.4346800",
+      "quoteVolumeSum": "3409043.0335000",
+      "quoteVolumes1m": [
+        "752869.3979200",
+        "415260.8229700",
+        "313873.4346800",
+        "533044.2655800",
+        "1393995.1123500"
+      ],
+      "symbol": "CT",
+      "top10HoldersPercent": "80.3970102591572"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "CTUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
