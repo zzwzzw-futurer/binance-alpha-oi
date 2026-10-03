@@ -1,58 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-27T15:55:53.909241+00:00",
-    "generatedAtMs": 1790524553909,
-    "localTime": "2026-09-27 23:55:53 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "181175.51053303742",
-        "chainId": "56",
-        "contractAddress": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
-        "futuresSymbol": "SOONUSDT",
-        "isFreshAlert": false,
-        "name": "SOON",
-        "percentChange5m": "-3.34",
-        "price": "0.3352301297212703",
-        "quoteVolumeMin": "816031.4626000",
-        "quoteVolumeSum": "7025152.9540000",
-        "symbol": "SOON",
-        "top10HoldersPercent": "93.10227062101835"
-      }
-    ],
-    "symbols": [
-      "SOONUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-09-27T16:01:39.618756+00:00",
-    "generatedAtMs": 1790524899618,
-    "localTime": "2026-09-28 00:01:39 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "175948.595873468",
-        "chainId": "56",
-        "contractAddress": "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721",
-        "futuresSymbol": "SOONUSDT",
-        "isFreshAlert": false,
-        "name": "SOON",
-        "percentChange5m": "-0.53",
-        "price": "0.3347949627812232",
-        "quoteVolumeMin": "541428.8826000",
-        "quoteVolumeSum": "4584207.5964000",
-        "symbol": "SOON",
-        "top10HoldersPercent": "93.10121356166619"
-      }
-    ],
-    "symbols": [
-      "SOONUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-27T16:07:25.501363+00:00",
     "generatedAtMs": 1790525245501,
     "localTime": "2026-09-28 00:07:25 CST",
@@ -3364,5 +3312,55 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-03T09:57:36.588538+00:00",
+    "generatedAtMs": 1791021456588,
+    "localTime": "2026-10-03 17:57:36 CST",
+    "matchCount": 0,
+    "matches": [],
+    "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-10-03T14:57:01.074841+00:00",
+    "generatedAtMs": 1791039421074,
+    "localTime": "2026-10-03 22:57:01 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "71907.8070589092",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": true,
+        "name": "Infinity Ground",
+        "percentChange5m": "5.66",
+        "price": "0.03689841188821273",
+        "quoteVolumeMin": "947581.1724400",
+        "quoteVolumeSum": "12505897.9968800",
+        "symbol": "AIN",
+        "top10HoldersPercent": "81.33203356873035"
+      },
+      {
+        "alphaVolume5m": "51579.242643385645",
+        "chainId": "56",
+        "contractAddress": "0x302dfaf2cdbe51a18d97186a7384e87cf599877d",
+        "futuresSymbol": "LYNUSDT",
+        "isFreshAlert": true,
+        "name": "Everlyn AI",
+        "percentChange5m": "-17.61",
+        "price": "0.02268804795267837",
+        "quoteVolumeMin": "375035.9531000",
+        "quoteVolumeSum": "4448043.6783300",
+        "symbol": "LYN",
+        "top10HoldersPercent": "93.93822382387833"
+      }
+    ],
+    "symbols": [
+      "AINUSDT",
+      "LYNUSDT"
+    ]
   }
 ]
