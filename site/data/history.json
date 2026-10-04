@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-09-28T23:20:59.825648+00:00",
-    "generatedAtMs": 1790637659825,
-    "localTime": "2026-09-29 07:20:59 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-09-30T13:24:53.190229+00:00",
     "generatedAtMs": 1790774693190,
@@ -3498,5 +3489,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-04T15:25:08.998065+00:00",
+    "generatedAtMs": 1791127508998,
+    "localTime": "2026-10-04 23:25:08 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "460656.9251416348",
+        "chainId": "56",
+        "contractAddress": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+        "futuresSymbol": "COLLECTUSDT",
+        "isFreshAlert": true,
+        "name": "Collect on Fanable",
+        "percentChange5m": "-3.04",
+        "price": "0.025757247751251527",
+        "quoteVolumeMin": "311622.5863900",
+        "quoteVolumeSum": "2781113.4457700",
+        "symbol": "COLLECT",
+        "top10HoldersPercent": "91.25559240825527"
+      }
+    ],
+    "symbols": [
+      "COLLECTUSDT"
+    ]
   }
 ]
