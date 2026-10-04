@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-28T22:11:43.941172+00:00",
-    "generatedAtMs": 1790633503941,
-    "localTime": "2026-09-29 06:11:43 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-28T22:17:34.332137+00:00",
     "generatedAtMs": 1790633854332,
     "localTime": "2026-09-29 06:17:34 CST",
@@ -3481,5 +3472,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-04T13:51:40.866690+00:00",
+    "generatedAtMs": 1791121900866,
+    "localTime": "2026-10-04 21:51:40 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "294867.80680043483",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": true,
+        "name": "Infinity Ground",
+        "percentChange5m": "0.86",
+        "price": "0.054416518665234455",
+        "quoteVolumeMin": "316956.0643100",
+        "quoteVolumeSum": "2296544.7525400",
+        "symbol": "AIN",
+        "top10HoldersPercent": "80.49807560595183"
+      }
+    ],
+    "symbols": [
+      "AINUSDT"
+    ]
   }
 ]
