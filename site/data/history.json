@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-09-30T22:59:37.464779+00:00",
-    "generatedAtMs": 1790809177464,
-    "localTime": "2026-10-01 06:59:37 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-09-30T23:05:13.818705+00:00",
     "generatedAtMs": 1790809513818,
     "localTime": "2026-10-01 07:05:13 CST",
@@ -3243,5 +3234,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-05T01:06:10.708182+00:00",
+    "generatedAtMs": 1791162370708,
+    "localTime": "2026-10-05 09:06:10 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "96356.20228317984",
+        "chainId": "56",
+        "contractAddress": "0x302dfaf2cdbe51a18d97186a7384e87cf599877d",
+        "futuresSymbol": "LYNUSDT",
+        "isFreshAlert": true,
+        "name": "Everlyn AI",
+        "percentChange5m": "3.02",
+        "price": "0.024258503758604166",
+        "quoteVolumeMin": "434099.0498100",
+        "quoteVolumeSum": "2524349.0710800",
+        "symbol": "LYN",
+        "top10HoldersPercent": "94.76885335849622"
+      }
+    ],
+    "symbols": [
+      "LYNUSDT"
+    ]
   }
 ]
