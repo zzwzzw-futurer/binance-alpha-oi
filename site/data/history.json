@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-06T08:08:27.879414+00:00",
-    "generatedAtMs": 1791274107879,
-    "localTime": "2026-10-06 16:08:27 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-06T08:14:03.363997+00:00",
     "generatedAtMs": 1791274443363,
     "localTime": "2026-10-06 16:14:03 CST",
@@ -3219,5 +3210,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-07T12:44:19.708428+00:00",
+    "generatedAtMs": 1791377059708,
+    "localTime": "2026-10-07 20:44:19 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "134650.5072955432",
+        "chainId": "56",
+        "contractAddress": "0xeccbb861c0dda7efd964010085488b69317e4444",
+        "futuresSymbol": "龙虾USDT",
+        "isFreshAlert": false,
+        "name": "龙虾",
+        "percentChange5m": "-7.55",
+        "price": "0.044463935170151715",
+        "quoteVolumeMin": "439664.5703360",
+        "quoteVolumeSum": "4079455.1925460",
+        "symbol": "龙虾",
+        "top10HoldersPercent": "89.44928060830381"
+      }
+    ],
+    "symbols": [
+      "龙虾USDT"
+    ]
   }
 ]
