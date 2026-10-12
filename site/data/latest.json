@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-12T20:25:08.886214+00:00",
-  "generatedAtMs": 1791836708886,
-  "localTime": "2026-10-13 04:25:08 CST",
-  "matches": [],
+  "generatedAt": "2026-10-12T20:30:23.206083+00:00",
+  "generatedAtMs": 1791837023206,
+  "localTime": "2026-10-13 04:30:23 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "320080.99742820725",
+      "chainId": "56",
+      "contractAddress": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+      "futuresSymbol": "DOSUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/DOSUSDT",
+      "holders": "27312",
+      "isFreshAlert": true,
+      "key": "56|0xb0f09ea9ae0515c3551080d4a745c8115aa30e37|DOSUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://dappos.com"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/dappOS_com"
+        }
+      ],
+      "liquidity": "1052484.9260780758",
+      "marketCap": "11519140.007264763",
+      "name": "DAPPOS",
+      "percentChange5m": "6.91",
+      "price": "0.35093064154583187",
+      "quoteVolumeMin": "338480.4188000",
+      "quoteVolumeSum": "2963317.1662000",
+      "quoteVolumes1m": [
+        "712225.1749000",
+        "338480.4188000",
+        "698925.2383000",
+        "613898.5666000",
+        "599787.7676000"
+      ],
+      "symbol": "DOS",
+      "top10HoldersPercent": "85.116614963746"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "DOSUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
