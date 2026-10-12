@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-09T17:13:54.647406+00:00",
-    "generatedAtMs": 1791566034647,
-    "localTime": "2026-10-10 01:13:54 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-09T17:19:39.245767+00:00",
     "generatedAtMs": 1791566379245,
     "localTime": "2026-10-10 01:19:39 CST",
@@ -2658,5 +2649,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-12T21:01:54.091904+00:00",
+    "generatedAtMs": 1791838914091,
+    "localTime": "2026-10-13 05:01:54 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "366946.20516714343",
+        "chainId": "56",
+        "contractAddress": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+        "futuresSymbol": "DOSUSDT",
+        "isFreshAlert": false,
+        "name": "DAPPOS",
+        "percentChange5m": "3.8",
+        "price": "0.39008047194047024",
+        "quoteVolumeMin": "352726.7838000",
+        "quoteVolumeSum": "2505917.1686000",
+        "symbol": "DOS",
+        "top10HoldersPercent": "85.32646472648729"
+      }
+    ],
+    "symbols": [
+      "DOSUSDT"
+    ]
   }
 ]
