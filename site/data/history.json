@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-11T19:19:14.387311+00:00",
-    "generatedAtMs": 1791746354387,
-    "localTime": "2026-10-12 03:19:14 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-11T19:24:55.184153+00:00",
     "generatedAtMs": 1791746695184,
     "localTime": "2026-10-12 03:24:55 CST",
@@ -2862,5 +2853,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-13T03:05:30.790317+00:00",
+    "generatedAtMs": 1791860730790,
+    "localTime": "2026-10-13 11:05:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "142776.44197910035",
+        "chainId": "56",
+        "contractAddress": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+        "futuresSymbol": "CTUSDT",
+        "isFreshAlert": false,
+        "name": "Concrete",
+        "percentChange5m": "3.06",
+        "price": "0.38397627153065567",
+        "quoteVolumeMin": "361553.7903400",
+        "quoteVolumeSum": "2462509.1716200",
+        "symbol": "CT",
+        "top10HoldersPercent": "88.25363968141149"
+      }
+    ],
+    "symbols": [
+      "CTUSDT"
+    ]
   }
 ]
