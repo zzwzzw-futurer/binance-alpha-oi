@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-13T00:33:09.526405+00:00",
-    "generatedAtMs": 1791851589526,
-    "localTime": "2026-10-13 08:33:09 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-13T00:38:24.709163+00:00",
     "generatedAtMs": 1791851904709,
     "localTime": "2026-10-13 08:38:24 CST",
@@ -2877,5 +2868,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-14T03:20:30.531902+00:00",
+    "generatedAtMs": 1791948030531,
+    "localTime": "2026-10-14 11:20:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "25979.897699834288",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "0.95",
+        "price": "2.394474363932158",
+        "quoteVolumeMin": "310297.8676000",
+        "quoteVolumeSum": "4609254.0234400",
+        "symbol": "BTW",
+        "top10HoldersPercent": "95.99646387578144"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT"
+    ]
   }
 ]
