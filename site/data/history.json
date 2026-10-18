@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-14T12:07:51.008742+00:00",
-    "generatedAtMs": 1791979671008,
-    "localTime": "2026-10-14 20:07:51 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-14T12:13:07.503799+00:00",
     "generatedAtMs": 1791979987503,
     "localTime": "2026-10-14 20:13:07 CST",
@@ -3047,5 +3038,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-18T15:18:43.353565+00:00",
+    "generatedAtMs": 1792336723353,
+    "localTime": "2026-10-18 23:18:43 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "190228.65694901862",
+        "chainId": "56",
+        "contractAddress": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+        "futuresSymbol": "ARIAUSDT",
+        "isFreshAlert": true,
+        "name": "AriaAI",
+        "percentChange5m": "5.42",
+        "price": "0.05444395213597381",
+        "quoteVolumeMin": "691040.7868100",
+        "quoteVolumeSum": "4205765.3508700",
+        "symbol": "ARIA",
+        "top10HoldersPercent": "85.01965116842163"
+      }
+    ],
+    "symbols": [
+      "ARIAUSDT"
+    ]
   }
 ]
