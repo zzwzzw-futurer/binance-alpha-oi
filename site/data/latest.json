@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-20T15:23:03.712862+00:00",
-  "generatedAtMs": 1792509783712,
-  "localTime": "2026-10-20 23:23:03 CST",
-  "matches": [],
+  "generatedAt": "2026-10-20T15:28:34.917258+00:00",
+  "generatedAtMs": 1792510114917,
+  "localTime": "2026-10-20 23:28:34 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "36297.61975875381",
+      "chainId": "56",
+      "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
+      "futuresSymbol": "DOODUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/DOODUSDT",
+      "holders": "11934",
+      "isFreshAlert": true,
+      "key": "56|0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9|DOODUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.doodles.app/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/doodles"
+        }
+      ],
+      "liquidity": "195987.89199613204",
+      "marketCap": "1736338.1700886171",
+      "name": "Doodles",
+      "percentChange5m": "3.94",
+      "price": "0.001928229531766869",
+      "quoteVolumeMin": "311491.7068990",
+      "quoteVolumeSum": "3122635.9024020",
+      "quoteVolumes1m": [
+        "329119.3606550",
+        "311491.7068990",
+        "975650.8159190",
+        "920893.0883210",
+        "585480.9306080"
+      ],
+      "symbol": "DOOD",
+      "top10HoldersPercent": "87.72429673287346"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "DOODUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
