@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-21T16:29:42.412075+00:00",
-  "generatedAtMs": 1792600182412,
-  "localTime": "2026-10-22 00:29:42 CST",
+  "generatedAt": "2026-10-21T16:46:25.999535+00:00",
+  "generatedAtMs": 1792601185999,
+  "localTime": "2026-10-22 00:46:25 CST",
   "matches": [
     {
-      "alphaVolume5m": "78035.83408280516",
+      "alphaVolume5m": "92453.76546542843",
       "chainId": "56",
       "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
       "futuresSymbol": "DOODUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/DOODUSDT",
-      "holders": "12164",
-      "isFreshAlert": false,
+      "holders": "12157",
+      "isFreshAlert": true,
       "key": "56|0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9|DOODUSDT",
       "links": [
         {
@@ -32,67 +32,30 @@
           "link": "https://x.com/doodles"
         }
       ],
-      "liquidity": "222180.17303271513",
-      "marketCap": "2273139.02182688",
+      "liquidity": "214390.44985179874",
+      "marketCap": "2114563.600907209",
       "name": "Doodles",
-      "percentChange5m": "-4.31",
-      "price": "0.002425058507217336",
-      "quoteVolumeMin": "798808.8454670",
-      "quoteVolumeSum": "5332345.2344870",
+      "percentChange5m": "1.6",
+      "price": "0.002256924225281605",
+      "quoteVolumeMin": "1071719.1251030",
+      "quoteVolumeSum": "8546830.0555130",
       "quoteVolumes1m": [
-        "798808.8454670",
-        "945290.8285710",
-        "1447805.9318850",
-        "1131732.5862390",
-        "1008707.0423250"
+        "2027890.3674290",
+        "1279318.8535650",
+        "2205572.3358120",
+        "1962329.3736040",
+        "1071719.1251030"
       ],
       "symbol": "DOOD",
-      "top10HoldersPercent": "88.67293561758152"
-    },
-    {
-      "alphaVolume5m": "118337.76492926816",
-      "chainId": "56",
-      "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-      "futuresSymbol": "BTWUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "43132",
-      "isFreshAlert": false,
-      "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://bitway.com"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/bitwayofficial"
-        }
-      ],
-      "liquidity": "3712675.218656552",
-      "marketCap": "15911543399.27457",
-      "name": "Bitway",
-      "percentChange5m": "7.51",
-      "price": "1.5911543738126162",
-      "quoteVolumeMin": "348624.1578300",
-      "quoteVolumeSum": "5314351.4812000",
-      "quoteVolumes1m": [
-        "1235608.2032200",
-        "2092058.7417100",
-        "1168686.1221900",
-        "469374.2562500",
-        "348624.1578300"
-      ],
-      "symbol": "BTW",
-      "top10HoldersPercent": "96.24027026249604"
+      "top10HoldersPercent": "88.46042494341802"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 2,
+    "freshAlertCount": 1,
+    "matchCount": 1,
     "symbols": [
-      "DOODUSDT",
-      "BTWUSDT"
+      "DOODUSDT"
     ]
   },
   "telegram": {
