@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-19T16:23:03.755051+00:00",
-    "generatedAtMs": 1792426983755,
-    "localTime": "2026-10-20 00:23:03 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-19T16:28:27.071461+00:00",
     "generatedAtMs": 1792427307071,
     "localTime": "2026-10-20 00:28:27 CST",
@@ -3436,5 +3427,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-21T17:28:18.122813+00:00",
+    "generatedAtMs": 1792603698122,
+    "localTime": "2026-10-22 01:28:18 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "49343.61421656176",
+        "chainId": "56",
+        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
+        "futuresSymbol": "DOODUSDT",
+        "isFreshAlert": false,
+        "name": "Doodles",
+        "percentChange5m": "-2.13",
+        "price": "0.002245288245070133",
+        "quoteVolumeMin": "618526.6285290",
+        "quoteVolumeSum": "3961810.3204690",
+        "symbol": "DOOD",
+        "top10HoldersPercent": "88.69620998680628"
+      }
+    ],
+    "symbols": [
+      "DOODUSDT"
+    ]
   }
 ]
