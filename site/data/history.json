@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-20T16:01:06.895736+00:00",
-    "generatedAtMs": 1792512066895,
-    "localTime": "2026-10-21 00:01:06 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "76556.32176487168",
-        "chainId": "56",
-        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
-        "futuresSymbol": "DOODUSDT",
-        "isFreshAlert": false,
-        "name": "Doodles",
-        "percentChange5m": "-0.07",
-        "price": "0.002195777823450415",
-        "quoteVolumeMin": "381227.8211700",
-        "quoteVolumeSum": "4217132.3246150",
-        "symbol": "DOOD",
-        "top10HoldersPercent": "88.2508562874068"
-      }
-    ],
-    "symbols": [
-      "DOODUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-20T16:06:39.794320+00:00",
     "generatedAtMs": 1792512399794,
     "localTime": "2026-10-21 00:06:39 CST",
@@ -3249,5 +3223,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-22T19:37:33.075938+00:00",
+    "generatedAtMs": 1792697853075,
+    "localTime": "2026-10-23 03:37:33 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "603396.2283634231",
+        "chainId": "56",
+        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+        "futuresSymbol": "BTRUSDT",
+        "isFreshAlert": false,
+        "name": "BTR token",
+        "percentChange5m": "-4.28",
+        "price": "0.06214618421389932",
+        "quoteVolumeMin": "771143.7421800",
+        "quoteVolumeSum": "7819182.0037400",
+        "symbol": "BTR",
+        "top10HoldersPercent": "83.86924577548808"
+      }
+    ],
+    "symbols": [
+      "BTRUSDT"
+    ]
   }
 ]
