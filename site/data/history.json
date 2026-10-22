@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-20T16:33:42.999433+00:00",
-    "generatedAtMs": 1792514022999,
-    "localTime": "2026-10-21 00:33:42 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "60275.991401642576",
-        "chainId": "56",
-        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
-        "futuresSymbol": "DOODUSDT",
-        "isFreshAlert": true,
-        "name": "Doodles",
-        "percentChange5m": "-6.33",
-        "price": "0.002174263125886214",
-        "quoteVolumeMin": "321518.5115620",
-        "quoteVolumeSum": "3432366.1165615",
-        "symbol": "DOOD",
-        "top10HoldersPercent": "87.62366439986751"
-      }
-    ],
-    "symbols": [
-      "DOODUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-20T16:39:02.742347+00:00",
     "generatedAtMs": 1792514342742,
@@ -3174,6 +3148,32 @@
         "price": "1.6975614824934881",
         "quoteVolumeMin": "430475.6274100",
         "quoteVolumeSum": "3173883.6764100",
+        "symbol": "BTW",
+        "top10HoldersPercent": "96.38028376000268"
+      }
+    ],
+    "symbols": [
+      "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-22T20:23:05.118535+00:00",
+    "generatedAtMs": 1792700585118,
+    "localTime": "2026-10-23 04:23:05 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "65167.48297259312",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "2.46",
+        "price": "1.7361157098347086",
+        "quoteVolumeMin": "645365.9234500",
+        "quoteVolumeSum": "5285568.5117300",
         "symbol": "BTW",
         "top10HoldersPercent": "96.38028376000268"
       }
