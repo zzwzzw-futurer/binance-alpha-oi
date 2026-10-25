@@ -9,17 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-25T06:58:00.849741+00:00",
-  "generatedAtMs": 1792911480849,
-  "localTime": "2026-10-25 14:58:00 CST",
+  "generatedAt": "2026-10-25T07:03:24.488470+00:00",
+  "generatedAtMs": 1792911804488,
+  "localTime": "2026-10-25 15:03:24 CST",
   "matches": [
     {
-      "alphaVolume5m": "47804.70039682993",
+      "alphaVolume5m": "26934.200882573306",
       "chainId": "56",
       "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
       "futuresSymbol": "BTWUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/BTWUSDT",
-      "holders": "43023",
+      "holders": "43025",
       "isFreshAlert": false,
       "key": "56|0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa|BTWUSDT",
       "links": [
@@ -32,30 +32,67 @@
           "link": "https://twitter.com/bitwayofficial"
         }
       ],
-      "liquidity": "4001767.2616865076",
-      "marketCap": "17117528943.949507",
+      "liquidity": "4005197.4348801933",
+      "marketCap": "17128880390.673775",
       "name": "Bitway",
-      "percentChange5m": "-1.33",
-      "price": "1.7117529308483719",
-      "quoteVolumeMin": "411596.8204900",
-      "quoteVolumeSum": "5908785.9765700",
+      "percentChange5m": "0.15",
+      "price": "1.7128880755449725",
+      "quoteVolumeMin": "330363.6181000",
+      "quoteVolumeSum": "3231292.7801600",
       "quoteVolumes1m": [
-        "2686462.8241000",
-        "1580274.2228000",
-        "566705.4482500",
-        "663746.6609300",
-        "411596.8204900"
+        "1610243.6620100",
+        "481501.7234500",
+        "421878.8814700",
+        "387304.8951300",
+        "330363.6181000"
       ],
       "symbol": "BTW",
       "top10HoldersPercent": "96.51678551964571"
+    },
+    {
+      "alphaVolume5m": "68430.05383792504",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "15574",
+      "isFreshAlert": false,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "268810.96502957895",
+      "marketCap": "15474117.672020193",
+      "name": "aPriori",
+      "percentChange5m": "3.48",
+      "price": "0.03672110601244087",
+      "quoteVolumeMin": "303680.2799800",
+      "quoteVolumeSum": "2296499.0495900",
+      "quoteVolumes1m": [
+        "501817.9890500",
+        "303680.2799800",
+        "519194.6231800",
+        "590396.9766800",
+        "381409.1807000"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "92.5134505154805"
     }
   ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 1,
+    "matchCount": 2,
     "symbols": [
-      "BTWUSDT"
+      "BTWUSDT",
+      "APRUSDT"
     ]
   },
   "telegram": {
