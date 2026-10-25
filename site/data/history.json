@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-22T17:34:44.292064+00:00",
-    "generatedAtMs": 1792690484292,
-    "localTime": "2026-10-23 01:34:44 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "413817.14518180984",
-        "chainId": "56",
-        "contractAddress": "0xfed13d0c40790220fbde712987079eda1ed75c51",
-        "futuresSymbol": "BTRUSDT",
-        "isFreshAlert": true,
-        "name": "BTR token",
-        "percentChange5m": "3.05",
-        "price": "0.0548830540686669",
-        "quoteVolumeMin": "356366.1150000",
-        "quoteVolumeSum": "2349408.2754800",
-        "symbol": "BTR",
-        "top10HoldersPercent": "84.2105361079825"
-      }
-    ],
-    "symbols": [
-      "BTRUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-22T17:42:04.027316+00:00",
     "generatedAtMs": 1792690924027,
@@ -3487,6 +3461,32 @@
     ],
     "symbols": [
       "APRUSDT",
+      "BTWUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-25T06:58:00.849741+00:00",
+    "generatedAtMs": 1792911480849,
+    "localTime": "2026-10-25 14:58:00 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "47804.70039682993",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": false,
+        "name": "Bitway",
+        "percentChange5m": "-1.33",
+        "price": "1.7117529308483719",
+        "quoteVolumeMin": "411596.8204900",
+        "quoteVolumeSum": "5908785.9765700",
+        "symbol": "BTW",
+        "top10HoldersPercent": "96.51678551964571"
+      }
+    ],
+    "symbols": [
       "BTWUSDT"
     ]
   }
