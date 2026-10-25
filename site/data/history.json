@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-23T00:41:42.701146+00:00",
-    "generatedAtMs": 1792716102701,
-    "localTime": "2026-10-23 08:41:42 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-23T01:55:01.776358+00:00",
     "generatedAtMs": 1792720501776,
     "localTime": "2026-10-23 09:55:01 CST",
@@ -3436,5 +3427,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-25T13:02:44.917615+00:00",
+    "generatedAtMs": 1792933364917,
+    "localTime": "2026-10-25 21:02:44 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "218843.944724292",
+        "chainId": "56",
+        "contractAddress": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+        "futuresSymbol": "JCTUSDT",
+        "isFreshAlert": true,
+        "name": "Janction",
+        "percentChange5m": "-4.28",
+        "price": "0.006724939986982721",
+        "quoteVolumeMin": "382773.7294450",
+        "quoteVolumeSum": "5542717.3489010",
+        "symbol": "JCT",
+        "top10HoldersPercent": "80.00957531479116"
+      }
+    ],
+    "symbols": [
+      "JCTUSDT"
+    ]
   }
 ]
