@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-22T23:23:37.215940+00:00",
-    "generatedAtMs": 1792711417215,
-    "localTime": "2026-10-23 07:23:37 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "88318.55383747292",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": true,
-        "name": "Bitway",
-        "percentChange5m": "1.56",
-        "price": "1.9272352619433708",
-        "quoteVolumeMin": "442128.2058300",
-        "quoteVolumeSum": "4526022.5170100",
-        "symbol": "BTW",
-        "top10HoldersPercent": "96.38028376000268"
-      }
-    ],
-    "symbols": [
-      "BTWUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-22T23:36:13.707768+00:00",
     "generatedAtMs": 1792712173707,
@@ -3419,5 +3393,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-25T11:58:36.403990+00:00",
+    "generatedAtMs": 1792929516403,
+    "localTime": "2026-10-25 19:58:36 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "92770.35521105446",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-5.5",
+        "price": "0.03884416856240441",
+        "quoteVolumeMin": "320879.7036600",
+        "quoteVolumeSum": "4047771.0818400",
+        "symbol": "APR",
+        "top10HoldersPercent": "92.57258434857997"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
   }
 ]
