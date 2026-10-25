@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-22T11:29:06.535093+00:00",
-    "generatedAtMs": 1792668546535,
-    "localTime": "2026-10-22 19:29:06 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-22T11:34:58.863261+00:00",
     "generatedAtMs": 1792668898863,
     "localTime": "2026-10-22 19:34:58 CST",
@@ -3168,5 +3159,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-25T00:29:30.905313+00:00",
+    "generatedAtMs": 1792888170905,
+    "localTime": "2026-10-25 08:29:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "77622.9183788489",
+        "chainId": "CT_501",
+        "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+        "futuresSymbol": "BIRBUSDT",
+        "isFreshAlert": false,
+        "name": "Moonbirds",
+        "percentChange5m": "-6.37",
+        "price": "0.0797170657460643",
+        "quoteVolumeMin": "313583.9521900",
+        "quoteVolumeSum": "1911922.4064400",
+        "symbol": "BIRB",
+        "top10HoldersPercent": "92.71319637575161"
+      }
+    ],
+    "symbols": [
+      "BIRBUSDT"
+    ]
   }
 ]
