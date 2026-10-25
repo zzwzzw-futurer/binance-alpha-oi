@@ -1,14 +1,5 @@
 [
   {
-    "freshAlertCount": 0,
-    "generatedAt": "2026-10-22T17:28:48.283193+00:00",
-    "generatedAtMs": 1792690128283,
-    "localTime": "2026-10-23 01:28:48 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
     "freshAlertCount": 1,
     "generatedAt": "2026-10-22T17:34:44.292064+00:00",
     "generatedAtMs": 1792690484292,
@@ -3457,5 +3448,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-25T06:52:16.294422+00:00",
+    "generatedAtMs": 1792911136294,
+    "localTime": "2026-10-25 14:52:16 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "105173.97968237984",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-7.58",
+        "price": "0.034895720310880986",
+        "quoteVolumeMin": "366471.6912100",
+        "quoteVolumeSum": "4828308.4355200",
+        "symbol": "APR",
+        "top10HoldersPercent": "92.50455575423838"
+      },
+      {
+        "alphaVolume5m": "270675.54387495766",
+        "chainId": "56",
+        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+        "futuresSymbol": "BTWUSDT",
+        "isFreshAlert": true,
+        "name": "Bitway",
+        "percentChange5m": "-10.01",
+        "price": "1.7161753768221877",
+        "quoteVolumeMin": "313803.2434300",
+        "quoteVolumeSum": "9699842.5259900",
+        "symbol": "BTW",
+        "top10HoldersPercent": "96.51678551964571"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "BTWUSDT"
+    ]
   }
 ]
