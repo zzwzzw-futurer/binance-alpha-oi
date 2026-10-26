@@ -9,18 +9,18 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-26T08:35:29.128458+00:00",
-  "generatedAtMs": 1793003729128,
-  "localTime": "2026-10-26 16:35:29 CST",
+  "generatedAt": "2026-10-26T08:41:08.686624+00:00",
+  "generatedAtMs": 1793004068686,
+  "localTime": "2026-10-26 16:41:08 CST",
   "matches": [
     {
-      "alphaVolume5m": "94947.03788556578",
+      "alphaVolume5m": "128998.44710822761",
       "chainId": "56",
       "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
       "futuresSymbol": "DOODUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/DOODUSDT",
-      "holders": "12309",
-      "isFreshAlert": false,
+      "holders": "12320",
+      "isFreshAlert": true,
       "key": "56|0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9|DOODUSDT",
       "links": [
         {
@@ -32,30 +32,67 @@
           "link": "https://x.com/doodles"
         }
       ],
-      "liquidity": "216216.2416026655",
-      "marketCap": "2384110.5175355384",
+      "liquidity": "221417.763174187",
+      "marketCap": "2531523.1411659173",
       "name": "Doodles",
-      "percentChange5m": "13.47",
-      "price": "0.002317119572080681",
-      "quoteVolumeMin": "503342.5437410",
-      "quoteVolumeSum": "6843661.2470200",
+      "percentChange5m": "4.79",
+      "price": "0.002431218865148046",
+      "quoteVolumeMin": "990275.9848420",
+      "quoteVolumeSum": "8921676.4410355",
       "quoteVolumes1m": [
-        "519234.8387360",
-        "503342.5437410",
-        "749375.7056340",
-        "3430054.1592790",
-        "1641653.9996300"
+        "3067735.3219905",
+        "1809424.0557390",
+        "1592598.2970160",
+        "1461642.7814480",
+        "990275.9848420"
       ],
       "symbol": "DOOD",
-      "top10HoldersPercent": "85.96612375721105"
+      "top10HoldersPercent": "85.49115963300129"
+    },
+    {
+      "alphaVolume5m": "115342.72703091416",
+      "chainId": "56",
+      "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+      "futuresSymbol": "CAPUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/CAPUSDT",
+      "holders": "4505",
+      "isFreshAlert": true,
+      "key": "56|0x99991c6aabba5a096f24f250b73580f5179b9999|CAPUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.cap.app/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/capapp"
+        }
+      ],
+      "liquidity": "1303434.1778381276",
+      "marketCap": "15174323.85544428",
+      "name": "Cap",
+      "percentChange5m": "-3.05",
+      "price": "0.07677033785118598",
+      "quoteVolumeMin": "334877.8799600",
+      "quoteVolumeSum": "2623201.5843600",
+      "quoteVolumes1m": [
+        "396645.1352200",
+        "407050.3573000",
+        "732320.6394500",
+        "334877.8799600",
+        "752307.5724300"
+      ],
+      "symbol": "CAP",
+      "top10HoldersPercent": "97.06990183671377"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 2,
+    "matchCount": 2,
     "symbols": [
-      "DOODUSDT"
+      "DOODUSDT",
+      "CAPUSDT"
     ]
   },
   "telegram": {
