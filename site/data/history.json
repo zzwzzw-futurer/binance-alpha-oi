@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-24T15:41:53.070705+00:00",
-    "generatedAtMs": 1792856513070,
-    "localTime": "2026-10-24 23:41:53 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-24T15:47:14.390299+00:00",
     "generatedAtMs": 1792856834390,
     "localTime": "2026-10-24 23:47:14 CST",
@@ -3725,5 +3716,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 2,
+    "generatedAt": "2026-10-26T07:39:35.663282+00:00",
+    "generatedAtMs": 1793000375663,
+    "localTime": "2026-10-26 15:39:35 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "46738.195005771086",
+        "chainId": "56",
+        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
+        "futuresSymbol": "DOODUSDT",
+        "isFreshAlert": true,
+        "name": "Doodles",
+        "percentChange5m": "-7.04",
+        "price": "0.001691465238466102",
+        "quoteVolumeMin": "440733.2066630",
+        "quoteVolumeSum": "5012246.9177530",
+        "symbol": "DOOD",
+        "top10HoldersPercent": "84.85647481649096"
+      },
+      {
+        "alphaVolume5m": "179035.20074377686",
+        "chainId": "56",
+        "contractAddress": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+        "futuresSymbol": "JCTUSDT",
+        "isFreshAlert": true,
+        "name": "Janction",
+        "percentChange5m": "3.1",
+        "price": "0.006643043483042717",
+        "quoteVolumeMin": "407821.4472010",
+        "quoteVolumeSum": "3346824.9090830",
+        "symbol": "JCT",
+        "top10HoldersPercent": "80.27558056791383"
+      }
+    ],
+    "symbols": [
+      "DOODUSDT",
+      "JCTUSDT"
+    ]
   }
 ]
