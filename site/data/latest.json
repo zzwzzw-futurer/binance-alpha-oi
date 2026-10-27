@@ -9,17 +9,53 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-27T15:23:21.286674+00:00",
-  "generatedAtMs": 1793114601286,
-  "localTime": "2026-10-27 23:23:21 CST",
+  "generatedAt": "2026-10-27T15:28:44.203204+00:00",
+  "generatedAtMs": 1793114924203,
+  "localTime": "2026-10-27 23:28:44 CST",
   "matches": [
     {
-      "alphaVolume5m": "399036.4032770569",
+      "alphaVolume5m": "124780.18465663752",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "15563",
+      "isFreshAlert": true,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "296244.7020056107",
+      "marketCap": "17929581.548063613",
+      "name": "aPriori",
+      "percentChange5m": "2.15",
+      "price": "0.04251586925924995",
+      "quoteVolumeMin": "514905.4541800",
+      "quoteVolumeSum": "3401585.7655400",
+      "quoteVolumes1m": [
+        "869203.1311700",
+        "901937.8066100",
+        "527739.1900500",
+        "587800.1835300",
+        "514905.4541800"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "93.15134031901299"
+    },
+    {
+      "alphaVolume5m": "262479.2246915779",
       "chainId": "56",
       "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
       "futuresSymbol": "AINUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AINUSDT",
-      "holders": "19179",
+      "holders": "19184",
       "isFreshAlert": false,
       "key": "56|0x9558a9254890b2a8b057a789f413631b9084f4a3|AINUSDT",
       "links": [
@@ -36,29 +72,30 @@
           "link": "https://x.com/infinityg_ai"
         }
       ],
-      "liquidity": "1831462.1639433275",
-      "marketCap": "155795780.8997529",
+      "liquidity": "1699892.5545617768",
+      "marketCap": "157150972.0120959",
       "name": "Infinity Ground",
-      "percentChange5m": "-0.91",
-      "price": "0.15620540139558522",
-      "quoteVolumeMin": "818514.2776100",
-      "quoteVolumeSum": "4728051.8667500",
+      "percentChange5m": "2.82",
+      "price": "0.15756415559608705",
+      "quoteVolumeMin": "383592.0111900",
+      "quoteVolumeSum": "3203558.9298200",
       "quoteVolumes1m": [
-        "1052986.9278900",
-        "994683.3189300",
-        "980164.2365400",
-        "818514.2776100",
-        "881703.1057800"
+        "581274.0804700",
+        "1007002.4081700",
+        "383592.0111900",
+        "613584.9873400",
+        "618105.4426500"
       ],
       "symbol": "AIN",
-      "top10HoldersPercent": "81.17352568750724"
+      "top10HoldersPercent": "81.31671610122409"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 1,
+    "freshAlertCount": 1,
+    "matchCount": 2,
     "symbols": [
+      "APRUSDT",
       "AINUSDT"
     ]
   },
