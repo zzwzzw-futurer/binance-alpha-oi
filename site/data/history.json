@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-24T21:01:38.609171+00:00",
-    "generatedAtMs": 1792875698609,
-    "localTime": "2026-10-25 05:01:38 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-24T21:06:57.292876+00:00",
     "generatedAtMs": 1792876017292,
     "localTime": "2026-10-25 05:06:57 CST",
@@ -4747,6 +4738,47 @@
         "quoteVolumeSum": "3319290.0045400",
         "symbol": "AIN",
         "top10HoldersPercent": "81.98442530332065"
+      }
+    ],
+    "symbols": [
+      "APRUSDT",
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-27T16:17:50.657885+00:00",
+    "generatedAtMs": 1793117870657,
+    "localTime": "2026-10-28 00:17:50 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "87376.85849731413",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-0.54",
+        "price": "0.03992991928215839",
+        "quoteVolumeMin": "334834.2203600",
+        "quoteVolumeSum": "2147729.6660700",
+        "symbol": "APR",
+        "top10HoldersPercent": "93.1634178080069"
+      },
+      {
+        "alphaVolume5m": "233570.855008117",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": false,
+        "name": "Infinity Ground",
+        "percentChange5m": "9.35",
+        "price": "0.15825682895719329",
+        "quoteVolumeMin": "324165.2960000",
+        "quoteVolumeSum": "2338573.6083600",
+        "symbol": "AIN",
+        "top10HoldersPercent": "82.11614540152404"
       }
     ],
     "symbols": [
