@@ -9,53 +9,17 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-27T15:28:44.203204+00:00",
-  "generatedAtMs": 1793114924203,
-  "localTime": "2026-10-27 23:28:44 CST",
+  "generatedAt": "2026-10-27T15:34:10.279069+00:00",
+  "generatedAtMs": 1793115250279,
+  "localTime": "2026-10-27 23:34:10 CST",
   "matches": [
     {
-      "alphaVolume5m": "124780.18465663752",
-      "chainId": "56",
-      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-      "futuresSymbol": "APRUSDT",
-      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
-      "holders": "15563",
-      "isFreshAlert": true,
-      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
-      "links": [
-        {
-          "label": "website",
-          "link": "https://apr.io/"
-        },
-        {
-          "label": "x",
-          "link": "https://twitter.com/aPriori"
-        }
-      ],
-      "liquidity": "296244.7020056107",
-      "marketCap": "17929581.548063613",
-      "name": "aPriori",
-      "percentChange5m": "2.15",
-      "price": "0.04251586925924995",
-      "quoteVolumeMin": "514905.4541800",
-      "quoteVolumeSum": "3401585.7655400",
-      "quoteVolumes1m": [
-        "869203.1311700",
-        "901937.8066100",
-        "527739.1900500",
-        "587800.1835300",
-        "514905.4541800"
-      ],
-      "symbol": "APR",
-      "top10HoldersPercent": "93.15134031901299"
-    },
-    {
-      "alphaVolume5m": "262479.2246915779",
+      "alphaVolume5m": "625908.5548873458",
       "chainId": "56",
       "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
       "futuresSymbol": "AINUSDT",
       "futuresUrl": "https://www.binance.com/en/futures/AINUSDT",
-      "holders": "19184",
+      "holders": "19206",
       "isFreshAlert": false,
       "key": "56|0x9558a9254890b2a8b057a789f413631b9084f4a3|AINUSDT",
       "links": [
@@ -72,31 +36,67 @@
           "link": "https://x.com/infinityg_ai"
         }
       ],
-      "liquidity": "1699892.5545617768",
-      "marketCap": "157150972.0120959",
+      "liquidity": "1700727.0606615415",
+      "marketCap": "156771116.6726332",
       "name": "Infinity Ground",
-      "percentChange5m": "2.82",
-      "price": "0.15756415559608705",
-      "quoteVolumeMin": "383592.0111900",
-      "quoteVolumeSum": "3203558.9298200",
+      "percentChange5m": "-0.24",
+      "price": "0.15718330153616236",
+      "quoteVolumeMin": "1341495.9445900",
+      "quoteVolumeSum": "12149089.2785200",
       "quoteVolumes1m": [
-        "581274.0804700",
-        "1007002.4081700",
-        "383592.0111900",
-        "613584.9873400",
-        "618105.4426500"
+        "2217542.6416100",
+        "2490119.3895700",
+        "4693380.6419700",
+        "1341495.9445900",
+        "1406550.6607800"
       ],
       "symbol": "AIN",
-      "top10HoldersPercent": "81.31671610122409"
+      "top10HoldersPercent": "81.65550388918538"
+    },
+    {
+      "alphaVolume5m": "189641.86228863522",
+      "chainId": "56",
+      "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+      "futuresSymbol": "APRUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/APRUSDT",
+      "holders": "15568",
+      "isFreshAlert": false,
+      "key": "56|0x299ad4299da5b2b93fba4c96967b040c7f611099|APRUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://apr.io/"
+        },
+        {
+          "label": "x",
+          "link": "https://twitter.com/aPriori"
+        }
+      ],
+      "liquidity": "314168.8294379883",
+      "marketCap": "19604708.893895566",
+      "name": "aPriori",
+      "percentChange5m": "9.52",
+      "price": "0.04648719798641747",
+      "quoteVolumeMin": "599970.0405000",
+      "quoteVolumeSum": "5177110.9040100",
+      "quoteVolumes1m": [
+        "599970.0405000",
+        "1836069.2715000",
+        "916953.4823300",
+        "996324.6383700",
+        "827793.4713100"
+      ],
+      "symbol": "APR",
+      "top10HoldersPercent": "93.12630046247693"
     }
   ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 1,
+    "freshAlertCount": 0,
     "matchCount": 2,
     "symbols": [
-      "APRUSDT",
-      "AINUSDT"
+      "AINUSDT",
+      "APRUSDT"
     ]
   },
   "telegram": {
