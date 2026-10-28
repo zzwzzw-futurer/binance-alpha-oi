@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-26T04:01:52.448659+00:00",
-    "generatedAtMs": 1792987312448,
-    "localTime": "2026-10-26 12:01:52 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "6660.521833201873",
-        "chainId": "56",
-        "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
-        "futuresSymbol": "CAPUSDT",
-        "isFreshAlert": true,
-        "name": "Cap",
-        "percentChange5m": "0.11",
-        "price": "0.11085054216546457",
-        "quoteVolumeMin": "387128.9185700",
-        "quoteVolumeSum": "2383893.3870700",
-        "symbol": "CAP",
-        "top10HoldersPercent": "95.96991340186003"
-      }
-    ],
-    "symbols": [
-      "CAPUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-26T04:49:41.360525+00:00",
     "generatedAtMs": 1792990181360,
@@ -5088,6 +5062,47 @@
     "symbols": [
       "CAPUSDT",
       "BLESSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-28T14:02:38.010248+00:00",
+    "generatedAtMs": 1793196158010,
+    "localTime": "2026-10-28 22:02:38 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "53835.40248205264",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": false,
+        "name": "Bless",
+        "percentChange5m": "-0.47",
+        "price": "0.01060779088410781",
+        "quoteVolumeMin": "483192.7092610",
+        "quoteVolumeSum": "3022895.9100920",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "91.23454255595442"
+      },
+      {
+        "alphaVolume5m": "421276.68770340853",
+        "chainId": "56",
+        "contractAddress": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+        "futuresSymbol": "CAPUSDT",
+        "isFreshAlert": false,
+        "name": "Cap",
+        "percentChange5m": "1.57",
+        "price": "0.07796163185964536",
+        "quoteVolumeMin": "410341.7699700",
+        "quoteVolumeSum": "2480264.3537000",
+        "symbol": "CAP",
+        "top10HoldersPercent": "97.22505729875665"
+      }
+    ],
+    "symbols": [
+      "BLESSUSDT",
+      "CAPUSDT"
     ]
   }
 ]
