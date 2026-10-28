@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-25T11:58:36.403990+00:00",
-    "generatedAtMs": 1792929516403,
-    "localTime": "2026-10-25 19:58:36 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "92770.35521105446",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "-5.5",
-        "price": "0.03884416856240441",
-        "quoteVolumeMin": "320879.7036600",
-        "quoteVolumeSum": "4047771.0818400",
-        "symbol": "APR",
-        "top10HoldersPercent": "92.57258434857997"
-      }
-    ],
-    "symbols": [
-      "APRUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-25T12:04:00.325711+00:00",
     "generatedAtMs": 1792929840325,
     "localTime": "2026-10-25 20:04:00 CST",
@@ -5023,5 +4997,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-28T06:22:39.679389+00:00",
+    "generatedAtMs": 1793168559679,
+    "localTime": "2026-10-28 14:22:39 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "155872.59660523394",
+        "chainId": "56",
+        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+        "futuresSymbol": "BEATUSDT",
+        "isFreshAlert": true,
+        "name": "Audiera",
+        "percentChange5m": "8.09",
+        "price": "0.10585080858802337",
+        "quoteVolumeMin": "485093.5275200",
+        "quoteVolumeSum": "2995930.4491700",
+        "symbol": "BEAT",
+        "top10HoldersPercent": "84.23959586300084"
+      }
+    ],
+    "symbols": [
+      "BEATUSDT"
+    ]
   }
 ]
