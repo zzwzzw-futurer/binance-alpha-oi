@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-26T07:00:30.609390+00:00",
-    "generatedAtMs": 1792998030609,
-    "localTime": "2026-10-26 15:00:30 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "43423.53625720375",
-        "chainId": "56",
-        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
-        "futuresSymbol": "DOODUSDT",
-        "isFreshAlert": false,
-        "name": "Doodles",
-        "percentChange5m": "-1.56",
-        "price": "0.002039449772103478",
-        "quoteVolumeMin": "465303.9986800",
-        "quoteVolumeSum": "2965337.5934320",
-        "symbol": "DOOD",
-        "top10HoldersPercent": "85.7582962166966"
-      }
-    ],
-    "symbols": [
-      "DOODUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-26T07:06:00.213604+00:00",
     "generatedAtMs": 1792998360213,
     "localTime": "2026-10-26 15:06:00 CST",
@@ -5002,5 +4976,46 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-28T16:17:33.800361+00:00",
+    "generatedAtMs": 1793204253800,
+    "localTime": "2026-10-29 00:17:33 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "74525.53377705667",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "-2.86",
+        "price": "1.444952087392286",
+        "quoteVolumeMin": "302319.2398500",
+        "quoteVolumeSum": "4262996.9316900",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "80.45643991488305"
+      },
+      {
+        "alphaVolume5m": "74538.01120524413",
+        "chainId": "56",
+        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+        "futuresSymbol": "BLESSUSDT",
+        "isFreshAlert": true,
+        "name": "Bless",
+        "percentChange5m": "-1.18",
+        "price": "0.011138414165035682",
+        "quoteVolumeMin": "302307.7658590",
+        "quoteVolumeSum": "3280158.4829410",
+        "symbol": "BLESS",
+        "top10HoldersPercent": "91.37520401399799"
+      }
+    ],
+    "symbols": [
+      "EVAAUSDT",
+      "BLESSUSDT"
+    ]
   }
 ]
