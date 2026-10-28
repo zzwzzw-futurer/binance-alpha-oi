@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-26T09:59:37.825963+00:00",
-    "generatedAtMs": 1793008777825,
-    "localTime": "2026-10-26 17:59:37 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "39238.85938383195",
-        "chainId": "56",
-        "contractAddress": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
-        "futuresSymbol": "DOODUSDT",
-        "isFreshAlert": false,
-        "name": "Doodles",
-        "percentChange5m": "3.05",
-        "price": "0.002341969030940857",
-        "quoteVolumeMin": "383112.1473470",
-        "quoteVolumeSum": "2745214.8237580",
-        "symbol": "DOOD",
-        "top10HoldersPercent": "85.40400913093269"
-      }
-    ],
-    "symbols": [
-      "DOODUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-26T10:05:15.417398+00:00",
     "generatedAtMs": 1793009115417,
     "localTime": "2026-10-26 18:05:15 CST",
@@ -4634,5 +4608,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-28T19:36:58.706851+00:00",
+    "generatedAtMs": 1793216218706,
+    "localTime": "2026-10-29 03:36:58 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "489283.68268220854",
+        "chainId": "56",
+        "contractAddress": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+        "futuresSymbol": "DOSUSDT",
+        "isFreshAlert": true,
+        "name": "DAPPOS",
+        "percentChange5m": "-9.88",
+        "price": "0.23204538708540515",
+        "quoteVolumeMin": "456253.5444000",
+        "quoteVolumeSum": "3315292.7212000",
+        "symbol": "DOS",
+        "top10HoldersPercent": "83.41276861667824"
+      }
+    ],
+    "symbols": [
+      "DOSUSDT"
+    ]
   }
 ]
