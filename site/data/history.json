@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-25T13:02:44.917615+00:00",
-    "generatedAtMs": 1792933364917,
-    "localTime": "2026-10-25 21:02:44 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "218843.944724292",
-        "chainId": "56",
-        "contractAddress": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-        "futuresSymbol": "JCTUSDT",
-        "isFreshAlert": true,
-        "name": "Janction",
-        "percentChange5m": "-4.28",
-        "price": "0.006724939986982721",
-        "quoteVolumeMin": "382773.7294450",
-        "quoteVolumeSum": "5542717.3489010",
-        "symbol": "JCT",
-        "top10HoldersPercent": "80.00957531479116"
-      }
-    ],
-    "symbols": [
-      "JCTUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-25T13:08:03.800018+00:00",
     "generatedAtMs": 1792933683800,
@@ -4972,5 +4946,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-28T10:20:58.981286+00:00",
+    "generatedAtMs": 1793182858981,
+    "localTime": "2026-10-28 18:20:58 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "40303.69756873526",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": true,
+        "name": "EVAA",
+        "percentChange5m": "1.44",
+        "price": "1.35255623852376",
+        "quoteVolumeMin": "350006.1151900",
+        "quoteVolumeSum": "2935425.5880400",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "80.41453950178088"
+      }
+    ],
+    "symbols": [
+      "EVAAUSDT"
+    ]
   }
 ]
