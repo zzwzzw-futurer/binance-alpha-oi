@@ -1,46 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-25T06:52:16.294422+00:00",
-    "generatedAtMs": 1792911136294,
-    "localTime": "2026-10-25 14:52:16 CST",
-    "matchCount": 2,
-    "matches": [
-      {
-        "alphaVolume5m": "105173.97968237984",
-        "chainId": "56",
-        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
-        "futuresSymbol": "APRUSDT",
-        "isFreshAlert": false,
-        "name": "aPriori",
-        "percentChange5m": "-7.58",
-        "price": "0.034895720310880986",
-        "quoteVolumeMin": "366471.6912100",
-        "quoteVolumeSum": "4828308.4355200",
-        "symbol": "APR",
-        "top10HoldersPercent": "92.50455575423838"
-      },
-      {
-        "alphaVolume5m": "270675.54387495766",
-        "chainId": "56",
-        "contractAddress": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
-        "futuresSymbol": "BTWUSDT",
-        "isFreshAlert": true,
-        "name": "Bitway",
-        "percentChange5m": "-10.01",
-        "price": "1.7161753768221877",
-        "quoteVolumeMin": "313803.2434300",
-        "quoteVolumeSum": "9699842.5259900",
-        "symbol": "BTW",
-        "top10HoldersPercent": "96.51678551964571"
-      }
-    ],
-    "symbols": [
-      "APRUSDT",
-      "BTWUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-25T06:58:00.849741+00:00",
     "generatedAtMs": 1792911480849,
@@ -4742,6 +4701,32 @@
         "quoteVolumeSum": "4957921.5329300",
         "symbol": "EVAA",
         "top10HoldersPercent": "81.13589198322929"
+      }
+    ],
+    "symbols": [
+      "EVAAUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-28T00:54:00.958311+00:00",
+    "generatedAtMs": 1793148840958,
+    "localTime": "2026-10-28 08:54:00 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "149858.76742027997",
+        "chainId": "56",
+        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+        "futuresSymbol": "EVAAUSDT",
+        "isFreshAlert": false,
+        "name": "EVAA",
+        "percentChange5m": "-0.45",
+        "price": "0.876883078572854",
+        "quoteVolumeMin": "487648.6569500",
+        "quoteVolumeSum": "4543584.5654800",
+        "symbol": "EVAA",
+        "top10HoldersPercent": "81.10661785616188"
       }
     ],
     "symbols": [
