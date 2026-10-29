@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-28T12:52:27.862467+00:00",
-    "generatedAtMs": 1793191947862,
-    "localTime": "2026-10-28 20:52:27 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "60186.823969104036",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": true,
-        "name": "Bless",
-        "percentChange5m": "2.83",
-        "price": "0.012395071356486174",
-        "quoteVolumeMin": "371847.3429130",
-        "quoteVolumeSum": "2347272.5660440",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "91.35124914806133"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-28T12:57:57.666934+00:00",
     "generatedAtMs": 1793192277666,
@@ -3230,5 +3204,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-29T16:47:41.105463+00:00",
+    "generatedAtMs": 1793292461105,
+    "localTime": "2026-10-30 00:47:41 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "90774.71976129997",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": true,
+        "name": "aPriori",
+        "percentChange5m": "2.08",
+        "price": "0.061739320804058924",
+        "quoteVolumeMin": "310231.4631600",
+        "quoteVolumeSum": "3607252.1985100",
+        "symbol": "APR",
+        "top10HoldersPercent": "92.26637644554343"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
+    ]
   }
 ]
