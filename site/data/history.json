@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-29T01:50:43.546618+00:00",
-    "generatedAtMs": 1793238643546,
-    "localTime": "2026-10-29 09:50:43 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "112442.05767465332",
-        "chainId": "56",
-        "contractAddress": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-        "futuresSymbol": "EVAAUSDT",
-        "isFreshAlert": true,
-        "name": "EVAA",
-        "percentChange5m": "-1.86",
-        "price": "1.3806591921431384",
-        "quoteVolumeMin": "389655.2829300",
-        "quoteVolumeSum": "4616601.0640400",
-        "symbol": "EVAA",
-        "top10HoldersPercent": "81.97661344815259"
-      }
-    ],
-    "symbols": [
-      "EVAAUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-29T01:56:07.732645+00:00",
     "generatedAtMs": 1793238967732,
@@ -2959,6 +2933,32 @@
         "quoteVolumeSum": "7451010.7774800",
         "symbol": "AIN",
         "top10HoldersPercent": "81.39194861310445"
+      }
+    ],
+    "symbols": [
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-30T06:14:45.632076+00:00",
+    "generatedAtMs": 1793340885632,
+    "localTime": "2026-10-30 14:14:45 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "94215.27843368842",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": false,
+        "name": "Infinity Ground",
+        "percentChange5m": "-7.5",
+        "price": "0.17331538260325682",
+        "quoteVolumeMin": "626040.0578200",
+        "quoteVolumeSum": "11469630.7927100",
+        "symbol": "AIN",
+        "top10HoldersPercent": "81.37820506510445"
       }
     ],
     "symbols": [
