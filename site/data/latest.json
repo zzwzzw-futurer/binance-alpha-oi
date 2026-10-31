@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-10-30T09:26:01.797206+00:00",
-  "generatedAtMs": 1793352361797,
-  "localTime": "2026-10-30 17:26:01 CST",
-  "matches": [],
+  "generatedAt": "2026-10-31T02:47:33.287184+00:00",
+  "generatedAtMs": 1793414853287,
+  "localTime": "2026-10-31 10:47:33 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "49337.62217523679",
+      "chainId": "56",
+      "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+      "futuresSymbol": "AINUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/AINUSDT",
+      "holders": "19128",
+      "isFreshAlert": true,
+      "key": "56|0x9558a9254890b2a8b057a789f413631b9084f4a3|AINUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.infinityg.ai/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/InfinityGround_AI"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/infinityg_ai"
+        }
+      ],
+      "liquidity": "1357834.8697303946",
+      "marketCap": "244071065.30618557",
+      "name": "Infinity Ground",
+      "percentChange5m": "1.78",
+      "price": "0.24471278045204542",
+      "quoteVolumeMin": "380023.8509400",
+      "quoteVolumeSum": "2362225.7458500",
+      "quoteVolumes1m": [
+        "441262.0395600",
+        "531360.4923400",
+        "380023.8509400",
+        "563195.6440500",
+        "446383.7189600"
+      ],
+      "symbol": "AIN",
+      "top10HoldersPercent": "81.85456204855012"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "AINUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
