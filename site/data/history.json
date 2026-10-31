@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-29T16:09:30.359175+00:00",
-    "generatedAtMs": 1793290170359,
-    "localTime": "2026-10-30 00:09:30 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "117054.88896229377",
-        "chainId": "56",
-        "contractAddress": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-        "futuresSymbol": "BLESSUSDT",
-        "isFreshAlert": true,
-        "name": "Bless",
-        "percentChange5m": "13.83",
-        "price": "0.013493553348985188",
-        "quoteVolumeMin": "582048.0391960",
-        "quoteVolumeSum": "4771915.7476330",
-        "symbol": "BLESS",
-        "top10HoldersPercent": "91.62137171187486"
-      }
-    ],
-    "symbols": [
-      "BLESSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-29T16:14:52.709046+00:00",
     "generatedAtMs": 1793290492709,
@@ -3722,6 +3696,32 @@
         "price": "0.2136260735967745",
         "quoteVolumeMin": "425434.8886100",
         "quoteVolumeSum": "5975222.3268000",
+        "symbol": "AIN",
+        "top10HoldersPercent": "83.8442342679832"
+      }
+    ],
+    "symbols": [
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-10-31T13:09:27.249728+00:00",
+    "generatedAtMs": 1793452167249,
+    "localTime": "2026-10-31 21:09:27 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "140264.80897054527",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": true,
+        "name": "Infinity Ground",
+        "percentChange5m": "5.68",
+        "price": "0.2328651514519574",
+        "quoteVolumeMin": "868595.2986400",
+        "quoteVolumeSum": "13102116.7241000",
         "symbol": "AIN",
         "top10HoldersPercent": "83.8442342679832"
       }
