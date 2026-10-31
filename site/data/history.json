@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-10-29T15:52:47.815272+00:00",
-    "generatedAtMs": 1793289167815,
-    "localTime": "2026-10-29 23:52:47 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "82322.13576721639",
-        "chainId": "56",
-        "contractAddress": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
-        "futuresSymbol": "BEATUSDT",
-        "isFreshAlert": true,
-        "name": "Audiera",
-        "percentChange5m": "-4.02",
-        "price": "0.10471063431531637",
-        "quoteVolumeMin": "309710.8234000",
-        "quoteVolumeSum": "2654231.0274400",
-        "symbol": "BEAT",
-        "top10HoldersPercent": "84.2594137260095"
-      }
-    ],
-    "symbols": [
-      "BEATUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-10-29T15:58:31.149300+00:00",
     "generatedAtMs": 1793289511149,
@@ -3705,6 +3679,32 @@
         "price": "0.1915924606282836",
         "quoteVolumeMin": "642155.6337800",
         "quoteVolumeSum": "5407540.6505100",
+        "symbol": "AIN",
+        "top10HoldersPercent": "83.8442342679832"
+      }
+    ],
+    "symbols": [
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-10-31T12:53:30.787095+00:00",
+    "generatedAtMs": 1793451210787,
+    "localTime": "2026-10-31 20:53:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "37320.56906509977",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": false,
+        "name": "Infinity Ground",
+        "percentChange5m": "4.48",
+        "price": "0.199279922662805",
+        "quoteVolumeMin": "571978.1080500",
+        "quoteVolumeSum": "4272191.6318500",
         "symbol": "AIN",
         "top10HoldersPercent": "83.8442342679832"
       }
