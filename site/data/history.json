@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-31T19:01:49.212919+00:00",
-    "generatedAtMs": 1793473309212,
-    "localTime": "2026-11-01 03:01:49 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-31T19:07:03.332306+00:00",
     "generatedAtMs": 1793473623332,
     "localTime": "2026-11-01 03:07:03 CST",
@@ -4225,5 +4216,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-01T21:35:18.584460+00:00",
+    "generatedAtMs": 1793568918584,
+    "localTime": "2026-11-02 05:35:18 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "8778.866606561514",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "-2.13",
+        "price": "0.018812309271847905",
+        "quoteVolumeMin": "332809.2270550",
+        "quoteVolumeSum": "2601011.4686240",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "82.44097932002859"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT"
+    ]
   }
 ]
