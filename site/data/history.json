@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-31T15:06:59.892939+00:00",
-    "generatedAtMs": 1793459219892,
-    "localTime": "2026-10-31 23:06:59 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-31T15:12:21.533512+00:00",
     "generatedAtMs": 1793459541533,
     "localTime": "2026-10-31 23:12:21 CST",
@@ -3881,6 +3872,47 @@
         "quoteVolumeSum": "6693769.0793300",
         "symbol": "AIN",
         "top10HoldersPercent": "84.024964467957"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT",
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-01T17:54:31.062666+00:00",
+    "generatedAtMs": 1793555671062,
+    "localTime": "2026-11-02 01:54:31 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "26949.85881883755",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "0.25",
+        "price": "0.019728202963711788",
+        "quoteVolumeMin": "802851.4001660",
+        "quoteVolumeSum": "7148974.7333190",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "82.23828887735525"
+      },
+      {
+        "alphaVolume5m": "82933.67674319741",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": false,
+        "name": "Infinity Ground",
+        "percentChange5m": "-3.69",
+        "price": "0.2737436343708132",
+        "quoteVolumeMin": "366467.7183600",
+        "quoteVolumeSum": "2722806.6515700",
+        "symbol": "AIN",
+        "top10HoldersPercent": "83.98157428569807"
       }
     ],
     "symbols": [
