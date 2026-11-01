@@ -1,32 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-31T11:07:49.202686+00:00",
-    "generatedAtMs": 1793444869202,
-    "localTime": "2026-10-31 19:07:49 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "31664.257125657103",
-        "chainId": "56",
-        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
-        "futuresSymbol": "AINUSDT",
-        "isFreshAlert": false,
-        "name": "Infinity Ground",
-        "percentChange5m": "-1.47",
-        "price": "0.25465041498829966",
-        "quoteVolumeMin": "312632.2381200",
-        "quoteVolumeSum": "2872348.4960700",
-        "symbol": "AIN",
-        "top10HoldersPercent": "83.83187984001499"
-      }
-    ],
-    "symbols": [
-      "AINUSDT"
-    ]
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-31T11:13:04.469687+00:00",
     "generatedAtMs": 1793445184469,
     "localTime": "2026-10-31 19:13:04 CST",
@@ -3522,6 +3496,47 @@
     ],
     "symbols": [
       "ESPORTSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-11-01T13:48:46.147321+00:00",
+    "generatedAtMs": 1793540926147,
+    "localTime": "2026-11-01 21:48:46 CST",
+    "matchCount": 2,
+    "matches": [
+      {
+        "alphaVolume5m": "19345.65719413815",
+        "chainId": "56",
+        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
+        "futuresSymbol": "ESPORTSUSDT",
+        "isFreshAlert": false,
+        "name": "Yooldo",
+        "percentChange5m": "1.38",
+        "price": "0.015362132674817666",
+        "quoteVolumeMin": "390197.0252520",
+        "quoteVolumeSum": "2651718.7446620",
+        "symbol": "ESPORTS",
+        "top10HoldersPercent": "82.66998276188654"
+      },
+      {
+        "alphaVolume5m": "74020.89691313732",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": true,
+        "name": "aPriori",
+        "percentChange5m": "2.07",
+        "price": "0.07592943450333729",
+        "quoteVolumeMin": "302443.9869100",
+        "quoteVolumeSum": "3645397.6192100",
+        "symbol": "APR",
+        "top10HoldersPercent": "92.29090765468644"
+      }
+    ],
+    "symbols": [
+      "ESPORTSUSDT",
+      "APRUSDT"
     ]
   }
 ]
