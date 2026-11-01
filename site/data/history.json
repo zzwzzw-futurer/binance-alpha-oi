@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-10-31T11:34:05.024319+00:00",
-    "generatedAtMs": 1793446445024,
-    "localTime": "2026-10-31 19:34:05 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-10-31T11:39:19.020722+00:00",
     "generatedAtMs": 1793446759020,
     "localTime": "2026-10-31 19:39:19 CST",
@@ -3569,6 +3560,32 @@
     ],
     "symbols": [
       "ESPORTSUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-01T14:15:26.154168+00:00",
+    "generatedAtMs": 1793542526154,
+    "localTime": "2026-11-01 22:15:26 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "98960.04773216903",
+        "chainId": "56",
+        "contractAddress": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+        "futuresSymbol": "APRUSDT",
+        "isFreshAlert": false,
+        "name": "aPriori",
+        "percentChange5m": "-0.54",
+        "price": "0.06850692505003923",
+        "quoteVolumeMin": "364390.7455500",
+        "quoteVolumeSum": "3527452.7129400",
+        "symbol": "APR",
+        "top10HoldersPercent": "92.29449326857599"
+      }
+    ],
+    "symbols": [
+      "APRUSDT"
     ]
   }
 ]
