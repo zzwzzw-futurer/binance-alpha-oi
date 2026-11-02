@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-11-02T15:42:15.967142+00:00",
-  "generatedAtMs": 1793634135967,
-  "localTime": "2026-11-02 23:42:15 CST",
-  "matches": [],
+  "generatedAt": "2026-11-02T15:47:41.725210+00:00",
+  "generatedAtMs": 1793634461725,
+  "localTime": "2026-11-02 23:47:41 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "94352.356580441",
+      "chainId": "56",
+      "contractAddress": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+      "futuresSymbol": "ARIAUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/ARIAUSDT",
+      "holders": "84196",
+      "isFreshAlert": false,
+      "key": "56|0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238|ARIAUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.playariagame.com/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/ariagame"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/PlayAriaGame"
+        }
+      ],
+      "liquidity": "1764731.5011140911",
+      "marketCap": "116874208.5868564",
+      "name": "AriaAI",
+      "percentChange5m": "-3.44",
+      "price": "0.11687420885305516",
+      "quoteVolumeMin": "380402.5729500",
+      "quoteVolumeSum": "3082696.1055200",
+      "quoteVolumes1m": [
+        "380402.5729500",
+        "712682.1688900",
+        "473972.0797400",
+        "567678.7751100",
+        "947960.5088300"
+      ],
+      "symbol": "ARIA",
+      "top10HoldersPercent": "85.77953903919426"
+    }
+  ],
   "status": "ok",
   "summary": {
     "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "matchCount": 1,
+    "symbols": [
+      "ARIAUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,

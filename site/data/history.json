@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-11-01T12:55:10.832678+00:00",
-    "generatedAtMs": 1793537710832,
-    "localTime": "2026-11-01 20:55:10 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "4134.244755705599",
-        "chainId": "56",
-        "contractAddress": "0xf39e4b21c84e737df08e2c3b32541d856f508e48",
-        "futuresSymbol": "ESPORTSUSDT",
-        "isFreshAlert": true,
-        "name": "Yooldo",
-        "percentChange5m": "0.98",
-        "price": "0.013963055696897713",
-        "quoteVolumeMin": "404903.2983100",
-        "quoteVolumeSum": "2674279.6463420",
-        "symbol": "ESPORTS",
-        "top10HoldersPercent": "82.84031558077542"
-      }
-    ],
-    "symbols": [
-      "ESPORTSUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-11-01T13:00:39.155543+00:00",
     "generatedAtMs": 1793538039155,
@@ -4363,5 +4337,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-02T15:47:41.725210+00:00",
+    "generatedAtMs": 1793634461725,
+    "localTime": "2026-11-02 23:47:41 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "94352.356580441",
+        "chainId": "56",
+        "contractAddress": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+        "futuresSymbol": "ARIAUSDT",
+        "isFreshAlert": false,
+        "name": "AriaAI",
+        "percentChange5m": "-3.44",
+        "price": "0.11687420885305516",
+        "quoteVolumeMin": "380402.5729500",
+        "quoteVolumeSum": "3082696.1055200",
+        "symbol": "ARIA",
+        "top10HoldersPercent": "85.77953903919426"
+      }
+    ],
+    "symbols": [
+      "ARIAUSDT"
+    ]
   }
 ]
