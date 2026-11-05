@@ -1,15 +1,6 @@
 [
   {
     "freshAlertCount": 0,
-    "generatedAt": "2026-11-02T16:15:42.951608+00:00",
-    "generatedAtMs": 1793636142951,
-    "localTime": "2026-11-03 00:15:42 CST",
-    "matchCount": 0,
-    "matches": [],
-    "symbols": []
-  },
-  {
-    "freshAlertCount": 0,
     "generatedAt": "2026-11-02T16:21:26.203365+00:00",
     "generatedAtMs": 1793636486203,
     "localTime": "2026-11-03 00:21:26 CST",
@@ -2845,5 +2836,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-05T09:36:50.993877+00:00",
+    "generatedAtMs": 1793871410993,
+    "localTime": "2026-11-05 17:36:50 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "181655.1052920503",
+        "chainId": "8453",
+        "contractAddress": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+        "futuresSymbol": "ELSAUSDT",
+        "isFreshAlert": false,
+        "name": "HeyElsa",
+        "percentChange5m": "-2.15",
+        "price": "0.0988874359024299",
+        "quoteVolumeMin": "488554.0606600",
+        "quoteVolumeSum": "5270410.1992900",
+        "symbol": "ELSA",
+        "top10HoldersPercent": "90.19177447069934"
+      }
+    ],
+    "symbols": [
+      "ELSAUSDT"
+    ]
   }
 ]
