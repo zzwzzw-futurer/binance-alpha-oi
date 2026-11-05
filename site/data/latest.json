@@ -9,15 +9,54 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-11-05T11:47:05.653941+00:00",
-  "generatedAtMs": 1793879225653,
-  "localTime": "2026-11-05 19:47:05 CST",
-  "matches": [],
+  "generatedAt": "2026-11-05T11:52:25.019939+00:00",
+  "generatedAtMs": 1793879545019,
+  "localTime": "2026-11-05 19:52:25 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "199862.8590359701",
+      "chainId": "56",
+      "contractAddress": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+      "futuresSymbol": "JCTUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/JCTUSDT",
+      "holders": "16077",
+      "isFreshAlert": true,
+      "key": "56|0xea37a8de1de2d9d10772eeb569e28bfa5cb17707|JCTUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.janction.ai/home"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/JANCTION_Global"
+        }
+      ],
+      "liquidity": "1018789.8121393968",
+      "marketCap": "48406366.02316602",
+      "name": "Janction",
+      "percentChange5m": "-1.13",
+      "price": "0.004694546303444785",
+      "quoteVolumeMin": "310940.8024510",
+      "quoteVolumeSum": "2412008.5635090",
+      "quoteVolumes1m": [
+        "441027.1045230",
+        "573472.5844070",
+        "310940.8024510",
+        "492705.2269680",
+        "593862.8451600"
+      ],
+      "symbol": "JCT",
+      "top10HoldersPercent": "80.19658566838686"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "JCTUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
