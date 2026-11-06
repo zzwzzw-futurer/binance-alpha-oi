@@ -9,15 +9,58 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-11-06T18:29:22.896333+00:00",
-  "generatedAtMs": 1793989762896,
-  "localTime": "2026-11-07 02:29:22 CST",
-  "matches": [],
+  "generatedAt": "2026-11-06T18:34:38.298343+00:00",
+  "generatedAtMs": 1793990078298,
+  "localTime": "2026-11-07 02:34:38 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "1217313.7259465032",
+      "chainId": "56",
+      "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+      "futuresSymbol": "UAIUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/UAIUSDT",
+      "holders": "7954",
+      "isFreshAlert": true,
+      "key": "56|0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0|UAIUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://unifai.network/"
+        },
+        {
+          "label": "telegram",
+          "link": "https://t.me/unifai_network/"
+        },
+        {
+          "label": "x",
+          "link": "https://x.com/UnifaiNetwork"
+        }
+      ],
+      "liquidity": "924785.0644278518",
+      "marketCap": "190063658.86711615",
+      "name": "UnifAI Network",
+      "percentChange5m": "-9.3",
+      "price": "0.19006365888930882",
+      "quoteVolumeMin": "920658.3978000",
+      "quoteVolumeSum": "10747415.5849000",
+      "quoteVolumes1m": [
+        "1327333.3111000",
+        "1611828.9013000",
+        "920658.3978000",
+        "4527915.0783000",
+        "2359679.8964000"
+      ],
+      "symbol": "UAI",
+      "top10HoldersPercent": "91.6436432216568"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "UAIUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
