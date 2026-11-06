@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-11-05T10:48:07.697816+00:00",
-    "generatedAtMs": 1793875687697,
-    "localTime": "2026-11-05 18:48:07 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "176893.2238159235",
-        "chainId": "8453",
-        "contractAddress": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-        "futuresSymbol": "ELSAUSDT",
-        "isFreshAlert": true,
-        "name": "HeyElsa",
-        "percentChange5m": "-3.03",
-        "price": "0.09303151124543842",
-        "quoteVolumeMin": "338065.7643800",
-        "quoteVolumeSum": "3770831.9036300",
-        "symbol": "ELSA",
-        "top10HoldersPercent": "90.16637819324309"
-      }
-    ],
-    "symbols": [
-      "ELSAUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-11-05T10:53:25.849131+00:00",
     "generatedAtMs": 1793876005849,
@@ -3117,5 +3091,31 @@
     "matchCount": 0,
     "matches": [],
     "symbols": []
+  },
+  {
+    "freshAlertCount": 1,
+    "generatedAt": "2026-11-06T13:51:30.595076+00:00",
+    "generatedAtMs": 1793973090595,
+    "localTime": "2026-11-06 21:51:30 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "625938.0562962387",
+        "chainId": "56",
+        "contractAddress": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+        "futuresSymbol": "UAIUSDT",
+        "isFreshAlert": true,
+        "name": "UnifAI Network",
+        "percentChange5m": "-18.28",
+        "price": "0.15195018266572258",
+        "quoteVolumeMin": "541152.4600000",
+        "quoteVolumeSum": "8759585.0999000",
+        "symbol": "UAI",
+        "top10HoldersPercent": "91.39073075622709"
+      }
+    ],
+    "symbols": [
+      "UAIUSDT"
+    ]
   }
 ]
