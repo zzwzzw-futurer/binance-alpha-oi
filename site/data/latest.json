@@ -9,15 +9,50 @@
     "futuresRequireAllMinutes": true,
     "top10Threshold": "80"
   },
-  "generatedAt": "2026-11-06T10:38:07.426366+00:00",
-  "generatedAtMs": 1793961487426,
-  "localTime": "2026-11-06 18:38:07 CST",
-  "matches": [],
+  "generatedAt": "2026-11-06T10:43:35.689461+00:00",
+  "generatedAtMs": 1793961815689,
+  "localTime": "2026-11-06 18:43:35 CST",
+  "matches": [
+    {
+      "alphaVolume5m": "118129.0851028897",
+      "chainId": "CT_501",
+      "contractAddress": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+      "futuresSymbol": "BIRBUSDT",
+      "futuresUrl": "https://www.binance.com/en/futures/BIRBUSDT",
+      "holders": "16500",
+      "isFreshAlert": true,
+      "key": "CT_501|g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg|BIRBUSDT",
+      "links": [
+        {
+          "label": "website",
+          "link": "https://www.moonbirds.com"
+        }
+      ],
+      "liquidity": "1833680.9529521521",
+      "marketCap": "112188463.27144335",
+      "name": "Moonbirds",
+      "percentChange5m": "-3.26",
+      "price": "0.11218857537292415",
+      "quoteVolumeMin": "756044.3790000",
+      "quoteVolumeSum": "4741956.8442100",
+      "quoteVolumes1m": [
+        "1348511.0743200",
+        "855830.5805400",
+        "756044.3790000",
+        "901404.7412100",
+        "880166.0691400"
+      ],
+      "symbol": "BIRB",
+      "top10HoldersPercent": "88.513372867328"
+    }
+  ],
   "status": "ok",
   "summary": {
-    "freshAlertCount": 0,
-    "matchCount": 0,
-    "symbols": []
+    "freshAlertCount": 1,
+    "matchCount": 1,
+    "symbols": [
+      "BIRBUSDT"
+    ]
   },
   "telegram": {
     "alertCooldownSeconds": 3600,
