@@ -1,31 +1,5 @@
 [
   {
-    "freshAlertCount": 1,
-    "generatedAt": "2026-11-04T21:51:51.184379+00:00",
-    "generatedAtMs": 1793829111184,
-    "localTime": "2026-11-05 05:51:51 CST",
-    "matchCount": 1,
-    "matches": [
-      {
-        "alphaVolume5m": "248821.8117587553",
-        "chainId": "8453",
-        "contractAddress": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-        "futuresSymbol": "ELSAUSDT",
-        "isFreshAlert": true,
-        "name": "HeyElsa",
-        "percentChange5m": "-0.1",
-        "price": "0.10820561475483961",
-        "quoteVolumeMin": "333754.2761800",
-        "quoteVolumeSum": "2872066.0549900",
-        "symbol": "ELSA",
-        "top10HoldersPercent": "90.44039821591721"
-      }
-    ],
-    "symbols": [
-      "ELSAUSDT"
-    ]
-  },
-  {
     "freshAlertCount": 0,
     "generatedAt": "2026-11-04T21:57:05.259883+00:00",
     "generatedAtMs": 1793829425259,
@@ -3195,6 +3169,32 @@
         "price": "0.13767610429053423",
         "quoteVolumeMin": "486419.6204500",
         "quoteVolumeSum": "2994951.2876600",
+        "symbol": "AIN",
+        "top10HoldersPercent": "86.16014898675945"
+      }
+    ],
+    "symbols": [
+      "AINUSDT"
+    ]
+  },
+  {
+    "freshAlertCount": 0,
+    "generatedAt": "2026-11-06T01:13:15.507010+00:00",
+    "generatedAtMs": 1793927595507,
+    "localTime": "2026-11-06 09:13:15 CST",
+    "matchCount": 1,
+    "matches": [
+      {
+        "alphaVolume5m": "38328.93278176078",
+        "chainId": "56",
+        "contractAddress": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
+        "futuresSymbol": "AINUSDT",
+        "isFreshAlert": false,
+        "name": "Infinity Ground",
+        "percentChange5m": "-0.48",
+        "price": "0.13532786741767294",
+        "quoteVolumeMin": "349579.0250500",
+        "quoteVolumeSum": "2840282.4983600",
         "symbol": "AIN",
         "top10HoldersPercent": "86.16014898675945"
       }
